@@ -1,0 +1,32 @@
+# Multi-employer job boards, shared by every profile. Their jobs carry their own employer name; a board's
+# copy of a role is dropped when that company's own board is tracked, and the same role on several boards
+# collapses into one. Boards that take search terms use the profile's [search] queries.
+
+[[company]]
+name = "Himalayas (remote board)"
+ats = "himalayas"
+country = "US"
+
+[[company]]
+name = "Remotive (remote board)"
+ats = "remotive"
+
+[[company]]
+name = "Remote OK (remote board)"
+ats = "remoteok"
+
+[[company]]
+name = "Jobicy (remote board)"
+ats = "jobicy"
+
+[[company]]
+name = "We Work Remotely (remote board)"
+ats = "weworkremotely"
+
+[[company]]
+name = "Working Nomads (remote board)"
+ats = "workingnomads"
+
+[[company]]
+name = "Hacker News: Who is hiring"
+ats = "hackernews"

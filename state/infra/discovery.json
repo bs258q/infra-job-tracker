@@ -1,0 +1,471 @@
+{
+ "companies": {
+  "1x": {
+   "board": {
+    "ats": "ashby",
+    "slug": "1x"
+   },
+   "board_source": "https://www.1x.tech/careers",
+   "careers_url": "https://www.1x.tech/careers",
+   "evidence": [
+    "https://www.1x.tech/careers"
+   ],
+   "first_seen": "2026-10-11",
+   "last_checked": "2026-10-11",
+   "matching_roles": 2,
+   "name": "1X",
+   "source": "manual",
+   "status": "added",
+   "url": "",
+   "why": "added by name"
+  },
+  "abridge": {
+   "board": {
+    "ats": "ashby",
+    "slug": "abridge"
+   },
+   "board_source": "guessed from the company name",
+   "careers_url": "",
+   "evidence": [],
+   "first_seen": "2026-10-11",
+   "last_checked": "2026-10-11",
+   "matching_roles": 2,
+   "name": "Abridge",
+   "source": "manual",
+   "status": "added",
+   "url": "",
+   "why": "added by name"
+  },
+  "cartesia": {
+   "board": {
+    "ats": "ashby",
+    "slug": "cartesia"
+   },
+   "board_source": "guessed from the company name",
+   "careers_url": "",
+   "evidence": [],
+   "first_seen": "2026-10-11",
+   "last_checked": "2026-10-11",
+   "matching_roles": 4,
+   "name": "Cartesia",
+   "source": "manual",
+   "status": "added",
+   "url": "",
+   "why": "added by name"
+  },
+  "deepinfra": {
+   "board": {
+    "ats": "gem",
+    "slug": "deep-infra"
+   },
+   "board_source": "https://jobs.gem.com/deep-infra",
+   "careers_url": "https://jobs.gem.com/deep-infra",
+   "evidence": [
+    "https://jobs.gem.com/deep-infra"
+   ],
+   "first_seen": "2026-10-11",
+   "last_checked": "2026-10-11",
+   "matching_roles": 1,
+   "name": "DeepInfra",
+   "source": "manual",
+   "status": "added",
+   "url": "",
+   "why": "added by name"
+  },
+  "digitalocean": {
+   "board": {
+    "ats": "greenhouse",
+    "slug": "digitalocean98"
+   },
+   "board_source": "https://boards-api.greenhouse.io/v1/boards/digitalocean98",
+   "careers_url": "https://boards-api.greenhouse.io/v1/boards/digitalocean98",
+   "evidence": [
+    "https://boards-api.greenhouse.io/v1/boards/digitalocean98"
+   ],
+   "first_seen": "2026-10-11",
+   "last_checked": "2026-10-11",
+   "matching_roles": 3,
+   "name": "DigitalOcean",
+   "source": "manual",
+   "status": "added",
+   "url": "",
+   "why": "added by name"
+  },
+  "fal": {
+   "board": {
+    "ats": "ashby",
+    "slug": "fal-ai"
+   },
+   "board_source": "https://fal.ai/careers",
+   "careers_url": "https://fal.ai/careers",
+   "evidence": [
+    "https://fal.ai/careers"
+   ],
+   "first_seen": "2026-10-11",
+   "last_checked": "2026-10-11",
+   "matching_roles": 10,
+   "name": "fal",
+   "source": "manual",
+   "status": "added",
+   "url": "",
+   "why": "added by name"
+  },
+  "friendliai": {
+   "board": {
+    "ats": "ashby",
+    "slug": "friendliai"
+   },
+   "board_source": "guessed from the company name",
+   "careers_url": "",
+   "evidence": [],
+   "first_seen": "2026-10-11",
+   "last_checked": "2026-10-11",
+   "matching_roles": 4,
+   "name": "FriendliAI",
+   "source": "manual",
+   "status": "added",
+   "url": "",
+   "why": "added by name"
+  },
+  "generalist": {
+   "board": {
+    "ats": "ashby",
+    "slug": "generalist"
+   },
+   "board_source": "guessed from the company name",
+   "careers_url": "",
+   "evidence": [],
+   "first_seen": "2026-10-11",
+   "last_checked": "2026-10-11",
+   "matching_roles": 4,
+   "name": "Generalist",
+   "source": "manual",
+   "status": "added",
+   "url": "",
+   "why": "added by name"
+  },
+  "genesis molecular ai": {
+   "board": {
+    "ats": "ashby",
+    "slug": "genesis-molecular-ai"
+   },
+   "board_source": "guessed from the company name",
+   "careers_url": "",
+   "evidence": [],
+   "first_seen": "2026-10-11",
+   "last_checked": "2026-10-11",
+   "matching_roles": 2,
+   "name": "Genesis Molecular AI",
+   "source": "manual",
+   "status": "added",
+   "url": "",
+   "why": "added by name"
+  },
+  "hedra": {
+   "board": {
+    "ats": "ashby",
+    "slug": "hedra"
+   },
+   "board_source": "guessed from the company name",
+   "careers_url": "",
+   "evidence": [],
+   "first_seen": "2026-10-11",
+   "last_checked": "2026-10-11",
+   "matching_roles": 2,
+   "name": "Hedra",
+   "source": "manual",
+   "status": "added",
+   "url": "",
+   "why": "added by name"
+  },
+  "inception": {
+   "careers_url": "",
+   "evidence": [],
+   "first_seen": "2026-10-11",
+   "last_checked": "2026-10-11",
+   "name": "Inception",
+   "source": "manual",
+   "status": "no_board",
+   "url": "",
+   "why": "added by name"
+  },
+  "iren": {
+   "careers_url": "https://iren.com/careers",
+   "evidence": [
+    "https://iren.com/careers"
+   ],
+   "first_seen": "2026-10-11",
+   "last_checked": "2026-10-11",
+   "name": "IREN",
+   "source": "manual",
+   "status": "no_board",
+   "url": "",
+   "why": "added by name"
+  },
+  "lightning ai": {
+   "board": {
+    "ats": "greenhouse",
+    "slug": "lightningai"
+   },
+   "board_source": "guessed from the company name",
+   "careers_url": "https://lightning.ai/careers",
+   "evidence": [
+    "https://lightning.ai/careers"
+   ],
+   "first_seen": "2026-10-11",
+   "last_checked": "2026-10-11",
+   "matching_roles": 7,
+   "name": "Lightning AI",
+   "source": "manual",
+   "status": "added",
+   "url": "",
+   "why": "added by name"
+  },
+  "lila sciences": {
+   "board": {
+    "ats": "greenhouse",
+    "slug": "lilasciences"
+   },
+   "board_source": "guessed from the company name",
+   "careers_url": "",
+   "evidence": [],
+   "first_seen": "2026-10-11",
+   "last_checked": "2026-10-11",
+   "matching_roles": 1,
+   "name": "Lila Sciences",
+   "source": "manual",
+   "status": "added",
+   "url": "",
+   "why": "added by name"
+  },
+  "liquid ai": {
+   "board": {
+    "ats": "ashby",
+    "slug": "liquid-ai"
+   },
+   "board_source": "https://www.liquid.ai/careers",
+   "careers_url": "https://www.liquid.ai/careers",
+   "evidence": [
+    "https://www.liquid.ai/careers"
+   ],
+   "first_seen": "2026-10-11",
+   "last_checked": "2026-10-11",
+   "matching_roles": 7,
+   "name": "Liquid AI",
+   "source": "manual",
+   "status": "added",
+   "url": "",
+   "why": "added by name"
+  },
+  "matter intelligence": {
+   "board": {
+    "ats": "ashby",
+    "slug": "matter-intelligence"
+   },
+   "board_source": "guessed from the company name",
+   "careers_url": "",
+   "evidence": [],
+   "first_seen": "2026-10-11",
+   "last_checked": "2026-10-11",
+   "matching_roles": 4,
+   "name": "Matter Intelligence",
+   "source": "manual",
+   "status": "added",
+   "url": "",
+   "why": "added by name"
+  },
+  "mistral ai": {
+   "board": {
+    "ats": "ashby",
+    "slug": "mistral.ai"
+   },
+   "board_source": "https://mistral.ai/careers",
+   "careers_url": "https://mistral.ai/careers",
+   "evidence": [
+    "https://mistral.ai/careers"
+   ],
+   "first_seen": "2026-10-11",
+   "last_checked": "2026-10-11",
+   "matching_roles": 6,
+   "name": "Mistral AI",
+   "source": "manual",
+   "status": "added",
+   "url": "",
+   "why": "added by name"
+  },
+  "nscale": {
+   "careers_url": "",
+   "evidence": [],
+   "first_seen": "2026-10-11",
+   "last_checked": "2026-10-11",
+   "name": "Nscale",
+   "source": "manual",
+   "status": "no_board",
+   "url": "",
+   "why": "added by name"
+  },
+  "parasail": {
+   "board": {
+    "ats": "ashby",
+    "slug": "parasail"
+   },
+   "board_source": "guessed from the company name",
+   "careers_url": "",
+   "evidence": [],
+   "first_seen": "2026-10-11",
+   "last_checked": "2026-10-11",
+   "matching_roles": 5,
+   "name": "Parasail",
+   "source": "manual",
+   "status": "added",
+   "url": "",
+   "why": "added by name"
+  },
+  "radixark": {
+   "board": {
+    "ats": "ashby",
+    "slug": "radixark"
+   },
+   "board_source": "guessed from the company name",
+   "careers_url": "",
+   "evidence": [],
+   "first_seen": "2026-10-11",
+   "last_checked": "2026-10-11",
+   "matching_roles": 8,
+   "name": "RadixArk",
+   "source": "manual",
+   "status": "added",
+   "url": "",
+   "why": "added by name"
+  },
+  "reactor": {
+   "careers_url": "",
+   "evidence": [],
+   "first_seen": "2026-10-11",
+   "last_checked": "2026-10-11",
+   "name": "Reactor",
+   "source": "manual",
+   "status": "no_board",
+   "url": "",
+   "why": "added by name"
+  },
+  "relace": {
+   "board": {
+    "ats": "ashby",
+    "slug": "relace"
+   },
+   "board_source": "guessed from the company name",
+   "careers_url": "",
+   "evidence": [],
+   "first_seen": "2026-10-11",
+   "last_checked": "2026-10-11",
+   "matching_roles": 1,
+   "name": "Relace",
+   "source": "manual",
+   "status": "added",
+   "url": "",
+   "why": "added by name"
+  },
+  "river ai": {
+   "board": {
+    "ats": "greenhouse",
+    "slug": "riverai"
+   },
+   "board_source": "guessed from the company name",
+   "careers_url": "",
+   "evidence": [],
+   "first_seen": "2026-10-11",
+   "last_checked": "2026-10-11",
+   "matching_roles": 3,
+   "name": "River AI",
+   "source": "manual",
+   "status": "added",
+   "url": "",
+   "why": "added by name"
+  },
+  "runware": {
+   "board": {
+    "ats": "workable",
+    "slug": "runware"
+   },
+   "board_source": "https://apply.workable.com/runware",
+   "careers_url": "https://apply.workable.com/runware",
+   "evidence": [
+    "https://apply.workable.com/runware"
+   ],
+   "first_seen": "2026-10-11",
+   "last_checked": "2026-10-11",
+   "matching_roles": 1,
+   "name": "Runware",
+   "source": "manual",
+   "status": "added",
+   "url": "",
+   "why": "added by name"
+  },
+  "sesame": {
+   "board": {
+    "ats": "ashby",
+    "slug": "sesame"
+   },
+   "board_source": "guessed from the company name",
+   "careers_url": "",
+   "evidence": [],
+   "first_seen": "2026-10-11",
+   "last_checked": "2026-10-11",
+   "matching_roles": 2,
+   "name": "Sesame",
+   "source": "manual",
+   "status": "added",
+   "url": "",
+   "why": "added by name"
+  },
+  "skild ai": {
+   "careers_url": "",
+   "evidence": [],
+   "first_seen": "2026-10-11",
+   "last_checked": "2026-10-11",
+   "name": "Skild AI",
+   "source": "manual",
+   "status": "no_board",
+   "url": "",
+   "why": "added by name"
+  },
+  "suno": {
+   "board": {
+    "ats": "ashby",
+    "slug": "suno"
+   },
+   "board_source": "guessed from the company name",
+   "careers_url": "",
+   "evidence": [],
+   "first_seen": "2026-10-11",
+   "last_checked": "2026-10-11",
+   "matching_roles": 0,
+   "name": "Suno",
+   "source": "manual",
+   "status": "no_roles",
+   "url": "",
+   "why": "added by name"
+  },
+  "xaira": {
+   "board": {
+    "ats": "greenhouse",
+    "slug": "xairatherapeutics"
+   },
+   "board_source": "https://boards-api.greenhouse.io/v1/boards/xairatherapeutics",
+   "careers_url": "https://boards-api.greenhouse.io/v1/boards/xairatherapeutics",
+   "evidence": [
+    "https://boards-api.greenhouse.io/v1/boards/xairatherapeutics"
+   ],
+   "first_seen": "2026-10-11",
+   "last_checked": "2026-10-11",
+   "matching_roles": 0,
+   "name": "Xaira",
+   "source": "manual",
+   "status": "no_roles",
+   "url": "",
+   "why": "added by name"
+  }
+ },
+ "runs": []
+}

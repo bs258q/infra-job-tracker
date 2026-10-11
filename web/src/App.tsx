@@ -1,4 +1,4 @@
-import { AlertTriangle, BarChart3, KanbanSquare, List } from 'lucide-react'
+import { AlertTriangle, BarChart3, ExternalLink, KanbanSquare, List } from 'lucide-react'
 import { lazy, Suspense, useEffect, useMemo, useState } from 'react'
 import { PipelineView } from './components/PipelineView'
 import { RolesView } from './components/RolesView'
@@ -7,6 +7,7 @@ import { storagePrefix, useLocalStorage, useNewCutoff } from './lib/storage'
 import {
   DEFAULT_FILTERS,
   NOT_STATED,
+  type ElsewhereSearch,
   type Facets,
   type HistoryPoint,
   type JobsData,
@@ -149,6 +150,8 @@ function Dashboard({ profile, profiles, onSwitch }: { profile: Profile; profiles
             <TabButton active={tab === 'trends'} onClick={() => setTab('trends')} icon={<BarChart3 className="size-4" />} label="Trends" />
           </nav>
 
+          {!!data?.elsewhere?.length && <Elsewhere searches={data.elsewhere} />}
+
           {errorCount > 0 && (
             <span
               title={Object.entries(data!.errors).map(([c, e]) => `${c}: ${e}`).join('\n')}
@@ -184,6 +187,39 @@ function Dashboard({ profile, profiles, onSwitch }: { profile: Profile; profiles
         )}
       </main>
     </div>
+  )
+}
+
+function Elsewhere({ searches }: { searches: ElsewhereSearch[] }) {
+  return (
+    <details className="relative text-sm">
+      <summary
+        className="inline-flex cursor-pointer list-none items-center gap-1.5 rounded-md px-2.5 py-1.5 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100"
+        title="LinkedIn, Indeed, Wellfound and others have no public jobs feed; these open the same search there"
+      >
+        <ExternalLink className="size-4" /> Search elsewhere
+      </summary>
+      <div className="absolute z-30 mt-1 w-80 space-y-3 rounded-lg border border-zinc-200 bg-white p-3 shadow-lg dark:border-zinc-800 dark:bg-zinc-900">
+        {searches.map((s) => (
+          <div key={s.label}>
+            <p className="mb-1 text-xs font-medium text-zinc-500 dark:text-zinc-400">{s.label}</p>
+            <div className="flex flex-wrap gap-1.5">
+              {s.links.map((l) => (
+                <a
+                  key={l.name}
+                  href={l.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="rounded-md border border-zinc-200 px-2 py-0.5 text-xs hover:border-indigo-400 hover:text-indigo-600 dark:border-zinc-700"
+                >
+                  {l.name}
+                </a>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </details>
   )
 }
 

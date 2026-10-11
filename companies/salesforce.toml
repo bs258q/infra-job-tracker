@@ -1,17 +1,6 @@
 # Salesforce-ecosystem employers, added on top of companies/tech.toml for the salesforce profile.
-# Same format as tech.toml; `python discover.py "Company"` finds Greenhouse / Lever / Ashby slugs.
-
-# ---------- Remote job boards (jobs carry their own employer name) ----------
-[[company]]
-name = "Himalayas (remote board)"
-ats = "himalayas"
-country = "US"
-queries = ["salesforce developer", "salesforce administrator", "salesforce architect"]
-
-[[company]]
-name = "Remotive (remote board)"
-ats = "remotive"
-queries = ["salesforce"]
+# Same format as tech.toml; `python discover.py "Company"` (or a careers URL) prints an entry.
+# Remote job boards are in companies/boards.toml.
 
 # ---------- Salesforce partners & ISVs ----------
 [[company]]
@@ -235,3 +224,79 @@ ats = "workday"
 host = "guidehouse.wd1.myworkdayjobs.com"
 tenant = "guidehouse"
 site = "External"
+
+[[company]]
+name = "Accenture"
+ats = "workday"
+host = "accenture.wd103.myworkdayjobs.com"
+tenant = "accenture"
+site = "AccentureCareers"
+
+[[company]]
+name = "PwC"
+ats = "workday"
+host = "pwc.wd3.myworkdayjobs.com"
+tenant = "pwc"
+site = "Global_Experienced_Careers"
+
+[[company]]
+name = "Bank of America"
+ats = "workday"
+host = "ghr.wd1.myworkdayjobs.com"
+tenant = "ghr"
+site = "Lateral-US"
+
+[[company]]
+name = "Citi"
+ats = "workday"
+host = "citi.wd5.myworkdayjobs.com"
+tenant = "citi"
+site = "2"
+
+[[company]]
+name = "Fidelity"
+ats = "workday"
+host = "fmr.wd1.myworkdayjobs.com"
+tenant = "fmr"
+site = "targeted"
+
+[[company]]
+name = "Morgan Stanley"
+ats = "workday"
+host = "ms.wd5.myworkdayjobs.com"
+tenant = "ms"
+site = "External"
+
+[[company]]
+name = "T-Mobile"
+ats = "workday"
+host = "tmobile.wd1.myworkdayjobs.com"
+tenant = "tmobile"
+site = "External"
+
+[[company]]
+name = "Target"
+ats = "workday"
+host = "target.wd5.myworkdayjobs.com"
+tenant = "target"
+site = "targetcareers"
+
+[[company]]
+name = "CVS Health"
+ats = "workday"
+host = "cvshealth.wd1.myworkdayjobs.com"
+tenant = "cvshealth"
+site = "CVS_Health_Careers"
+
+[[company]]
+name = "Cigna"
+ats = "workday"
+host = "cigna.wd5.myworkdayjobs.com"
+tenant = "cigna"
+site = "cignacareers"
+
+# ---------- Large enterprises (other boards) ----------
+[[company]]
+name = "Experian"
+ats = "smartrecruiters"
+slug = "experian"

@@ -26,11 +26,17 @@ export type Facets = {
   workplaces: string[]
 }
 
+export type ElsewhereSearch = {
+  label: string
+  links: { name: string; url: string }[]
+}
+
 export type JobsData = {
   generatedAt: string
   companiesTracked: number
   errors: Record<string, string>
   facets?: Facets
+  elsewhere?: ElsewhereSearch[]
   roles: Role[]
 }
 

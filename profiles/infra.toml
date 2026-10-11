@@ -3,7 +3,7 @@
 [profile]
 name = "Infra / ML"
 description = "Bay Area + US remote"
-companies = ["companies/tech.toml"]
+companies = ["companies/tech.toml", "companies/boards.toml", "companies/found/infra-*.toml"]
 
 [title]
 # Keep a role if its title matches ANY of these...
@@ -33,6 +33,9 @@ exclude = [
   # chip / hardware design roles that share words like GPU, accelerator, reliability
   '\bASIC\b', '\bFPGA\b', '\bRTL\b', '\bSoC\b', 'verification', 'firmware', 'hardware', 'silicon',
   '\bPDK\b', 'analog', 'layout', 'raytracing', 'graphics', 'wireless', 'quality', 'specialist',
+  # non-ML "training" and civil "infrastructure" roles that remote job boards bring in
+  'training (program|coordinator|specialist|facilitator)', '\bgraduate\b', 'adoption',
+  'capital projects', '\bfiber\b', '\bcivil\b', 'transportation', 'utilities', 'clearance',
 ]
 
 [location]
@@ -48,10 +51,36 @@ include = [
 remote_us = true
 
 [search]
-# Workday, Amazon, and Eightfold boards are too big to list in full, so they are searched with these terms.
+# Amazon and Eightfold boards are too big to list in full, so they are searched with these terms.
+# Workday boards list every posting in [location] instead, and use these only when that is too large.
 queries = [
   'infrastructure', 'reliability', 'platform', 'inference', 'training',
   'distributed systems', 'GPU', 'kubernetes', 'machine learning systems',
+]
+
+[discovery]
+# Weekly Parallel FindAll search for companies not tracked yet (find_companies.py). Companies whose job
+# board has roles matching this profile are proposed in a pull request as companies/found/infra-<date>.toml.
+objective = "Find technology companies currently hiring infrastructure, platform, site reliability, or ML training and inference infrastructure engineers in the San Francisco Bay Area or remotely in the US"
+match_limit = 25
+# Also check YC companies the YC directory marks as hiring, when any of their tags / industries match.
+yc_tags = 'infrastructure|developer tools|devops|cloud|machine learning|artificial intelligence|\bai\b|gpu|compute|database|data engineering|observability|kubernetes|open source|\bapi\b|robotics|security'
+match_conditions = [
+  { name = "hiring_infra_engineers", description = "The company currently has at least one open individual-contributor job posting for an infrastructure, platform, site reliability (SRE), distributed systems, or ML training/inference infrastructure engineering role." },
+  { name = "bay_area_or_us_remote", description = "At least one of those open roles is based in the San Francisco Bay Area or is remote and open to candidates in the United States." },
+]
+
+[elsewhere]
+# Sites that can't be ingested (LinkedIn, Indeed, Wellfound, ...): the dashboard links to these searches.
+searches = [
+  { query = "infrastructure engineer", location = "San Francisco Bay Area" },
+  { query = "site reliability engineer", location = "San Francisco Bay Area" },
+  { query = "ML infrastructure engineer", remote = true },
+]
+extra = [
+  { name = "ainfra.dev", url = "https://ainfra.dev/jobs?location=country%3Aus" },
+  { name = "Work at a Startup (YC)", url = "https://www.workatastartup.com/jobs?role=eng&eng_type=devops" },
+  { name = "hiring.cafe", url = "https://hiring.cafe/" },
 ]
 
 [email]

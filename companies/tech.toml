@@ -1,8 +1,10 @@
-# Add companies with `python discover.py "Company Name"` (Greenhouse / Lever / Ashby).
+# Add companies with `python discover.py "Company Name"` or `python discover.py <careers URL>`
+# (Greenhouse, Lever, Ashby, Workable, Gem, Rippling, SmartRecruiters, Recruitee, Breezy, Workday, Oracle).
 # Workday: copy host / tenant / site from the careers URL,
 #   e.g. https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite
 #        host = nvidia.wd5.myworkdayjobs.com, tenant = nvidia, site = NVIDIAExternalCareerSite
-# Workday / Amazon / Eightfold entries use the profile's [search].queries unless they set `queries`.
+# Amazon / Eightfold / Oracle entries use the profile's [search].queries unless they set `queries`.
+# Workday entries list every posting in the profile's locations; queries are the fallback for huge boards.
 
 # ---------- Frontier & model labs ----------
 [[company]]
@@ -562,6 +564,51 @@ ats = "workday"
 host = "workday.wd5.myworkdayjobs.com"
 tenant = "workday"
 site = "Workday"
+
+[[company]]
+name = "Equinix"
+ats = "workday"
+host = "equinix.wd1.myworkdayjobs.com"
+tenant = "equinix"
+site = "External"
+
+[[company]]
+name = "Autodesk"
+ats = "workday"
+host = "autodesk.wd1.myworkdayjobs.com"
+tenant = "autodesk"
+site = "Ext"
+
+[[company]]
+name = "Zillow"
+ats = "workday"
+host = "zillow.wd5.myworkdayjobs.com"
+tenant = "zillow"
+site = "Zillow_Group_External"
+
+[[company]]
+name = "Expedia"
+ats = "workday"
+host = "expedia.wd108.myworkdayjobs.com"
+tenant = "expedia"
+site = "search"
+
+[[company]]
+name = "ServiceNow"
+ats = "smartrecruiters"
+slug = "servicenow"
+
+[[company]]
+name = "Oracle"
+ats = "oracle"
+host = "eeho.fa.us2.oraclecloud.com"
+site = "CX_45001"
+
+[[company]]
+name = "JPMorgan Chase"
+ats = "oracle"
+host = "jpmc.fa.oraclecloud.com"
+site = "CX_1001"
 
 [[company]]
 name = "Amazon / AWS"
