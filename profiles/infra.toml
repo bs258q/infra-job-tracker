@@ -60,7 +60,7 @@ queries = [
 
 [discovery]
 # Weekly Parallel FindAll search for companies not tracked yet (find_companies.py). Companies whose job
-# board has roles matching this profile are proposed in a pull request as companies/found/infra-<date>.toml.
+# board has roles matching this profile are added automatically as companies/found/infra-<date>.toml.
 objective = "Find technology companies currently hiring infrastructure, platform, site reliability, or ML training and inference infrastructure engineers in the San Francisco Bay Area or remotely in the US"
 match_limit = 25
 # Also check YC companies the YC directory marks as hiring, when any of their tags / industries match.

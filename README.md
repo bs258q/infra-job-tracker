@@ -55,8 +55,8 @@ then `cd web && npm run dev`.
    gh variable set DASHBOARD_URL     # e.g. https://infra-roles.vercel.app (linked from emails)
    ```
 3. `gh workflow run job-tracker` (add `-f profile=salesforce` to run one profile)
-4. Company discovery (optional) — an API key from https://platform.parallel.ai, then allow Actions to
-   open pull requests (Settings → Actions → General → "Allow GitHub Actions to create and approve pull requests"):
+4. Company discovery (optional) — an API key from https://platform.parallel.ai (without it the weekly
+   run still checks the YC directory and rechecks earlier finds):
    ```sh
    gh secret set PARALLEL_API_KEY
    gh workflow run find-companies
@@ -70,8 +70,8 @@ every company already tracked or seen before. It also checks, for free, every YC
 marks as hiring whose tags match the profile's `yc_tags`. For each company it finds the job board — from the
 careers URL, a careers page that links to one, the company's YC jobs page, or a guessed Greenhouse / Lever /
 Ashby / Workable / Gem / Rippling / SmartRecruiters / Recruitee / Breezy slug — and keeps it only if the board has roles passing the profile's filters. New
-companies arrive as a pull request adding `companies/found/<profile>-<date>.toml`; merge to start tracking
-them, close to reject.
+companies are committed straight to main as `companies/found/<profile>-<date>.toml` (after a TOML validity
+check), tracked from the next run, and emailed to you. To drop one, delete its entry from that file.
 
 `state/<profile>/discovery.json` logs every company checked, so none is paid for twice; ones with no
 supported board or no matching roles yet are rechecked for free (every 2–4 weeks). Locally:

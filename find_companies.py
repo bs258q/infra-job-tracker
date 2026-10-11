@@ -13,8 +13,8 @@ python find_companies.py --profile infra --names "Nscale" "IREN=https://iren.com
 Free sources run too: the YC directory's hiring companies matching the profile's `yc_tags`.
 
 Needs PARALLEL_API_KEY. Every company FindAll returns is logged in state/<profile>/discovery.json so it
-is never paid for twice. Closing the pull request that adds a company rejects it for good; delete its
-entry from discovery.json to have it considered again.
+is never paid for twice. Found companies are tracked as soon as the weekly workflow commits them; deleting
+one from companies/found/ drops it for good. Delete its entry from discovery.json to have it considered again.
 """
 
 from __future__ import annotations
@@ -370,7 +370,7 @@ def main() -> None:
     ap.add_argument("--no-yc", action="store_true", help="skip the YC directory")
     ap.add_argument("--names", nargs="+", metavar="NAME[=URL]", help="check these companies instead of searching")
     ap.add_argument("--wait-minutes", type=float, default=60, help="how long to wait for the FindAll run")
-    ap.add_argument("--summary", help="append a markdown summary (pull request body) to this file")
+    ap.add_argument("--summary", help="append a markdown summary (emailed by the workflow) to this file")
     args = ap.parse_args()
 
     cfg = tracker.load_profile(args.profile)
