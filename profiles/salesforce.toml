@@ -3,7 +3,7 @@
 [profile]
 name = "Salesforce"
 description = "Developer · Admin · Architect — US remote + hybrid"
-companies = ["companies/tech.toml", "companies/salesforce.toml"]
+companies = ["companies/tech.toml", "companies/salesforce.toml", "companies/boards.toml", "companies/found/*.toml"]
 # Fetchers that can't search nationwide for these roles.
 skip = ["Amazon / AWS", "Netflix"]
 
@@ -38,6 +38,29 @@ workplaces = ["remote", "hybrid", "unknown"]
 [search]
 # Workday, Himalayas, etc. are searched with these terms.
 queries = ['salesforce developer', 'salesforce administrator', 'salesforce architect', 'salesforce engineer']
+
+[discovery]
+# Weekly Parallel FindAll search for companies not tracked yet (find_companies.py); see profiles/infra.toml.
+objective = "Find companies currently hiring Salesforce developers, administrators, or architects in the United States, remote or hybrid"
+match_limit = 25
+# Also check YC companies the YC directory marks as hiring, when any of their tags / industries match.
+yc_tags = 'crm|salesforce|sales enablement|revenue|customer success|b2b|enterprise software|insurance|healthcare it|fintech'
+match_conditions = [
+  { name = "hiring_salesforce_roles", description = "The company currently has at least one open job posting for a Salesforce developer, administrator, architect, or engineer who builds on the Salesforce platform (not a sales role)." },
+  { name = "us_remote_or_hybrid", description = "At least one of those open roles is in the United States and is remote or hybrid." },
+]
+
+[elsewhere]
+# Sites that can't be ingested (LinkedIn, Indeed, Dice, ...): the dashboard links to these searches.
+searches = [
+  { query = "salesforce developer", remote = true },
+  { query = "salesforce administrator", remote = true },
+  { query = "salesforce architect", remote = true },
+  { query = "salesforce developer", location = "United States" },
+]
+extra = [
+  { name = "hiring.cafe", url = "https://hiring.cafe/" },
+]
 
 [email]
 send_when_empty = false

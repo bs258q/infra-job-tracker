@@ -1,0 +1,136 @@
+# Found by Parallel FindAll for the infra profile on 2026-10-11 (find_companies.py).
+# Delete an entry to stop tracking it; its record in state/infra/discovery.json keeps it from coming back.
+
+# 7 matching roles when found. added by name
+# Source: https://lightning.ai/careers
+[[company]]
+name = "Lightning AI"
+ats = "greenhouse"
+slug = "lightningai"
+
+# 8 matching roles when found. added by name
+[[company]]
+name = "RadixArk"
+ats = "ashby"
+slug = "radixark"
+
+# 6 matching roles when found. added by name
+# Source: https://mistral.ai/careers
+[[company]]
+name = "Mistral AI"
+ats = "ashby"
+slug = "mistral.ai"
+
+# 3 matching roles when found. added by name
+[[company]]
+name = "River AI"
+ats = "greenhouse"
+slug = "riverai"
+
+# 10 matching roles when found. added by name
+# Source: https://fal.ai/careers
+[[company]]
+name = "fal"
+ats = "ashby"
+slug = "fal-ai"
+
+# 7 matching roles when found. added by name
+# Source: https://www.liquid.ai/careers
+[[company]]
+name = "Liquid AI"
+ats = "ashby"
+slug = "liquid-ai"
+
+# 5 matching roles when found. added by name
+[[company]]
+name = "Parasail"
+ats = "ashby"
+slug = "parasail"
+
+# 4 matching roles when found. added by name
+[[company]]
+name = "FriendliAI"
+ats = "ashby"
+slug = "friendliai"
+
+# 2 matching roles when found. added by name
+[[company]]
+name = "Hedra"
+ats = "ashby"
+slug = "hedra"
+
+# 1 matching roles when found. added by name
+[[company]]
+name = "Lila Sciences"
+ats = "greenhouse"
+slug = "lilasciences"
+
+# 4 matching roles when found. added by name
+[[company]]
+name = "Generalist"
+ats = "ashby"
+slug = "generalist"
+
+# 2 matching roles when found. added by name
+[[company]]
+name = "Genesis Molecular AI"
+ats = "ashby"
+slug = "genesis-molecular-ai"
+
+# 4 matching roles when found. added by name
+[[company]]
+name = "Matter Intelligence"
+ats = "ashby"
+slug = "matter-intelligence"
+
+# 1 matching roles when found. added by name
+[[company]]
+name = "Relace"
+ats = "ashby"
+slug = "relace"
+
+# 2 matching roles when found. added by name
+# Source: https://www.1x.tech/careers
+[[company]]
+name = "1X"
+ats = "ashby"
+slug = "1x"
+
+# 2 matching roles when found. added by name
+[[company]]
+name = "Abridge"
+ats = "ashby"
+slug = "abridge"
+
+# 4 matching roles when found. added by name
+[[company]]
+name = "Cartesia"
+ats = "ashby"
+slug = "cartesia"
+
+# 2 matching roles when found. added by name
+[[company]]
+name = "Sesame"
+ats = "ashby"
+slug = "sesame"
+
+# 3 matching roles when found. added by name
+# Source: https://boards-api.greenhouse.io/v1/boards/digitalocean98
+[[company]]
+name = "DigitalOcean"
+ats = "greenhouse"
+slug = "digitalocean98"
+
+# 1 matching roles when found. added by name
+# Source: https://apply.workable.com/runware
+[[company]]
+name = "Runware"
+ats = "workable"
+slug = "runware"
+
+# 1 matching roles when found. added by name
+# Source: https://jobs.gem.com/deep-infra
+[[company]]
+name = "DeepInfra"
+ats = "gem"
+slug = "deep-infra"

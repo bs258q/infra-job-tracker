@@ -8,8 +8,10 @@ import re
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Callable
+from urllib.parse import urlencode
 
 import ats
+import dedupe
 import usgeo
 
 DATA_ROOT = Path(__file__).parent / "web" / "public" / "data"
@@ -108,12 +110,15 @@ def build_roles(
 ) -> list[dict]:
     groups: dict[str, list[ats.Job]] = {}
     for j in matches:
-        groups.setdefault(_role_id(j.company, j.title), []).append(j)
+        groups.setdefault(dedupe.role_key(j.company, j.title), []).append(j)
 
     today = date.today()
     roles = []
-    for rid, jobs in groups.items():
-        first = jobs[0]
+    for key, jobs in groups.items():
+        # Ids stay a hash of one raw company/title so pipeline entries saved in browsers keep matching.
+        first = min(jobs, key=lambda j: (j.company.lower(), j.title.lower(), j.key))
+        rid = _role_id(first.company, first.title)
+        first_seen = seen.get(f"role:{key}", {}).get("first_seen") or min(seen[j.key]["first_seen"] for j in jobs)
         locs = list(dict.fromkeys(l.strip() for j in jobs for l in re.split(r"[;|]", j.location) if l.strip()))
         locs.sort(key=lambda l: not facets.regions_for(l))
         loc_text = "; ".join(locs)
@@ -151,7 +156,7 @@ def build_roles(
                 "level": _level(first.title, facets.architect_is_level),
                 "posted": posted,
                 "postedApprox": posted_approx,
-                "firstSeen": min(seen[j.key]["first_seen"] for j in jobs),
+                "firstSeen": first_seen,
                 "salary": salary_text,
                 "salaryMin": lo,
                 "salaryMax": hi,
@@ -163,6 +168,38 @@ def build_roles(
     return roles
 
 
+# Sites with no public jobs feed (their terms forbid scraping): the dashboard links to saved searches instead.
+# Each takes (query, location, remote) and lists the past week, newest first, where the site supports it.
+_ELSEWHERE: list[tuple[str, Callable[[str, str, bool], str]]] = [
+    ("LinkedIn", lambda q, l, r: "https://www.linkedin.com/jobs/search/?" + urlencode(
+        {"keywords": q, "location": l, "f_TPR": "r604800", "sortBy": "DD", **({"f_WT": "2"} if r else {})})),
+    ("Indeed", lambda q, l, r: "https://www.indeed.com/jobs?" + urlencode({"q": q, "l": "Remote" if r else l, "fromage": 7, "sort": "date"})),
+    ("Glassdoor", lambda q, l, r: "https://www.glassdoor.com/Job/jobs.htm?" + urlencode({"sc.keyword": q, "locKeyword": "Remote" if r else l, "fromAge": 7})),
+    ("Dice", lambda q, l, r: "https://www.dice.com/jobs?" + urlencode(
+        {"q": q, "filters.postedDate": "SEVEN", **({"filters.workplaceTypes": "Remote"} if r else {"location": l})})),
+    ("Wellfound", lambda q, l, r: f"https://wellfound.com/role/{'r' if r else 'l'}/{slugify(q)}" + ("" if r else f"/{slugify(l)}")),
+    ("Built In", lambda q, l, r: f"https://builtin.com/jobs{'/remote' if r else ''}?" + urlencode({"search": q})),
+    ("Google Jobs", lambda q, l, r: "https://www.google.com/search?" + urlencode({"q": f"{q} jobs {'remote' if r else l}", "ibp": "htl;jobs"})),
+]
+
+
+def slugify(text: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
+
+
+def elsewhere(cfg: dict) -> list[dict]:
+    """Saved searches on sites that aren't ingested, from the profile's [elsewhere] section."""
+    sec = cfg.get("elsewhere", {})
+    out = []
+    for s in sec.get("searches", []):
+        remote = bool(s.get("remote"))
+        label = f"{s['query']} · {'Remote (US)' if remote else s.get('location', '')}"
+        out.append({"label": label, "links": [{"name": n, "url": f(s["query"], s.get("location", ""), remote)} for n, f in _ELSEWHERE]})
+    if extra := sec.get("extra"):
+        out.append({"label": "More job sites", "links": [{"name": e["name"], "url": e["url"]} for e in extra]})
+    return out
+
+
 def write(
     profile_id: str,
     roles: list[dict],
@@ -170,11 +207,13 @@ def write(
     errors: dict[str, str],
     company_count: int,
     facets: Facets,
+    links: list[dict] | None = None,
 ) -> None:
     data_dir = DATA_ROOT / profile_id
     data_dir.mkdir(parents=True, exist_ok=True)
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    meta = {"generatedAt": now, "companiesTracked": company_count, "errors": errors, "facets": facets.order()}
+    meta = {"generatedAt": now, "companiesTracked": company_count, "errors": errors, "facets": facets.order(),
+            "elsewhere": links or []}
     (data_dir / "jobs.json").write_text(json.dumps({**meta, "roles": roles}, separators=(",", ":")))
 
     hist_file = data_dir / "history.json"

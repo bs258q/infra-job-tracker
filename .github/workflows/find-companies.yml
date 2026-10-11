@@ -1,0 +1,75 @@
+name: find-companies
+
+on:
+  schedule:
+    - cron: "0 15 * * 1" # Mondays, 8am PDT / 7am PST
+  workflow_dispatch:
+    inputs:
+      profile:
+        description: "Profile to search for (a profiles/*.toml name), or 'all'"
+        type: string
+        default: all
+      recheck_only:
+        description: "Skip Parallel; only recheck earlier finds (free)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+# Shares the tracker's group so the two never push state at the same time.
+concurrency: job-tracker
+
+jobs:
+  find:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      PROFILE: ${{ inputs.profile || 'all' }}
+      RECHECK_ONLY: ${{ inputs.recheck_only || false }}
+      PARALLEL_API_KEY: ${{ secrets.PARALLEL_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Find companies
+        run: |
+          if [ "$PROFILE" = all ]; then profiles=$(ls profiles/*.toml | xargs -n1 basename | sed 's/\.toml$//'); else profiles=$PROFILE; fi
+          flags=""
+          [ "$RECHECK_ONLY" = true ] && flags="--recheck-only"
+          echo "Companies found by [Parallel FindAll](https://docs.parallel.ai/findall-api/findall-quickstart) and checked against each company's job board (\`find_companies.py\`)." > "$RUNNER_TEMP/summary.md"
+          echo "Merge to start tracking them. Close to reject: they stay in \`state/<profile>/discovery.json\` and won't be suggested again." >> "$RUNNER_TEMP/summary.md"
+          echo >> "$RUNNER_TEMP/summary.md"
+          for p in $profiles; do
+            echo "::group::$p"
+            python find_companies.py --profile "$p" $flags --wait-minutes 30 --summary "$RUNNER_TEMP/summary.md"
+            echo "::endgroup::"
+          done
+          cat "$RUNNER_TEMP/summary.md" >> "$GITHUB_STEP_SUMMARY"
+
+      # The log goes straight to main so a closed pull request still counts as a rejection.
+      - name: Save discovery log
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          git add state/*/discovery.json 2>/dev/null || true
+          git diff --cached --quiet || {
+            git commit -m "Discovery log $(date -u +%F)"
+            git pull --rebase --autostash
+            git push
+          }
+
+      - name: Propose new companies
+        uses: peter-evans/create-pull-request@v7
+        with:
+          add-paths: companies/found/*.toml
+          branch: find-companies/run
+          branch-suffix: timestamp
+          delete-branch: true
+          commit-message: Add companies found by Parallel FindAll
+          title: "Add companies found by Parallel (${{ github.run_id }})"
+          body-path: ${{ runner.temp }}/summary.md

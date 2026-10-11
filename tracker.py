@@ -25,6 +25,7 @@ from pathlib import Path
 
 import ats
 import dashboard
+import dedupe
 import usgeo
 from usgeo import is_remote_us
 
@@ -50,10 +51,17 @@ def load_companies(cfg: dict) -> list[dict]:
     prof = cfg.get("profile", {})
     skip = {s.lower() for s in prof.get("skip", [])}
     companies: dict[str, dict] = {}
-    for file in prof.get("companies", ["companies/tech.toml"]):
-        for c in load_toml(file)["company"]:
-            if c["name"].lower() not in skip:
-                companies.setdefault(c["name"].lower(), c)
+    boards: set[tuple] = set()
+    for pattern in prof.get("companies", ["companies/tech.toml"]):
+        files = sorted(ROOT.glob(pattern)) if any(ch in pattern for ch in "*?[") else [ROOT / pattern]
+        for file in files:
+            for c in load_toml(file).get("company", []):
+                # The same board listed in two files (or under two names) is fetched once.
+                board = (c["ats"], (c.get("slug") or c.get("host") or c["name"]).lower(), c.get("site", ""))
+                if c["name"].lower() in skip or c["name"].lower() in companies or board in boards:
+                    continue
+                companies[c["name"].lower()] = c
+                boards.add(board)
     return list(companies.values())
 
 
@@ -111,7 +119,9 @@ def fetch_all(companies: list[dict], filters: Filters, default_queries: list[str
         params = {k: v for k, v in entry.items() if k not in {"name", "ats"}}
         params.setdefault("queries", default_queries)
         try:
-            jobs = list(ats.FETCHERS[entry["ats"]](entry["name"], title_ok=filters.title_ok, **params))
+            jobs = list(ats.FETCHERS[entry["ats"]](
+                entry["name"], title_ok=filters.title_ok, location_ok=filters.location_ok, **params
+            ))
             for j in jobs:
                 j.workplace = j.workplace or ats.workplace_from_text(j.location)
             return entry["name"], jobs, None
@@ -121,29 +131,55 @@ def fetch_all(companies: list[dict], filters: Filters, default_queries: list[str
     with ThreadPoolExecutor(max_workers=12) as pool:
         results = list(pool.map(run, companies))
 
+    # A company's own board is the source of truth; remote-board copies of its roles are dropped.
+    direct = {dedupe.company_key(c["name"]) for c in companies if c["ats"] not in ats.AGGREGATORS}
     matches: dict[str, ats.Job] = {}
     errors: dict[str, str] = {}
-    for name, jobs, err in results:
+    for entry, (name, jobs, err) in zip(companies, results):
         if err:
             errors[name] = err
         kept = [j for j in jobs if filters(j)]
+        note = ""
+        if entry["ats"] in ats.AGGREGATORS:
+            own = [j for j in kept if dedupe.company_key(j.company) in direct]
+            kept = [j for j in kept if dedupe.company_key(j.company) not in direct]
+            note = f"  ({len(own)} more already tracked directly)" if own else ""
         for j in kept:
             matches[j.key] = j
-        print(f"  {name:<24} {len(jobs):>5} jobs  {len(kept):>4} match" + (f"  ERROR {err}" if err else ""), file=sys.stderr)
+        print(f"  {name:<24} {len(jobs):>5} jobs  {len(kept):>4} match{note}" + (f"  ERROR {err}" if err else ""), file=sys.stderr)
     return matches, errors
 
 
+def mark_seen(matches: dict[str, ats.Job], seen: dict[str, dict], now: str, today: str) -> set[str]:
+    """Record postings and their roles in `seen`; return keys of postings whose role is new.
+
+    A role is new only if neither it nor any of its postings was seen before, so a repost under a
+    new posting ID (or the same opening on a second board) doesn't alert again.
+    """
+    role_of = {k: dedupe.role_key(j.company, j.title) for k, j in matches.items()}
+    known = {rk for k, rk in role_of.items() if k in seen or f"role:{rk}" in seen}
+    for k, rk in role_of.items():
+        seen.setdefault(k, {"first_seen": now})["last_seen"] = today
+        role = seen.setdefault(f"role:{rk}", {"first_seen": seen[k]["first_seen"]})
+        role["first_seen"] = min(role["first_seen"], seen[k]["first_seen"])
+        role["last_seen"] = today
+    return {k for k, rk in role_of.items() if rk not in known}
+
+
 def group_roles(jobs: list[ats.Job]) -> dict[str, list[list[ats.Job]]]:
-    """company -> list of postings sharing a title (multi-location reqs are often separate postings)."""
+    """company -> roles, each the postings of one opening (one per location, board, or repost)."""
     by_company: dict[str, dict[str, list[ats.Job]]] = defaultdict(dict)
+    names: dict[str, str] = {}
     for j in jobs:
-        by_company[j.company].setdefault(j.title.lower(), []).append(j)
+        ck = dedupe.company_key(j.company)
+        names.setdefault(ck, j.company)
+        by_company[ck].setdefault(dedupe.title_key(j.title), []).append(j)
     def newest(group: list[ats.Job]) -> str:
         return max((x.posted for x in group if x.posted[:1].isdigit()), default="")
 
     return {
-        c: sorted(roles.values(), key=newest, reverse=True)
-        for c, roles in sorted(by_company.items(), key=lambda kv: kv[0].lower())
+        names[ck]: sorted(roles.values(), key=newest, reverse=True)
+        for ck, roles in sorted(by_company.items(), key=lambda kv: names[kv[0]].lower())
     }
 
 
@@ -255,9 +291,7 @@ def main() -> None:
     first_run = not state_file.exists()
     seen: dict[str, dict] = {} if first_run else json.loads(state_file.read_text())
 
-    new_keys = {k for k in matches if k not in seen}
-    for k in matches:
-        seen.setdefault(k, {"first_seen": now})["last_seen"] = today
+    new_keys = mark_seen(matches, seen, now, today)
     cutoff = (date.today() - timedelta(days=PRUNE_AFTER_DAYS)).isoformat()
     seen = {k: v for k, v in seen.items() if v.get("last_seen", today) >= cutoff}
 
@@ -267,7 +301,7 @@ def main() -> None:
     roles = dashboard.build_roles(list(matches.values()), seen, is_remote_us, facets)
     # The first run's "new" count is the whole backlog, which would swamp the trends chart.
     new_role_ids = set() if first_run else {r["id"] for r in roles if r["firstSeen"] == now}
-    dashboard.write(args.profile, roles, new_role_ids, errors, len(companies), facets)
+    dashboard.write(args.profile, roles, new_role_ids, errors, len(companies), facets, dashboard.elsewhere(cfg))
     dashboard.write_profiles(profile_index())
 
     new_jobs = [matches[k] for k in new_keys]

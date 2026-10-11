@@ -1,12 +1,32 @@
 # infra-job-tracker
 
-Tracks jobs straight from company career boards (Greenhouse, Lever, Ashby, Workday, Amazon, Eightfold)
-and remote job boards (Himalayas, Remotive). Each search is a profile:
+Tracks jobs straight from company career boards and multi-employer job boards, merged into one list of
+unique roles. Each search is a profile:
 
 - `infra` — Bay Area / US-remote platform, SRE, AI-infra, and ML training & inference roles.
 - `salesforce` — Salesforce developer, admin, and architect roles anywhere in the US, remote or hybrid.
 
 Twice a day GitHub Actions runs every profile, emails the new roles, and redeploys a dashboard on Vercel.
+
+## Sources
+
+| | Sites | How |
+|---|---|---|
+| Company boards | Greenhouse, Lever, Ashby, Workable, Gem, Rippling, SmartRecruiters, Recruitee, Breezy, Workday, Oracle Recruiting Cloud, Eightfold, Amazon, YC company pages | each company's own public jobs API (`companies/tech.toml`, `companies/salesforce.toml`, `companies/found/`) |
+| Job boards | Himalayas, Remotive, Remote OK, Jobicy, We Work Remotely, Working Nomads, Hacker News "Who is hiring" | public APIs / feeds, shared by every profile (`companies/boards.toml`) |
+| Linked, not ingested | LinkedIn, Indeed, Glassdoor, Dice, Wellfound, Built In, Google Jobs, hiring.cafe, ainfra.dev, Work at a Startup | no public jobs feed and scraping is against their terms; the dashboard's "Search elsewhere" menu opens the profile's saved searches there (`[elsewhere]` in the profile) |
+
+Those sites mostly re-list roles from the company boards above, so tracking the companies directly covers
+them; new companies are found weekly (see below). Not covered at all: Google, Meta, Apple, Microsoft,
+Tesla, Uber (no public jobs API); their roles sometimes show up via the job boards.
+
+A role is one company + title, however many places it's posted: company names are normalized ("Acme AI,
+Inc." = "acme"), titles too ("Sr. SWE, Infra - San Francisco, CA" = "senior software engineer infrastructure"),
+postings of the same role in several cities or on several boards collapse into one row, a reposted role is
+not alerted again, a job board's copy of a role is dropped when the company's own board is tracked, and a
+board listed in two company files is fetched once. Workday boards are listed in full within the profile's
+location facet (keyword search past Workday's 2,000-result cap or when the facet is nationwide), and
+Amazon lists every posting in the profile's state.
 
 ## Dashboard (`web/`)
 
@@ -35,6 +55,29 @@ then `cd web && npm run dev`.
    gh variable set DASHBOARD_URL     # e.g. https://infra-roles.vercel.app (linked from emails)
    ```
 3. `gh workflow run job-tracker` (add `-f profile=salesforce` to run one profile)
+4. Company discovery (optional) — an API key from https://platform.parallel.ai, then allow Actions to
+   open pull requests (Settings → Actions → General → "Allow GitHub Actions to create and approve pull requests"):
+   ```sh
+   gh secret set PARALLEL_API_KEY
+   gh workflow run find-companies
+   ```
+
+## Finding new companies
+
+Every Monday `find-companies` runs a [Parallel FindAll](https://docs.parallel.ai/findall-api/findall-quickstart)
+search per profile (the `[discovery]` section: a plain-English objective plus match conditions), excluding
+every company already tracked or seen before. It also checks, for free, every YC company the YC directory
+marks as hiring whose tags match the profile's `yc_tags`. For each company it finds the job board — from the
+careers URL, a careers page that links to one, the company's YC jobs page, or a guessed Greenhouse / Lever /
+Ashby / Workable / Gem / Rippling / SmartRecruiters / Recruitee / Breezy slug — and keeps it only if the board has roles passing the profile's filters. New
+companies arrive as a pull request adding `companies/found/<profile>-<date>.toml`; merge to start tracking
+them, close to reject.
+
+`state/<profile>/discovery.json` logs every company checked, so none is paid for twice; ones with no
+supported board or no matching roles yet are rechecked for free (every 2–4 weeks). Locally:
+`python find_companies.py --profile infra --preview` (cheap 10-candidate preview, writes nothing) to tune the
+objective, `--recheck-only` to skip Parallel, and `--names "Nscale" "IREN=https://iren.com/careers"` to add
+specific companies (e.g. ones another job site lists that we don't) without a Parallel call.
 
 ## Tuning
 
@@ -42,10 +85,8 @@ then `cd web && npm run dev`.
   (a Bay Area list, or `mode = "us"` plus allowed `workplaces`), search terms for big boards,
   and the dashboard's role-type and region buckets. Add a file to add a search; the workflow
   and dashboard pick it up.
-- `companies/*.toml` — tracked companies; a profile lists which files it uses. Find a new company's
-  board with `python discover.py "Company Name"` and paste the printed entry.
+- `companies/*.toml` — tracked companies; a profile lists which files (or globs) it uses. Find a new
+  company's board with `python discover.py "Company Name"` or `python discover.py <careers URL>` (the
+  only way to find a Workday or Oracle board) and paste the printed entry.
 - `python tracker.py --profile salesforce --dry-run [--only "Himalayas (remote board)"]` — preview matches.
 - `python -m unittest test_filters` — filter, location, and salary-parsing checks.
-
-Not covered (no public jobs API): Google, Meta, Apple, Microsoft, Tesla, Uber, and most large
-consultancies (Accenture, Deloitte), though their remote Salesforce roles often show up via Himalayas.
