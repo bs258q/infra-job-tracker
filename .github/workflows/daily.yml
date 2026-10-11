@@ -5,6 +5,11 @@ on:
     - cron: "0 14 * * *" # 7am PDT / 6am PST
     - cron: "0 1 * * *"  # 6pm PDT / 5pm PST
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Only print matches (no email, no state update)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -22,7 +27,12 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Preview matches
+        if: inputs.dry_run
+        run: python tracker.py --dry-run
+
       - name: Fetch roles and email new ones
+        if: ${{ !inputs.dry_run }}
         run: python tracker.py
         env:
           SMTP_USER: ${{ secrets.SMTP_USER }}
@@ -30,6 +40,7 @@ jobs:
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
 
       - name: Save seen jobs
+        if: ${{ !inputs.dry_run }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
