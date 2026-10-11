@@ -13,7 +13,8 @@ twice a day via GitHub Actions. `latest.md` always lists every currently open ma
    gh secret set SMTP_PASSWORD   # the 16-char app password
    gh secret set EMAIL_TO        # optional; comma-separated, defaults to SMTP_USER
    ```
-3. Trigger the first run: `gh workflow run job-tracker` — it emails a per-company summary.
+3. Check email works: `gh workflow run job-tracker -f mode=test-email`.
+4. Trigger the first run: `gh workflow run job-tracker` — it emails a per-company summary.
    Later runs email only roles that weren't seen before.
 
 ## Tuning

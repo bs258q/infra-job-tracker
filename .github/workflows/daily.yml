@@ -6,10 +6,11 @@ on:
     - cron: "0 1 * * *"  # 6pm PDT / 5pm PST
   workflow_dispatch:
     inputs:
-      dry_run:
-        description: "Only print matches (no email, no state update)"
-        type: boolean
-        default: false
+      mode:
+        description: "full = fetch + email new roles; dry-run = print matches only; test-email = send a test email"
+        type: choice
+        options: [full, dry-run, test-email]
+        default: full
 
 permissions:
   contents: write
@@ -20,6 +21,8 @@ jobs:
   track:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    env:
+      MODE: ${{ inputs.mode || 'full' }}
     steps:
       - uses: actions/checkout@v4
 
@@ -28,11 +31,19 @@ jobs:
           python-version: "3.12"
 
       - name: Preview matches
-        if: inputs.dry_run
+        if: env.MODE == 'dry-run'
         run: python tracker.py --dry-run
 
+      - name: Send test email
+        if: env.MODE == 'test-email'
+        run: python tracker.py --test-email
+        env:
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+
       - name: Fetch roles and email new ones
-        if: ${{ !inputs.dry_run }}
+        if: env.MODE == 'full'
         run: python tracker.py
         env:
           SMTP_USER: ${{ secrets.SMTP_USER }}
@@ -40,7 +51,7 @@ jobs:
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
 
       - name: Save seen jobs
-        if: ${{ !inputs.dry_run }}
+        if: env.MODE == 'full'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898299+github-actions[bot]@users.noreply.github.com"

@@ -162,7 +162,9 @@ def render_html(new_jobs: list[ats.Job], errors: dict[str, str], first_run: bool
 
 
 def send_email(subject: str, body_html: str) -> None:
-    user, password = os.environ.get("SMTP_USER"), os.environ.get("SMTP_PASSWORD")
+    user = (os.environ.get("SMTP_USER") or "").strip()
+    # Google shows app passwords as "abcd efgh ijkl mnop"; pasted copies often keep the spaces.
+    password = re.sub(r"\s+", "", os.environ.get("SMTP_PASSWORD") or "")
     if not (user and password):
         print("SMTP_USER / SMTP_PASSWORD not set; skipping email", file=sys.stderr)
         return
@@ -172,11 +174,30 @@ def send_email(subject: str, body_html: str) -> None:
     msg.set_content("HTML email — open in a client that renders HTML.")
     msg.add_alternative(body_html, subtype="html")
     host = os.environ.get("SMTP_HOST", "smtp.gmail.com")
-    port = int(os.environ.get("SMTP_PORT", "465"))
-    with smtplib.SMTP_SSL(host, port, timeout=60) as s:
-        s.login(user, password)
-        s.send_message(msg)
-    print(f"emailed {', '.join(to)}", file=sys.stderr)
+    local, _, domain = user.partition("@")
+    print(f"SMTP login as {local[:3]}***@{domain} (password length {len(password)})", file=sys.stderr)
+
+    errors = []
+    for port in (465, 587):
+        try:
+            if port == 465:
+                s = smtplib.SMTP_SSL(host, port, timeout=60)
+            else:
+                s = smtplib.SMTP(host, port, timeout=60)
+                s.starttls()
+            with s:
+                s.login(user, password)
+                s.send_message(msg)
+            print(f"emailed {', '.join(to)} via port {port}", file=sys.stderr)
+            return
+        except smtplib.SMTPAuthenticationError as e:
+            raise SystemExit(
+                f"Gmail rejected the login ({e.smtp_code}): use a 16-character app password from "
+                "https://myaccount.google.com/apppasswords, not your normal password."
+            ) from e
+        except (smtplib.SMTPException, OSError) as e:
+            errors.append(f"port {port}: {type(e).__name__}: {e}")
+    raise SystemExit("Email failed. " + " | ".join(errors))
 
 
 def main() -> None:
@@ -184,7 +205,12 @@ def main() -> None:
     ap.add_argument("--dry-run", action="store_true", help="print matches only")
     ap.add_argument("--no-email", action="store_true")
     ap.add_argument("--only", help="comma-separated company names")
+    ap.add_argument("--test-email", action="store_true", help="send a one-line test email and exit")
     args = ap.parse_args()
+
+    if args.test_email:
+        send_email("infra-job-tracker test", "<p>Email from infra-job-tracker works.</p>")
+        return
 
     cfg = load_toml("config.toml")
     companies = load_toml("companies.toml")["company"]
