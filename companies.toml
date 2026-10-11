@@ -1,0 +1,575 @@
+# Add companies with `python discover.py "Company Name"` (Greenhouse / Lever / Ashby).
+# Workday: copy host / tenant / site from the careers URL,
+#   e.g. https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite
+#        host = nvidia.wd5.myworkdayjobs.com, tenant = nvidia, site = NVIDIAExternalCareerSite
+# Workday / Amazon / Eightfold entries use [search].queries from config.toml unless they set `queries`.
+
+# ---------- Frontier & model labs ----------
+[[company]]
+name = "Anthropic"
+ats = "greenhouse"
+slug = "anthropic"
+
+[[company]]
+name = "OpenAI"
+ats = "ashby"
+slug = "openai"
+
+[[company]]
+name = "xAI"
+ats = "greenhouse"
+slug = "xai"
+
+[[company]]
+name = "Thinking Machines"
+ats = "ashby"
+slug = "thinkingmachines"
+
+[[company]]
+name = "Perplexity"
+ats = "ashby"
+slug = "perplexity"
+
+[[company]]
+name = "Cohere"
+ats = "ashby"
+slug = "cohere"
+
+[[company]]
+name = "Character.AI"
+ats = "ashby"
+slug = "character"
+
+[[company]]
+name = "Reflection AI"
+ats = "ashby"
+slug = "reflectionai"
+
+[[company]]
+name = "Periodic Labs"
+ats = "ashby"
+slug = "periodic-labs"
+
+[[company]]
+name = "Physical Intelligence"
+ats = "ashby"
+slug = "physicalintelligence"
+
+[[company]]
+name = "Figure"
+ats = "greenhouse"
+slug = "figureai"
+
+[[company]]
+name = "Black Forest Labs"
+ats = "ashby"
+slug = "black-forest-labs"
+
+[[company]]
+name = "Luma AI"
+ats = "ashby"
+slug = "lumaai"
+
+[[company]]
+name = "ElevenLabs"
+ats = "ashby"
+slug = "elevenlabs"
+
+[[company]]
+name = "Pika"
+ats = "ashby"
+slug = "pika"
+
+[[company]]
+name = "Runway"
+ats = "ashby"
+slug = "runway"
+
+[[company]]
+name = "Inflection AI"
+ats = "greenhouse"
+slug = "inflectionai"
+
+[[company]]
+name = "Reka"
+ats = "ashby"
+slug = "reka"
+
+[[company]]
+name = "Poolside"
+ats = "ashby"
+slug = "poolside"
+
+[[company]]
+name = "Magic"
+ats = "ashby"
+slug = "magic.dev"
+
+[[company]]
+name = "Imbue"
+ats = "greenhouse"
+slug = "imbue"
+
+[[company]]
+name = "Prime Intellect"
+ats = "ashby"
+slug = "primeintellect"
+
+[[company]]
+name = "Scale AI"
+ats = "greenhouse"
+slug = "scaleai"
+
+# ---------- AI infra, inference & compute ----------
+[[company]]
+name = "Databricks"
+ats = "greenhouse"
+slug = "databricks"
+
+[[company]]
+name = "Anyscale"
+ats = "ashby"
+slug = "anyscale"
+
+[[company]]
+name = "Together AI"
+ats = "greenhouse"
+slug = "togetherai"
+
+[[company]]
+name = "Fireworks AI"
+ats = "ashby"
+slug = "fireworks"
+
+[[company]]
+name = "Baseten"
+ats = "ashby"
+slug = "baseten"
+
+[[company]]
+name = "Modal"
+ats = "ashby"
+slug = "modal"
+
+[[company]]
+name = "Inferact (vLLM)"
+ats = "ashby"
+slug = "inferact"
+
+[[company]]
+name = "CoreWeave"
+ats = "greenhouse"
+slug = "coreweave"
+
+[[company]]
+name = "Lambda"
+ats = "ashby"
+slug = "lambda"
+
+[[company]]
+name = "Crusoe"
+ats = "ashby"
+slug = "crusoe"
+
+[[company]]
+name = "Nebius"
+ats = "greenhouse"
+slug = "nebius"
+
+[[company]]
+name = "Fluidstack"
+ats = "ashby"
+slug = "fluidstack"
+
+[[company]]
+name = "TensorWave"
+ats = "ashby"
+slug = "tensorwave"
+
+[[company]]
+name = "SF Compute"
+ats = "ashby"
+slug = "sfcompute"
+
+[[company]]
+name = "RunPod"
+ats = "ashby"
+slug = "runpod"
+
+[[company]]
+name = "Cerebras"
+ats = "ashby"
+slug = "cerebras"
+
+[[company]]
+name = "SambaNova"
+ats = "greenhouse"
+slug = "sambanovasystems"
+
+[[company]]
+name = "Etched"
+ats = "ashby"
+slug = "etched"
+
+[[company]]
+name = "d-Matrix"
+ats = "ashby"
+slug = "d-matrix"
+
+[[company]]
+name = "Lightmatter"
+ats = "greenhouse"
+slug = "lightmatter"
+
+[[company]]
+name = "Tenstorrent"
+ats = "greenhouse"
+slug = "tenstorrent"
+
+[[company]]
+name = "Pinecone"
+ats = "ashby"
+slug = "pinecone"
+
+[[company]]
+name = "LangChain"
+ats = "ashby"
+slug = "langchain"
+
+# ---------- AI products with infra teams ----------
+[[company]]
+name = "Cursor"
+ats = "ashby"
+slug = "cursor"
+
+[[company]]
+name = "Cognition"
+ats = "ashby"
+slug = "cognition"
+
+[[company]]
+name = "Replit"
+ats = "ashby"
+slug = "replit"
+
+[[company]]
+name = "Harvey"
+ats = "ashby"
+slug = "harvey"
+
+[[company]]
+name = "Sierra"
+ats = "ashby"
+slug = "sierra"
+
+[[company]]
+name = "Decagon"
+ats = "ashby"
+slug = "decagon"
+
+[[company]]
+name = "Glean"
+ats = "greenhouse"
+slug = "gleanwork"
+
+[[company]]
+name = "Mercor"
+ats = "ashby"
+slug = "mercor"
+
+[[company]]
+name = "Writer"
+ats = "ashby"
+slug = "writer"
+
+[[company]]
+name = "Notion"
+ats = "ashby"
+slug = "notion"
+
+[[company]]
+name = "Figma"
+ats = "greenhouse"
+slug = "figma"
+
+# ---------- Infra, data & dev tools ----------
+[[company]]
+name = "Cloudflare"
+ats = "greenhouse"
+slug = "cloudflare"
+
+[[company]]
+name = "Datadog"
+ats = "greenhouse"
+slug = "datadog"
+
+[[company]]
+name = "Grafana Labs"
+ats = "greenhouse"
+slug = "grafanalabs"
+
+[[company]]
+name = "Vercel"
+ats = "greenhouse"
+slug = "vercel"
+
+[[company]]
+name = "Supabase"
+ats = "ashby"
+slug = "supabase"
+
+[[company]]
+name = "Temporal"
+ats = "ashby"
+slug = "temporal"
+
+[[company]]
+name = "Tailscale"
+ats = "greenhouse"
+slug = "tailscale"
+
+[[company]]
+name = "Chainguard"
+ats = "greenhouse"
+slug = "chainguard"
+
+[[company]]
+name = "ClickHouse"
+ats = "ashby"
+slug = "clickhouse"
+
+[[company]]
+name = "Snowflake"
+ats = "ashby"
+slug = "snowflake"
+
+[[company]]
+name = "MongoDB"
+ats = "greenhouse"
+slug = "mongodb"
+
+[[company]]
+name = "Confluent"
+ats = "ashby"
+slug = "confluent"
+
+[[company]]
+name = "Elastic"
+ats = "greenhouse"
+slug = "elastic"
+
+[[company]]
+name = "Fivetran"
+ats = "greenhouse"
+slug = "fivetran"
+
+[[company]]
+name = "Pure Storage"
+ats = "greenhouse"
+slug = "purestorage"
+
+[[company]]
+name = "Rubrik"
+ats = "greenhouse"
+slug = "rubrik"
+
+[[company]]
+name = "Wiz"
+ats = "greenhouse"
+slug = "wizinc"
+
+[[company]]
+name = "PagerDuty"
+ats = "greenhouse"
+slug = "pagerduty"
+
+[[company]]
+name = "GitLab"
+ats = "greenhouse"
+slug = "gitlab"
+
+[[company]]
+name = "Cockroach Labs"
+ats = "greenhouse"
+slug = "cockroachlabs"
+
+# ---------- Consumer, fintech & autonomy ----------
+[[company]]
+name = "Stripe"
+ats = "greenhouse"
+slug = "stripe"
+
+[[company]]
+name = "Airbnb"
+ats = "greenhouse"
+slug = "airbnb"
+
+[[company]]
+name = "Lyft"
+ats = "greenhouse"
+slug = "lyft"
+
+[[company]]
+name = "Pinterest"
+ats = "greenhouse"
+slug = "pinterest"
+
+[[company]]
+name = "Dropbox"
+ats = "greenhouse"
+slug = "dropbox"
+
+[[company]]
+name = "Robinhood"
+ats = "greenhouse"
+slug = "robinhood"
+
+[[company]]
+name = "Discord"
+ats = "greenhouse"
+slug = "discord"
+
+[[company]]
+name = "Reddit"
+ats = "greenhouse"
+slug = "reddit"
+
+[[company]]
+name = "Instacart"
+ats = "greenhouse"
+slug = "instacart"
+
+[[company]]
+name = "DoorDash"
+ats = "greenhouse"
+slug = "doordashusa"
+
+[[company]]
+name = "Coinbase"
+ats = "greenhouse"
+slug = "coinbase"
+
+[[company]]
+name = "Roblox"
+ats = "greenhouse"
+slug = "roblox"
+
+[[company]]
+name = "Ramp"
+ats = "ashby"
+slug = "ramp"
+
+[[company]]
+name = "Brex"
+ats = "greenhouse"
+slug = "brex"
+
+[[company]]
+name = "Plaid"
+ats = "ashby"
+slug = "plaid"
+
+[[company]]
+name = "Samsara"
+ats = "greenhouse"
+slug = "samsara"
+
+[[company]]
+name = "Okta"
+ats = "greenhouse"
+slug = "okta"
+
+[[company]]
+name = "Twilio"
+ats = "greenhouse"
+slug = "twilio"
+
+[[company]]
+name = "Waymo"
+ats = "greenhouse"
+slug = "waymo"
+
+[[company]]
+name = "Nuro"
+ats = "greenhouse"
+slug = "nuro"
+
+[[company]]
+name = "Zoox"
+ats = "lever"
+slug = "zoox"
+
+# ---------- Big tech (search-based boards) ----------
+[[company]]
+name = "NVIDIA"
+ats = "workday"
+host = "nvidia.wd5.myworkdayjobs.com"
+tenant = "nvidia"
+site = "NVIDIAExternalCareerSite"
+
+[[company]]
+name = "Intel"
+ats = "workday"
+host = "intel.wd1.myworkdayjobs.com"
+tenant = "intel"
+site = "External"
+
+[[company]]
+name = "Salesforce"
+ats = "workday"
+host = "salesforce.wd12.myworkdayjobs.com"
+tenant = "salesforce"
+site = "External_Career_Site"
+
+[[company]]
+name = "Adobe"
+ats = "workday"
+host = "adobe.wd5.myworkdayjobs.com"
+tenant = "adobe"
+site = "external_experienced"
+
+[[company]]
+name = "Snap"
+ats = "workday"
+host = "snapchat.wd1.myworkdayjobs.com"
+tenant = "snapchat"
+site = "snap"
+
+[[company]]
+name = "Cisco"
+ats = "workday"
+host = "cisco.wd5.myworkdayjobs.com"
+tenant = "cisco"
+site = "Cisco_Careers"
+
+[[company]]
+name = "HPE"
+ats = "workday"
+host = "hpe.wd5.myworkdayjobs.com"
+tenant = "hpe"
+site = "Jobsathpe"
+
+[[company]]
+name = "PayPal"
+ats = "workday"
+host = "paypal.wd1.myworkdayjobs.com"
+tenant = "paypal"
+site = "jobs"
+
+[[company]]
+name = "Workday"
+ats = "workday"
+host = "workday.wd5.myworkdayjobs.com"
+tenant = "workday"
+site = "Workday"
+
+[[company]]
+name = "Amazon / AWS"
+ats = "amazon"
+state = "California"
+
+[[company]]
+name = "Netflix"
+ats = "eightfold"
+host = "explore.jobs.netflix.net"
+domain = "netflix.com"

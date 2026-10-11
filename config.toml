@@ -1,0 +1,54 @@
+# All patterns are case-insensitive Python regexes.
+
+[title]
+# Keep a role if its title matches ANY of these...
+include = [
+  '\bSRE\b', 'reliability',
+  'infrastructure', '\binfra\b',
+  'platform engineer',
+  '\b(cloud|compute|core|container|kubernetes|developer|internal|data|ML|AI|machine learning|inference|training|GPU|runtime|serving) platform',
+  'inference', 'training', 'serving',
+  '\bML ?ops\b', '\bLLM ?ops\b',
+  '\b(ML|AI|machine learning) systems',
+  '\bGPU', '\bcompute\b', '\bHPC\b', 'supercomput', '\bcluster', 'accelerat',
+  '\bkernels?\b', 'compiler', '\bruntime\b', 'performance (engineer|optimization)',
+  'distributed systems', '\bscaling\b', '\bfleet\b', 'orchestration', 'scheduler',
+  'production engineer', '\bdevops\b', 'kubernetes', 'observability',
+]
+# ...and NONE of these. Delete the manager/director line if you want leadership roles.
+exclude = [
+  '\bmanager\b', '\bmanagement\b', 'director', '\bhead of\b', '\bVP\b', 'vice president',
+  '\bintern(ship)?\b', 'recruit', '\bsales\b', 'account executive', 'marketing',
+  'counsel', '\blegal\b', '\bfinance\b', 'accountant', 'accounting', 'payroll', '\btax\b',
+  'designer', 'technician', 'facilities', 'construction', 'real estate', 'procurement',
+  'supply chain', 'sourcing', 'physical design', 'electrical', 'mechanical', 'thermal',
+  'solutions? (architect|engineer)', 'sales engineer', 'customer success', 'support engineer',
+  'business development', 'partnerships?', '\bpolicy\b', 'communications', 'talent', 'analyst',
+  'data center (operations|technician)', '\bcopywriter\b', '\bwriter\b',
+  # chip / hardware design roles that share words like GPU, accelerator, reliability
+  '\bASIC\b', '\bFPGA\b', '\bRTL\b', '\bSoC\b', 'verification', 'firmware', 'hardware', 'silicon',
+  '\bPDK\b', 'analog', 'layout', 'raytracing', 'graphics', 'wireless', 'quality', 'specialist',
+]
+
+[location]
+include = [
+  'san francisco', '\bSF\b', 'bay area', 'palo alto', 'mountain view', 'sunnyvale',
+  'san jose', 'santa clara', 'menlo park', 'redwood (city|shores)', 'san mateo',
+  'foster city', 'burlingame', 'san carlos', 'san bruno', 'millbrae', 'belmont',
+  'oakland', 'berkeley', 'emeryville', 'alameda', 'fremont', 'milpitas', 'cupertino',
+  'los gatos', 'los altos', 'campbell', 'pleasanton', 'livermore', 'walnut creek',
+  'san ramon', 'hayward', 'newark, ca',
+]
+# Also keep fully remote roles open to US-based candidates.
+remote_us = true
+
+[search]
+# Workday, Amazon, and Eightfold boards are too big to list in full, so they are searched with these terms.
+queries = [
+  'infrastructure', 'reliability', 'platform', 'inference', 'training',
+  'distributed systems', 'GPU', 'kubernetes', 'machine learning systems',
+]
+
+[email]
+# Send an email even on days with no new roles.
+send_when_empty = false
