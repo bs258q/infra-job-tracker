@@ -6,6 +6,7 @@ export type Role = {
   locations: string[]
   regions: string[]
   remote: boolean
+  workplace?: string
   categories: string[]
   level: string
   posted: string | null
@@ -18,12 +19,28 @@ export type Role = {
   postings: number
 }
 
+export type Facets = {
+  categories: string[]
+  regions: string[]
+  levels: string[]
+  workplaces: string[]
+}
+
 export type JobsData = {
   generatedAt: string
   companiesTracked: number
   errors: Record<string, string>
+  facets?: Facets
   roles: Role[]
 }
+
+export type Profile = {
+  id: string
+  name: string
+  description: string
+}
+
+export const NOT_STATED = 'Not stated'
 
 export type HistoryPoint = {
   date: string
@@ -63,6 +80,7 @@ export type Filters = {
   categories: string[]
   levels: string[]
   regions: string[]
+  workplaces: string[]
   companies: string[]
   minSalary: number
   salaryOnly: boolean
@@ -77,6 +95,7 @@ export const DEFAULT_FILTERS: Filters = {
   categories: [],
   levels: [],
   regions: [],
+  workplaces: [],
   companies: [],
   minSalary: 0,
   salaryOnly: false,

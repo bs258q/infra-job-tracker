@@ -49,6 +49,17 @@ export function RoleRow({ role, isNew, status, onStatus }: Props) {
               {extraLocs > 0 && ` +${extraLocs}`}
             </span>
           </span>
+          {(role.workplace === 'Remote' || role.workplace === 'Hybrid') && (
+            <span
+              className={`rounded px-1.5 text-xs font-medium ${
+                role.workplace === 'Remote'
+                  ? 'bg-emerald-50 text-emerald-700 dark:bg-emerald-950/40 dark:text-emerald-400'
+                  : 'bg-amber-50 text-amber-700 dark:bg-amber-950/40 dark:text-amber-400'
+              }`}
+            >
+              {role.workplace}
+            </span>
+          )}
           <span>{role.level}</span>
         </div>
 

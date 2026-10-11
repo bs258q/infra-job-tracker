@@ -1,7 +1,9 @@
-"""Daily tracker for platform / SRE / AI-infra / ML training & inference roles.
+"""Daily job tracker. Each profiles/<id>.toml is a separate search (infra, salesforce, ...).
 
-python tracker.py              fetch, diff against state/seen.json, write dashboard data, email new roles
-python tracker.py --dry-run    fetch and print matches; no state, file, or email changes
+python tracker.py                         infra profile: fetch, diff against state/infra/seen.json,
+                                          write dashboard data, email new roles
+python tracker.py --profile salesforce    same for profiles/salesforce.toml
+python tracker.py --dry-run               fetch and print matches; no state, file, or email changes
 python tracker.py --only "OpenAI,NVIDIA" --dry-run
 """
 
@@ -23,50 +25,85 @@ from pathlib import Path
 
 import ats
 import dashboard
+import usgeo
+from usgeo import is_remote_us
 
 ROOT = Path(__file__).parent
-STATE_FILE = ROOT / "state" / "seen.json"
+PROFILES_DIR = ROOT / "profiles"
 PRUNE_AFTER_DAYS = 45
 
-US_HINT = re.compile(r"\b(US|USA|U\.S\.A?\.?|United States|North America|Americas|Anywhere)\b", re.I)
-REMOTE = re.compile(r"remote", re.I)
-US_ONLY = re.compile(r"^\s*(US|USA|United States( of America)?)\s*$", re.I)
 
-
-def load_toml(name: str) -> dict:
+def load_toml(name: str | Path) -> dict:
     with open(ROOT / name, "rb") as f:
         return tomllib.load(f)
 
 
-def is_remote_us(loc: str) -> bool:
-    if REMOTE.search(loc) and (US_HINT.search(loc) or not re.sub(r"[\W_]|remote", "", loc, flags=re.I)):
-        return True
-    return bool(US_ONLY.match(loc))
+def load_profile(profile_id: str) -> dict:
+    path = PROFILES_DIR / f"{profile_id}.toml"
+    if not path.exists():
+        known = ", ".join(p.stem for p in sorted(PROFILES_DIR.glob("*.toml")))
+        raise SystemExit(f"No profile {profile_id!r}; known profiles: {known}")
+    return load_toml(path)
+
+
+def load_companies(cfg: dict) -> list[dict]:
+    prof = cfg.get("profile", {})
+    skip = {s.lower() for s in prof.get("skip", [])}
+    companies: dict[str, dict] = {}
+    for file in prof.get("companies", ["companies/tech.toml"]):
+        for c in load_toml(file)["company"]:
+            if c["name"].lower() not in skip:
+                companies.setdefault(c["name"].lower(), c)
+    return list(companies.values())
+
+
+def profile_index() -> list[dict]:
+    out = []
+    for path in sorted(PROFILES_DIR.glob("*.toml")):
+        prof = load_toml(path).get("profile", {})
+        out.append({"id": path.stem, "name": prof.get("name", path.stem), "description": prof.get("description", "")})
+    return out
 
 
 def any_re(patterns: list[str]) -> re.Pattern | None:
     return re.compile("|".join(f"(?:{p})" for p in patterns), re.I) if patterns else None
 
 
+def _segments(loc: str) -> list[str]:
+    return [s for s in re.split(r"[;|]", loc) if s.strip()] or [loc]
+
+
 class Filters:
     def __init__(self, cfg: dict):
         self.title_in = any_re(cfg["title"]["include"])
+        self.title_req = any_re(cfg["title"].get("require", []))
         self.title_out = any_re(cfg["title"].get("exclude", []))
-        self.loc_in = any_re(cfg["location"]["include"])
-        self.remote_us = cfg["location"].get("remote_us", True)
+        loc = cfg["location"]
+        self.mode = loc.get("mode", "list")
+        self.loc_in = any_re(loc.get("include", []))
+        self.remote_us = loc.get("remote_us", True)
+        self.workplaces = set(loc.get("workplaces", []))
 
     def title_ok(self, title: str) -> bool:
         if self.title_out and self.title_out.search(title):
             return False
+        if self.title_req and not self.title_req.search(title):
+            return False
         return bool(self.title_in and self.title_in.search(title))
 
     def location_ok(self, loc: str) -> bool:
+        segments = _segments(loc)
+        if self.mode == "us":
+            return any(usgeo.is_us(s) or is_remote_us(s) for s in segments)
         if self.loc_in and self.loc_in.search(loc):
             return True
-        return self.remote_us and is_remote_us(loc)
+        return self.remote_us and any(is_remote_us(s) for s in segments)
+
+    def workplace_ok(self, workplace: str) -> bool:
+        return not self.workplaces or (workplace or "unknown") in self.workplaces
 
     def __call__(self, job: ats.Job) -> bool:
-        return self.title_ok(job.title) and self.location_ok(job.location)
+        return self.title_ok(job.title) and self.location_ok(job.location) and self.workplace_ok(job.workplace)
 
 
 def fetch_all(companies: list[dict], filters: Filters, default_queries: list[str]):
@@ -75,6 +112,8 @@ def fetch_all(companies: list[dict], filters: Filters, default_queries: list[str
         params.setdefault("queries", default_queries)
         try:
             jobs = list(ats.FETCHERS[entry["ats"]](entry["name"], title_ok=filters.title_ok, **params))
+            for j in jobs:
+                j.workplace = j.workplace or ats.workplace_from_text(j.location)
             return entry["name"], jobs, None
         except Exception as e:
             return entry["name"], [], f"{type(e).__name__}: {str(e)[:160]}"
@@ -134,7 +173,7 @@ def render_html(new_jobs: list[ats.Job], errors: dict[str, str], first_run: bool
     if all_roles_url:
         parts.append(f"<p style='margin-top:20px'><a href='{esc(all_roles_url)}'>All open matching roles</a></p>")
     if errors:
-        parts.append("<p style='color:#a00;margin-top:20px'><b>Fetch errors</b> (fix slug in companies.toml):<br>")
+        parts.append("<p style='color:#a00;margin-top:20px'><b>Fetch errors</b> (fix the entry in companies/*.toml):<br>")
         parts.append("<br>".join(f"{esc(c)}: {esc(e)}" for c, e in sorted(errors.items())) + "</p>")
     parts.append("</div>")
     return "\n".join(parts)
@@ -181,6 +220,7 @@ def send_email(subject: str, body_html: str) -> None:
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--profile", default="infra", help="profiles/<name>.toml (default: infra)")
     ap.add_argument("--dry-run", action="store_true", help="print matches only")
     ap.add_argument("--no-email", action="store_true")
     ap.add_argument("--only", help="comma-separated company names")
@@ -191,27 +231,29 @@ def main() -> None:
         send_email("infra-job-tracker test", "<p>Email from infra-job-tracker works.</p>")
         return
 
-    cfg = load_toml("config.toml")
-    companies = load_toml("companies.toml")["company"]
+    cfg = load_profile(args.profile)
+    profile_name = cfg.get("profile", {}).get("name", args.profile)
+    companies = load_companies(cfg)
     if args.only:
         wanted = {n.strip().lower() for n in args.only.split(",")}
         companies = [c for c in companies if c["name"].lower() in wanted]
 
     filters = Filters(cfg)
-    print(f"fetching {len(companies)} companies", file=sys.stderr)
+    print(f"[{args.profile}] fetching {len(companies)} sources", file=sys.stderr)
     matches, errors = fetch_all(companies, filters, cfg["search"]["queries"])
 
     if args.dry_run:
         for company, groups in group_roles(list(matches.values())).items():
             for g in groups:
-                print(f"{company:<20} | {g[0].title[:70]:<70} | {_locations(g)[:60]}")
+                print(f"{company:<20} | {g[0].title[:70]:<70} | {g[0].workplace or '-':<7} | {_locations(g)[:60]}")
         print(f"\n{sum(len(g) for g in group_roles(list(matches.values())).values())} roles, {len(errors)} errors", file=sys.stderr)
         return
 
     today = date.today().isoformat()
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    first_run = not STATE_FILE.exists()
-    seen: dict[str, dict] = {} if first_run else json.loads(STATE_FILE.read_text())
+    state_file = ROOT / "state" / args.profile / "seen.json"
+    first_run = not state_file.exists()
+    seen: dict[str, dict] = {} if first_run else json.loads(state_file.read_text())
 
     new_keys = {k for k in matches if k not in seen}
     for k in matches:
@@ -219,12 +261,14 @@ def main() -> None:
     cutoff = (date.today() - timedelta(days=PRUNE_AFTER_DAYS)).isoformat()
     seen = {k: v for k, v in seen.items() if v.get("last_seen", today) >= cutoff}
 
-    STATE_FILE.parent.mkdir(exist_ok=True)
-    STATE_FILE.write_text(json.dumps(seen, indent=0, sort_keys=True))
-    roles = dashboard.build_roles(list(matches.values()), seen, is_remote_us)
+    state_file.parent.mkdir(parents=True, exist_ok=True)
+    state_file.write_text(json.dumps(seen, indent=0, sort_keys=True))
+    facets = dashboard.Facets(cfg.get("dashboard", {}))
+    roles = dashboard.build_roles(list(matches.values()), seen, is_remote_us, facets)
     # The first run's "new" count is the whole backlog, which would swamp the trends chart.
     new_role_ids = set() if first_run else {r["id"] for r in roles if r["firstSeen"] == now}
-    dashboard.write(roles, new_role_ids, errors, len(companies))
+    dashboard.write(args.profile, roles, new_role_ids, errors, len(companies), facets)
+    dashboard.write_profiles(profile_index())
 
     new_jobs = [matches[k] for k in new_keys]
     new_roles = sum(len(g) for g in group_roles(new_jobs).values())
@@ -233,8 +277,10 @@ def main() -> None:
     if args.no_email or (not new_jobs and not cfg.get("email", {}).get("send_when_empty", False)):
         return
     label = "open" if first_run else "new"
-    subject = f"{new_roles} {label} infra/ML roles · {today}" + (f" · {len(errors)} errors" if errors else "")
-    send_email(subject, render_html(new_jobs, errors, first_run, os.environ.get("DASHBOARD_URL", "")))
+    subject = f"{new_roles} {label} {profile_name} roles · {today}" + (f" · {len(errors)} errors" if errors else "")
+    base_url = os.environ.get("DASHBOARD_URL", "").rstrip("/")
+    roles_url = f"{base_url}/?p={args.profile}" if base_url else ""
+    send_email(subject, render_html(new_jobs, errors, first_run, roles_url))
 
 
 if __name__ == "__main__":

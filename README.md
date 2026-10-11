@@ -1,16 +1,22 @@
 # infra-job-tracker
 
-Tracks Bay Area / US-remote platform, SRE, AI-infra, and ML training & inference roles
-straight from company career boards (Greenhouse, Lever, Ashby, Workday, Amazon, Eightfold).
-Twice a day GitHub Actions fetches roles, emails the new ones, and redeploys a dashboard on Vercel.
+Tracks jobs straight from company career boards (Greenhouse, Lever, Ashby, Workday, Amazon, Eightfold)
+and remote job boards (Himalayas, Remotive). Each search is a profile:
+
+- `infra` — Bay Area / US-remote platform, SRE, AI-infra, and ML training & inference roles.
+- `salesforce` — Salesforce developer, admin, and architect roles anywhere in the US, remote or hybrid.
+
+Twice a day GitHub Actions runs every profile, emails the new roles, and redeploys a dashboard on Vercel.
 
 ## Dashboard (`web/`)
 
-Search and filter by role type, location, level, salary, company, and posted window (24h / 7d / 30d);
-"new since last visit" highlighting; a personal pipeline (saved → applied → interviewing → offer)
-with notes, stored in the browser with export/import; hiring-trend charts.
+Switch between profiles in the header (`?p=salesforce` links straight to one). Search and filter by
+role type, workplace (remote / hybrid), location, level, salary, company, and posted window
+(24h / 7d / 30d); "new since last visit" highlighting; a personal pipeline (saved → applied →
+interviewing → offer) with notes, stored in the browser per profile with export/import; hiring-trend charts.
 
-Local preview: `python tracker.py --no-email` (writes `web/public/data`), then `cd web && npm run dev`.
+Local preview: `python tracker.py --profile salesforce --no-email` (writes `web/public/data/salesforce`),
+then `cd web && npm run dev`.
 
 ## Setup
 
@@ -28,15 +34,18 @@ Local preview: `python tracker.py --no-email` (writes `web/public/data`), then `
    gh secret set VERCEL_PROJECT_ID  --body "$(jq -r .projectId .vercel/project.json)"
    gh variable set DASHBOARD_URL     # e.g. https://infra-roles.vercel.app (linked from emails)
    ```
-3. `gh workflow run job-tracker`
+3. `gh workflow run job-tracker` (add `-f profile=salesforce` to run one profile)
 
 ## Tuning
 
-- `config.toml` — title include/exclude regexes, locations, search terms for big-company boards.
-- `companies.toml` — tracked companies. Find a new company's board with
-  `python discover.py "Company Name"` and paste the printed entry.
-- `dashboard.py` — role-type, level, and area buckets used by the dashboard filters.
-- `python tracker.py --dry-run [--only "OpenAI,NVIDIA"]` — preview matches.
-- `python -m unittest test_filters` — filter and salary-parsing checks.
+- `profiles/<id>.toml` — one per search: title include / require / exclude regexes, locations
+  (a Bay Area list, or `mode = "us"` plus allowed `workplaces`), search terms for big boards,
+  and the dashboard's role-type and region buckets. Add a file to add a search; the workflow
+  and dashboard pick it up.
+- `companies/*.toml` — tracked companies; a profile lists which files it uses. Find a new company's
+  board with `python discover.py "Company Name"` and paste the printed entry.
+- `python tracker.py --profile salesforce --dry-run [--only "Himalayas (remote board)"]` — preview matches.
+- `python -m unittest test_filters` — filter, location, and salary-parsing checks.
 
-Not covered (no public jobs API): Google, Meta, Apple, Microsoft, Tesla, Uber.
+Not covered (no public jobs API): Google, Meta, Apple, Microsoft, Tesla, Uber, and most large
+consultancies (Accenture, Deloitte), though their remote Salesforce roles often show up via Himalayas.

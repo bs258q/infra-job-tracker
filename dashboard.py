@@ -1,4 +1,4 @@
-"""Builds the JSON the web dashboard reads (web/public/data)."""
+"""Builds the JSON the web dashboard reads (web/public/data/<profile>/)."""
 
 from __future__ import annotations
 
@@ -10,33 +10,19 @@ from pathlib import Path
 from typing import Callable
 
 import ats
+import usgeo
 
-DATA_DIR = Path(__file__).parent / "web" / "public" / "data"
+DATA_ROOT = Path(__file__).parent / "web" / "public" / "data"
 HISTORY_DAYS = 180
-
-CATEGORIES = [
-    ("Inference & Serving", r"inference|serving|model deployment"),
-    ("Training", r"training|pre-?train|post-?train|\bRL\b|reinforcement"),
-    ("GPU & Compute", r"\bGPU|compute|\bHPC\b|supercomput|cluster|accelerat|kernel|CUDA|compiler|\bfleet\b"),
-    ("SRE & Reliability", r"\bSRE\b|reliability|production engineer|observability"),
-    ("Platform & DevOps", r"platform|devops|kubernetes|container|orchestration|scheduler|\bruntime\b"),
-    ("ML Systems", r"\b(ML|AI|machine learning|LLM) ?(infra|systems|ops|platform)|\bMLOps\b"),
-    ("Distributed Systems", r"distributed systems|\bscaling\b|storage"),
-]
-FALLBACK_CATEGORY = "Infrastructure"
-
-REGIONS = [
-    ("San Francisco", r"san francisco|\bSF\b"),
-    ("Peninsula", r"palo alto|menlo park|redwood (city|shores)|san mateo|foster city|burlingame|san carlos|san bruno|millbrae|belmont|mountain view|los altos"),
-    ("South Bay", r"sunnyvale|san jose|santa clara|cupertino|milpitas|campbell|los gatos"),
-    ("East Bay", r"oakland|berkeley|emeryville|alameda|fremont|pleasanton|livermore|walnut creek|san ramon|hayward|newark, ca"),
-    ("Bay Area", r"bay area"),
-]
+REMOTE_REGION = "Remote (US)"
+LEVELS = ["Principal+", "Staff", "Senior", "MTS", "Mid / Other"]
+WORKPLACES = [("remote", "Remote"), ("hybrid", "Hybrid"), ("onsite", "On-site"), ("unknown", "Not stated")]
 
 
-def _level(title: str) -> str:
+def _level(title: str, architect_is_level: bool = True) -> str:
     t = re.sub(r"member of (the )?technical staff", "", title, flags=re.I)
-    if re.search(r"principal|distinguished|fellow|\barchitect\b", t, re.I):
+    principal = r"principal|distinguished|fellow" + (r"|\barchitect\b" if architect_is_level else "")
+    if re.search(principal, t, re.I):
         return "Principal+"
     if re.search(r"\bstaff\b", t, re.I):
         return "Staff"
@@ -72,10 +58,53 @@ def _role_id(company: str, title: str) -> str:
     return hashlib.sha1(f"{company}|{title}".lower().encode()).hexdigest()[:12]
 
 
+class Facets:
+    """Category / region rules from a profile's [dashboard] section."""
+
+    def __init__(self, cfg: dict):
+        self.fallback = cfg.get("fallback", "Other")
+        self.categories = [(c["name"], re.compile(c["pattern"], re.I)) for c in cfg.get("categories", [])]
+        self.regions = [(r["name"], re.compile(r["pattern"], re.I) if "pattern" in r else set(r["states"])) for r in cfg.get("regions", [])]
+        self.architect_is_level = cfg.get("architect_is_level", True)
+
+    def categories_for(self, title: str) -> list[str]:
+        return [name for name, pat in self.categories if pat.search(title)] or [self.fallback]
+
+    def regions_for(self, text: str) -> list[str]:
+        found_states = None
+        out = []
+        for name, rule in self.regions:
+            if isinstance(rule, set):
+                if found_states is None:
+                    found_states = usgeo.states(text)
+                if rule & found_states:
+                    out.append(name)
+            elif rule.search(text):
+                out.append(name)
+        return out
+
+    def order(self) -> dict[str, list[str]]:
+        return {
+            "categories": [n for n, _ in self.categories] + [self.fallback],
+            "regions": [n for n, _ in self.regions] + [REMOTE_REGION],
+            "levels": LEVELS,
+            "workplaces": [label for _, label in WORKPLACES],
+        }
+
+
+def _workplace(jobs: list[ats.Job], remote: bool) -> str:
+    kinds = {j.workplace for j in jobs}
+    for kind, label in WORKPLACES:
+        if kind in kinds or (kind == "remote" and remote):
+            return label
+    return "Not stated"
+
+
 def build_roles(
     matches: list[ats.Job],
     seen: dict[str, dict],
     is_remote_us: Callable[[str], bool],
+    facets: Facets,
 ) -> list[dict]:
     groups: dict[str, list[ats.Job]] = {}
     for j in matches:
@@ -86,14 +115,12 @@ def build_roles(
     for rid, jobs in groups.items():
         first = jobs[0]
         locs = list(dict.fromkeys(l.strip() for j in jobs for l in re.split(r"[;|]", j.location) if l.strip()))
-        locs.sort(key=lambda l: not any(re.search(p, l, re.I) for _, p in REGIONS))
+        locs.sort(key=lambda l: not facets.regions_for(l))
         loc_text = "; ".join(locs)
-        regions = [name for name, pat in REGIONS if re.search(pat, loc_text, re.I)]
-        remote = any(is_remote_us(l) for l in locs) or is_remote_us(loc_text)
+        regions = facets.regions_for(loc_text)
+        remote = any(j.workplace == "remote" for j in jobs) or any(is_remote_us(l) for l in locs)
         if remote:
-            regions.append("Remote (US)")
-
-        cats = [name for name, pat in CATEGORIES if re.search(pat, first.title, re.I)] or [FALLBACK_CATEGORY]
+            regions.append(REMOTE_REGION)
 
         posted_iso = [j.posted for j in jobs if re.fullmatch(r"\d{4}-\d{2}-\d{2}", j.posted)]
         posted_approx = False
@@ -107,20 +134,21 @@ def build_roles(
         salary_text = next((j.salary for j in jobs if j.salary), "")
         lo, hi = parse_salary(salary_text)
 
-        # Prefer a Bay Area posting's link when one title is posted per location.
-        bay = next((j for j in jobs if any(re.search(p, j.location, re.I) for _, p in REGIONS)), first)
+        # Prefer the link of a posting in a listed region when one title is posted per location.
+        preferred = next((j for j in jobs if facets.regions_for(j.location)), first)
 
         roles.append(
             {
                 "id": rid,
                 "company": first.company,
                 "title": first.title,
-                "url": bay.url,
+                "url": preferred.url,
                 "locations": locs,
                 "regions": regions,
                 "remote": remote,
-                "categories": cats,
-                "level": _level(first.title),
+                "workplace": _workplace(jobs, remote),
+                "categories": facets.categories_for(first.title),
+                "level": _level(first.title, facets.architect_is_level),
                 "posted": posted,
                 "postedApprox": posted_approx,
                 "firstSeen": min(seen[j.key]["first_seen"] for j in jobs),
@@ -135,13 +163,21 @@ def build_roles(
     return roles
 
 
-def write(roles: list[dict], new_ids: set[str], errors: dict[str, str], company_count: int) -> None:
-    DATA_DIR.mkdir(parents=True, exist_ok=True)
+def write(
+    profile_id: str,
+    roles: list[dict],
+    new_ids: set[str],
+    errors: dict[str, str],
+    company_count: int,
+    facets: Facets,
+) -> None:
+    data_dir = DATA_ROOT / profile_id
+    data_dir.mkdir(parents=True, exist_ok=True)
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    meta = {"generatedAt": now, "companiesTracked": company_count, "errors": errors}
-    (DATA_DIR / "jobs.json").write_text(json.dumps({**meta, "roles": roles}, separators=(",", ":")))
+    meta = {"generatedAt": now, "companiesTracked": company_count, "errors": errors, "facets": facets.order()}
+    (data_dir / "jobs.json").write_text(json.dumps({**meta, "roles": roles}, separators=(",", ":")))
 
-    hist_file = DATA_DIR / "history.json"
+    hist_file = data_dir / "history.json"
     history = json.loads(hist_file.read_text()) if hist_file.exists() else []
     today = date.today().isoformat()
     by_company: dict[str, int] = {}
@@ -164,3 +200,8 @@ def write(roles: list[dict], new_ids: set[str], errors: dict[str, str], company_
     cutoff = (date.today() - timedelta(days=HISTORY_DAYS)).isoformat()
     history = sorted((h for h in history if h["date"] >= cutoff), key=lambda h: h["date"])
     hist_file.write_text(json.dumps(history, separators=(",", ":")))
+
+
+def write_profiles(profiles: list[dict]) -> None:
+    DATA_ROOT.mkdir(parents=True, exist_ok=True)
+    (DATA_ROOT / "profiles.json").write_text(json.dumps(profiles, indent=1))

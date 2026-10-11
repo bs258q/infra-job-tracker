@@ -2,7 +2,7 @@
 # Workday: copy host / tenant / site from the careers URL,
 #   e.g. https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite
 #        host = nvidia.wd5.myworkdayjobs.com, tenant = nvidia, site = NVIDIAExternalCareerSite
-# Workday / Amazon / Eightfold entries use [search].queries from config.toml unless they set `queries`.
+# Workday / Amazon / Eightfold entries use the profile's [search].queries unless they set `queries`.
 
 # ---------- Frontier & model labs ----------
 [[company]]

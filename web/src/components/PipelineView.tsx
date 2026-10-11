@@ -10,9 +10,10 @@ type Props = {
   tracked: Record<string, Tracked>
   setTracked: (t: Record<string, Tracked>) => void
   liveIds: Set<string>
+  exportPrefix: string
 }
 
-export function PipelineView({ tracked, setTracked, liveIds }: Props) {
+export function PipelineView({ tracked, setTracked, liveIds, exportPrefix }: Props) {
   const fileRef = useRef<HTMLInputElement>(null)
   const entries = Object.entries(tracked)
 
@@ -27,7 +28,7 @@ export function PipelineView({ tracked, setTracked, liveIds }: Props) {
     const blob = new Blob([JSON.stringify(tracked, null, 2)], { type: 'application/json' })
     const a = document.createElement('a')
     a.href = URL.createObjectURL(blob)
-    a.download = `infra-roles-pipeline-${new Date().toISOString().slice(0, 10)}.json`
+    a.download = `${exportPrefix}-pipeline-${new Date().toISOString().slice(0, 10)}.json`
     a.click()
     URL.revokeObjectURL(a.href)
   }

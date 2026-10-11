@@ -4,7 +4,9 @@ from pathlib import Path
 
 from tracker import Filters
 
-CFG = tomllib.loads((Path(__file__).parent / "config.toml").read_text())
+PROFILES = Path(__file__).parent / "profiles"
+CFG = tomllib.loads((PROFILES / "infra.toml").read_text())
+SF_CFG = tomllib.loads((PROFILES / "salesforce.toml").read_text())
 
 
 class TitleTests(unittest.TestCase):
@@ -57,6 +59,73 @@ class LocationTests(unittest.TestCase):
     def test_rejects_elsewhere(self):
         for loc in ["New York, NY", "Seattle, Washington, USA", "London, UK (Remote)", "Remote - Canada", "Bengaluru, India"]:
             self.assertFalse(self.f.location_ok(loc), loc)
+
+
+class SalesforceTests(unittest.TestCase):
+    f = Filters(SF_CFG)
+
+    def test_keeps_salesforce_roles(self):
+        for t in [
+            "Salesforce Developer",
+            "Senior Salesforce Administrator",
+            "Salesforce Technical Architect",
+            "Sr. SFDC Engineer",
+            "Lead Apex / LWC Developer",
+            "Marketing Cloud Developer",
+            "Salesforce CPQ Solution Architect",
+            "Business Systems Engineer, Salesforce",
+            "Salesforce Admin (Service Cloud)",
+        ]:
+            self.assertTrue(self.f.title_ok(t), t)
+
+    def test_drops_non_platform_roles(self):
+        for t in [
+            "Account Executive, Salesforce Practice",
+            "Software Engineer, Backend",
+            "Salesforce QA Tester",
+            "Salesforce Business Analyst",
+            "Sales Development Representative",
+            "Salesforce Developer Intern",
+            "Senior Solutions Engineer, Salesforce Industries",
+        ]:
+            self.assertFalse(self.f.title_ok(t), t)
+
+    def test_us_locations(self):
+        for loc in [
+            "Austin, TX", "Remote", "Remote - US", "Chicago", "US-NY-New York",
+            "Toronto, ON; Atlanta, Georgia", "Albuquerque, New Mexico", "Remote, Texas",
+            "Remote (United States, Canada)",
+        ]:
+            self.assertTrue(self.f.location_ok(loc), loc)
+        for loc in ["Toronto, ON", "London, UK", "Remote - Canada", "Hyderabad, India", "Mexico City"]:
+            self.assertFalse(self.f.location_ok(loc), loc)
+
+    def test_workplaces(self):
+        self.assertTrue(self.f.workplace_ok("remote"))
+        self.assertTrue(self.f.workplace_ok("hybrid"))
+        self.assertTrue(self.f.workplace_ok(""))
+        self.assertFalse(self.f.workplace_ok("onsite"))
+
+    def test_workplace_from_text(self):
+        from ats import workplace_from_text
+
+        self.assertEqual(workplace_from_text("Remote - US"), "remote")
+        self.assertEqual(workplace_from_text("Austin, TX", "<p>This is a hybrid role, 3 days a week in the office.</p>"), "hybrid")
+        self.assertEqual(workplace_from_text("Austin, TX", "We build hybrid cloud infrastructure."), "")
+        self.assertEqual(workplace_from_text("Austin, TX", "This role is fully remote."), "remote")
+        self.assertEqual(workplace_from_text("Austin, TX", "This is a hybrid technical and commercial role."), "")
+        self.assertEqual(workplace_from_text("Austin, TX", "Location-based hybrid policy: in office 25% of the time"), "hybrid")
+        self.assertEqual(workplace_from_text("Austin, TX", "This role is expected to be in office 5 days per week"), "onsite")
+
+
+class GeoTests(unittest.TestCase):
+    def test_states(self):
+        from usgeo import states
+
+        self.assertEqual(states("San Jose, CA"), {"CA"})
+        self.assertEqual(states("Washington, DC"), {"DC"})
+        self.assertEqual(states("Remote or Hybrid in Ohio"), {"OH"})
+        self.assertEqual(states("Work in office"), set())
 
 
 class SalaryTests(unittest.TestCase):

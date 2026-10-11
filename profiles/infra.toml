@@ -1,5 +1,10 @@
 # All patterns are case-insensitive Python regexes.
 
+[profile]
+name = "Infra / ML"
+description = "Bay Area + US remote"
+companies = ["companies/tech.toml"]
+
 [title]
 # Keep a role if its title matches ANY of these...
 include = [
@@ -52,3 +57,24 @@ queries = [
 [email]
 # Send an email even on days with no new roles.
 send_when_empty = false
+
+[dashboard]
+# A role gets every category whose pattern matches its title; unmatched roles get `fallback`.
+fallback = "Infrastructure"
+categories = [
+  { name = "Inference & Serving", pattern = 'inference|serving|model deployment' },
+  { name = "Training", pattern = 'training|pre-?train|post-?train|\bRL\b|reinforcement' },
+  { name = "GPU & Compute", pattern = '\bGPU|compute|\bHPC\b|supercomput|cluster|accelerat|kernel|CUDA|compiler|\bfleet\b' },
+  { name = "SRE & Reliability", pattern = '\bSRE\b|reliability|production engineer|observability' },
+  { name = "Platform & DevOps", pattern = 'platform|devops|kubernetes|container|orchestration|scheduler|\bruntime\b' },
+  { name = "ML Systems", pattern = '\b(ML|AI|machine learning|LLM) ?(infra|systems|ops|platform)|\bMLOps\b' },
+  { name = "Distributed Systems", pattern = 'distributed systems|\bscaling\b|storage' },
+]
+# Location facets; postings in these regions are listed first.
+regions = [
+  { name = "San Francisco", pattern = 'san francisco|\bSF\b' },
+  { name = "Peninsula", pattern = 'palo alto|menlo park|redwood (city|shores)|san mateo|foster city|burlingame|san carlos|san bruno|millbrae|belmont|mountain view|los altos' },
+  { name = "South Bay", pattern = 'sunnyvale|san jose|santa clara|cupertino|milpitas|campbell|los gatos' },
+  { name = "East Bay", pattern = 'oakland|berkeley|emeryville|alameda|fremont|pleasanton|livermore|walnut creek|san ramon|hayward|newark, ca' },
+  { name = "Bay Area", pattern = 'bay area' },
+]

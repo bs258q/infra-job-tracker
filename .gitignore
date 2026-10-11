@@ -7,4 +7,4 @@ web/dist/
 web/.vercel/
 .vercel/
 # Regenerated on every run and shipped straight to Vercel; only history is kept in git.
-web/public/data/jobs.json
+web/public/data/*/jobs.json

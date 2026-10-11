@@ -1,7 +1,7 @@
 import { Search, SlidersHorizontal, Sparkles, X } from 'lucide-react'
 import { useMemo, useState } from 'react'
 import { applyFilters } from '../lib/filter'
-import type { Filters, PostedWindow, Role, SortKey, Status, Tracked } from '../types'
+import type { Facets, Filters, PostedWindow, Role, SortKey, Status, Tracked } from '../types'
 import { FilterPanel } from './FilterPanel'
 import { RoleRow } from './RoleRow'
 
@@ -15,6 +15,8 @@ const WINDOWS: [PostedWindow, string][] = [
 
 type Props = {
   roles: Role[]
+  facets: Facets
+  searchHint: string
   filters: Filters
   setFilters: (f: Filters) => void
   tracked: Record<string, Tracked>
@@ -23,7 +25,7 @@ type Props = {
   markAllSeen: () => void
 }
 
-export function RolesView({ roles, filters, setFilters, tracked, setStatus, newCutoff, markAllSeen }: Props) {
+export function RolesView({ roles, facets, searchHint, filters, setFilters, tracked, setStatus, newCutoff, markAllSeen }: Props) {
   const [limit, setLimit] = useState(PAGE)
   const [showFilters, setShowFilters] = useState(false)
 
@@ -43,7 +45,7 @@ export function RolesView({ roles, filters, setFilters, tracked, setStatus, newC
         <button onClick={() => setShowFilters(false)} className="mb-4 flex items-center gap-1 text-sm lg:hidden">
           <X className="size-4" /> Close
         </button>
-        <FilterPanel roles={roles} filters={filters} setFilters={update} tracked={tracked} />
+        <FilterPanel roles={roles} facets={facets} filters={filters} setFilters={update} tracked={tracked} />
       </aside>
 
       <section className="min-w-0 flex-1">
@@ -53,7 +55,7 @@ export function RolesView({ roles, filters, setFilters, tracked, setStatus, newC
             <input
               value={filters.q}
               onChange={(e) => update({ ...filters, q: e.target.value })}
-              placeholder="Search title, company, or location — e.g. inference kubernetes"
+              placeholder={`Search title, company, or location — e.g. ${searchHint}`}
               className="w-full rounded-lg border border-zinc-300 bg-white py-2 pr-3 pl-9 text-sm shadow-sm outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 dark:border-zinc-700 dark:bg-zinc-900"
             />
           </div>

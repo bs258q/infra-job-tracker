@@ -1,37 +1,29 @@
 import { useMemo, useState } from 'react'
 import { countBy } from '../lib/filter'
-import { DEFAULT_FILTERS, STATUSES, STATUS_LABEL, type Filters, type Role, type Tracked } from '../types'
+import { DEFAULT_FILTERS, NOT_STATED, STATUSES, STATUS_LABEL, type Facets, type Filters, type Role, type Tracked } from '../types'
 
-const CATEGORY_ORDER = [
-  'Inference & Serving',
-  'Training',
-  'GPU & Compute',
-  'ML Systems',
-  'SRE & Reliability',
-  'Platform & DevOps',
-  'Distributed Systems',
-  'Infrastructure',
-]
-const REGION_ORDER = ['San Francisco', 'Peninsula', 'South Bay', 'East Bay', 'Bay Area', 'Remote (US)']
-const LEVEL_ORDER = ['Principal+', 'Staff', 'Senior', 'MTS', 'Mid / Other']
-const SALARY_STEPS = [0, 150_000, 200_000, 250_000, 300_000, 400_000]
+const SALARY_STEPS = [0, 100_000, 150_000, 200_000, 250_000, 300_000, 400_000]
 
 type Props = {
   roles: Role[]
+  facets: Facets
   filters: Filters
   setFilters: (f: Filters) => void
   tracked: Record<string, Tracked>
 }
 
-export function FilterPanel({ roles, filters, setFilters, tracked }: Props) {
+type ListKey = 'categories' | 'levels' | 'regions' | 'workplaces' | 'companies'
+
+export function FilterPanel({ roles, facets, filters, setFilters, tracked }: Props) {
   const set = <K extends keyof Filters>(k: K, v: Filters[K]) => setFilters({ ...filters, [k]: v })
-  const toggle = (k: 'categories' | 'levels' | 'regions' | 'companies', v: string) => {
+  const toggle = (k: ListKey, v: string) => {
     const cur = filters[k]
     set(k, cur.includes(v) ? cur.filter((x) => x !== v) : [...cur, v])
   }
 
   const categoryCounts = useMemo(() => countBy(roles, (r) => r.categories), [roles])
   const regionCounts = useMemo(() => countBy(roles, (r) => r.regions), [roles])
+  const workplaceCounts = useMemo(() => countBy(roles, (r) => [r.workplace ?? NOT_STATED]), [roles])
   const levelCounts = useMemo(() => countBy(roles, (r) => [r.level]), [roles])
   const companyCounts = useMemo(() => countBy(roles, (r) => [r.company]), [roles])
   const statusCounts = useMemo(() => {
@@ -78,23 +70,10 @@ export function FilterPanel({ roles, filters, setFilters, tracked }: Props) {
         </select>
       </Section>
 
-      <Section title="Role type">
-        {CATEGORY_ORDER.filter((c) => categoryCounts.has(c)).map((c) => (
-          <Check key={c} label={c} count={categoryCounts.get(c)} checked={filters.categories.includes(c)} onChange={() => toggle('categories', c)} />
-        ))}
-      </Section>
-
-      <Section title="Location">
-        {REGION_ORDER.filter((r) => regionCounts.has(r)).map((r) => (
-          <Check key={r} label={r} count={regionCounts.get(r)} checked={filters.regions.includes(r)} onChange={() => toggle('regions', r)} />
-        ))}
-      </Section>
-
-      <Section title="Level">
-        {LEVEL_ORDER.filter((l) => levelCounts.has(l)).map((l) => (
-          <Check key={l} label={l} count={levelCounts.get(l)} checked={filters.levels.includes(l)} onChange={() => toggle('levels', l)} />
-        ))}
-      </Section>
+      <FacetSection title="Role type" order={facets.categories} counts={categoryCounts} selected={filters.categories} onToggle={(v) => toggle('categories', v)} />
+      <FacetSection title="Workplace" order={facets.workplaces} counts={workplaceCounts} selected={filters.workplaces} onToggle={(v) => toggle('workplaces', v)} />
+      <FacetSection title="Location" order={facets.regions} counts={regionCounts} selected={filters.regions} onToggle={(v) => toggle('regions', v)} />
+      <FacetSection title="Level" order={facets.levels} counts={levelCounts} selected={filters.levels} onToggle={(v) => toggle('levels', v)} />
 
       <Section title="Salary">
         <select
@@ -125,6 +104,31 @@ export function FilterPanel({ roles, filters, setFilters, tracked }: Props) {
         </div>
       </Section>
     </div>
+  )
+}
+
+function FacetSection({
+  title,
+  order,
+  counts,
+  selected,
+  onToggle,
+}: {
+  title: string
+  order: string[]
+  counts: Map<string, number>
+  selected: string[]
+  onToggle: (v: string) => void
+}) {
+  // Values missing from `order` (e.g. older data) still show, after the ordered ones.
+  const values = [...order, ...[...counts.keys()].filter((k) => !order.includes(k)).sort()].filter((v) => counts.has(v))
+  if (values.length < 2 && !selected.length) return null
+  return (
+    <Section title={title}>
+      {values.map((v) => (
+        <Check key={v} label={v} count={counts.get(v)} checked={selected.includes(v)} onChange={() => onToggle(v)} />
+      ))}
+    </Section>
   )
 }
 

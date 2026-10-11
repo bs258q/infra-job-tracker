@@ -1,0 +1,68 @@
+# All patterns are case-insensitive Python regexes.
+
+[profile]
+name = "Salesforce"
+description = "Developer · Admin · Architect — US remote + hybrid"
+companies = ["companies/tech.toml", "companies/salesforce.toml"]
+# Fetchers that can't search nationwide for these roles.
+skip = ["Amazon / AWS", "Netflix"]
+
+[title]
+# A title must match one of `include` (the Salesforce platform)...
+include = [
+  'salesforce', '\bSFDC\b', '\bapex\b', '\bLWC\b', 'lightning (web|platform|experience)',
+  '\bCPQ\b', 'agentforce', 'mulesoft', 'pardot', 'vlocity', 'omnistudio', 'veeva crm',
+  '\b(marketing|service|sales|experience|commerce|data|revenue|health|financial services|nonprofit|education|field service) cloud',
+]
+# ...and one of `require` (the kind of role)...
+require = [
+  'develop', 'engineer', '\badmin', 'architect', 'programmer', '\blead\b', '\bCTA\b',
+  'technical (consultant|specialist)',
+]
+# ...and none of these.
+exclude = [
+  '\bintern(ship)?\b', 'recruit', 'account executive', 'account manager', 'sales manager',
+  'sales development', 'business development', '\b(SDR|BDR)\b', 'customer success',
+  '\bQA\b', 'quality assurance', '\btest(ing|er)?\b', 'solutions? engineer', 'sales engineer',
+  'support engineer', 'director', '\bhead of\b', '\bVP\b', 'vice president',
+  'product manager', 'program manager', 'marketing (manager|lead)', 'product marketing',
+  '\bSAP\b', 'hybris',
+]
+
+[location]
+# Anywhere in the US (or remote open to US candidates)...
+mode = "us"
+# ...and only these workplace types. "unknown" = the posting doesn't say; drop it to keep only explicit ones.
+workplaces = ["remote", "hybrid", "unknown"]
+
+[search]
+# Workday, Himalayas, etc. are searched with these terms.
+queries = ['salesforce developer', 'salesforce administrator', 'salesforce architect', 'salesforce engineer']
+
+[email]
+send_when_empty = false
+
+[dashboard]
+fallback = "Salesforce (other)"
+# Level patterns otherwise treat "architect" as Principal+.
+architect_is_level = false
+categories = [
+  { name = "Architect", pattern = 'architect|\bCTA\b' },
+  { name = "Developer", pattern = 'develop|engineer|programmer|\bapex\b|\bLWC\b' },
+  { name = "Admin", pattern = '\badmin' },
+  { name = "CPQ & Revenue Cloud", pattern = '\bCPQ\b|revenue cloud|billing' },
+  { name = "Marketing Cloud", pattern = 'marketing cloud|pardot|account engagement' },
+  { name = "Service & Field Service", pattern = 'service cloud|field service' },
+  { name = "Data Cloud & Integration", pattern = 'data cloud|mulesoft|integration' },
+  { name = "Commerce & Experience Cloud", pattern = 'commerce cloud|experience cloud|community cloud' },
+  { name = "Agentforce & AI", pattern = 'agentforce|einstein|\bAI\b' },
+]
+# US regions by state code.
+regions = [
+  { name = "West Coast", states = ["CA", "OR", "WA", "AK", "HI"] },
+  { name = "Mountain & Southwest", states = ["AZ", "NM", "NV", "UT", "CO", "ID", "MT", "WY"] },
+  { name = "Midwest", states = ["IL", "IN", "IA", "KS", "MI", "MN", "MO", "NE", "ND", "OH", "SD", "WI"] },
+  { name = "South", states = ["TX", "OK", "AR", "LA", "MS", "AL", "TN", "KY", "GA", "FL", "SC", "NC"] },
+  { name = "Mid-Atlantic & DC", states = ["VA", "WV", "MD", "DE", "DC", "PA", "NJ"] },
+  { name = "Northeast", states = ["NY", "CT", "MA", "RI", "VT", "NH", "ME"] },
+]

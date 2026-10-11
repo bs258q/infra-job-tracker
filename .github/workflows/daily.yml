@@ -11,6 +11,10 @@ on:
         type: choice
         options: [full, dry-run, test-email]
         default: full
+      profile:
+        description: "Profile to run (a profiles/*.toml name), or 'all'"
+        type: string
+        default: all
 
 permissions:
   contents: write
@@ -20,9 +24,10 @@ concurrency: job-tracker
 jobs:
   track:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 40
     env:
       MODE: ${{ inputs.mode || 'full' }}
+      PROFILE: ${{ inputs.profile || 'all' }}
       SMTP_USER: ${{ secrets.SMTP_USER }}
       SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
       EMAIL_TO: ${{ secrets.EMAIL_TO }}
@@ -37,27 +42,46 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Pick profiles
+        run: |
+          if [ "$PROFILE" = all ]; then
+            echo "PROFILES=$(ls profiles/*.toml | xargs -n1 basename | sed 's/\.toml$//' | xargs)" >> "$GITHUB_ENV"
+          else
+            echo "PROFILES=$PROFILE" >> "$GITHUB_ENV"
+          fi
+
       - name: Preview matches
         if: env.MODE == 'dry-run'
-        run: python tracker.py --dry-run
+        run: |
+          for p in $PROFILES; do
+            echo "::group::$p"; python tracker.py --profile "$p" --dry-run; echo "::endgroup::"
+          done
 
       - name: Send test email
         if: env.MODE == 'test-email'
         run: python tracker.py --test-email
 
-      # An email failure shouldn't stop the dashboard from updating; the last step re-raises it.
+      # One profile failing (or an email failure) shouldn't stop the others or the dashboard
+      # from updating; the last step re-raises it.
       - name: Fetch roles and email new ones
         id: track
         if: env.MODE == 'full'
         continue-on-error: true
-        run: python tracker.py
+        run: |
+          status=0
+          for p in $PROFILES; do
+            echo "::group::$p"
+            python tracker.py --profile "$p" || { status=1; echo "::error::profile $p failed"; }
+            echo "::endgroup::"
+          done
+          exit $status
 
       - name: Save seen jobs and history
-        if: env.MODE == 'full' && hashFiles('state/seen.json') != ''
+        if: env.MODE == 'full' && hashFiles('state/*/seen.json') != ''
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
-          git add state/seen.json web/public/data/history.json
+          git add state web/public/data/*/history.json web/public/data/profiles.json
           git diff --cached --quiet || git commit -m "Job snapshot $(date -u +%F-%H%M)"
           git push
 
@@ -68,8 +92,20 @@ jobs:
           cache: npm
           cache-dependency-path: web/package-lock.json
 
+      # Profiles not run this time (manual single-profile runs) have no jobs.json; regenerate them
+      # without email so the deploy doesn't drop their data.
+      - name: Fill in other profiles
+        if: env.MODE == 'full' && env.PROFILE != 'all' && env.VERCEL_TOKEN != ''
+        run: |
+          for f in profiles/*.toml; do
+            p=$(basename "$f" .toml)
+            [ -f "web/public/data/$p/jobs.json" ] || python tracker.py --profile "$p" --no-email || true
+          done
+          git add state web/public/data/*/history.json web/public/data/profiles.json
+          git diff --cached --quiet || { git commit -m "Job snapshot $(date -u +%F-%H%M)" && git push; }
+
       - name: Deploy dashboard
-        if: env.MODE == 'full' && env.VERCEL_TOKEN != '' && hashFiles('web/public/data/jobs.json') != ''
+        if: env.MODE == 'full' && env.VERCEL_TOKEN != '' && hashFiles('web/public/data/*/jobs.json') != ''
         working-directory: web
         run: |
           npm ci
@@ -80,5 +116,5 @@ jobs:
       - name: Report tracker failure
         if: steps.track.outcome == 'failure'
         run: |
-          echo "::error::tracker.py failed (see 'Fetch roles and email new ones'). Dashboard data was still saved/deployed if it was generated."
+          echo "::error::tracker.py failed for at least one profile (see 'Fetch roles and email new ones'). Dashboard data was still saved/deployed if it was generated."
           exit 1

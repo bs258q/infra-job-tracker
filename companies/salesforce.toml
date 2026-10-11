@@ -1,0 +1,237 @@
+# Salesforce-ecosystem employers, added on top of companies/tech.toml for the salesforce profile.
+# Same format as tech.toml; `python discover.py "Company"` finds Greenhouse / Lever / Ashby slugs.
+
+# ---------- Remote job boards (jobs carry their own employer name) ----------
+[[company]]
+name = "Himalayas (remote board)"
+ats = "himalayas"
+country = "US"
+queries = ["salesforce developer", "salesforce administrator", "salesforce architect"]
+
+[[company]]
+name = "Remotive (remote board)"
+ats = "remotive"
+queries = ["salesforce"]
+
+# ---------- Salesforce partners & ISVs ----------
+[[company]]
+name = "Conga"
+ats = "greenhouse"
+slug = "conga"
+
+[[company]]
+name = "nCino"
+ats = "greenhouse"
+slug = "ncinoinc"
+
+[[company]]
+name = "NeuraFlash"
+ats = "greenhouse"
+slug = "neuraflash"
+
+[[company]]
+name = "Sercante"
+ats = "greenhouse"
+slug = "sercante"
+
+[[company]]
+name = "Spaulding Ridge"
+ats = "greenhouse"
+slug = "spauldingridge"
+
+[[company]]
+name = "Gearset"
+ats = "ashby"
+slug = "gearset"
+
+[[company]]
+name = "Odaseva"
+ats = "lever"
+slug = "odaseva"
+
+[[company]]
+name = "Veeva"
+ats = "lever"
+slug = "veeva"
+
+# ---------- SaaS companies that run on Salesforce ----------
+[[company]]
+name = "6sense"
+ats = "greenhouse"
+slug = "6sense"
+
+[[company]]
+name = "Affirm"
+ats = "greenhouse"
+slug = "affirm"
+
+[[company]]
+name = "Airtable"
+ats = "greenhouse"
+slug = "airtable"
+
+[[company]]
+name = "Asana"
+ats = "greenhouse"
+slug = "asana"
+
+[[company]]
+name = "Box"
+ats = "greenhouse"
+slug = "boxinc"
+
+[[company]]
+name = "Carta"
+ats = "greenhouse"
+slug = "carta"
+
+[[company]]
+name = "Chime"
+ats = "greenhouse"
+slug = "chime"
+
+[[company]]
+name = "Coursera"
+ats = "greenhouse"
+slug = "coursera"
+
+[[company]]
+name = "Druva"
+ats = "greenhouse"
+slug = "druva"
+
+[[company]]
+name = "Duolingo"
+ats = "greenhouse"
+slug = "duolingo"
+
+[[company]]
+name = "Elastic"
+ats = "greenhouse"
+slug = "elastic"
+
+[[company]]
+name = "Gusto"
+ats = "greenhouse"
+slug = "gusto"
+
+[[company]]
+name = "Klaviyo"
+ats = "greenhouse"
+slug = "klaviyo"
+
+[[company]]
+name = "Miro"
+ats = "ashby"
+slug = "miro"
+
+[[company]]
+name = "Netskope"
+ats = "greenhouse"
+slug = "netskope"
+
+[[company]]
+name = "New Relic"
+ats = "greenhouse"
+slug = "newrelic"
+
+[[company]]
+name = "Okta"
+ats = "greenhouse"
+slug = "okta"
+
+[[company]]
+name = "Outreach"
+ats = "lever"
+slug = "outreach"
+
+[[company]]
+name = "Peloton"
+ats = "greenhouse"
+slug = "peloton"
+
+[[company]]
+name = "Qualtrics"
+ats = "greenhouse"
+slug = "qualtrics"
+
+[[company]]
+name = "Rubrik"
+ats = "greenhouse"
+slug = "rubrik"
+
+[[company]]
+name = "Smartsheet"
+ats = "greenhouse"
+slug = "smartsheet"
+
+[[company]]
+name = "SoFi"
+ats = "greenhouse"
+slug = "sofi"
+
+[[company]]
+name = "Sprout Social"
+ats = "greenhouse"
+slug = "sproutsocial"
+
+[[company]]
+name = "Squarespace"
+ats = "greenhouse"
+slug = "squarespace"
+
+[[company]]
+name = "Toast"
+ats = "greenhouse"
+slug = "toast"
+
+[[company]]
+name = "Twilio"
+ats = "greenhouse"
+slug = "twilio"
+
+[[company]]
+name = "ZoomInfo"
+ats = "greenhouse"
+slug = "zoominfo"
+
+[[company]]
+name = "Zscaler"
+ats = "greenhouse"
+slug = "zscaler"
+
+# ---------- Large enterprises (Workday) ----------
+[[company]]
+name = "Capital One"
+ats = "workday"
+host = "capitalone.wd12.myworkdayjobs.com"
+tenant = "capitalone"
+site = "Capital_One"
+
+[[company]]
+name = "Mastercard"
+ats = "workday"
+host = "mastercard.wd1.myworkdayjobs.com"
+tenant = "mastercard"
+site = "CorporateCareers"
+
+[[company]]
+name = "Humana"
+ats = "workday"
+host = "humana.wd5.myworkdayjobs.com"
+tenant = "humana"
+site = "Humana_External_Career_Site"
+
+[[company]]
+name = "Booz Allen"
+ats = "workday"
+host = "bah.wd1.myworkdayjobs.com"
+tenant = "bah"
+site = "BAH_Jobs"
+
+[[company]]
+name = "Guidehouse"
+ats = "workday"
+host = "guidehouse.wd1.myworkdayjobs.com"
+tenant = "guidehouse"
+site = "External"

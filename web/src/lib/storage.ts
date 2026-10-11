@@ -22,15 +22,18 @@ function initialObject<T>(initial: T) {
   return initial && typeof initial === 'object' && !Array.isArray(initial) ? initial : {}
 }
 
-const LAST_VISIT = 'infra-roles:last-visit'
-const CUTOFF = 'infra-roles:new-cutoff'
 const SESSION_GAP_MS = 2 * 60 * 60 * 1000
+
+/** localStorage key prefix per profile; "infra-roles" predates profiles and is kept so saved state survives. */
+export const storagePrefix = (profileId: string) => `${profileId}-roles`
 
 /**
  * Roles first seen after the cutoff count as "new since last visit".
  * A visit starts after 2h of inactivity, so refreshing doesn't clear highlights.
  */
-export function useNewCutoff() {
+export function useNewCutoff(prefix: string) {
+  const LAST_VISIT = `${prefix}:last-visit`
+  const CUTOFF = `${prefix}:new-cutoff`
   const [cutoff, setCutoff] = useState<string>(() => {
     const now = Date.now()
     const last = Number(localStorage.getItem(LAST_VISIT) || 0)
@@ -52,13 +55,13 @@ export function useNewCutoff() {
       window.clearInterval(id)
       window.removeEventListener('beforeunload', touch)
     }
-  }, [])
+  }, [LAST_VISIT])
 
   const markAllSeen = useCallback(() => {
     const now = new Date().toISOString()
     localStorage.setItem(CUTOFF, now)
     setCutoff(now)
-  }, [])
+  }, [CUTOFF])
 
   return [cutoff, markAllSeen] as const
 }

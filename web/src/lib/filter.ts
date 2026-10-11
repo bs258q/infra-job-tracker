@@ -1,4 +1,4 @@
-import type { Filters, Role, Tracked } from '../types'
+import { NOT_STATED, type Filters, type Role, type Tracked } from '../types'
 import { ageDays, effectiveDate } from './format'
 
 const WINDOW_DAYS = { any: Infinity, '24h': 1, '7d': 7, '30d': 30 } as const
@@ -28,6 +28,7 @@ export function applyFilters(
     if (f.categories.length && !r.categories.some((c) => f.categories.includes(c))) return false
     if (f.levels.length && !f.levels.includes(r.level)) return false
     if (f.regions.length && !r.regions.some((x) => f.regions.includes(x))) return false
+    if (f.workplaces.length && !f.workplaces.includes(r.workplace ?? NOT_STATED)) return false
     if (f.companies.length && !f.companies.includes(r.company)) return false
     if ((f.salaryOnly || f.minSalary) && r.salaryMax == null) return false
     if (f.minSalary && (r.salaryMax ?? 0) < f.minSalary) return false
