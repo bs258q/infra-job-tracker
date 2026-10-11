@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import html
 import json
 import re
 import urllib.error
@@ -59,8 +60,31 @@ def _ms_to_date(ms) -> str:
     return datetime.fromtimestamp(ms / 1000, timezone.utc).date().isoformat()
 
 
+_MONEY = r"\$\s?\d{1,3}(?:,\d{3})+(?:\.\d+)?|\$\s?\d{2,3}(?:\.\d+)?\s?[kK]\b"
+_USD_SUFFIX = r"\d{2,3},\d{3}(?:\.\d+)?\s*USD"
+_PAY_RANGE = re.compile(
+    rf"({_MONEY})\s*(?:USD)?\s*(?:/\s*(?:yr|year))?\s*(?:-|–|—|to)\s*({_MONEY})"
+    rf"|({_MONEY})\s*/\s*year.{{0,80}}?up to\s*({_MONEY})"
+    rf"|({_USD_SUFFIX})\s*(?:-|–|—|to)\s*({_USD_SUFFIX})",
+    re.I | re.S,
+)
+
+
+def find_pay_range(text: str) -> str:
+    """First US pay range in a job description, e.g. '$180,000 – $250,000'."""
+    if not text:
+        return ""
+    plain = re.sub(r"<[^>]+>", " ", html.unescape(html.unescape(text)))
+    m = _PAY_RANGE.search(plain)
+    if not m:
+        return ""
+    lo, hi = next((m.group(i), m.group(i + 1)) for i in (1, 3, 5) if m.group(i))
+    clean = lambda s: "$" + re.sub(r"[\s$]|USD", "", s, flags=re.I)
+    return f"{clean(lo)} – {clean(hi)}"
+
+
 def greenhouse(company: str, slug: str, **_) -> Iterable[Job]:
-    data = _request(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs")
+    data = _request(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs?content=true")
     for j in data.get("jobs", []):
         yield Job(
             key=f"greenhouse:{slug}:{j['id']}",
@@ -69,6 +93,7 @@ def greenhouse(company: str, slug: str, **_) -> Iterable[Job]:
             location=(j.get("location") or {}).get("name", "") or "",
             url=j["absolute_url"],
             posted=(j.get("first_published") or j.get("updated_at") or "")[:10],
+            salary=find_pay_range(j.get("content") or ""),
         )
 
 
@@ -171,21 +196,22 @@ def workday(
             if not posts or offset >= total:
                 break
 
-    # Search results only say "N Locations"; the detail call has the real list.
+    # Search results only say "N Locations" and "Posted 30+ Days Ago"; the detail call has
+    # the real locations, exact posting date, and the pay range from the description.
     def resolve(item: tuple[str, Job]) -> None:
         path, job = item
         try:
             info = _request(f"{base}{path}").get("jobPostingInfo") or {}
         except Exception:
             return
-        locs = [info.get("location") or ""] + list(info.get("additionalLocations") or [])
-        job.location = "; ".join(l for l in locs if l) or job.location
+        if _MULTI_LOC.match(job.location):
+            locs = [info.get("location") or ""] + list(info.get("additionalLocations") or [])
+            job.location = "; ".join(l for l in locs if l) or job.location
+        if re.fullmatch(r"\d{4}-\d{2}-\d{2}", info.get("startDate") or ""):
+            job.posted = info["startDate"]
+        job.salary = find_pay_range(info.get("jobDescription") or "")
 
-    pending = [
-        (path, job)
-        for path, job in jobs.items()
-        if _MULTI_LOC.match(job.location) and title_ok and title_ok(job.title)
-    ]
+    pending = [(path, job) for path, job in jobs.items() if title_ok and title_ok(job.title)]
     with ThreadPoolExecutor(max_workers=8) as pool:
         list(pool.map(resolve, pending))
     return list(jobs.values())
@@ -230,6 +256,7 @@ def amazon(company: str, queries: list[str], state: str = "California", max_per_
                     location="; ".join(l for l in locs if l) or p.get("normalized_location", ""),
                     url=f"https://www.amazon.jobs{p.get('job_path', '')}",
                     posted=posted,
+                    salary=find_pay_range(" ".join(str(p.get(f) or "") for f in ("description", "preferred_qualifications"))),
                 )
             offset += 100
             if len(posts) < 100 or offset >= (data.get("hits") or 0):

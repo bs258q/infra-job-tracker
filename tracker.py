@@ -1,6 +1,6 @@
 """Daily tracker for platform / SRE / AI-infra / ML training & inference roles.
 
-python tracker.py              fetch, diff against state/seen.json, write latest.md, email new roles
+python tracker.py              fetch, diff against state/seen.json, write dashboard data, email new roles
 python tracker.py --dry-run    fetch and print matches; no state, file, or email changes
 python tracker.py --only "OpenAI,NVIDIA" --dry-run
 """
@@ -17,15 +17,15 @@ import sys
 import tomllib
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta, timezone
 from email.message import EmailMessage
 from pathlib import Path
 
 import ats
+import dashboard
 
 ROOT = Path(__file__).parent
 STATE_FILE = ROOT / "state" / "seen.json"
-LATEST_FILE = ROOT / "latest.md"
 PRUNE_AFTER_DAYS = 45
 
 US_HINT = re.compile(r"\b(US|USA|U\.S\.A?\.?|United States|North America|Americas|Anywhere)\b", re.I)
@@ -36,6 +36,12 @@ US_ONLY = re.compile(r"^\s*(US|USA|United States( of America)?)\s*$", re.I)
 def load_toml(name: str) -> dict:
     with open(ROOT / name, "rb") as f:
         return tomllib.load(f)
+
+
+def is_remote_us(loc: str) -> bool:
+    if REMOTE.search(loc) and (US_HINT.search(loc) or not re.sub(r"[\W_]|remote", "", loc, flags=re.I)):
+        return True
+    return bool(US_ONLY.match(loc))
 
 
 def any_re(patterns: list[str]) -> re.Pattern | None:
@@ -57,12 +63,7 @@ class Filters:
     def location_ok(self, loc: str) -> bool:
         if self.loc_in and self.loc_in.search(loc):
             return True
-        if self.remote_us:
-            if REMOTE.search(loc) and (US_HINT.search(loc) or not re.sub(r"[\W_]|remote", "", loc, flags=re.I)):
-                return True
-            if US_ONLY.match(loc):
-                return True
-        return False
+        return self.remote_us and is_remote_us(loc)
 
     def __call__(self, job: ats.Job) -> bool:
         return self.title_ok(job.title) and self.location_ok(job.location)
@@ -112,35 +113,13 @@ def _locations(group: list[ats.Job]) -> str:
     return "; ".join(locs[:4]) + (f" (+{len(locs) - 4} more)" if len(locs) > 4 else "")
 
 
-def render_markdown(matches: list[ats.Job], new_keys: set[str], errors: dict[str, str], today: str) -> str:
-    grouped = group_roles(matches)
-    roles = sum(len(g) for g in grouped.values())
-    lines = [
-        f"# Open roles — {today}",
-        "",
-        f"{roles} matching roles across {len(grouped)} companies. **NEW** = first seen today.",
-        "",
-    ]
-    for company, groups in grouped.items():
-        lines += [f"## {company} ({len(groups)})", "", "| Role | Location | Posted | Pay |", "|---|---|---|---|"]
-        for g in groups:
-            j = g[0]
-            tag = "**NEW** " if any(x.key in new_keys for x in g) else ""
-            title = j.title.replace("|", "/")
-            lines.append(f"| {tag}[{title}]({j.url}) | {_locations(g).replace('|', '/')} | {j.posted} | {j.salary.replace('|', '/')} |")
-        lines.append("")
-    if errors:
-        lines += ["## Fetch errors", ""] + [f"- {c}: `{e}`" for c, e in sorted(errors.items())] + [""]
-    return "\n".join(lines)
-
-
-def render_html(new_jobs: list[ats.Job], errors: dict[str, str], first_run: bool, repo_url: str) -> str:
+def render_html(new_jobs: list[ats.Job], errors: dict[str, str], first_run: bool, all_roles_url: str) -> str:
     grouped = group_roles(new_jobs)
     esc = html.escape
     parts = ["<div style='font-family:-apple-system,Segoe UI,sans-serif;font-size:14px;max-width:820px'>"]
     if first_run:
-        # Gmail clips messages over ~100KB, so the first run sends counts and links to latest.md instead.
-        parts.append("<p><b>Tracker is live.</b> Open matching roles today — full list in latest.md. Future emails list only new roles.</p><table>")
+        # Gmail clips messages over ~100KB, so the first run sends counts and links to the dashboard instead.
+        parts.append("<p><b>Tracker is live.</b> Open matching roles today — full list on the dashboard. Future emails list only new roles.</p><table>")
         for company, groups in sorted(grouped.items(), key=lambda kv: -len(kv[1])):
             parts.append(f"<tr><td>{esc(company)}</td><td style='padding-left:12px;text-align:right'>{len(groups)}</td></tr>")
         parts.append("</table>")
@@ -152,8 +131,8 @@ def render_html(new_jobs: list[ats.Job], errors: dict[str, str], first_run: bool
             meta = " · ".join(x for x in (_locations(g), j.posted, j.salary) if x)
             parts.append(f"<li style='margin:3px 0'><a href='{esc(j.url)}'>{esc(j.title)}</a> <span style='color:#666'>— {esc(meta)}</span></li>")
         parts.append("</ul>")
-    if repo_url:
-        parts.append(f"<p style='margin-top:20px'><a href='{esc(repo_url)}/blob/main/latest.md'>All open matching roles</a></p>")
+    if all_roles_url:
+        parts.append(f"<p style='margin-top:20px'><a href='{esc(all_roles_url)}'>All open matching roles</a></p>")
     if errors:
         parts.append("<p style='color:#a00;margin-top:20px'><b>Fetch errors</b> (fix slug in companies.toml):<br>")
         parts.append("<br>".join(f"{esc(c)}: {esc(e)}" for c, e in sorted(errors.items())) + "</p>")
@@ -230,18 +209,22 @@ def main() -> None:
         return
 
     today = date.today().isoformat()
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     first_run = not STATE_FILE.exists()
     seen: dict[str, dict] = {} if first_run else json.loads(STATE_FILE.read_text())
 
     new_keys = {k for k in matches if k not in seen}
     for k in matches:
-        seen.setdefault(k, {"first_seen": today})["last_seen"] = today
+        seen.setdefault(k, {"first_seen": now})["last_seen"] = today
     cutoff = (date.today() - timedelta(days=PRUNE_AFTER_DAYS)).isoformat()
     seen = {k: v for k, v in seen.items() if v.get("last_seen", today) >= cutoff}
 
     STATE_FILE.parent.mkdir(exist_ok=True)
     STATE_FILE.write_text(json.dumps(seen, indent=0, sort_keys=True))
-    LATEST_FILE.write_text(render_markdown(list(matches.values()), new_keys, errors, today))
+    roles = dashboard.build_roles(list(matches.values()), seen, is_remote_us)
+    # The first run's "new" count is the whole backlog, which would swamp the trends chart.
+    new_role_ids = set() if first_run else {r["id"] for r in roles if r["firstSeen"] == now}
+    dashboard.write(roles, new_role_ids, errors, len(companies))
 
     new_jobs = [matches[k] for k in new_keys]
     new_roles = sum(len(g) for g in group_roles(new_jobs).values())
@@ -249,11 +232,9 @@ def main() -> None:
 
     if args.no_email or (not new_jobs and not cfg.get("email", {}).get("send_when_empty", False)):
         return
-    repo = os.environ.get("GITHUB_REPOSITORY")
-    repo_url = f"{os.environ.get('GITHUB_SERVER_URL', 'https://github.com')}/{repo}" if repo else ""
     label = "open" if first_run else "new"
     subject = f"{new_roles} {label} infra/ML roles · {today}" + (f" · {len(errors)} errors" if errors else "")
-    send_email(subject, render_html(new_jobs, errors, first_run, repo_url))
+    send_email(subject, render_html(new_jobs, errors, first_run, os.environ.get("DASHBOARD_URL", "")))
 
 
 if __name__ == "__main__":

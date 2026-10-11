@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "full = fetch + email new roles; dry-run = print matches only; test-email = send a test email"
+        description: "full = fetch, email, deploy; dry-run = print matches only; test-email = send a test email"
         type: choice
         options: [full, dry-run, test-email]
         default: full
@@ -20,9 +20,16 @@ concurrency: job-tracker
 jobs:
   track:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
     env:
       MODE: ${{ inputs.mode || 'full' }}
+      SMTP_USER: ${{ secrets.SMTP_USER }}
+      SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+      EMAIL_TO: ${{ secrets.EMAIL_TO }}
+      DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
+      VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+      VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+      VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
     steps:
       - uses: actions/checkout@v4
 
@@ -37,24 +44,41 @@ jobs:
       - name: Send test email
         if: env.MODE == 'test-email'
         run: python tracker.py --test-email
-        env:
-          SMTP_USER: ${{ secrets.SMTP_USER }}
-          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-          EMAIL_TO: ${{ secrets.EMAIL_TO }}
 
+      # An email failure shouldn't stop the dashboard from updating; the last step re-raises it.
       - name: Fetch roles and email new ones
+        id: track
         if: env.MODE == 'full'
+        continue-on-error: true
         run: python tracker.py
-        env:
-          SMTP_USER: ${{ secrets.SMTP_USER }}
-          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-          EMAIL_TO: ${{ secrets.EMAIL_TO }}
 
-      - name: Save seen jobs
-        if: env.MODE == 'full'
+      - name: Save seen jobs and history
+        if: env.MODE == 'full' && hashFiles('state/seen.json') != ''
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
-          git add state/seen.json latest.md
+          git add state/seen.json web/public/data/history.json
           git diff --cached --quiet || git commit -m "Job snapshot $(date -u +%F-%H%M)"
           git push
+
+      - uses: actions/setup-node@v4
+        if: env.MODE == 'full' && env.VERCEL_TOKEN != ''
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: Deploy dashboard
+        if: env.MODE == 'full' && env.VERCEL_TOKEN != '' && hashFiles('web/public/data/jobs.json') != ''
+        working-directory: web
+        run: |
+          npm ci
+          npx vercel pull --yes --environment=production --token="$VERCEL_TOKEN"
+          npx vercel build --prod --token="$VERCEL_TOKEN"
+          npx vercel deploy --prebuilt --prod --token="$VERCEL_TOKEN"
+
+      - name: Report tracker failure
+        if: steps.track.outcome == 'failure'
+        run: |
+          echo "::error::tracker.py failed (see 'Fetch roles and email new ones'). Dashboard data was still saved/deployed if it was generated."
+          exit 1
