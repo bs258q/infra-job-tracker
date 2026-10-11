@@ -76,6 +76,14 @@ jobs:
           done
           exit $status
 
+      # Emails (deduped via state/storage-alert.json, committed below) when stored data nears its limits.
+      - name: Check storage size
+        if: env.MODE == 'full'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python storage_check.py
+
       - name: Save seen jobs and history
         if: env.MODE == 'full' && hashFiles('state/*/seen.json') != ''
         run: |

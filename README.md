@@ -90,3 +90,8 @@ specific companies (e.g. ones another job site lists that we don't) without a Pa
   only way to find a Workday or Oracle board) and paste the printed entry.
 - `python tracker.py --profile salesforce --dry-run [--only "Himalayas (remote board)"]` — preview matches.
 - `python -m unittest test_filters` — filter, location, and salary-parsing checks.
+- Storage alert — after each run `storage_check.py` measures `state/`, each profile's `jobs.json` /
+  `history.json`, and the repo size, and emails you once (again only if the list changes, or weekly) when one
+  nears the point where cleanup or a real database is needed: a state file over 5 MB, a dashboard file over
+  3 MB, `state/` over 25 MB, the repo over 500 MB. Thresholds are at the top of the script;
+  `python storage_check.py --no-email` prints the sizes, `--test` sends a test email.
