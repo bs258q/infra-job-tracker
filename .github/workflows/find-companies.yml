@@ -16,7 +16,6 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
 
 # Shares the tracker's group so the two never push state at the same time.
 concurrency: job-tracker
@@ -29,6 +28,9 @@ jobs:
       PROFILE: ${{ inputs.profile || 'all' }}
       RECHECK_ONLY: ${{ inputs.recheck_only || false }}
       PARALLEL_API_KEY: ${{ secrets.PARALLEL_API_KEY }}
+      SMTP_USER: ${{ secrets.SMTP_USER }}
+      SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+      EMAIL_TO: ${{ secrets.EMAIL_TO }}
     steps:
       - uses: actions/checkout@v4
 
@@ -42,7 +44,7 @@ jobs:
           flags=""
           [ "$RECHECK_ONLY" = true ] && flags="--recheck-only"
           echo "Companies found by [Parallel FindAll](https://docs.parallel.ai/findall-api/findall-quickstart) and checked against each company's job board (\`find_companies.py\`)." > "$RUNNER_TEMP/summary.md"
-          echo "Merge to start tracking them. Close to reject: they stay in \`state/<profile>/discovery.json\` and won't be suggested again." >> "$RUNNER_TEMP/summary.md"
+          echo "They are tracked from the next run. To drop one, delete its entry from \`companies/found/\`; its record in \`state/<profile>/discovery.json\` keeps it from coming back." >> "$RUNNER_TEMP/summary.md"
           echo >> "$RUNNER_TEMP/summary.md"
           for p in $profiles; do
             echo "::group::$p"
@@ -51,25 +53,35 @@ jobs:
           done
           cat "$RUNNER_TEMP/summary.md" >> "$GITHUB_STEP_SUMMARY"
 
-      # The log goes straight to main so a closed pull request still counts as a rejection.
-      - name: Save discovery log
+      # Found companies go straight to main, so the tracker picks them up on its next run.
+      # A file that doesn't parse would break every tracker run, so it is dropped instead.
+      - name: Start tracking found companies
+        id: save
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
-          git add state/*/discovery.json 2>/dev/null || true
+          for f in $(git ls-files --others --modified companies/found); do
+            python -c "import sys, tomllib; tomllib.load(open(sys.argv[1], 'rb'))" "$f" || {
+              echo "::error::$f is not valid TOML; not adding it"
+              git checkout -- "$f" 2>/dev/null || rm -f "$f"
+            }
+          done
+          git add state/*/discovery.json companies/found 2>/dev/null || true
+          added=$(git diff --cached --name-only -- companies/found | xargs)
+          echo "added=$added" >> "$GITHUB_OUTPUT"
+          if [ -n "$added" ]; then msg="Track companies found $(date -u +%F)"; else msg="Discovery log $(date -u +%F)"; fi
           git diff --cached --quiet || {
-            git commit -m "Discovery log $(date -u +%F)"
+            git commit -m "$msg"
             git pull --rebase --autostash
             git push
           }
 
-      - name: Propose new companies
-        uses: peter-evans/create-pull-request@v7
-        with:
-          add-paths: companies/found/*.toml
-          branch: find-companies/run
-          branch-suffix: timestamp
-          delete-branch: true
-          commit-message: Add companies found by Parallel FindAll
-          title: "Add companies found by Parallel (${{ github.run_id }})"
-          body-path: ${{ runner.temp }}/summary.md
+      - name: Email what was added
+        if: steps.save.outputs.added != ''
+        run: |
+          python - "$RUNNER_TEMP/summary.md" <<'EOF'
+          import html, sys, tracker
+          text = open(sys.argv[1]).read()
+          body = f"<pre style='font-family:ui-monospace,Menlo,monospace;font-size:12px;white-space:pre-wrap'>{html.escape(text)}</pre>"
+          tracker.send_email("Job tracker: new companies added", body)
+          EOF
