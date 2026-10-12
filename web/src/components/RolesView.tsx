@@ -7,10 +7,11 @@ import { RoleRow } from './RoleRow'
 
 const PAGE = 75
 const WINDOWS: [PostedWindow, string][] = [
-  ['any', 'Any time'],
   ['24h', 'Last 24h'],
   ['7d', 'Last 7 days'],
   ['30d', 'Last 30 days'],
+  ['60d', 'Last 60 days'],
+  ['any', 'Any time'],
 ]
 
 type Props = {
@@ -30,6 +31,10 @@ export function RolesView({ roles, facets, searchHint, filters, setFilters, trac
   const [showFilters, setShowFilters] = useState(false)
 
   const results = useMemo(() => applyFilters(roles, filters, tracked, newCutoff), [roles, filters, tracked, newCutoff])
+  const hiddenByAge = useMemo(
+    () => (filters.posted === 'any' ? 0 : applyFilters(roles, { ...filters, posted: 'any' }, tracked, newCutoff).length - results.length),
+    [roles, filters, tracked, newCutoff, results],
+  )
   const newCount = useMemo(() => roles.filter((r) => r.firstSeen > newCutoff).length, [roles, newCutoff])
 
   const update = (f: Filters) => {
@@ -111,6 +116,18 @@ export function RolesView({ roles, facets, searchHint, filters, setFilters, trac
           )}
           <span className="ml-auto text-sm text-zinc-500 tabular-nums">
             {results.length.toLocaleString()} role{results.length === 1 ? '' : 's'}
+            {hiddenByAge > 0 && (
+              <>
+                {' · '}
+                {hiddenByAge.toLocaleString()} older hidden{' · '}
+                <button
+                  onClick={() => update({ ...filters, posted: 'any' })}
+                  className="text-indigo-600 hover:underline dark:text-indigo-400"
+                >
+                  Show all
+                </button>
+              </>
+            )}
           </span>
         </div>
 
@@ -125,7 +142,17 @@ export function RolesView({ roles, facets, searchHint, filters, setFilters, trac
             />
           ))}
           {results.length === 0 && (
-            <li className="px-4 py-16 text-center text-sm text-zinc-500">No roles match these filters.</li>
+            <li className="px-4 py-16 text-center text-sm text-zinc-500">
+              No roles match these filters.
+              {hiddenByAge > 0 && (
+                <>
+                  {' '}
+                  <button onClick={() => update({ ...filters, posted: 'any' })} className="text-indigo-600 hover:underline dark:text-indigo-400">
+                    Show {hiddenByAge.toLocaleString()} older role{hiddenByAge === 1 ? '' : 's'}
+                  </button>
+                </>
+              )}
+            </li>
           )}
         </ul>
 

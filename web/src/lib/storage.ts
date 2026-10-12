@@ -1,10 +1,12 @@
 import { useCallback, useEffect, useState } from 'react'
 
-export function useLocalStorage<T>(key: string, initial: T) {
+export function useLocalStorage<T>(key: string, initial: T, migrate?: (stored: Partial<T>) => Partial<T>) {
   const [value, setValue] = useState<T>(() => {
     try {
       const raw = localStorage.getItem(key)
-      return raw ? { ...initialObject(initial), ...JSON.parse(raw) } : initial
+      if (!raw) return initial
+      const parsed = JSON.parse(raw)
+      return { ...initialObject(initial), ...(migrate ? migrate(parsed) : parsed) }
     } catch {
       return initial
     }

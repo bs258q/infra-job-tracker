@@ -77,10 +77,14 @@ export type Tracked = {
   url: string
 }
 
-export type PostedWindow = 'any' | '24h' | '7d' | '30d'
+export type PostedWindow = 'any' | '24h' | '7d' | '30d' | '60d'
 export type SortKey = 'newest' | 'salary' | 'company'
 
+/** Bump when saved filters need a one-time migration (see migrateFilters). */
+export const FILTERS_VERSION = 1
+
 export type Filters = {
+  version: number
   q: string
   posted: PostedWindow
   categories: string[]
@@ -96,8 +100,9 @@ export type Filters = {
 }
 
 export const DEFAULT_FILTERS: Filters = {
+  version: FILTERS_VERSION,
   q: '',
-  posted: 'any',
+  posted: '60d',
   categories: [],
   levels: [],
   regions: [],
@@ -108,4 +113,15 @@ export const DEFAULT_FILTERS: Filters = {
   newOnly: false,
   status: 'active',
   sort: 'newest',
+}
+
+/** Upgrades filters saved by older versions; runs on the raw stored object before defaults are merged in. */
+export function migrateFilters(stored: Partial<Filters>): Partial<Filters> {
+  const out = { ...stored }
+  if (!out.version) {
+    // v1: default window changed from "Any time" to "Last 60 days".
+    if (out.posted === 'any' || out.posted == null) out.posted = '60d'
+  }
+  out.version = FILTERS_VERSION
+  return out
 }
