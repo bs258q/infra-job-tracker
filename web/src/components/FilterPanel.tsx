@@ -37,8 +37,9 @@ export function FilterPanel({ roles, facets, filters, setFilters, tracked }: Pro
     .filter(([name]) => name.toLowerCase().includes(companyQuery.toLowerCase()))
     .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
 
-  const active =
-    JSON.stringify({ ...filters, q: '', sort: 'newest' }) !== JSON.stringify({ ...DEFAULT_FILTERS, sort: 'newest' })
+  const active = (Object.keys(DEFAULT_FILTERS) as (keyof Filters)[]).some(
+    (k) => k !== 'q' && k !== 'sort' && JSON.stringify(filters[k]) !== JSON.stringify(DEFAULT_FILTERS[k]),
+  )
 
   return (
     <div className="space-y-6 text-sm">

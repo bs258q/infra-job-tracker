@@ -1,7 +1,10 @@
 import { NOT_STATED, type Filters, type Role, type Tracked } from '../types'
 import { ageDays, effectiveDate } from './format'
 
-const WINDOW_DAYS = { any: Infinity, '24h': 1, '7d': 7, '30d': 30 } as const
+const WINDOW_DAYS = { any: Infinity, '24h': 1, '7d': 7, '30d': 30, '60d': 60 } as const
+
+/** Approximate dates ("Posted 30+ Days Ago") only prove the role is older than 30 days, so wider windows keep them. */
+const APPROX_MIN_DAYS = 30
 
 export function applyFilters(
   roles: Role[],
@@ -24,7 +27,7 @@ export function applyFilters(
       const hay = `${r.title} ${r.company} ${r.locations.join(' ')}`.toLowerCase()
       if (!terms.every((t) => hay.includes(t))) return false
     }
-    if (maxAge !== Infinity && (r.postedApprox || ageDays(r, now) > maxAge)) return false
+    if (maxAge !== Infinity && (r.postedApprox ? maxAge <= APPROX_MIN_DAYS : ageDays(r, now) > maxAge)) return false
     if (f.categories.length && !r.categories.some((c) => f.categories.includes(c))) return false
     if (f.levels.length && !f.levels.includes(r.level)) return false
     if (f.regions.length && !r.regions.some((x) => f.regions.includes(x))) return false

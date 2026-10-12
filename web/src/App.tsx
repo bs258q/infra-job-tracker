@@ -6,6 +6,7 @@ import { timeAgo } from './lib/format'
 import { storagePrefix, useLocalStorage, useNewCutoff } from './lib/storage'
 import {
   DEFAULT_FILTERS,
+  migrateFilters,
   NOT_STATED,
   type ElsewhereSearch,
   type Facets,
@@ -66,7 +67,7 @@ function Dashboard({ profile, profiles, onSwitch }: { profile: Profile; profiles
   const [tab, setTab] = useState<Tab>(() => (location.hash.slice(1) as Tab) || 'roles')
 
   const prefix = storagePrefix(profile.id)
-  const [filters, setFilters] = useLocalStorage(`${prefix}:filters`, DEFAULT_FILTERS)
+  const [filters, setFilters] = useLocalStorage(`${prefix}:filters`, DEFAULT_FILTERS, migrateFilters)
   const [tracked, setTracked] = useLocalStorage<Record<string, Tracked>>(`${prefix}:tracked`, {})
   const [newCutoff, markAllSeen] = useNewCutoff(prefix)
 
