@@ -69,6 +69,8 @@ send_when_empty = false
 fallback = "Salesforce (other)"
 # Level patterns otherwise treat "architect" as Principal+.
 architect_is_level = false
+# Employment facet + badge (Full-time / W2 / C2C / contract-to-hire / 1099), mainly for staffing-vendor roles.
+employment = true
 categories = [
   { name = "Architect", pattern = 'architect|\bCTA\b' },
   { name = "Developer", pattern = 'develop|engineer|programmer|\bapex\b|\bLWC\b' },

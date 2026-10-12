@@ -19,6 +19,13 @@ HISTORY_DAYS = 180
 REMOTE_REGION = "Remote (US)"
 LEVELS = ["Principal+", "Staff", "Senior", "MTS", "Mid / Other"]
 WORKPLACES = [("remote", "Remote"), ("hybrid", "Hybrid"), ("onsite", "On-site"), ("unknown", "Not stated")]
+EMPLOYMENTS = [
+    ("full-time", "Full-time"), ("contract-w2", "Contract (W2)"), ("contract-c2c", "Contract (C2C)"),
+    ("contract-to-hire", "Contract-to-hire"), ("1099", "1099"), ("contract", "Contract (unspecified)"),
+    ("", "Not stated"),
+]
+# A role posted several times takes its most specific stated type.
+_EMPLOYMENT_PRECEDENCE = ["contract-c2c", "contract-w2", "contract-to-hire", "1099", "full-time", "contract", ""]
 
 
 def _level(title: str, architect_is_level: bool = True) -> str:
@@ -68,6 +75,7 @@ class Facets:
         self.categories = [(c["name"], re.compile(c["pattern"], re.I)) for c in cfg.get("categories", [])]
         self.regions = [(r["name"], re.compile(r["pattern"], re.I) if "pattern" in r else set(r["states"])) for r in cfg.get("regions", [])]
         self.architect_is_level = cfg.get("architect_is_level", True)
+        self.employment = bool(cfg.get("employment", False))
 
     def categories_for(self, title: str) -> list[str]:
         return [name for name, pat in self.categories if pat.search(title)] or [self.fallback]
@@ -86,12 +94,21 @@ class Facets:
         return out
 
     def order(self) -> dict[str, list[str]]:
-        return {
+        out = {
             "categories": [n for n, _ in self.categories] + [self.fallback],
             "regions": [n for n, _ in self.regions] + [REMOTE_REGION],
             "levels": LEVELS,
             "workplaces": [label for _, label in WORKPLACES],
         }
+        if self.employment:
+            out["employments"] = [label for _, label in EMPLOYMENTS]
+        return out
+
+
+def _employment(jobs: list[ats.Job]) -> str:
+    kinds = {j.employment for j in jobs}
+    kind = next(k for k in _EMPLOYMENT_PRECEDENCE if k in kinds or k == "")
+    return dict(EMPLOYMENTS)[kind]
 
 
 def _workplace(jobs: list[ats.Job], remote: bool) -> str:
@@ -142,28 +159,29 @@ def build_roles(
         # Prefer the link of a posting in a listed region when one title is posted per location.
         preferred = next((j for j in jobs if facets.regions_for(j.location)), first)
 
-        roles.append(
-            {
-                "id": rid,
-                "company": first.company,
-                "title": first.title,
-                "url": preferred.url,
-                "locations": locs,
-                "regions": regions,
-                "remote": remote,
-                "workplace": _workplace(jobs, remote),
-                "categories": facets.categories_for(first.title),
-                "level": _level(first.title, facets.architect_is_level),
-                "posted": posted,
-                "postedApprox": posted_approx,
-                "firstSeen": first_seen,
-                "salary": salary_text,
-                "salaryMin": lo,
-                "salaryMax": hi,
-                "source": first.key.split(":", 1)[0],
-                "postings": len(jobs),
-            }
-        )
+        role = {
+            "id": rid,
+            "company": first.company,
+            "title": first.title,
+            "url": preferred.url,
+            "locations": locs,
+            "regions": regions,
+            "remote": remote,
+            "workplace": _workplace(jobs, remote),
+            "categories": facets.categories_for(first.title),
+            "level": _level(first.title, facets.architect_is_level),
+            "posted": posted,
+            "postedApprox": posted_approx,
+            "firstSeen": first_seen,
+            "salary": salary_text,
+            "salaryMin": lo,
+            "salaryMax": hi,
+            "source": first.key.split(":", 1)[0],
+            "postings": len(jobs),
+        }
+        if facets.employment:
+            role["employment"] = _employment(jobs)
+        roles.append(role)
     roles.sort(key=lambda r: (r["firstSeen"], r["posted"] or ""), reverse=True)
     return roles
 

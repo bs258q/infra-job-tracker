@@ -35,6 +35,11 @@ class Job:
     posted: str = ""
     salary: str = ""
     workplace: str = ""  # remote | hybrid | onsite | "" (not stated)
+    employment: str = ""  # one of EMPLOYMENT, or "" (not stated)
+
+
+EMPLOYMENT = ["full-time", "contract-w2", "contract-c2c", "contract-to-hire", "1099", "contract"]
+VENDOR_DELAY = 0.5  # seconds between pages on staffing-vendor sites
 
 
 class BoardNotFound(Exception):
@@ -143,6 +148,126 @@ def _normalize_workplace(value: str | None) -> str:
     return ""
 
 
+# Staffing titles carry the arrangement: "Salesforce Developer - Hybrid NYC", "Salesforce Admin (Remote)".
+# "Hybrid" must not be followed by words like cloud/integration that make it a technology.
+_TITLE_REMOTE = re.compile(r"\bremote\b(?! (sensing|monitoring|support engineer))", re.I)
+_TITLE_HYBRID = re.compile(
+    r"\bhybrid\b(?! ?(cloud|integration|app|mobile|infrastructure|it\b|environment|architecture|engineer|developer))", re.I
+)
+_TITLE_ONSITE = re.compile(r"\b(on-?site|in[- ]office)\b(?! support)", re.I)
+
+
+def workplace_from_title(title: str) -> str:
+    if _TITLE_HYBRID.search(title):
+        return "hybrid"
+    if _TITLE_REMOTE.search(title):
+        return "remote"
+    if _TITLE_ONSITE.search(title):
+        return "onsite"
+    return ""
+
+
+def _plain(text: str) -> str:
+    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html.unescape(html.unescape(text or ""))))
+
+
+def _normalize_employment(value: str | None) -> str:
+    """A board's own employment-type field ("Contractor", "Temp to Perm", "FULL_TIME", "PERM") as one of EMPLOYMENT."""
+    v = re.sub(r"[^a-z0-9]", "", (value or "").lower())
+    if not v:
+        return ""
+    if re.search(r"(contract|temp(orary)?)to(hire|perm)|permpossible|c2h|^cth$", v):
+        return "contract-to-hire"
+    if v in {"c2c", "corptocorp"}:
+        return "contract-c2c"
+    if v in {"w2", "contractw2", "w2contract"}:
+        return "contract-w2"
+    if v == "1099":
+        return "1099"
+    if v.startswith("fulltime") or v in {"permanent", "perm", "directhire", "regular", "fte", "employee"}:
+        return "full-time"
+    if v in {"contract", "contractor", "contractual", "temporary", "temp", "cont", "freelance", "consultant"}:
+        return "contract"
+    return ""
+
+
+_NEGATED = re.compile(
+    r"\b(no|not|non|without|cannot|can ?not|can't|unable to|nor|excluding)\b[^.;:!?]{0,30}$", re.I
+)
+_NEGATED_AFTER = re.compile(
+    r"^[^.;:!?]{0,25}(\bnot|n't)( be)? (accepted|allowed|available|considered|eligible|possible)", re.I
+)
+_C2C = re.compile(r"\bC2C\b|\bC-to-C\b|\bcorp(oration)?[- ]?(to|2)[- ]?corp(oration)?\b", re.I)
+_W2_ONLY = re.compile(r"\bW-?2 (only|candidates only|basis only)\b|\b(only|strictly|must be) (on )?(a )?W-?2\b", re.I)
+_1099 = re.compile(r"(?<![$#\d.,])\b1099\b(?![.,]?\d|-(k|misc|nec)\b)", re.I)
+_C2H = re.compile(
+    r"\b(contract|temp(orary)?)[- ](to|2)[- ](hire|perm(anent)?)\b|\bC2H\b|\bCTH\b|\bright[- ]to[- ]hire\b"
+    r"|\bperm(anent)? possible\b|\b(possible|potential|option (for|of)|opportunity for) (conversion|to convert)\b"
+    r"|\bconversion to (full[- ]time|FTE|perm(anent)?)\b",
+    re.I,
+)
+_W2 = re.compile(r"\bW-?2\b", re.I)
+_W2_STRONG = re.compile(
+    r"\bW-?2 (only|contract|basis|candidates|position|role|employment|hourly)\b|\b(on|only|strictly|must be) (on )?(a )?W-?2\b"
+    r"|\b(contract|contractor|hourly)\W{1,3}W-?2\b",
+    re.I,
+)
+_CONTRACT_TITLE = re.compile(
+    r"\(\s*contract(or)?\b[^)]*\)|[-–|,]\s*contract(or)?\s*($|[-–|,(])|\bcontract(or)? (role|position|opportunity)\b"
+    r"|\bcontractor\b|\btemp\b",
+    re.I,
+)
+_CONTRACT_TEXT = re.compile(
+    r"\b\d+\+?\s*(-\s*\d+\s*)?(months?|mos?)\b[^.]{0,30}\bcontract\b|\bcontract\b[^.]{0,30}?\b\d+\+?\s*(months?|mos?)\b"
+    r"|\b(contract|temporary|temp) (role|position|assignment|opportunity|engagement|job|basis)\b"
+    r"|\b(long|short)[- ]term contract\b|\bcontract (length|duration)\b|\bduration\s*:",
+    re.I,
+)
+_FULLTIME_TITLE = re.compile(r"\b(full[- ]time|FTE|perm(anent)?|direct[- ]hire)\b", re.I)
+_FULLTIME_TEXT = re.compile(
+    r"\bdirect[- ]hire\b|\bpermanent (position|role|placement|opportunity|full[- ]time)\b"
+    r"|\bfull[- ]time,? (permanent|salaried|W-?2 employee|FTE|direct)\b"
+    r"|\b(this|the) (position|role|job) is (a )?(permanent|full[- ]time)\b(?! contract)",
+    re.I,
+)
+
+
+def _stated(pattern: re.Pattern, text: str) -> bool:
+    """True when `pattern` occurs somewhere without a negation like "no C2C" or "C2C not accepted"."""
+    return any(
+        not _NEGATED.search(text[max(0, m.start() - 40):m.start()]) and not _NEGATED_AFTER.search(text[m.end():m.end() + 40])
+        for m in pattern.finditer(text)
+    )
+
+
+def employment_from_text(title: str, description: str = "", stated: str = "") -> str:
+    """Employment type from a posting's title and description, plus the board's own field (`stated`) when it has one.
+
+    Conservative: W2 / C2C / 1099 only when the posting says so explicitly; "W2 only" or "no C2C" rule C2C out.
+    A board's full-time/permanent field is trusted unless the text says contract-to-hire.
+    """
+    kind = _normalize_employment(stated)
+    plain = _plain(description)
+    text = f"{title}\n{plain}"
+    c2h = kind == "contract-to-hire" or _stated(_C2H, text)
+    contract = kind in {"contract", "contract-w2", "contract-c2c", "1099"} or bool(
+        _CONTRACT_TITLE.search(title) or _CONTRACT_TEXT.search(plain)
+    )
+    if kind == "full-time" and not c2h:
+        return "full-time"
+    if not kind and not contract and not c2h and (_FULLTIME_TITLE.search(title) or _FULLTIME_TEXT.search(plain)):
+        return "full-time"
+    if kind == "contract-c2c" or (_stated(_C2C, text) and not _W2_ONLY.search(text)):
+        return "contract-c2c"
+    if kind == "1099" or _stated(_1099, text):
+        return "1099"
+    if c2h:
+        return "contract-to-hire"
+    if kind == "contract-w2" or (_W2.search(text) and (contract or _W2.search(title) or _W2_STRONG.search(plain))):
+        return "contract-w2"
+    return "contract" if contract else ""
+
+
 def greenhouse(company: str, slug: str, **_) -> Iterable[Job]:
     data = _request(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs?content=true")
     for j in data.get("jobs", []):
@@ -157,6 +282,7 @@ def greenhouse(company: str, slug: str, **_) -> Iterable[Job]:
             posted=(j.get("first_published") or j.get("updated_at") or "")[:10],
             salary=find_pay_range(content),
             workplace=workplace_from_text(location, content),
+            employment=employment_from_text(j["title"], content),
         )
 
 
@@ -180,6 +306,7 @@ def lever(company: str, slug: str, **_) -> Iterable[Job]:
             posted=_ms_to_date(j.get("createdAt")),
             salary=salary,
             workplace=_normalize_workplace(j.get("workplaceType")) or workplace_from_text(location),
+            employment=employment_from_text(j["text"], "", cats.get("commitment") or ""),
         )
 
 
@@ -206,6 +333,7 @@ def ashby(company: str, slug: str, **_) -> Iterable[Job]:
             salary=comp.get("scrapeableCompensationSalarySummary") or comp.get("compensationTierSummary") or "",
             workplace=_normalize_workplace(j.get("workplaceType"))
             or ("remote" if j.get("isRemote") else workplace_from_text(location)),
+            employment=employment_from_text(j["title"], "", j.get("employmentType") or ""),
         )
 
 
@@ -562,6 +690,7 @@ def smartrecruiters(company: str, slug: str, **_) -> Iterable[Job]:
                 url=f"https://jobs.smartrecruiters.com/{slug}/{j['id']}",
                 posted=(j.get("releasedDate") or "")[:10],
                 workplace="remote" if loc.get("remote") else "hybrid" if loc.get("hybrid") else workplace_from_text(location),
+                employment=employment_from_text(j.get("name") or "", "", (j.get("typeOfEmployment") or {}).get("label") or ""),
             )
         if not posts:
             break
@@ -661,6 +790,318 @@ def oracle(company: str, host: str, site: str, queries: list[str], max_per_query
             offset += 25
             if len(reqs) < 25 or offset >= (result.get("TotalJobsCount") or 0):
                 break
+    return list(jobs.values())
+
+
+# ---------- Staffing / prime vendors: keyword search on the vendor's own public job-search API ----------
+# Results are relevance-ranked, so pages are capped; pages are fetched one at a time with a short pause.
+
+def _slug(text: str) -> str:
+    return re.sub(r"[^A-Za-z0-9]+", "-", text).strip("-")
+
+
+def _city(value) -> str:
+    value = (value[0] if isinstance(value, list) and value else value) or ""
+    return value.title() if value.isupper() and len(value) > 3 else value
+
+
+def _location(*parts) -> str:
+    return ", ".join(p for p in (_city(p) for p in parts) if p)
+
+
+def _hourly_or_yearly(lo, hi, period: str) -> str:
+    """'$62 – $70/hr' for hourly pay, '$120,000 – $140,000' for yearly; "" when there's no usable number."""
+    try:
+        lo, hi = float(lo or 0), float(hi or lo or 0)
+    except (TypeError, ValueError):
+        return ""
+    if lo <= 0:
+        return ""
+    if re.match(r"h(ou)?r|hourly", period or "", re.I) or hi < 500:
+        fmt = lambda v: f"${v:,.0f}" if v == int(v) else f"${v:,.2f}"
+        return f"{fmt(lo)} – {fmt(hi)}/hr" if hi > lo else f"{fmt(lo)}/hr"
+    return _usd_range(lo, hi)
+
+
+def _phenom_location(value: str) -> str:
+    """'Culver City,CA,90230,USA' -> 'Culver City, CA'."""
+    parts = [p.strip() for p in value.split(",") if p.strip() and not re.fullmatch(r"\d{5}(-\d{4})?", p.strip())]
+    if len(parts) > 2 and parts[-1].upper() in {"USA", "US", "UNITED STATES"}:
+        parts = parts[:-1]
+    return ", ".join(parts)
+
+
+def phenom(company: str, host: str, queries: list[str], country: str = "us", max_per_query: int = 200, **_) -> Iterable[Job]:
+    """Phenom People career sites (TEKsystems, Actalent): the `/widgets` search call their search page makes."""
+    jobs: dict[str, Job] = {}
+    for query in queries:
+        offset = 0
+        while offset < max_per_query:
+            body = {
+                "lang": "en_us", "deviceType": "desktop", "country": country, "pageName": "search-results",
+                "ddoKey": "refineSearch", "sortBy": "", "subsearch": "", "from": offset, "jobs": True, "counts": False,
+                "all_fields": [], "size": 50, "clearAll": False, "jdsource": "facets", "isSliderEnable": False,
+                "pageId": "page20", "siteType": "external", "keywords": query, "global": True,
+                "selected_fields": {}, "locationData": {},
+            }
+            data = _request(f"https://{host}/widgets", body).get("refineSearch") or {}
+            posts = (data.get("data") or {}).get("jobs") or []
+            for p in posts:
+                jid = p.get("jobId") or p.get("reqId")
+                if not jid or jid in jobs:
+                    continue
+                title = (p.get("title") or "").strip()
+                locs = [l for l in p.get("multi_location") or [] if l] or [p.get("location") or ""]
+                location = "; ".join(dict.fromkeys(_phenom_location(l) for l in locs))
+                teaser = p.get("descriptionTeaser") or ""
+                jobs[jid] = Job(
+                    key=f"phenom:{host}:{jid}",
+                    company=company,
+                    title=title,
+                    location=location,
+                    url=f"https://{host}/{country}/en/job/{jid}/{_slug(title)}",
+                    posted=(p.get("postedDate") or p.get("dateCreated") or "")[:10],
+                    salary=find_pay_range(teaser),
+                    workplace=workplace_from_title(title) or workplace_from_text(location, teaser),
+                    employment=employment_from_text(title, teaser, p.get("type") or ""),
+                )
+            offset += len(posts)
+            if not posts or offset >= (data.get("totalHits") or 0):
+                break
+            time.sleep(VENDOR_DELAY)
+    return list(jobs.values())
+
+
+def randstad(company: str, queries: list[str], pages: int = 2, **_) -> Iterable[Job]:
+    """randstadusa.com job search (Randstad Digital, Technologies, and the other Randstad US lines)."""
+    jobs: dict[str, Job] = {}
+    for query in queries:
+        for n in range(1, pages + 1):
+            body = {"data": {"currentRoute": {"url": "/jobs/", "routeName": "search"}, "currentLanguage": "en",
+                             "searchParams": {"query": query, "page": str(n)}}}
+            results = _request("https://www.randstadusa.com/api/search/search-results", body).get("searchResults") or {}
+            hits = results.get("hits") or []
+            for p in hits:
+                jid = str(p.get("id") or "")
+                if not jid or jid in jobs:
+                    continue
+                title = (p.get("title") or "").strip()
+                loc = p.get("jobLocation") or {}
+                location = _location(loc.get("city"), loc.get("stateAbbreviation") or loc.get("state"))
+                if p.get("isRemote"):
+                    location = f"{location} (Remote)".strip()
+                description = p.get("description") or ""
+                pay = p.get("salary") or {}
+                path = p.get("detailsUrl") or ""
+                jobs[jid] = Job(
+                    key=f"randstad:{jid}",
+                    company=company,
+                    title=title,
+                    location=location,
+                    url=path if path.startswith("http") else f"https://www.randstadusa.com{path}",
+                    posted=_ms_to_date(p.get("createdDate")),
+                    salary=_hourly_or_yearly(pay.get("min") or pay.get("fixed"), pay.get("max"), pay.get("type") or "")
+                    if (pay.get("currency") or "USD") == "USD" else "",
+                    workplace="remote" if p.get("isRemote") else workplace_from_title(title) or workplace_from_text(location, description),
+                    employment=employment_from_text(title, description, p.get("type") or ""),
+                )
+            if len(hits) < 30 or n * 30 >= (results.get("totalSize") or 0):
+                break
+            time.sleep(VENDOR_DELAY)
+    return list(jobs.values())
+
+
+def roberthalf(company: str, queries: list[str], pages: int = 2, **_) -> Iterable[Job]:
+    """roberthalf.com job search (the AEM servlet its search page calls), US postings only."""
+    jobs: dict[str, Job] = {}
+    for query in queries:
+        for n in range(1, pages + 1):
+            body = {
+                "country": "us", "keywords": query, "location": "", "distance": "50", "remote": [], "remoteText": "",
+                "languagecodes": [], "source": ["Salesforce"], "city": "", "emptype": "", "lobid": "", "jobtype": "",
+                "postedwithin": "0", "timetype": "", "pagesize": 50, "pagenumber": n, "mode": "", "payrate_min": 0,
+                "payrate_period": "", "includedoe": "", "extraParams": {},
+            }
+            data = _request("https://www.roberthalf.com/bin/jobSearchServlet", body)
+            posts = data.get("jobs") or []
+            for p in posts:
+                jid = p.get("unique_job_number") or p.get("job_id")
+                if not jid or jid in jobs:
+                    continue
+                title = html.unescape(p.get("jobtitle") or "").strip()
+                remote = (p.get("remote") or "").lower() == "yes"
+                location = _location(p.get("city"), p.get("stateprovince"))
+                if remote:
+                    location = f"{location} (Remote)".strip()
+                description = p.get("description") or ""
+                jobs[jid] = Job(
+                    key=f"roberthalf:{jid}",
+                    company=company,
+                    title=title,
+                    location=location,
+                    url=p.get("job_detail_url") or "",
+                    posted=(p.get("date_posted") or "")[:10],
+                    salary=_hourly_or_yearly(p.get("payrate_min"), p.get("payrate_max"), p.get("payrate_period") or "")
+                    if (p.get("payrate_currency") or "USD") == "USD" else "",
+                    workplace="remote" if remote else workplace_from_title(title) or workplace_from_text(location, description),
+                    employment=employment_from_text(title, description, p.get("emptype") or ""),
+                )
+            if len(posts) < 50 or n * 50 >= int(data.get("found") or 0):
+                break
+            time.sleep(VENDOR_DELAY)
+    return list(jobs.values())
+
+
+def judge(company: str, queries: list[str], pages: int = 5, **_) -> Iterable[Job]:
+    """judge.com job search (the WordPress admin-ajax action its search page calls), US postings only."""
+    jobs: dict[str, Job] = {}
+    for query in queries:
+        for n in range(pages):
+            payload = {"categories": [], "countries": "USA", "geo": [{"distance": "", "latLong": [0], "location": ""}],
+                       "query": query, "states": "", "type": ["Any"], "page": n, "remote": False}
+            data = _request("https://www.judge.com/wp-admin/admin-ajax.php?action=jdg_get_jobs", {"payload": payload})
+            data = json.loads(data) if isinstance(data, str) else data or {}
+            hits = data.get("hits") or []
+            for p in hits:
+                jid = str(p.get("jobOrderId") or "")
+                if not jid or jid in jobs:
+                    continue
+                title = (p.get("title") or "").strip()
+                location = (p.get("location") or "").strip()
+                location = "Remote" if location.upper() == "REMOTE" else location
+                description = p.get("description") or ""
+                jobs[jid] = Job(
+                    key=f"judge:{jid}",
+                    company=company,
+                    title=title,
+                    location=location,
+                    url=f"https://www.judge.com/jobs/details/{jid}/",
+                    posted=_ms_to_date(p.get("opened")),
+                    salary=find_pay_range(p.get("salary") or "") or find_pay_range(description),
+                    workplace=workplace_from_title(title) or workplace_from_text(location, description),
+                    employment=employment_from_text(title, description, p.get("type") or ""),
+                )
+            if not hits or (n + 1) * (data.get("size") or 20) >= (data.get("total") or 0):
+                break
+            time.sleep(VENDOR_DELAY)
+    return list(jobs.values())
+
+
+def motion(company: str, queries: list[str], instance: str = "agency", **_) -> Iterable[Job]:
+    """Motion Recruitment's public job API (the one motionrecruitment.com/tech-jobs searches)."""
+    jobs: dict[str, Job] = {}
+    for query in queries:
+        params = urllib.parse.urlencode({"count": 50, "keywords": query})
+        data = _request(f"https://hrz-api.motionrecruitment.com/{instance}/jobs/search?{params}")
+        for p in data.get("data") or []:
+            jid = str(p.get("id") or "")
+            if not jid or jid in jobs:
+                continue
+            title = (p.get("title") or "").strip()
+            addr = p.get("address") or {}
+            location = _location(addr.get("city"), addr.get("state"), addr.get("country"))
+            description = p.get("description") or ""
+            kind = p.get("employmentType") or {}
+            jobs[jid] = Job(
+                key=f"motion:{jid}",
+                company=company,
+                title=title,
+                location=location,
+                url=p.get("url") or f"https://motionrecruitment.com/tech-jobs/{jid}",
+                salary=find_pay_range(description),
+                workplace=_normalize_workplace(p.get("remote")) or workplace_from_title(title)
+                or workplace_from_text(location, description),
+                employment=employment_from_text(
+                    title, description, kind.get("originalName") or kind.get("name") or kind.get("googleEmploymentType") or ""
+                ),
+            )
+        time.sleep(VENDOR_DELAY)
+    return list(jobs.values())
+
+
+_ASGN_WORKPLACE = {1: "onsite", 2: "hybrid", 3: "remote"}
+
+
+def asgn(company: str, host: str, queries: list[str], buid: int = 1, pages: int = 2, **_) -> Iterable[Job]:
+    """ASGN brands' job search (`<host>/ccv5-jobs/search`, e.g. CyberCoders)."""
+    jobs: dict[str, Job] = {}
+    for query in queries:
+        for n in range(1, pages + 1):
+            params = urllib.parse.urlencode({"keyword": query, "rows": 50, "page": n, "sortType": "relevance", "buid": buid})
+            data = _request(f"https://{host}/ccv5-jobs/search?{params}")
+            posts = data.get("jobs") or []
+            for p in posts:
+                jid = str(p.get("Id") or p.get("jobId") or "")
+                if not jid or jid in jobs:
+                    continue
+                title = (p.get("jobTitle") or "").strip()
+                cities, states = p.get("City") or [], p.get("StateCode") or []
+                pairs = zip(cities, states) if cities and states else [(c, "") for c in cities] or [("", s) for s in states]
+                location = "; ".join(dict.fromkeys(_location(c, s) for c, s in pairs))
+                workplace = _ASGN_WORKPLACE.get(p.get("WorkLocationTypeId") or 0, "")
+                if workplace == "remote" and "remote" not in location.lower():
+                    location = f"{location} (Remote)".strip()
+                description = p.get("ShortDescription") or ""
+                path = p.get("JobURL") or f"job-detail/{jid}"
+                jobs[jid] = Job(
+                    key=f"asgn:{buid}:{jid}",
+                    company=company,
+                    title=title,
+                    location=location,
+                    url=f"https://{host}/{path.lstrip('/')}",
+                    posted=(p.get("DatePost") or "")[:10],
+                    salary=_hourly_or_yearly(p.get("SalaryMin"), p.get("SalaryMax"), p.get("SalaryType") or ""),
+                    workplace=workplace or workplace_from_title(title) or workplace_from_text(location, description),
+                    employment=employment_from_text(title, description, p.get("TaxTerm") or ""),
+                )
+            if len(posts) < 50 or n * 50 >= (data.get("numFound") or 0):
+                break
+            time.sleep(VENDOR_DELAY)
+    return list(jobs.values())
+
+
+def xmlfeed(company: str, url: str, **_) -> Iterable[Job]:
+    """An Indeed-format XML job feed (`<source><job><title>…`) published for job boards to ingest."""
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    try:
+        with urllib.request.urlopen(req, timeout=120) as resp:
+            xml = resp.read().decode("utf-8", "replace")
+    except urllib.error.HTTPError as e:
+        if e.code == 404:
+            raise BoardNotFound(url) from e
+        raise
+    host = urllib.parse.urlparse(url).netloc
+    jobs: dict[str, Job] = {}
+    for item in re.findall(r"<job>(.*?)</job>", xml, re.S):
+        def tag(name: str) -> str:
+            m = re.search(rf"<{name}>\s*(?:<!\[CDATA\[(.*?)\]\]>|(.*?))\s*</{name}>", item, re.S)
+            return html.unescape((m.group(1) or m.group(2) or "") if m else "").strip()
+
+        jid = tag("referencenumber") or tag("requisitionid") or tag("url")
+        if not jid or jid in jobs:
+            continue
+        title = tag("title")
+        city = re.sub(r"\s*\(.*?\)", "", tag("city"))
+        location = _location(city, tag("state"), tag("country"))
+        description = tag("description")
+        arrangement = tag("remotetype").lower()  # "Fully remote", "Hybrid remote", "On-site"
+        workplace = "hybrid" if "hybrid" in arrangement else "remote" if "remote" in arrangement else (
+            "onsite" if re.search(r"on-?site|office", arrangement) else "")
+        try:
+            posted = parsedate_to_datetime(tag("date")).date().isoformat()
+        except (TypeError, ValueError):
+            posted = tag("date")[:10]
+        jobs[jid] = Job(
+            key=f"xmlfeed:{host}:{jid}",
+            company=company,
+            title=title,
+            location=location,
+            url=tag("url"),
+            posted=posted,
+            salary=tag("salary") or find_pay_range(description),
+            workplace=workplace or workplace_from_title(title) or workplace_from_text(location, description),
+            employment=employment_from_text(title, description, tag("jobtype")),
+        )
     return list(jobs.values())
 
 
@@ -806,6 +1247,13 @@ FETCHERS = {
     "recruitee": recruitee,
     "breezy": breezy,
     "oracle": oracle,
+    "phenom": phenom,
+    "randstad": randstad,
+    "roberthalf": roberthalf,
+    "judge": judge,
+    "motion": motion,
+    "asgn": asgn,
+    "xmlfeed": xmlfeed,
     "remoteok": remoteok,
     "jobicy": jobicy,
     "weworkremotely": weworkremotely,

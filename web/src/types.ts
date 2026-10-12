@@ -7,6 +7,7 @@ export type Role = {
   regions: string[]
   remote: boolean
   workplace?: string
+  employment?: string
   categories: string[]
   level: string
   posted: string | null
@@ -24,6 +25,8 @@ export type Facets = {
   regions: string[]
   levels: string[]
   workplaces: string[]
+  /** Only profiles with `[dashboard] employment = true` (Full-time, Contract (W2), Contract (C2C), ...). */
+  employments?: string[]
 }
 
 export type ElsewhereSearch = {
@@ -91,6 +94,7 @@ export type Filters = {
   levels: string[]
   regions: string[]
   workplaces: string[]
+  employments: string[]
   companies: string[]
   minSalary: number
   salaryOnly: boolean
@@ -107,6 +111,7 @@ export const DEFAULT_FILTERS: Filters = {
   levels: [],
   regions: [],
   workplaces: [],
+  employments: [],
   companies: [],
   minSalary: 0,
   salaryOnly: false,

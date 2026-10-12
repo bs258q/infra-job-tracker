@@ -425,5 +425,122 @@ class SalaryTests(unittest.TestCase):
         self.assertEqual(find_pay_range("no pay info"), "")
 
 
+class StaffingTests(unittest.TestCase):
+    f = Filters(SF_CFG)
+
+    def test_employment_from_text(self):
+        from ats import employment_from_text as emp
+
+        cases = [
+            (("Salesforce Developer (W2 only)", ""), "contract-w2"),
+            (("Salesforce Developer", "Duration: 12 months. W2 only, no C2C."), "contract-w2"),
+            (("Salesforce Developer", "Long-Term Contract!W2"), "contract-w2"),
+            (("Salesforce Developer", "No sponsorship or C2C for this role. Must be a w2 employee", "Contract"), "contract-w2"),
+            (("Salesforce Architect - C2C", ""), "contract-c2c"),
+            (("Salesforce Developer", "6 month contract, open to W2 or Corp-to-Corp"), "contract-c2c"),
+            (("Salesforce Admin", "We are not accepting C2C or 1099 arrangements", "Contract"), "contract"),
+            (("Salesforce Admin", "Third-party corp to corp candidates will not be considered.", "Contract"), "contract"),
+            (("Salesforce Admin", "This is a 1099 contract role"), "1099"),
+            (("Salesforce Admin", "401(k) and Form W-2 not relevant; pay $1,099 bonus"), ""),
+            (("Salesforce Developer", "Duration: 12-month contract-to-hire"), "contract-to-hire"),
+            (("Salesforce Developer", "", "Temp to Perm"), "contract-to-hire"),
+            (("Salesforce Developer", "", "Contractor"), "contract"),
+            (("Salesforce Developer", "", "Perm"), "full-time"),
+            (("Salesforce Developer", "W2 only. Benefits: Health and 401k", "Permanent"), "full-time"),
+            (("Salesforce Developer", "", "FULL_TIME"), "full-time"),
+            (("Salesforce Developer", "This is a direct hire position."), "full-time"),
+            (("Salesforce Developer", "We build CRM tools for W-2 employees."), ""),
+            (("Salesforce Contract Management Developer", ""), ""),
+            (("Senior Salesforce Engineer", "<p>Join our team.</p>"), ""),
+        ]
+        for args, want in cases:
+            self.assertEqual(emp(*args), want, args)
+
+    def test_vendor_titles_and_locations_pass(self):
+        from ats import Job
+
+        for title in ["Salesforce Developer (W2 only)", "Sr. Salesforce Functional Architect - Hybrid NYC - 2369",
+                      "Salesforce Administrator - Contract to Hire", "SFDC Administrator/Developer (Sales Cloud)"]:
+            self.assertTrue(self.f.title_ok(title), title)
+        for loc, wp in [("Remote", "remote"), ("Hybrid - Dallas, TX", "hybrid"), ("Charlotte, NC", ""),
+                        ("Culver City, CA", ""), ("Ann Arbor, MI (Remote)", "remote")]:
+            self.assertTrue(self.f(Job(key="k", company="Judge Group", title="Salesforce Developer", location=loc, url="", workplace=wp)), loc)
+
+    def test_workplace_from_title(self):
+        from ats import workplace_from_title
+
+        self.assertEqual(workplace_from_title("Salesforce Architect - Hybrid NYC"), "hybrid")
+        self.assertEqual(workplace_from_title("Salesforce Admin (Remote)"), "remote")
+        self.assertEqual(workplace_from_title("Hybrid Cloud Salesforce Engineer"), "")
+        self.assertEqual(workplace_from_title("Salesforce Administrator (Onsite In OKC)"), "onsite")
+
+    def test_employment_qualifiers_dedupe_within_vendor_only(self):
+        from dedupe import role_key, title_key
+
+        for a in ["Salesforce Developer (W2 only)", "Salesforce Developer - Contract", "Salesforce Developer (No C2C)",
+                  "Salesforce Developer - Contract to Hire - Dallas, TX", "Salesforce Developer (12+ months)"]:
+            self.assertEqual(title_key(a), title_key("Salesforce Developer"), a)
+        self.assertNotEqual(title_key("Salesforce Contract Developer"), title_key("Salesforce Developer"))
+        self.assertNotEqual(role_key("TEKsystems", "Salesforce Developer"), role_key("Judge Group", "Salesforce Developer (W2)"))
+        self.assertEqual(role_key("Judge Group", "Salesforce Developer"), role_key("Judge Group", "Salesforce Developer (W2)"))
+
+    def test_phenom(self):
+        from unittest import mock
+
+        import ats
+
+        data = {"refineSearch": {"totalHits": 1, "data": {"jobs": [{
+            "jobId": "JP-1", "title": "Sr. Salesforce Developer", "location": "Culver City, California, USA",
+            "multi_location": ["Culver City,CA,90230,USA", "Denver,CO,80201,USA"], "type": "Contractor",
+            "postedDate": "2026-09-15T00:00:00.000+0000", "descriptionTeaser": "Remote role",
+        }]}}}
+        with mock.patch.object(ats, "_request", return_value=data) as req, mock.patch.object(ats.time, "sleep"):
+            jobs = ats.phenom("TEKsystems", host="careers.teksystems.com", queries=["salesforce"])
+        self.assertEqual(req.call_args[0][1]["keywords"], "salesforce")
+        j = jobs[0]
+        self.assertEqual((j.location, j.employment, j.posted), ("Culver City, CA; Denver, CO", "contract", "2026-09-15"))
+        self.assertEqual(j.url, "https://careers.teksystems.com/us/en/job/JP-1/Sr-Salesforce-Developer")
+
+    def test_judge_and_roberthalf(self):
+        import json
+        from unittest import mock
+
+        import ats
+
+        judge = json.dumps({"total": 1, "size": 20, "hits": [{
+            "jobOrderId": 7, "title": "Salesforce Administrator", "location": "REMOTE", "type": "Contract",
+            "opened": 1758672000000, "description": "<p>12 month contract. W2 only.</p>", "salary": "",
+        }]})
+        with mock.patch.object(ats, "_request", return_value=judge):
+            j = ats.judge("Judge Group", queries=["salesforce"])[0]
+        self.assertEqual((j.location, j.workplace, j.employment, j.url),
+                         ("Remote", "remote", "contract-w2", "https://www.judge.com/jobs/details/7/"))
+
+        rh = {"found": "1", "jobs": [{
+            "unique_job_number": "02210-1", "jobtitle": "Salesforce Developer", "city": "Ann Arbor", "stateprovince": "MI",
+            "remote": "Yes", "emptype": "Temp to Perm", "payrate_min": "57", "payrate_max": "66", "payrate_period": "Hourly",
+            "date_posted": "2026-09-23T00:00:00Z", "job_detail_url": "https://www.roberthalf.com/us/en/job/x",
+        }]}
+        with mock.patch.object(ats, "_request", return_value=rh):
+            j = ats.roberthalf("Robert Half", queries=["salesforce"])[0]
+        self.assertEqual((j.location, j.workplace, j.employment, j.salary),
+                         ("Ann Arbor, MI (Remote)", "remote", "contract-to-hire", "$57 – $66/hr"))
+
+    def test_employment_facet_only_when_enabled(self):
+        import dashboard
+        from ats import Job
+
+        jobs = [Job(key="a:1", company="Judge Group", title="Salesforce Developer (W2)", location="Remote", url="", employment="contract-w2"),
+                Job(key="a:2", company="Judge Group", title="Salesforce Developer", location="Remote", url="", employment="contract")]
+        seen = {j.key: {"first_seen": "T1"} for j in jobs}
+        sf = dashboard.Facets(SF_CFG["dashboard"])
+        infra = dashboard.Facets(tomllib.loads((PROFILES / "infra.toml").read_text()).get("dashboard", {}))
+        self.assertIn("employments", sf.order())
+        self.assertNotIn("employments", infra.order())
+        roles = dashboard.build_roles(jobs, seen, lambda _: True, sf)
+        self.assertEqual([(r["postings"], r["employment"]) for r in roles], [(2, "Contract (W2)")])
+        self.assertNotIn("employment", dashboard.build_roles(jobs, seen, lambda _: True, infra)[0])
+
+
 if __name__ == "__main__":
     unittest.main()

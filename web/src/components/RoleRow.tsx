@@ -3,6 +3,14 @@ import { avatarColor, postedLabel, salaryLabel } from '../lib/format'
 import type { Role, Status } from '../types'
 import { StatusSelect } from './StatusSelect'
 
+const EMPLOYMENT_BADGE: Record<string, string> = {
+  'Contract (W2)': 'W2',
+  'Contract (C2C)': 'C2C',
+  'Contract-to-hire': 'C2H',
+  '1099': '1099',
+  'Contract (unspecified)': 'Contract',
+}
+
 type Props = {
   role: Role
   isNew: boolean
@@ -58,6 +66,11 @@ export function RoleRow({ role, isNew, status, onStatus }: Props) {
               }`}
             >
               {role.workplace}
+            </span>
+          )}
+          {role.employment && EMPLOYMENT_BADGE[role.employment] && (
+            <span className="rounded bg-sky-50 px-1.5 text-xs font-medium text-sky-700 dark:bg-sky-950/40 dark:text-sky-400" title={role.employment}>
+              {EMPLOYMENT_BADGE[role.employment]}
             </span>
           )}
           <span>{role.level}</span>
