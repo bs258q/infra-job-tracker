@@ -4003,6 +4003,10 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-12"
 },
+"himalayas:https://himalayas.app/companies/accuknox/jobs/devops-trainee": {
+"first_seen": "2026-10-12T06:49:27Z",
+"last_seen": "2026-10-12"
+},
 "himalayas:https://himalayas.app/companies/acuitymd/jobs/software-engineer-infrastructure": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-12"
@@ -4201,7 +4205,7 @@
 },
 "himalayas:https://himalayas.app/companies/awisee/jobs/senior-data-infrastructure-engineer-scraping-scale": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-11"
+"last_seen": "2026-10-12"
 },
 "himalayas:https://himalayas.app/companies/backblaze/jobs/cluster-systems-capacity-engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -4281,6 +4285,10 @@
 },
 "himalayas:https://himalayas.app/companies/bjak/jobs/cloud-infrastructure-security-engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
+"last_seen": "2026-10-12"
+},
+"himalayas:https://himalayas.app/companies/bjak/jobs/machine-learning-platform-engineer-5432400907": {
+"first_seen": "2026-10-12T06:49:27Z",
 "last_seen": "2026-10-12"
 },
 "himalayas:https://himalayas.app/companies/black-financial-consult/jobs/devops-engineer": {
@@ -4721,6 +4729,10 @@
 },
 "himalayas:https://himalayas.app/companies/courtyard/jobs/staff-data-engineer-ml-platform": {
 "first_seen": "2026-10-11T23:44:47Z",
+"last_seen": "2026-10-12"
+},
+"himalayas:https://himalayas.app/companies/cpqd/jobs/curso-de-formacao-kubernetes-na-pratica-domine-a-orquestracao-de-conteineres": {
+"first_seen": "2026-10-12T06:49:27Z",
 "last_seen": "2026-10-12"
 },
 "himalayas:https://himalayas.app/companies/credit-acceptance/jobs/staff-machine-learning-engineer-platform-mlops": {
@@ -5519,6 +5531,10 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-12"
 },
+"himalayas:https://himalayas.app/companies/leolabs/jobs/senior-site-reliability-engineer-sre-5421900163": {
+"first_seen": "2026-10-12T06:49:27Z",
+"last_seen": "2026-10-12"
+},
 "himalayas:https://himalayas.app/companies/lifelancer/jobs/cloud-devops-infrastructure-engineer-roche-cloud-platform-azure-9550355069": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-12"
@@ -6137,6 +6153,10 @@
 },
 "himalayas:https://himalayas.app/companies/qompyl/jobs/cloud-infrastructure-engineer-part-time-equity-only-8829857006": {
 "first_seen": "2026-10-11T23:44:47Z",
+"last_seen": "2026-10-12"
+},
+"himalayas:https://himalayas.app/companies/quant-network/jobs/senior-site-reliability-engineer": {
+"first_seen": "2026-10-12T06:49:27Z",
 "last_seen": "2026-10-12"
 },
 "himalayas:https://himalayas.app/companies/quantiphi-com/jobs/architect-platform-engineering-usa": {
@@ -6925,6 +6945,10 @@
 },
 "himalayas:https://himalayas.app/companies/wex/jobs/sr-staff-ai-platform-engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
+"last_seen": "2026-10-12"
+},
+"himalayas:https://himalayas.app/companies/wix/jobs/site-reliability-engineer-deviantart": {
+"first_seen": "2026-10-12T06:49:27Z",
 "last_seen": "2026-10-12"
 },
 "himalayas:https://himalayas.app/companies/world-relief/jobs/training-officer-program-of-initial-resettlement-2025868": {
@@ -7755,6 +7779,10 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-12"
 },
+"role:accuknox|devops trainee": {
+"first_seen": "2026-10-12T06:49:27Z",
+"last_seen": "2026-10-12"
+},
 "role:acuitymd|software engineer infrastructure": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-12"
@@ -8433,7 +8461,7 @@
 },
 "role:awisee|senior data infrastructure engineer scraping and scale": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-11"
+"last_seen": "2026-10-12"
 },
 "role:backblaze|cluster and systems capacity engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -8585,6 +8613,10 @@
 },
 "role:bjak|cloud infrastructure security engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
+"last_seen": "2026-10-12"
+},
+"role:bjak|machine learning platform engineer": {
+"first_seen": "2026-10-12T06:49:27Z",
 "last_seen": "2026-10-12"
 },
 "role:blackbaud|ai platform technical lead": {
@@ -9505,6 +9537,10 @@
 },
 "role:courtyard|staff data engineer machine learning platform": {
 "first_seen": "2026-10-11T23:44:47Z",
+"last_seen": "2026-10-12"
+},
+"role:cpqd|curso de formacao kubernetes na pratica domine a orquestracao de conteineres": {
+"first_seen": "2026-10-12T06:49:27Z",
 "last_seen": "2026-10-12"
 },
 "role:creditacceptance|staff machine learning engineer platform mlops": {
@@ -11265,6 +11301,10 @@
 },
 "role:leland|site reliability and engineering coach": {
 "first_seen": "2026-10-11T23:44:47Z",
+"last_seen": "2026-10-12"
+},
+"role:leolabs|senior site reliability engineer site reliability engineer": {
+"first_seen": "2026-10-12T06:49:27Z",
 "last_seen": "2026-10-12"
 },
 "role:lifelancer|cloud devops infrastructure engineer roche cloud platform azure": {
@@ -13787,6 +13827,10 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-12"
 },
+"role:quant|senior site reliability engineer": {
+"first_seen": "2026-10-12T06:49:27Z",
+"last_seen": "2026-10-12"
+},
 "role:quartermaster|fleet reliability engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-12"
@@ -15653,6 +15697,10 @@
 },
 "role:wex|senior staff ai platform engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
+"last_seen": "2026-10-12"
+},
+"role:wix|site reliability engineer deviantart": {
+"first_seen": "2026-10-12T06:49:27Z",
 "last_seen": "2026-10-12"
 },
 "role:wiz|security engineer product and production infrastructure": {

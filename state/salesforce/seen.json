@@ -243,6 +243,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-12"
 },
+"himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/salesforce-application-engineer": {
+"first_seen": "2026-10-12T06:51:41Z",
+"last_seen": "2026-10-12"
+},
 "himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/salesforce-developer-3930993053": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-12"
@@ -365,6 +369,18 @@
 },
 "himalayas:https://himalayas.app/companies/crosscountry-consulting/jobs/salesforce-solution-architect": {
 "first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-10-12"
+},
+"himalayas:https://himalayas.app/companies/cube84/jobs/salesforce-lead-developer": {
+"first_seen": "2026-10-12T06:51:41Z",
+"last_seen": "2026-10-12"
+},
+"himalayas:https://himalayas.app/companies/cube84/jobs/salesforce-senior-developer": {
+"first_seen": "2026-10-12T06:51:41Z",
+"last_seen": "2026-10-12"
+},
+"himalayas:https://himalayas.app/companies/cube84/jobs/salesforce-technical-architect": {
+"first_seen": "2026-10-12T06:51:41Z",
 "last_seen": "2026-10-12"
 },
 "himalayas:https://himalayas.app/companies/datacor/jobs/senior-manager-salesforce-architecture": {
@@ -903,6 +919,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-12"
 },
+"himalayas:https://himalayas.app/companies/recruitytalent/jobs/senior-salesforce-developer": {
+"first_seen": "2026-10-12T06:51:41Z",
+"last_seen": "2026-10-12"
+},
 "himalayas:https://himalayas.app/companies/resource-pro/jobs/sr-salesforce-architect-enterprise-applications-us-based-3618668401": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-12"
@@ -965,6 +985,10 @@
 },
 "himalayas:https://himalayas.app/companies/steampunk/jobs/mulesoft-integration-architect": {
 "first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-10-12"
+},
+"himalayas:https://himalayas.app/companies/steampunk/jobs/salesforce-technical-lead-sr-developer": {
+"first_seen": "2026-10-12T06:51:41Z",
 "last_seen": "2026-10-12"
 },
 "himalayas:https://himalayas.app/companies/techbiz-global/jobs/salesforce-service-cloud-developer": {
@@ -1051,6 +1075,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-12"
 },
+"himalayas:https://himalayas.app/companies/wettermark-keith/jobs/senior-salesforce-administrator": {
+"first_seen": "2026-10-12T06:51:41Z",
+"last_seen": "2026-10-12"
+},
 "himalayas:https://himalayas.app/companies/whiteboard-risk-insurance-solutions/jobs/salesforce-ai-automation-lead": {
 "first_seen": "2026-10-12T00:38:49Z",
 "last_seen": "2026-10-12"
@@ -1077,6 +1105,10 @@
 },
 "jobicy:152666": {
 "first_seen": "2026-10-11T23:45:59Z",
+"last_seen": "2026-10-12"
+},
+"jobicy:153019": {
+"first_seen": "2026-10-12T06:51:41Z",
 "last_seen": "2026-10-12"
 },
 "judge:1079130": {
@@ -1173,6 +1205,10 @@
 },
 "phenom:careers.teksystems.com:JP-006340046": {
 "first_seen": "2026-10-12T00:38:49Z",
+"last_seen": "2026-10-12"
+},
+"phenom:careers.teksystems.com:JP-006344242": {
+"first_seen": "2026-10-12T06:51:41Z",
 "last_seen": "2026-10-12"
 },
 "randstad:6aac37a9c5ba3d0c8a301cb7": {
@@ -1419,6 +1455,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-12"
 },
+"role:brightvision|salesforce application engineer": {
+"first_seen": "2026-10-12T06:51:41Z",
+"last_seen": "2026-10-12"
+},
 "role:brightvision|salesforce developer": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-12"
@@ -1571,6 +1611,18 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-12"
 },
+"role:cube84|salesforce lead developer": {
+"first_seen": "2026-10-12T06:51:41Z",
+"last_seen": "2026-10-12"
+},
+"role:cube84|salesforce senior developer": {
+"first_seen": "2026-10-12T06:51:41Z",
+"last_seen": "2026-10-12"
+},
+"role:cube84|salesforce technical architect": {
+"first_seen": "2026-10-12T06:51:41Z",
+"last_seen": "2026-10-12"
+},
 "role:datacor|senior manager salesforce architecture": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-12"
@@ -1669,6 +1721,10 @@
 },
 "role:exavalu|vlocity platform senior developer": {
 "first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-10-12"
+},
+"role:extrahop|salesforce developer 3": {
+"first_seen": "2026-10-12T06:51:41Z",
 "last_seen": "2026-10-12"
 },
 "role:firemon|salesforce administrator": {
@@ -2251,6 +2307,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-12"
 },
+"role:recruitytalent|senior salesforce developer": {
+"first_seen": "2026-10-12T06:51:41Z",
+"last_seen": "2026-10-12"
+},
 "role:resourcepro|senior salesforce architect": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-12"
@@ -2387,12 +2447,20 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-12"
 },
+"role:steampunk|salesforce technical lead senior developer": {
+"first_seen": "2026-10-12T06:51:41Z",
+"last_seen": "2026-10-12"
+},
 "role:techbizglobal|salesforce service cloud developer": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-12"
 },
 "role:technatomy|salesforce architect": {
 "first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-10-12"
+},
+"role:teksystems|salesforce administrator": {
+"first_seen": "2026-10-12T06:51:41Z",
 "last_seen": "2026-10-12"
 },
 "role:teksystems|salesforce developer": {
@@ -2489,6 +2557,10 @@
 },
 "role:voyager|salesforce administrator": {
 "first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-10-12"
+},
+"role:wettermarkkeith|senior salesforce administrator": {
+"first_seen": "2026-10-12T06:51:41Z",
 "last_seen": "2026-10-12"
 },
 "role:whiteboardriskandinsurancesolutions|salesforce and ai automation lead": {
