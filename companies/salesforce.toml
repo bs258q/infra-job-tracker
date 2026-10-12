@@ -300,3 +300,52 @@ site = "cignacareers"
 name = "Experian"
 ats = "smartrecruiters"
 slug = "experian"
+
+# ---------- Staffing & prime vendors ----------
+# Contract (W2 / C2C / contract-to-hire) and direct-hire roles placed with their clients. Each is searched by
+# keyword on the vendor's own public job-search API, a few pages at most, one page at a time.
+# Not ingested: Kforce, Apex Systems, Insight Global, Experis, Kelly, Hays, Akkodis, Collabera, Beacon Hill,
+# Dexian (no public feed, or robots.txt / a site-embedded API key rules it out); see README.
+[[company]]
+name = "TEKsystems"
+ats = "phenom"
+host = "careers.teksystems.com"
+queries = ["salesforce"]
+
+[[company]]
+name = "Actalent"
+ats = "phenom"
+host = "careers.actalentservices.com"
+queries = ["salesforce"]
+
+[[company]]
+name = "Randstad"
+ats = "randstad"
+queries = ["salesforce"]
+
+[[company]]
+name = "Robert Half"
+ats = "roberthalf"
+queries = ["salesforce"]
+
+[[company]]
+name = "Judge Group"
+ats = "judge"
+queries = ["salesforce"]
+
+[[company]]
+name = "Motion Recruitment"
+ats = "motion"
+queries = ["salesforce"]
+
+[[company]]
+name = "CyberCoders"
+ats = "asgn"
+host = "www.cybercoders.com"
+buid = 1
+queries = ["salesforce"]
+
+[[company]]
+name = "Cognizant"
+ats = "xmlfeed"
+url = "https://careers.cognizant.com/us-en/jobs/xml/?rss=true"

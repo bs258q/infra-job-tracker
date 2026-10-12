@@ -32,6 +32,7 @@ export function applyFilters(
     if (f.levels.length && !f.levels.includes(r.level)) return false
     if (f.regions.length && !r.regions.some((x) => f.regions.includes(x))) return false
     if (f.workplaces.length && !f.workplaces.includes(r.workplace ?? NOT_STATED)) return false
+    if (f.employments.length && !f.employments.includes(r.employment ?? NOT_STATED)) return false
     if (f.companies.length && !f.companies.includes(r.company)) return false
     if ((f.salaryOnly || f.minSalary) && r.salaryMax == null) return false
     if (f.minSalary && (r.salaryMax ?? 0) < f.minSalary) return false

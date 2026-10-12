@@ -34,7 +34,7 @@ export function money(n: number): string {
 }
 
 export function salaryLabel(role: Role): string {
-  if (role.salaryMin == null || role.salaryMax == null) return ''
+  if (role.salaryMin == null || role.salaryMax == null) return /\/hr$/.test(role.salary) ? role.salary : ''
   return role.salaryMin === role.salaryMax
     ? money(role.salaryMin)
     : `${money(role.salaryMin)} – ${money(role.salaryMax)}`

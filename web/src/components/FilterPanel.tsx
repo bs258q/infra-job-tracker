@@ -12,7 +12,7 @@ type Props = {
   tracked: Record<string, Tracked>
 }
 
-type ListKey = 'categories' | 'levels' | 'regions' | 'workplaces' | 'companies'
+type ListKey = 'categories' | 'levels' | 'regions' | 'workplaces' | 'employments' | 'companies'
 
 export function FilterPanel({ roles, facets, filters, setFilters, tracked }: Props) {
   const set = <K extends keyof Filters>(k: K, v: Filters[K]) => setFilters({ ...filters, [k]: v })
@@ -24,6 +24,7 @@ export function FilterPanel({ roles, facets, filters, setFilters, tracked }: Pro
   const categoryCounts = useMemo(() => countBy(roles, (r) => r.categories), [roles])
   const regionCounts = useMemo(() => countBy(roles, (r) => r.regions), [roles])
   const workplaceCounts = useMemo(() => countBy(roles, (r) => [r.workplace ?? NOT_STATED]), [roles])
+  const employmentCounts = useMemo(() => countBy(roles, (r) => [r.employment ?? NOT_STATED]), [roles])
   const levelCounts = useMemo(() => countBy(roles, (r) => [r.level]), [roles])
   const companyCounts = useMemo(() => countBy(roles, (r) => [r.company]), [roles])
   const statusCounts = useMemo(() => {
@@ -73,6 +74,9 @@ export function FilterPanel({ roles, facets, filters, setFilters, tracked }: Pro
 
       <FacetSection title="Role type" order={facets.categories} counts={categoryCounts} selected={filters.categories} onToggle={(v) => toggle('categories', v)} />
       <FacetSection title="Workplace" order={facets.workplaces} counts={workplaceCounts} selected={filters.workplaces} onToggle={(v) => toggle('workplaces', v)} />
+      {facets.employments && (
+        <FacetSection title="Employment" order={facets.employments} counts={employmentCounts} selected={filters.employments} onToggle={(v) => toggle('employments', v)} />
+      )}
       <FacetSection title="Location" order={facets.regions} counts={regionCounts} selected={filters.regions} onToggle={(v) => toggle('regions', v)} />
       <FacetSection title="Level" order={facets.levels} counts={levelCounts} selected={filters.levels} onToggle={(v) => toggle('levels', v)} />
 

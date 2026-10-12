@@ -124,6 +124,7 @@ def fetch_all(companies: list[dict], filters: Filters, default_queries: list[str
             ))
             for j in jobs:
                 j.workplace = j.workplace or ats.workplace_from_text(j.location)
+                j.employment = j.employment or ats.employment_from_text(j.title)
             return entry["name"], jobs, None
         except Exception as e:
             return entry["name"], [], f"{type(e).__name__}: {str(e)[:160]}"

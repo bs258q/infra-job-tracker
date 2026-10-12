@@ -14,6 +14,7 @@ Twice a day GitHub Actions runs every profile, emails the new roles, and redeplo
 |---|---|---|
 | Company boards | Greenhouse, Lever, Ashby, Workable, Gem, Rippling, SmartRecruiters, Recruitee, Breezy, Workday, Oracle Recruiting Cloud, Eightfold, Amazon, YC company pages | each company's own public jobs API (`companies/tech.toml`, `companies/salesforce.toml`, `companies/found/`) |
 | Job boards | Himalayas, Remotive, Remote OK, Jobicy, We Work Remotely, Working Nomads, Hacker News "Who is hiring" | public APIs / feeds, shared by every profile (`companies/boards.toml`) |
+| Staffing & prime vendors (`salesforce` only) | TEKsystems, Actalent, Randstad, Robert Half, Judge Group, Motion Recruitment, CyberCoders, Cognizant | keyword search on each vendor's own public job-search API (Cognizant: its XML job feed), a few pages, one at a time (`companies/salesforce.toml`). Not ingested: Kforce (search uses an API key embedded in its site; robots.txt disallows the search service), Apex Systems (no public job API), Insight Global (job API refuses non-browser clients), Experis (robots.txt disallows everything), Kelly, Hays, Akkodis, Collabera, Beacon Hill, Dexian (no public job feed found) |
 | Linked, not ingested | LinkedIn, Indeed, Glassdoor, Dice, Wellfound, Built In, Google Jobs, hiring.cafe, ainfra.dev, Work at a Startup | no public jobs feed and scraping is against their terms; the dashboard's "Search elsewhere" menu opens the profile's saved searches there (`[elsewhere]` in the profile) |
 
 Those sites mostly re-list roles from the company boards above, so tracking the companies directly covers
@@ -34,6 +35,9 @@ Switch between profiles in the header (`?p=salesforce` links straight to one). S
 role type, workplace (remote / hybrid), location, level, salary, company, and posted window
 (24h / 7d / 30d); "new since last visit" highlighting; a personal pipeline (saved → applied →
 interviewing → offer) with notes, stored in the browser per profile with export/import; hiring-trend charts.
+The `salesforce` profile (`[dashboard] employment = true`) adds an Employment filter — Full-time, Contract (W2),
+Contract (C2C), Contract-to-hire, 1099, Contract (unspecified) — and W2 / C2C / C2H badges. W2, C2C, and 1099
+are only set when the posting says so explicitly ("W2 only" or "no C2C" rules C2C out).
 
 Local preview: `python tracker.py --profile salesforce --no-email` (writes `web/public/data/salesforce`),
 then `cd web && npm run dev`.

@@ -16,6 +16,12 @@ _COMPANY_NOISE = re.compile(
     r"\b(inc|llc|ltd|limited|corp|corporation|co|company|pbc|plc|gmbh|technologies|technology|labs?|ai|hq|the)\b"
 )
 _WORKPLACE = re.compile(r"\b(remote|hybrid|on-?site|in-?office|wfh|anywhere|work from home|area|based|only|first)\b")
+# Staffing titles append the engagement: "(W2 only)", "- Contract", "(Contract to Hire)", "(No C2C)"
+_EMPLOYMENT = re.compile(
+    r"\b(w-?2|c2c|c2h|cth|1099|corp(oration)? ?(to|2) ?corp(oration)?|contract(or)?|contract to (hire|perm)|"
+    r"temp(orary)?|temp to (hire|perm)|full ?time|fte|perm(anent)?|direct ?hire|long ?term|\d+\+? ?(months?|mos?)|"
+    r"candidates|no|or|and)\b"
+)
 _ROLE_WORD = re.compile(
     r"engineer|developer|scientist|architect|manager|lead|platform|infrastructure|\binfra\b|systems?|software|"
     r"data|security|research|\bml\b|\bai\b|cloud|network|devops|reliability|\bsre\b|gpu|compiler|kernel|"
@@ -48,7 +54,7 @@ def _is_location(segment: str) -> bool:
     s = segment.strip(" -|,/@:()[]")
     if not s:
         return True
-    if not re.sub(r"[^a-z]+", " ", _WORKPLACE.sub(" ", s.lower())).strip():
+    if not re.sub(r"[^a-z]+", " ", _EMPLOYMENT.sub(" ", _WORKPLACE.sub(" ", s.lower()))).strip():
         return True
     if _ROLE_WORD.search(s):
         return False
