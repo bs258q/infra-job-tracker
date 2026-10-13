@@ -1687,6 +1687,10 @@
 "first_seen": "2026-10-12T22:04:41Z",
 "last_seen": "2026-10-13"
 },
+"role:cvshealth|senior manager salesforce business intelligence developer commercial": {
+"first_seen": "2026-10-13T07:20:31Z",
+"last_seen": "2026-10-13"
+},
 "role:datacor|senior manager salesforce architecture": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-13"
@@ -2769,6 +2773,10 @@
 },
 "workday:bah:/job/McLean-VA/Salesforce-Platform-Engineer--Mid_R0250616": {
 "first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-10-13"
+},
+"workday:cvshealth:/job/PA---Work-from-home/Senior-Manager--Salesforce-Business-Intelligence-Developer-Commercial_R1051842": {
+"first_seen": "2026-10-13T07:20:31Z",
 "last_seen": "2026-10-13"
 },
 "workday:guidehouse:/job/US---DC-Washington/Senior-Salesforce-Technical-Architect_42560": {

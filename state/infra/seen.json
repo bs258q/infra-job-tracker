@@ -4041,7 +4041,7 @@
 },
 "himalayas:https://himalayas.app/companies/acuitymd/jobs/software-engineer-infrastructure": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-12"
+"last_seen": "2026-10-13"
 },
 "himalayas:https://himalayas.app/companies/adavo-ab/jobs/devops-kubernetes-technical-lead-architect-zcelero": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -6843,6 +6843,10 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-13"
 },
+"himalayas:https://himalayas.app/companies/unchained-entertainment/jobs/infrastructure-liveops-engineer": {
+"first_seen": "2026-10-13T07:17:45Z",
+"last_seen": "2026-10-13"
+},
 "himalayas:https://himalayas.app/companies/unconventional-ai/jobs/ai-systems-language-reasoning-models": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-13"
@@ -7133,6 +7137,14 @@
 },
 "jobicy:152638": {
 "first_seen": "2026-10-11T23:44:47Z",
+"last_seen": "2026-10-13"
+},
+"jobicy:153130": {
+"first_seen": "2026-10-13T07:17:45Z",
+"last_seen": "2026-10-13"
+},
+"jobicy:153134": {
+"first_seen": "2026-10-13T07:17:45Z",
 "last_seen": "2026-10-13"
 },
 "jobicy:154542": {
@@ -7877,7 +7889,7 @@
 },
 "role:acuitymd|software engineer infrastructure": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-12"
+"last_seen": "2026-10-13"
 },
 "role:adavoab|devops kubernetes technical lead architect zcelero": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -13743,6 +13755,14 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-13"
 },
+"role:phantom|staff devops engineer platform": {
+"first_seen": "2026-10-13T07:17:45Z",
+"last_seen": "2026-10-13"
+},
+"role:phantom|staff software engineer site reliability engineer": {
+"first_seen": "2026-10-13T07:17:45Z",
+"last_seen": "2026-10-13"
+},
 "role:phoenixteam|aws infrastructure engineer rhel 7 to rhel 8": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-13"
@@ -14557,6 +14577,10 @@
 },
 "role:salesforce|software security engineer distributed systems": {
 "first_seen": "2026-10-11T22:20:38Z",
+"last_seen": "2026-10-13"
+},
+"role:salesforce|staff software engineer data infrastructure": {
+"first_seen": "2026-10-13T07:17:45Z",
 "last_seen": "2026-10-13"
 },
 "role:salesforce|value acceleration engineer": {
@@ -15549,6 +15573,10 @@
 },
 "role:ultimusfundsolutions|trainer transfer agency training": {
 "first_seen": "2026-10-11T23:44:47Z",
+"last_seen": "2026-10-13"
+},
+"role:unchainedentertainment|infrastructure and liveops engineer": {
+"first_seen": "2026-10-13T07:17:45Z",
 "last_seen": "2026-10-13"
 },
 "role:unconventional|ai systems language and reasoning models": {
@@ -17273,6 +17301,10 @@
 },
 "workday:salesforce:/job/California---San-Francisco/Sr-Production-Engineer_JR354972-1": {
 "first_seen": "2026-10-11T22:20:38Z",
+"last_seen": "2026-10-13"
+},
+"workday:salesforce:/job/California---San-Francisco/Staff-Software-Engineer--Data-Infrastructure_JR363305-1": {
+"first_seen": "2026-10-13T07:17:45Z",
 "last_seen": "2026-10-13"
 },
 "workday:salesforce:/job/California---San-Francisco/Value-Acceleration-Engineer-SMTS_JR360492": {
