@@ -203,9 +203,13 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-13"
 },
+"himalayas:https://himalayas.app/companies/availity/jobs/salesforce-developer-iii-8765708329": {
+"first_seen": "2026-10-13T20:13:59Z",
+"last_seen": "2026-10-13"
+},
 "himalayas:https://himalayas.app/companies/bayapps-inc/jobs/quote-to-cash-architect-salesforce-cpq-zuora": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-12"
+"last_seen": "2026-10-13"
 },
 "himalayas:https://himalayas.app/companies/beeu-infotech-limited/jobs/conga-cpq-developer": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -369,6 +373,10 @@
 },
 "himalayas:https://himalayas.app/companies/complete-synergi/jobs/salesforce-developers-core-data-cloud-marketing-experience-ai": {
 "first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-10-13"
+},
+"himalayas:https://himalayas.app/companies/concentrix/jobs/salesforce-data360-developer-9273163316": {
+"first_seen": "2026-10-13T20:13:59Z",
 "last_seen": "2026-10-13"
 },
 "himalayas:https://himalayas.app/companies/connectiverx/jobs/product-owner-salesforce-administrator": {
@@ -1051,6 +1059,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-13"
 },
+"himalayas:https://himalayas.app/companies/trbitix/jobs/salesforce-zuora-cpq-developer": {
+"first_seen": "2026-10-13T20:13:59Z",
+"last_seen": "2026-10-13"
+},
 "himalayas:https://himalayas.app/companies/tripoint-solutions-llc/jobs/salesforce-security-technical-architect": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-13"
@@ -1435,9 +1447,13 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-13"
 },
+"role:availity|salesforce developer 3": {
+"first_seen": "2026-10-13T20:13:59Z",
+"last_seen": "2026-10-13"
+},
 "role:bayapps|quote to cash architect salesforce cpq and zuora": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-12"
+"last_seen": "2026-10-13"
 },
 "role:beeuinfotech|conga cpq developer": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -1489,6 +1505,10 @@
 },
 "role:boozallen|salesforce platform engineer mid": {
 "first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-10-13"
+},
+"role:boozallen|salesforce solution architect": {
+"first_seen": "2026-10-13T20:13:59Z",
 "last_seen": "2026-10-13"
 },
 "role:bounteous|salesforce sales and service cloud administrator": {
@@ -1631,12 +1651,20 @@
 "first_seen": "2026-10-12T00:38:49Z",
 "last_seen": "2026-10-13"
 },
+"role:cognizant|salesforce technical lead": {
+"first_seen": "2026-10-13T20:13:59Z",
+"last_seen": "2026-10-13"
+},
 "role:coinbase|senior enterprise engineer salesforce platform eaa stp": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-13"
 },
 "role:completesynergi|salesforce developers core data cloud marketing experience ai": {
 "first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-10-13"
+},
+"role:concentrix|salesforce data360 developer": {
+"first_seen": "2026-10-13T20:13:59Z",
 "last_seen": "2026-10-13"
 },
 "role:connectiverx|product owner salesforce administrator": {
@@ -1689,6 +1717,10 @@
 },
 "role:cvshealth|senior manager salesforce business intelligence developer commercial": {
 "first_seen": "2026-10-13T07:20:31Z",
+"last_seen": "2026-10-13"
+},
+"role:cvshealth|senior salesforce software development engineer": {
+"first_seen": "2026-10-13T20:13:59Z",
 "last_seen": "2026-10-13"
 },
 "role:datacor|senior manager salesforce architecture": {
@@ -2579,6 +2611,10 @@
 "first_seen": "2026-10-11T23:45:59Z",
 "last_seen": "2026-10-13"
 },
+"role:trbitix|salesforce zuora cpq developer": {
+"first_seen": "2026-10-13T20:13:59Z",
+"last_seen": "2026-10-13"
+},
 "role:tripointsolutions|salesforce security and technical architect": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-13"
@@ -2775,8 +2811,16 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-13"
 },
+"workday:bah:/job/Melbourne-FL/Salesforce-Solution-Architect_R0251543": {
+"first_seen": "2026-10-13T20:13:59Z",
+"last_seen": "2026-10-13"
+},
 "workday:cvshealth:/job/PA---Work-from-home/Senior-Manager--Salesforce-Business-Intelligence-Developer-Commercial_R1051842": {
 "first_seen": "2026-10-13T07:20:31Z",
+"last_seen": "2026-10-13"
+},
+"workday:cvshealth:/job/Work-At-Home-Texas/Senior-Salesforce-Software-Development-Engineer_R1062906": {
+"first_seen": "2026-10-13T20:13:59Z",
 "last_seen": "2026-10-13"
 },
 "workday:guidehouse:/job/US---DC-Washington/Senior-Salesforce-Technical-Architect_42560": {
@@ -2889,6 +2933,10 @@
 },
 "xmlfeed:careers.cognizant.com:00070887601": {
 "first_seen": "2026-10-12T00:38:49Z",
+"last_seen": "2026-10-13"
+},
+"xmlfeed:careers.cognizant.com:00070948151": {
+"first_seen": "2026-10-13T20:13:59Z",
 "last_seen": "2026-10-13"
 },
 "xmlfeed:careers.cognizant.com:00070962901": {
