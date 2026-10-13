@@ -18,6 +18,7 @@ import smtplib
 import sys
 import tomllib
 from collections import defaultdict
+from collections.abc import Callable
 from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime, timedelta, timezone
 from email.message import EmailMessage
@@ -151,6 +152,34 @@ def fetch_all(companies: list[dict], filters: Filters, default_queries: list[str
     return matches, errors
 
 
+def drop_unavailable(
+    matches: dict[str, ats.Job], probe: Callable[[str], bool] | None = None
+) -> tuple[dict[str, ats.Job], int]:
+    """Drop postings whose public page is gone.
+
+    A board that already reported the posting closed is not fetched again. A timeout, a block, or a
+    rate limit keeps the posting: a failed check is not evidence the role expired.
+    """
+    probe = probe or ats.posting_is_closed
+    already = {k for k, j in matches.items() if j.closed}
+    urls = list(dict.fromkeys(j.url for k, j in matches.items() if k not in already and j.url))
+    closed_urls: set[str] = set()
+
+    def safe(url: str) -> bool:
+        try:
+            return bool(probe(url))
+        except Exception:
+            return False
+
+    if urls:
+        with ThreadPoolExecutor(max_workers=12) as pool:
+            for url, gone in zip(urls, pool.map(safe, urls)):
+                if gone:
+                    closed_urls.add(url)
+    kept = {k: j for k, j in matches.items() if k not in already and j.url not in closed_urls}
+    return kept, len(matches) - len(kept)
+
+
 def mark_seen(matches: dict[str, ats.Job], seen: dict[str, dict], now: str, today: str) -> set[str]:
     """Record postings and their roles in `seen`; return keys of postings whose role is new.
 
@@ -278,6 +307,9 @@ def main() -> None:
     filters = Filters(cfg)
     print(f"[{args.profile}] fetching {len(companies)} sources", file=sys.stderr)
     matches, errors = fetch_all(companies, filters, cfg["search"]["queries"])
+    matches, expired = drop_unavailable(matches)
+    if expired:
+        print(f"removed {expired} expired postings", file=sys.stderr)
 
     if args.dry_run:
         for company, groups in group_roles(list(matches.values())).items():

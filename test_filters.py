@@ -542,5 +542,57 @@ class StaffingTests(unittest.TestCase):
         self.assertNotIn("employment", dashboard.build_roles(jobs, seen, lambda _: True, infra)[0])
 
 
+class ExpiredPostingTests(unittest.TestCase):
+    def test_page_says_closed_only_on_clear_evidence(self):
+        from ats import page_says_closed
+
+        gone = "<title>Job not found</title><p>The job you are looking for is no longer open.</p>"
+        self.assertTrue(page_says_closed(404, ""))
+        self.assertTrue(page_says_closed(410, ""))
+        self.assertTrue(page_says_closed(200, gone))
+        live = "<title>Infrastructure Engineer</title><p>" + ("We build GPU clusters. " * 400) + "</p>"
+        self.assertFalse(page_says_closed(200, live))
+        # A live description can mention the words; that is not an expired-posting page.
+        self.assertFalse(page_says_closed(200, live + "<p>Sponsorship is no longer available.</p>"))
+        self.assertFalse(page_says_closed(403, "Just a moment... Cloudflare"))
+        self.assertFalse(page_says_closed(429, ""))
+        self.assertFalse(page_says_closed(503, "no longer available"))
+        # Greenhouse sends a removed job back to the board with ?error=true. The board page itself is large.
+        board = "<title>Jobs at Anthropic</title>" + ("Open roles. " * 800)
+        self.assertTrue(page_says_closed(200, board, "https://job-boards.greenhouse.io/anthropic?error=true"))
+        self.assertFalse(page_says_closed(200, board, "https://job-boards.greenhouse.io/anthropic/jobs/4461450008"))
+        # Ashby serves a JavaScript shell with no posting for an unknown id, and the real posting inline when it is open.
+        shell = "<title>Jobs</title><p>You need to enable JavaScript to run this app.</p>"
+        self.assertTrue(page_says_closed(200, shell, "https://jobs.ashbyhq.com/openai/00000000-0000-0000-0000-000000000000"))
+        self.assertFalse(page_says_closed(200, shell + '"@type":"JobPosting"', "https://jobs.ashbyhq.com/openai/abc"))
+        self.assertFalse(page_says_closed(200, "<title>Just a moment...</title>Cloudflare", "https://jobs.ashbyhq.com/openai/abc"))
+        # Workable redirects a removed job to /oops. A medium-length description that uses the
+        # same words stays listed; Workable pages are only a few thousand characters.
+        self.assertTrue(page_says_closed(200, "<title>Workable</title>" + ("x" * 4000), "https://apply.workable.com/oops"))
+        medium = "<title>Engineer</title><p>" + ("We build GPU clusters. " * 80) + "Sponsorship is no longer available.</p>"
+        self.assertFalse(page_says_closed(200, medium, "https://apply.workable.com/runware/j/CE2C2FFAC2"))
+
+    def test_refresh_drops_expired_postings_and_keeps_uncertain_ones(self):
+        from ats import Job
+        from tracker import drop_unavailable
+
+        live = Job(key="gh:1", company="Acme", title="Infrastructure Engineer", location="SF", url="https://boards.example/live")
+        dead = Job(key="gh:2", company="Acme", title="Infrastructure Engineer", location="Remote", url="https://boards.example/dead")
+        unsure = Job(key="hi:3", company="Other", title="SRE", location="Remote", url="https://boards.example/blocked")
+        blank = Job(key="hn:4", company="Other", title="SRE", location="Remote", url="")
+        flagged = Job(key="wd:5", company="Acme", title="Platform Engineer", location="SF", url="https://boards.example/flagged", closed=True)
+
+        def probe(url: str) -> bool:
+            if url.endswith("/flagged"):
+                raise AssertionError("a posting the board already reported closed should not be fetched")
+            return url.endswith("/dead")
+
+        kept, removed = drop_unavailable(
+            {"gh:1": live, "gh:2": dead, "hi:3": unsure, "hn:4": blank, "wd:5": flagged}, probe
+        )
+        self.assertEqual(removed, 2)
+        self.assertEqual(set(kept), {"gh:1", "hi:3", "hn:4"})
+
+
 if __name__ == "__main__":
     unittest.main()

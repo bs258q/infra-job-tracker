@@ -36,6 +36,7 @@ class Job:
     salary: str = ""
     workplace: str = ""  # remote | hybrid | onsite | "" (not stated)
     employment: str = ""  # one of EMPLOYMENT, or "" (not stated)
+    closed: bool = False  # the board's own detail call reported this posting gone
 
 
 EMPLOYMENT = ["full-time", "contract-w2", "contract-c2c", "contract-to-hire", "1099", "contract"]
@@ -444,6 +445,9 @@ def workday(
         path, job = item
         try:
             info = _request(f"{base}{path}").get("jobPostingInfo") or {}
+        except BoardNotFound:
+            job.closed = True
+            return
         except Exception:
             return
         if not job.location or _MULTI_LOC.match(job.location):
@@ -1228,6 +1232,71 @@ def hackernews(company: str, **_) -> Iterable[Job]:
                 salary=pay,
                 workplace=workplace_from_text(location),
             )
+
+
+# Error pages are a sentence or two. A live posting's description can mention the same words
+# ("sponsorship is no longer available"), so those phrases only count in the title or in a very
+# short page. Workable and Gem job pages are only a few thousand characters of HTML.
+_CLOSED_PHRASE = re.compile(
+    r"no longer (open|available|accepting)"
+    r"|job not found"
+    r"|(job|posting|position|opening) (has expired|is closed)"
+    r"|this (job|position|posting) has (expired|been filled)"
+    r"|position has been filled"
+    r"|page you are looking for doesn.?t exist",
+    re.I,
+)
+_TITLE = re.compile(r"<title[^>]*>(.*?)</title>", re.I | re.S)
+_CHALLENGE = re.compile(r"just a moment|cf-browser-verification|attention required|cloudflare", re.I)
+_SHORT_PAGE = 600
+
+
+def page_says_closed(status: int, body: str, final_url: str = "") -> bool:
+    """True when a fetched posting page is gone. Anything other than 404, 410, or a clear
+    expired-posting page (including rate limits and bot challenges) is treated as still listed."""
+    if status in (404, 410):
+        return True
+    if status != 200:
+        return False
+    # Greenhouse redirects a removed job to the board: /<company>?error=true
+    # Workable redirects one to /oops.
+    if re.search(r"[?&]error=true\b", final_url or ""):
+        return True
+    if urllib.parse.urlparse(final_url or "").path.rstrip("/") == "/oops":
+        return True
+    if _CHALLENGE.search(body or ""):
+        return False
+    # Ashby renders the posting into the HTML when it is open, and a bare app shell when it is not.
+    if urllib.parse.urlparse(final_url or "").netloc.lower().endswith("ashbyhq.com") and "JobPosting" not in (body or ""):
+        return True
+    title = ""
+    if m := _TITLE.search(body or ""):
+        title = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", m.group(1)))
+    if _CLOSED_PHRASE.search(title):
+        return True
+    text = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", body or ""))
+    return len(text) <= _SHORT_PAGE and bool(_CLOSED_PHRASE.search(text))
+
+
+def posting_is_closed(url: str) -> bool:
+    """Fetch the public posting page once. Timeouts, blocks, and rate limits keep the listing."""
+    if not url:
+        return False
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "text/html,application/xhtml+xml"})
+    try:
+        with urllib.request.urlopen(req, timeout=8) as resp:
+            status = getattr(resp, "status", 200) or 200
+            final = resp.geturl()
+            body = resp.read(60_000).decode("utf-8", "replace")
+    except urllib.error.HTTPError as e:
+        status, final = e.code, getattr(e, "url", url) or url
+        try:
+            body = e.read(20_000).decode("utf-8", "replace")
+        except Exception:
+            body = ""
+    except (urllib.error.URLError, TimeoutError, OSError):
+        return False
+    return page_says_closed(status, body, final)
 
 
 FETCHERS = {
