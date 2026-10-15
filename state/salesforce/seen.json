@@ -437,7 +437,7 @@
 },
 "himalayas:https://himalayas.app/companies/crosscountry-consulting/jobs/salesforce-solution-architect": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-14"
+"last_seen": "2026-10-15"
 },
 "himalayas:https://himalayas.app/companies/cube84/jobs/salesforce-lead-developer": {
 "first_seen": "2026-10-12T06:51:41Z",
@@ -1183,6 +1183,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-15"
 },
+"himalayas:https://himalayas.app/companies/versapay/jobs/salesforce-developer": {
+"first_seen": "2026-10-15T18:10:10Z",
+"last_seen": "2026-10-15"
+},
 "himalayas:https://himalayas.app/companies/vibrant-emotional-health/jobs/senior-crm-administrator-salesforce": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-13"
@@ -1727,6 +1731,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-15"
 },
+"role:citi|salesforce technical lead": {
+"first_seen": "2026-10-15T18:10:10Z",
+"last_seen": "2026-10-15"
+},
 "role:codersconnect|senior salesforce developer": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-14"
@@ -1805,7 +1813,7 @@
 },
 "role:crosscountryconsulting|salesforce solution architect": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-14"
+"last_seen": "2026-10-15"
 },
 "role:cube84|salesforce lead developer": {
 "first_seen": "2026-10-12T06:51:41Z",
@@ -2815,6 +2823,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-15"
 },
+"role:versapay|salesforce developer": {
+"first_seen": "2026-10-15T18:10:10Z",
+"last_seen": "2026-10-15"
+},
 "role:vibrantemotionalhealth|senior crm administrator salesforce": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-13"
@@ -2977,6 +2989,10 @@
 },
 "workday:bah:/job/Melbourne-FL/Salesforce-Solution-Architect_R0251543": {
 "first_seen": "2026-10-13T20:13:59Z",
+"last_seen": "2026-10-15"
+},
+"workday:citi:/job/Irving-Texas-United-States/Salesforce-Technical-Lead_261000164": {
+"first_seen": "2026-10-15T18:10:10Z",
 "last_seen": "2026-10-15"
 },
 "workday:cvshealth:/job/PA---Work-from-home/Senior-Manager--Salesforce-Business-Intelligence-Developer-Commercial_R1051842": {
