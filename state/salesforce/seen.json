@@ -107,6 +107,10 @@
 "first_seen": "2026-10-12T22:04:41Z",
 "last_seen": "2026-10-14"
 },
+"greenhouse:neuraflash:6224045004": {
+"first_seen": "2026-10-16T17:55:54Z",
+"last_seen": "2026-10-16"
+},
 "greenhouse:neuraflash:6225940004": {
 "first_seen": "2026-10-16T05:22:34Z",
 "last_seen": "2026-10-16"
@@ -283,6 +287,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-14"
 },
+"himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/lead-salesforce-architect-7945941715": {
+"first_seen": "2026-10-16T17:55:54Z",
+"last_seen": "2026-10-16"
+},
 "himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/salesforce-api-architect": {
 "first_seen": "2026-10-14T18:28:14Z",
 "last_seen": "2026-10-16"
@@ -429,7 +437,7 @@
 },
 "himalayas:https://himalayas.app/companies/connectiverx/jobs/product-owner-salesforce-administrator": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-15"
+"last_seen": "2026-10-16"
 },
 "himalayas:https://himalayas.app/companies/continuum/jobs/mulesoft-developer": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -506,6 +514,10 @@
 "himalayas:https://himalayas.app/companies/demandpdx/jobs/salesforce-commerce-cloud-technical-lead": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-15"
+},
+"himalayas:https://himalayas.app/companies/dhan-ai/jobs/senior-salesforce-field-service-sfs-engineer": {
+"first_seen": "2026-10-16T17:55:54Z",
+"last_seen": "2026-10-16"
 },
 "himalayas:https://himalayas.app/companies/dmi/jobs/salesforce-developer": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -689,7 +701,7 @@
 },
 "himalayas:https://himalayas.app/companies/idealist-consulting/jobs/1099-contract-salesforce-for-nonprofits-solution-architect": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-15"
+"last_seen": "2026-10-16"
 },
 "himalayas:https://himalayas.app/companies/inclusion-cloud/jobs/salesforce-administrator": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -795,6 +807,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-16"
 },
+"himalayas:https://himalayas.app/companies/list-engage/jobs/sfmc-solution-architect-marketing-cloud-engagement": {
+"first_seen": "2026-10-16T17:55:54Z",
+"last_seen": "2026-10-16"
+},
 "himalayas:https://himalayas.app/companies/lumen-technologies/jobs/principal-software-development-engineer-mulesoft": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-16"
@@ -805,11 +821,11 @@
 },
 "himalayas:https://himalayas.app/companies/marktine-technology-solutions-pvt-ltd/jobs/salesforce-apex-classic-developer": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-13"
+"last_seen": "2026-10-16"
 },
 "himalayas:https://himalayas.app/companies/marktine-technology-solutions-pvt-ltd/jobs/salesforce-cloudcraze-developer": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-13"
+"last_seen": "2026-10-16"
 },
 "himalayas:https://himalayas.app/companies/marktine-technology-solutions-pvt-ltd/jobs/salesforce-commerce-cloud-developer-demandware": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -817,7 +833,7 @@
 },
 "himalayas:https://himalayas.app/companies/marktine-technology-solutions-pvt-ltd/jobs/salesforce-developer": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-13"
+"last_seen": "2026-10-16"
 },
 "himalayas:https://himalayas.app/companies/marktine-technology-solutions-pvt-ltd/jobs/salesforce-devops-architect": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -829,15 +845,15 @@
 },
 "himalayas:https://himalayas.app/companies/marktine-technology-solutions-pvt-ltd/jobs/salesforce-lwc-developer": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-13"
+"last_seen": "2026-10-16"
 },
 "himalayas:https://himalayas.app/companies/marktine-technology-solutions-pvt-ltd/jobs/salesforce-vlocity-developer": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-13"
+"last_seen": "2026-10-16"
 },
 "himalayas:https://himalayas.app/companies/marktine-technology-solutions-pvt-ltd/jobs/salesforce-vlocity-developer-apex-visual-force": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-13"
+"last_seen": "2026-10-16"
 },
 "himalayas:https://himalayas.app/companies/marktine-technology-solutions-pvt-ltd/jobs/senior-salesforce-vlocity-developer-visual-force-apex": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -1181,7 +1197,7 @@
 },
 "himalayas:https://himalayas.app/companies/velaio/jobs/salesforce-administrator-bilingual-spanish-english": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-13"
+"last_seen": "2026-10-16"
 },
 "himalayas:https://himalayas.app/companies/velaio/jobs/salesforce-developer-bilingual-spanish-english": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -1402,6 +1418,10 @@
 "roberthalf:03100-0013510250-usen": {
 "first_seen": "2026-10-12T00:38:49Z",
 "last_seen": "2026-10-12"
+},
+"roberthalf:04080-0013526982-usen": {
+"first_seen": "2026-10-16T17:55:54Z",
+"last_seen": "2026-10-16"
 },
 "roberthalf:04600-0013518332-usen": {
 "first_seen": "2026-10-12T00:38:49Z",
@@ -1641,7 +1661,7 @@
 },
 "role:brightvision|lead salesforce architect": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-14"
+"last_seen": "2026-10-16"
 },
 "role:brightvision|salesforce api architect": {
 "first_seen": "2026-10-14T18:28:14Z",
@@ -1809,7 +1829,7 @@
 },
 "role:connectiverx|product owner salesforce administrator": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-15"
+"last_seen": "2026-10-16"
 },
 "role:continuum|mulesoft developer": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -1857,11 +1877,11 @@
 },
 "role:cvshealth|senior manager salesforce business intelligence developer commercial": {
 "first_seen": "2026-10-13T07:20:31Z",
-"last_seen": "2026-10-15"
+"last_seen": "2026-10-16"
 },
 "role:cvshealth|senior salesforce software development engineer": {
 "first_seen": "2026-10-13T20:13:59Z",
-"last_seen": "2026-10-15"
+"last_seen": "2026-10-16"
 },
 "role:datacor|senior manager salesforce architecture": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -1902,6 +1922,10 @@
 "role:demandpdx|salesforce commerce cloud technical lead": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-15"
+},
+"role:dhan|senior salesforce field service sfs engineer": {
+"first_seen": "2026-10-16T17:55:54Z",
+"last_seen": "2026-10-16"
 },
 "role:dmi|salesforce developer": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -2117,7 +2141,7 @@
 },
 "role:idealistconsulting|salesforce for nonprofits solution architect": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-15"
+"last_seen": "2026-10-16"
 },
 "role:inclusioncloud|salesforce administrator": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -2287,6 +2311,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-16"
 },
+"role:listengage|sfmc solution architect marketing cloud engagement": {
+"first_seen": "2026-10-16T17:55:54Z",
+"last_seen": "2026-10-16"
+},
 "role:lumen|principal software development engineer mulesoft": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-16"
@@ -2297,11 +2325,11 @@
 },
 "role:marktinesolutionspvt|salesforce apex classic developer": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-13"
+"last_seen": "2026-10-16"
 },
 "role:marktinesolutionspvt|salesforce cloudcraze developer": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-13"
+"last_seen": "2026-10-16"
 },
 "role:marktinesolutionspvt|salesforce commerce cloud developer demandware": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -2309,7 +2337,7 @@
 },
 "role:marktinesolutionspvt|salesforce developer": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-13"
+"last_seen": "2026-10-16"
 },
 "role:marktinesolutionspvt|salesforce devops architect": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -2321,15 +2349,15 @@
 },
 "role:marktinesolutionspvt|salesforce lwc developer": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-13"
+"last_seen": "2026-10-16"
 },
 "role:marktinesolutionspvt|salesforce vlocity developer": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-13"
+"last_seen": "2026-10-16"
 },
 "role:marktinesolutionspvt|salesforce vlocity developer apex visual force": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-13"
+"last_seen": "2026-10-16"
 },
 "role:marktinesolutionspvt|senior salesforce vlocity developer visual force apex": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -2417,6 +2445,10 @@
 },
 "role:neuraflash|health cloud solution architect": {
 "first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-10-16"
+},
+"role:neuraflash|marketing cloud next solution architect": {
+"first_seen": "2026-10-16T17:55:54Z",
 "last_seen": "2026-10-16"
 },
 "role:neuraflash|salesforce agentforce architect technical architect": {
@@ -2631,6 +2663,10 @@
 "first_seen": "2026-10-12T00:38:49Z",
 "last_seen": "2026-10-16"
 },
+"role:roberthalf|senior salesforce administrator": {
+"first_seen": "2026-10-16T17:55:54Z",
+"last_seen": "2026-10-16"
+},
 "role:rxcloud|salesforce developer": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-16"
@@ -2833,7 +2869,7 @@
 },
 "role:velaio|salesforce administrator bilingual spanish english": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-13"
+"last_seen": "2026-10-16"
 },
 "role:velaio|salesforce developer bilingual spanish english": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -3029,11 +3065,11 @@
 },
 "workday:cvshealth:/job/PA---Work-from-home/Senior-Manager--Salesforce-Business-Intelligence-Developer-Commercial_R1051842": {
 "first_seen": "2026-10-13T07:20:31Z",
-"last_seen": "2026-10-15"
+"last_seen": "2026-10-16"
 },
 "workday:cvshealth:/job/Work-At-Home-Texas/Senior-Salesforce-Software-Development-Engineer_R1062906": {
 "first_seen": "2026-10-13T20:13:59Z",
-"last_seen": "2026-10-15"
+"last_seen": "2026-10-16"
 },
 "workday:guidehouse:/job/US---DC-Washington/Senior-Salesforce-Technical-Architect_42560": {
 "first_seen": "2026-10-11T22:45:08Z",
