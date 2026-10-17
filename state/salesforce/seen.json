@@ -333,7 +333,7 @@
 },
 "himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/salesforce-solutions-developer-2667334892": {
 "first_seen": "2026-10-14T05:43:06Z",
-"last_seen": "2026-10-15"
+"last_seen": "2026-10-17"
 },
 "himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/salesforce-technical-architect-5619164238": {
 "first_seen": "2026-10-16T05:22:34Z",
@@ -513,11 +513,11 @@
 },
 "himalayas:https://himalayas.app/companies/demandpdx/jobs/salesforce-commerce-cloud-senior-engineer": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-15"
+"last_seen": "2026-10-17"
 },
 "himalayas:https://himalayas.app/companies/demandpdx/jobs/salesforce-commerce-cloud-technical-lead": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-15"
+"last_seen": "2026-10-17"
 },
 "himalayas:https://himalayas.app/companies/dhan-ai/jobs/senior-salesforce-field-service-sfs-engineer": {
 "first_seen": "2026-10-16T17:55:54Z",
@@ -554,6 +554,10 @@
 "himalayas:https://himalayas.app/companies/elogic/jobs/salesforce-developer-pool": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-16"
+},
+"himalayas:https://himalayas.app/companies/elyon-international/jobs/salesforce-developer": {
+"first_seen": "2026-10-17T16:58:44Z",
+"last_seen": "2026-10-17"
 },
 "himalayas:https://himalayas.app/companies/elyon-international/jobs/salesforce-solutions-architect": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -813,6 +817,10 @@
 },
 "himalayas:https://himalayas.app/companies/lisinski-law-firm/jobs/salesforce-cloud-architect": {
 "first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-10-17"
+},
+"himalayas:https://himalayas.app/companies/list-engage/jobs/agentforce-solutions-architect-6387646695": {
+"first_seen": "2026-10-17T16:58:44Z",
 "last_seen": "2026-10-17"
 },
 "himalayas:https://himalayas.app/companies/list-engage/jobs/sfmc-solution-architect-marketing-cloud-engagement": {
@@ -1107,6 +1115,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-11"
 },
+"himalayas:https://himalayas.app/companies/salesloft/jobs/senior-salesforce-business-systems-administrator": {
+"first_seen": "2026-10-17T16:58:44Z",
+"last_seen": "2026-10-17"
+},
 "himalayas:https://himalayas.app/companies/sembi/jobs/salesforce-administrator": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-13"
@@ -1162,6 +1174,10 @@
 "himalayas:https://himalayas.app/companies/tenable/jobs/salesforce-developer-us-remote": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-15"
+},
+"himalayas:https://himalayas.app/companies/the-christian-reformed-church-in-north-america/jobs/salesforce-administrator": {
+"first_seen": "2026-10-17T16:58:44Z",
+"last_seen": "2026-10-17"
 },
 "himalayas:https://himalayas.app/companies/the-realreal/jobs/staff-salesforce-engineer": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -1709,7 +1725,7 @@
 },
 "role:brightvision|salesforce solutions developer": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-15"
+"last_seen": "2026-10-17"
 },
 "role:brightvision|salesforce technical architect": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -1789,6 +1805,10 @@
 },
 "role:cherokeefederal|salesforce developer devops": {
 "first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-10-17"
+},
+"role:christianreformedchurchinnorthamerica|salesforce administrator": {
+"first_seen": "2026-10-17T16:58:44Z",
 "last_seen": "2026-10-17"
 },
 "role:citi|salesforce technical lead": {
@@ -1937,11 +1957,11 @@
 },
 "role:demandpdx|salesforce commerce cloud senior engineer": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-15"
+"last_seen": "2026-10-17"
 },
 "role:demandpdx|salesforce commerce cloud technical lead": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-15"
+"last_seen": "2026-10-17"
 },
 "role:dhan|senior salesforce field service sfs engineer": {
 "first_seen": "2026-10-16T17:55:54Z",
@@ -1990,6 +2010,10 @@
 "role:elogic|salesforce developer pool": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-16"
+},
+"role:elyoninternational|salesforce developer": {
+"first_seen": "2026-10-17T16:58:44Z",
+"last_seen": "2026-10-17"
 },
 "role:elyoninternational|salesforce solutions architect": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -2333,6 +2357,10 @@
 },
 "role:lisinskilawfirm|salesforce cloud architect": {
 "first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-10-17"
+},
+"role:listengage|agentforce solutions architect": {
+"first_seen": "2026-10-17T16:58:44Z",
 "last_seen": "2026-10-17"
 },
 "role:listengage|sfmc solution architect marketing cloud engagement": {
@@ -2701,67 +2729,71 @@
 },
 "role:salesforce|business planning and operations lead agentforce operations": {
 "first_seen": "2026-10-11T23:45:59Z",
-"last_seen": "2026-10-16"
+"last_seen": "2026-10-17"
 },
 "role:salesforce|consumption lead data foundation mulesoft + informatica": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-16"
+"last_seen": "2026-10-17"
 },
 "role:salesforce|data cloud success architect u s citizen": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-16"
+"last_seen": "2026-10-17"
 },
 "role:salesforce|forward deployed engineer fde agentforce orchestration": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-16"
+"last_seen": "2026-10-17"
 },
 "role:salesforce|mulesoft integration senior architect missionforce": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-16"
+"last_seen": "2026-10-17"
 },
 "role:salesforce|mulesoft technical architect public sector": {
 "first_seen": "2026-10-11T23:45:59Z",
-"last_seen": "2026-10-16"
+"last_seen": "2026-10-17"
 },
 "role:salesforce|partner technical architect agentforce": {
 "first_seen": "2026-10-11T23:45:59Z",
-"last_seen": "2026-10-16"
+"last_seen": "2026-10-17"
 },
 "role:salesforce|senior ai engineer agentforce operations": {
 "first_seen": "2026-10-11T23:45:59Z",
-"last_seen": "2026-10-16"
+"last_seen": "2026-10-17"
 },
 "role:salesforce|senior enterprise architect agentforce supply chain": {
 "first_seen": "2026-10-11T23:45:59Z",
-"last_seen": "2026-10-16"
+"last_seen": "2026-10-17"
 },
 "role:salesforce|senior lead software engineer site reliability agentforce operations": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-16"
+"last_seen": "2026-10-17"
 },
 "role:salesforce|senior solution architect agentforce contact center": {
 "first_seen": "2026-10-11T23:45:59Z",
-"last_seen": "2026-10-16"
+"last_seen": "2026-10-17"
 },
 "role:salesforce|senior solution architect marketing cloud": {
 "first_seen": "2026-10-11T23:45:59Z",
-"last_seen": "2026-10-16"
+"last_seen": "2026-10-17"
 },
 "role:salesforce|solutions architect salesforce migrations data360 revenue tableau or marketing clouds": {
 "first_seen": "2026-10-11T23:45:59Z",
-"last_seen": "2026-10-16"
+"last_seen": "2026-10-17"
 },
 "role:salesforce|success architect agentforce u s citizen": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-16"
+"last_seen": "2026-10-17"
 },
 "role:salesforce|success architect mulesoft": {
 "first_seen": "2026-10-11T23:45:59Z",
-"last_seen": "2026-10-16"
+"last_seen": "2026-10-17"
 },
 "role:salesforce|success architect sales cloud u s citizen": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-16"
+},
+"role:salesloft|senior salesforce business systems administrator": {
+"first_seen": "2026-10-17T16:58:44Z",
+"last_seen": "2026-10-17"
 },
 "role:sembi|salesforce administrator": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -3117,51 +3149,51 @@
 },
 "workday:salesforce:/job/California---San-Francisco/Business-Planning---Operations-Lead--Agentforce-Operations_JR358867-1": {
 "first_seen": "2026-10-11T23:45:59Z",
-"last_seen": "2026-10-16"
+"last_seen": "2026-10-17"
 },
 "workday:salesforce:/job/California---San-Francisco/Consumption-Lead--Mulesoft_JR282637": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-16"
+"last_seen": "2026-10-17"
 },
 "workday:salesforce:/job/California---San-Francisco/Senior-AI-Engineer--Agentforce-Operations_JR360144": {
 "first_seen": "2026-10-11T23:45:59Z",
-"last_seen": "2026-10-16"
+"last_seen": "2026-10-17"
 },
 "workday:salesforce:/job/California---San-Francisco/Senior-Lead-Principal-Software-Engineer--Agentforce-for-Supply-Chain_JR340462": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-16"
+"last_seen": "2026-10-17"
 },
 "workday:salesforce:/job/California---San-Francisco/Sr-Enterprise-Architect--Agentforce-Supply-Chain_JR341872": {
 "first_seen": "2026-10-11T23:45:59Z",
-"last_seen": "2026-10-16"
+"last_seen": "2026-10-17"
 },
 "workday:salesforce:/job/Georgia---Atlanta-Metro---Remote/Senior-Solution-Architect---Agentforce-Contact-Center_JR361888": {
 "first_seen": "2026-10-11T23:45:59Z",
-"last_seen": "2026-10-16"
+"last_seen": "2026-10-17"
 },
 "workday:salesforce:/job/Georgia---Atlanta-Metro---Remote/Solution-Architect--Marketing--Data360-or-Agentforce-Contact-Center-_JR359055": {
 "first_seen": "2026-10-11T23:45:59Z",
-"last_seen": "2026-10-16"
+"last_seen": "2026-10-17"
 },
 "workday:salesforce:/job/Georgia---Atlanta/Forward-Deployed-Engineer--FDE----Agentforce-Orchestration_JR357427": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-16"
+"last_seen": "2026-10-17"
 },
 "workday:salesforce:/job/Illinois---Chicago/Agentforce-Success-Architect_JR336652": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-16"
+"last_seen": "2026-10-17"
 },
 "workday:salesforce:/job/Illinois---Chicago/Migration-Delivery-Lead_JR346360": {
 "first_seen": "2026-10-11T23:45:59Z",
-"last_seen": "2026-10-16"
+"last_seen": "2026-10-17"
 },
 "workday:salesforce:/job/Illinois---Chicago/Partner-Technical-Architect---Agentforce_JR343933": {
 "first_seen": "2026-10-11T23:45:59Z",
-"last_seen": "2026-10-16"
+"last_seen": "2026-10-17"
 },
 "workday:salesforce:/job/Indiana---Indianapolis/MuleSoft-Success-Architect_JR329338": {
 "first_seen": "2026-10-11T23:45:59Z",
-"last_seen": "2026-10-16"
+"last_seen": "2026-10-17"
 },
 "workday:salesforce:/job/Indiana---Indianapolis/Senior-Success-Architect_JR320532-1": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -3169,15 +3201,15 @@
 },
 "workday:salesforce:/job/New-York---New-York/Data360-Success-Architect_JR356148": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-16"
+"last_seen": "2026-10-17"
 },
 "workday:salesforce:/job/Virginia---Mclean/MuleSoft-Technical-Architect---Public-Sector_JR362274": {
 "first_seen": "2026-10-11T23:45:59Z",
-"last_seen": "2026-10-16"
+"last_seen": "2026-10-17"
 },
 "workday:salesforce:/job/Virginia---Washington-DC-Metro---Remote/Mulesoft-Integration-Senior-Architect--Missionforce_JR362490": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-16"
+"last_seen": "2026-10-17"
 },
 "workday:workday:/job/USA-GA-Atlanta/Product-Solution-Architect---Quote-to-Cash--Salesforce-CPQ---CLM-_JR-0109155-1": {
 "first_seen": "2026-10-11T22:45:08Z",
