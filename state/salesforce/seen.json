@@ -419,6 +419,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-18"
 },
+"himalayas:https://himalayas.app/companies/centice-pty-ltd/jobs/backend-developer-with-salesforce": {
+"first_seen": "2026-10-18T17:11:59Z",
+"last_seen": "2026-10-18"
+},
 "himalayas:https://himalayas.app/companies/centurylink/jobs/principal-software-development-engineer-mulesoft-remote-us": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-18"
@@ -441,6 +445,10 @@
 },
 "himalayas:https://himalayas.app/companies/cherokee-federal/jobs/salesforce-developer-devops": {
 "first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-10-18"
+},
+"himalayas:https://himalayas.app/companies/cloudmasonry/jobs/salesforce-solution-architect": {
+"first_seen": "2026-10-18T17:11:59Z",
 "last_seen": "2026-10-18"
 },
 "himalayas:https://himalayas.app/companies/coders-connect/jobs/senior-salesforce-developer": {
@@ -521,6 +529,10 @@
 },
 "himalayas:https://himalayas.app/companies/delan-associates/jobs/salesforce-architect-sales-service-cloud": {
 "first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-10-18"
+},
+"himalayas:https://himalayas.app/companies/delta-faucet-company/jobs/salesforce-solution-architect": {
+"first_seen": "2026-10-18T17:11:59Z",
 "last_seen": "2026-10-18"
 },
 "himalayas:https://himalayas.app/companies/demand-chain/jobs/salesforce-solution-architect": {
@@ -611,6 +623,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-17"
 },
+"himalayas:https://himalayas.app/companies/exavalu/jobs/sr-salesforce-developer": {
+"first_seen": "2026-10-18T17:11:59Z",
+"last_seen": "2026-10-18"
+},
 "himalayas:https://himalayas.app/companies/exavalu/jobs/vlocity-platform-senior-developer": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-18"
@@ -665,6 +681,10 @@
 },
 "himalayas:https://himalayas.app/companies/grazitti-interactive-inc/jobs/salesforce-marketing-cloud-architect-opening-in-grazitti-interactive-inc-us": {
 "first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-10-18"
+},
+"himalayas:https://himalayas.app/companies/growthline-partners-llc/jobs/salesforce-administrator": {
+"first_seen": "2026-10-18T17:11:59Z",
 "last_seen": "2026-10-18"
 },
 "himalayas:https://himalayas.app/companies/hike2/jobs/salesforce-omnistudio-solution-architect": {
@@ -935,6 +955,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-18"
 },
+"himalayas:https://himalayas.app/companies/mobigic-technologies-private-limited/jobs/salesforce-ncino-developer": {
+"first_seen": "2026-10-18T17:11:59Z",
+"last_seen": "2026-10-18"
+},
 "himalayas:https://himalayas.app/companies/motorola-solutions/jobs/software-engineer-salesforce-us-remote": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-16"
@@ -1173,6 +1197,18 @@
 },
 "himalayas:https://himalayas.app/companies/softgic/jobs/senior-salesforce-administrator-junior-developer-1705": {
 "first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-10-18"
+},
+"himalayas:https://himalayas.app/companies/solu/jobs/salesforce-developer-core-admin": {
+"first_seen": "2026-10-18T17:11:59Z",
+"last_seen": "2026-10-18"
+},
+"himalayas:https://himalayas.app/companies/solu/jobs/sr-salesforce-developer-b2c": {
+"first_seen": "2026-10-18T17:11:59Z",
+"last_seen": "2026-10-18"
+},
+"himalayas:https://himalayas.app/companies/solu/jobs/ssr-salesforce-developer-b2c": {
+"first_seen": "2026-10-18T17:11:59Z",
 "last_seen": "2026-10-18"
 },
 "himalayas:https://himalayas.app/companies/staffvirtual/jobs/l1-l2-salesforce-administrator": {
@@ -1835,6 +1871,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-18"
 },
+"role:centice|backend developer with salesforce": {
+"first_seen": "2026-10-18T17:11:59Z",
+"last_seen": "2026-10-18"
+},
 "role:centurylink|principal software development engineer mulesoft": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-18"
@@ -1865,6 +1905,10 @@
 },
 "role:citi|salesforce technical lead": {
 "first_seen": "2026-10-15T18:10:10Z",
+"last_seen": "2026-10-18"
+},
+"role:cloudmasonry|salesforce solution architect": {
+"first_seen": "2026-10-18T17:11:59Z",
 "last_seen": "2026-10-18"
 },
 "role:codersconnect|senior salesforce developer": {
@@ -1995,6 +2039,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-18"
 },
+"role:deltafaucet|salesforce solution architect": {
+"first_seen": "2026-10-18T17:11:59Z",
+"last_seen": "2026-10-18"
+},
 "role:demandchain|salesforce solution architect": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-18"
@@ -2095,6 +2143,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-17"
 },
+"role:exavalu|senior salesforce developer": {
+"first_seen": "2026-10-18T17:11:59Z",
+"last_seen": "2026-10-18"
+},
 "role:exavalu|vlocity platform senior developer": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-18"
@@ -2153,6 +2205,10 @@
 },
 "role:grazittiinteractive|salesforce marketing cloud architect opening in grazitti interactive inc": {
 "first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-10-18"
+},
+"role:growthlinepartners|salesforce administrator": {
+"first_seen": "2026-10-18T17:11:59Z",
 "last_seen": "2026-10-18"
 },
 "role:guidehouse|ai and data cloud architect": {
@@ -2497,6 +2553,10 @@
 },
 "role:mindpal|salesforce developer architect": {
 "first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-10-18"
+},
+"role:mobigicprivate|salesforce ncino developer": {
+"first_seen": "2026-10-18T17:11:59Z",
 "last_seen": "2026-10-18"
 },
 "role:mongodb|salesforce engineer 3 fedramp": {
@@ -2873,6 +2933,18 @@
 },
 "role:softgic|senior salesforce administrator junior developer 1705": {
 "first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-10-18"
+},
+"role:solu|salesforce developer core + admin": {
+"first_seen": "2026-10-18T17:11:59Z",
+"last_seen": "2026-10-18"
+},
+"role:solu|senior salesforce developer b2c": {
+"first_seen": "2026-10-18T17:11:59Z",
+"last_seen": "2026-10-18"
+},
+"role:solu|ssr salesforce developer b2c": {
+"first_seen": "2026-10-18T17:11:59Z",
 "last_seen": "2026-10-18"
 },
 "role:spro|senior salesforce developer": {
