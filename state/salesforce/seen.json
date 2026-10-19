@@ -115,6 +115,10 @@
 "first_seen": "2026-10-16T05:22:34Z",
 "last_seen": "2026-10-19"
 },
+"greenhouse:neuraflash:6228463004": {
+"first_seen": "2026-10-19T19:50:07Z",
+"last_seen": "2026-10-19"
+},
 "greenhouse:purestorage:8178769": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-13"
@@ -209,6 +213,10 @@
 },
 "himalayas:https://himalayas.app/companies/arionkoder/jobs/salesforce-developer": {
 "first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-10-19"
+},
+"himalayas:https://himalayas.app/companies/asi-partners-inc/jobs/irs-it-modernization-salesforce-solutions-architect": {
+"first_seen": "2026-10-19T19:50:07Z",
 "last_seen": "2026-10-19"
 },
 "himalayas:https://himalayas.app/companies/aspca/jobs/salesforce-technical-lead-7184819487": {
@@ -525,7 +533,7 @@
 },
 "himalayas:https://himalayas.app/companies/deegit-inc/jobs/salesforce-developer": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-18"
+"last_seen": "2026-10-19"
 },
 "himalayas:https://himalayas.app/companies/delan-associates/jobs/salesforce-architect-sales-service-cloud": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -1123,6 +1131,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-19"
 },
+"himalayas:https://himalayas.app/companies/pro-spectus/jobs/healthcare-salesforce-solutions-architect-health-cloud-life-sciences-req-d": {
+"first_seen": "2026-10-19T19:50:07Z",
+"last_seen": "2026-10-19"
+},
 "himalayas:https://himalayas.app/companies/proarch/jobs/salesforce-administrator": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-19"
@@ -1699,6 +1711,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-19"
 },
+"role:asipartners|irs it modernization salesforce solutions architect": {
+"first_seen": "2026-10-19T19:50:07Z",
+"last_seen": "2026-10-19"
+},
 "role:aspca|salesforce technical lead": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-15"
@@ -2057,7 +2073,7 @@
 },
 "role:deegit|salesforce developer": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-18"
+"last_seen": "2026-10-19"
 },
 "role:delanassociates|salesforce architect sales and service cloud": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -2651,6 +2667,10 @@
 "first_seen": "2026-10-16T05:22:34Z",
 "last_seen": "2026-10-19"
 },
+"role:neuraflash|functional lead ai and agentforce delivery": {
+"first_seen": "2026-10-19T19:50:07Z",
+"last_seen": "2026-10-19"
+},
 "role:neuraflash|health cloud solution architect": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-19"
@@ -2793,6 +2813,14 @@
 },
 "role:properexpression|senior revops solutions architect hubspot + salesforce": {
 "first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-10-19"
+},
+"role:prospectus|healthcare salesforce solutions architect health cloud life sciences req d": {
+"first_seen": "2026-10-19T19:50:07Z",
+"last_seen": "2026-10-19"
+},
+"role:proxifyab|senior salesforce crm developer": {
+"first_seen": "2026-10-19T19:50:07Z",
 "last_seen": "2026-10-19"
 },
 "role:purestorage|salesforce developer": {
@@ -3205,6 +3233,10 @@
 },
 "role:zscaler|salesforce engineer": {
 "first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-10-19"
+},
+"weworkremotely:proxify-ab-senior-salesforce-crm-developer-1": {
+"first_seen": "2026-10-19T19:50:07Z",
 "last_seen": "2026-10-19"
 },
 "weworkremotely:toptal-salesforce-developers-with-ai-assisted-coding-experience": {
