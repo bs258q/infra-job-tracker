@@ -455,6 +455,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-20"
 },
+"himalayas:https://himalayas.app/companies/cherokeefederal/jobs/salesforce-solution-architect": {
+"first_seen": "2026-10-20T18:32:13Z",
+"last_seen": "2026-10-20"
+},
 "himalayas:https://himalayas.app/companies/cloudmasonry/jobs/salesforce-solution-architect": {
 "first_seen": "2026-10-18T17:11:59Z",
 "last_seen": "2026-10-20"
@@ -1407,6 +1411,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-20"
 },
+"himalayas:https://himalayas.app/companies/xnr-solutions/jobs/salesforce-experience-architect-ai-and-agentforce-solution-architect": {
+"first_seen": "2026-10-20T18:32:13Z",
+"last_seen": "2026-10-20"
+},
 "himalayas:https://himalayas.app/companies/xperteez-technology/jobs/salesforce-hubspot-administrator-revenue-systems-saas-remote-contract": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-20"
@@ -1945,6 +1953,10 @@
 },
 "role:cherokeefederal|salesforce developer devops": {
 "first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-10-20"
+},
+"role:cherokeefederal|salesforce solution architect": {
+"first_seen": "2026-10-20T18:32:13Z",
 "last_seen": "2026-10-20"
 },
 "role:christianreformedchurchinnorthamerica|salesforce administrator": {
@@ -3107,6 +3119,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-20"
 },
+"role:toptal|salesforce developer for org ownership and ongoing platform development": {
+"first_seen": "2026-10-20T18:32:13Z",
+"last_seen": "2026-10-20"
+},
 "role:toptal|salesforce developers with ai assisted coding experience": {
 "first_seen": "2026-10-12T22:04:41Z",
 "last_seen": "2026-10-20"
@@ -3231,6 +3247,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-20"
 },
+"role:xnrsolutions|salesforce experience architect ai and agentforce solution architect": {
+"first_seen": "2026-10-20T18:32:13Z",
+"last_seen": "2026-10-20"
+},
 "role:xperteez|salesforce hubspot administrator revenue systems saas": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-20"
@@ -3253,6 +3273,10 @@
 },
 "weworkremotely:proxify-ab-senior-salesforce-crm-developer-1": {
 "first_seen": "2026-10-19T19:50:07Z",
+"last_seen": "2026-10-20"
+},
+"weworkremotely:toptal-salesforce-developer-for-org-ownership-and-ongoing-platform-development": {
+"first_seen": "2026-10-20T18:32:13Z",
 "last_seen": "2026-10-20"
 },
 "weworkremotely:toptal-salesforce-developers-with-ai-assisted-coding-experience": {
