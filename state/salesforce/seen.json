@@ -869,7 +869,11 @@
 },
 "himalayas:https://himalayas.app/companies/koniag-government-services/jobs/senior-salesforce-developer": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-17"
+"last_seen": "2026-10-21"
+},
+"himalayas:https://himalayas.app/companies/koniag-government-services/jobs/senior-salesforce-platform-engineer": {
+"first_seen": "2026-10-21T18:35:34Z",
+"last_seen": "2026-10-21"
 },
 "himalayas:https://himalayas.app/companies/kvp-business-solutions/jobs/senior-salesforce-developer": {
 "first_seen": "2026-10-19T05:37:49Z",
@@ -1129,7 +1133,7 @@
 },
 "himalayas:https://himalayas.app/companies/pointclickcare/jobs/senior-salesforce-architect-us": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-20"
+"last_seen": "2026-10-21"
 },
 "himalayas:https://himalayas.app/companies/pradeepit-consulting-services-pvt-ltd/jobs/lead-dell-boomi-developer-with-sfdc-expert-8-10years-exp-remote": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -1575,6 +1579,10 @@
 "first_seen": "2026-10-12T00:38:49Z",
 "last_seen": "2026-10-21"
 },
+"randstad:6ad8b34c25dbc86bd0366567": {
+"first_seen": "2026-10-21T18:35:34Z",
+"last_seen": "2026-10-21"
+},
 "roberthalf:02000-0013507363-usen": {
 "first_seen": "2026-10-12T00:38:49Z",
 "last_seen": "2026-10-21"
@@ -2002,6 +2010,10 @@
 "role:cognizant|salesforce fsc and integration solution architect": {
 "first_seen": "2026-10-12T00:38:49Z",
 "last_seen": "2026-10-12"
+},
+"role:cognizant|salesforce fsc architect": {
+"first_seen": "2026-10-21T18:35:34Z",
+"last_seen": "2026-10-21"
 },
 "role:cognizant|salesforce ncino developer": {
 "first_seen": "2026-10-12T22:04:41Z",
@@ -2525,7 +2537,11 @@
 },
 "role:koniaggovernmentservices|senior salesforce developer": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-17"
+"last_seen": "2026-10-21"
+},
+"role:koniaggovernmentservices|senior salesforce platform engineer": {
+"first_seen": "2026-10-21T18:35:34Z",
+"last_seen": "2026-10-21"
 },
 "role:kvpbusinesssolutions|senior salesforce developer": {
 "first_seen": "2026-10-19T05:37:49Z",
@@ -2821,7 +2837,7 @@
 },
 "role:pointclickcare|senior salesforce architect": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-20"
+"last_seen": "2026-10-21"
 },
 "role:pradeepitconsultingservicespvt|lead dell boomi developer with sfdc expert 8 10years exp remote": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -2873,6 +2889,10 @@
 },
 "role:randstad|oracle field service cloud architect ofsc": {
 "first_seen": "2026-10-12T00:38:49Z",
+"last_seen": "2026-10-21"
+},
+"role:randstad|project manager senior salesforce developer architect": {
+"first_seen": "2026-10-21T18:35:34Z",
 "last_seen": "2026-10-21"
 },
 "role:randstad|salesforce developer": {
@@ -3525,6 +3545,10 @@
 },
 "xmlfeed:careers.cognizant.com:00070962901": {
 "first_seen": "2026-10-12T22:04:41Z",
+"last_seen": "2026-10-21"
+},
+"xmlfeed:careers.cognizant.com:00070993731": {
+"first_seen": "2026-10-21T18:35:34Z",
 "last_seen": "2026-10-21"
 }
 }
