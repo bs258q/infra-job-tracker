@@ -283,6 +283,10 @@
 "first_seen": "2026-10-22T18:28:24Z",
 "last_seen": "2026-10-25"
 },
+"himalayas:https://himalayas.app/companies/bickham-services-unlimited-llc/jobs/sr-salesforce-health-cloud-developer-1018643029": {
+"first_seen": "2026-10-25T17:34:23Z",
+"last_seen": "2026-10-25"
+},
 "himalayas:https://himalayas.app/companies/bickham-services-unlimited-llc/jobs/sr-salesforce-health-cloud-developer-4140534040": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-21"
@@ -317,7 +321,7 @@
 },
 "himalayas:https://himalayas.app/companies/bolt-data/jobs/solution-architect-salesforce": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-25"
 },
 "himalayas:https://himalayas.app/companies/bolt-data/jobs/technical-architect-salesforce": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -586,6 +590,10 @@
 "himalayas:https://himalayas.app/companies/continuum/jobs/mulesoft-developer": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-21"
+},
+"himalayas:https://himalayas.app/companies/continuum/jobs/mulesoft-developer-4702899904": {
+"first_seen": "2026-10-25T17:34:23Z",
+"last_seen": "2026-10-25"
 },
 "himalayas:https://himalayas.app/companies/corpay/jobs/salesforce-developer": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -1243,6 +1251,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-21"
 },
+"himalayas:https://himalayas.app/companies/omg-technology/jobs/salesforce-data-360-architect-life-sciences-health-cloud-6495298643": {
+"first_seen": "2026-10-25T17:34:23Z",
+"last_seen": "2026-10-25"
+},
 "himalayas:https://himalayas.app/companies/omnidian/jobs/senior-salesforce-developer-field-service": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-25"
@@ -1373,6 +1385,10 @@
 },
 "himalayas:https://himalayas.app/companies/salesloft/jobs/senior-salesforce-business-systems-administrator": {
 "first_seen": "2026-10-17T16:58:44Z",
+"last_seen": "2026-10-25"
+},
+"himalayas:https://himalayas.app/companies/scaled-agile-inc/jobs/sr-salesforce-developer-contract": {
+"first_seen": "2026-10-25T17:34:23Z",
 "last_seen": "2026-10-25"
 },
 "himalayas:https://himalayas.app/companies/sembi/jobs/salesforce-administrator": {
@@ -1529,6 +1545,10 @@
 },
 "himalayas:https://himalayas.app/companies/versapay/jobs/salesforce-developer": {
 "first_seen": "2026-10-15T18:10:10Z",
+"last_seen": "2026-10-25"
+},
+"himalayas:https://himalayas.app/companies/viateq-corporation/jobs/lead-salesforce-technical-architect": {
+"first_seen": "2026-10-25T17:34:23Z",
 "last_seen": "2026-10-25"
 },
 "himalayas:https://himalayas.app/companies/viateq-corporation/jobs/senior-salesforce-platform-engineer": {
@@ -1989,7 +2009,7 @@
 },
 "role:bickhamservicesunlimited|senior salesforce health cloud developer": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-25"
 },
 "role:biztekpeople|senior salesforce administrator": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -2017,7 +2037,7 @@
 },
 "role:boltdata|solution architect salesforce": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-25"
 },
 "role:boltdata|technical architect salesforce": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -2269,7 +2289,7 @@
 },
 "role:continuum|mulesoft developer": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-25"
 },
 "role:coreweave|senior salesforce administrator gtm systems": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -3069,7 +3089,7 @@
 },
 "role:omg|salesforce data 360 architect life sciences health cloud": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-25"
 },
 "role:omnidian|senior salesforce developer field service": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -3327,6 +3347,10 @@
 "first_seen": "2026-10-18T05:23:54Z",
 "last_seen": "2026-10-24"
 },
+"role:scaledagile|senior salesforce developer": {
+"first_seen": "2026-10-25T17:34:23Z",
+"last_seen": "2026-10-25"
+},
 "role:sembi|salesforce administrator": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-13"
@@ -3525,6 +3549,10 @@
 },
 "role:versapay|salesforce developer": {
 "first_seen": "2026-10-15T18:10:10Z",
+"last_seen": "2026-10-25"
+},
+"role:viateq|lead salesforce technical architect": {
+"first_seen": "2026-10-25T17:34:23Z",
 "last_seen": "2026-10-25"
 },
 "role:viateq|senior salesforce platform engineer": {
