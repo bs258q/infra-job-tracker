@@ -403,6 +403,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-16"
 },
+"himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/salesforce-platform-architect-6402697817": {
+"first_seen": "2026-10-26T19:54:53Z",
+"last_seen": "2026-10-26"
+},
 "himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/salesforce-platform-architect-9864022431": {
 "first_seen": "2026-10-18T05:23:54Z",
 "last_seen": "2026-10-24"
@@ -1635,6 +1639,10 @@
 "first_seen": "2026-10-23T18:16:48Z",
 "last_seen": "2026-10-26"
 },
+"jobicy:157206": {
+"first_seen": "2026-10-26T19:54:53Z",
+"last_seen": "2026-10-26"
+},
 "judge:1079130": {
 "first_seen": "2026-10-12T00:38:49Z",
 "last_seen": "2026-10-26"
@@ -2105,7 +2113,7 @@
 },
 "role:brightvision|salesforce platform architect": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-24"
+"last_seen": "2026-10-26"
 },
 "role:brightvision|salesforce platform developer": {
 "first_seen": "2026-10-23T18:16:48Z",
@@ -3095,6 +3103,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-26"
 },
+"role:nvidia|senior salesforce ai developer": {
+"first_seen": "2026-10-26T19:54:53Z",
+"last_seen": "2026-10-26"
+},
 "role:omg|salesforce data 360 architect life sciences health cloud": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-26"
@@ -3643,6 +3655,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-26"
 },
+"role:zscaler|software development engineer salesforce": {
+"first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-10-26"
+},
 "weworkremotely:proxify-ab-senior-salesforce-crm-developer-1": {
 "first_seen": "2026-10-19T19:50:07Z",
 "last_seen": "2026-10-21"
@@ -3781,6 +3797,10 @@
 },
 "workday:humana:/job/Louisville-KY/Lead-Enterprise-Salesforce-Architect_R-433317": {
 "first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-10-26"
+},
+"workday:nvidia:/job/US-CA-Santa-Clara/Senior-Salesforce-AI-Developer_JR2028706": {
+"first_seen": "2026-10-26T19:54:53Z",
 "last_seen": "2026-10-26"
 },
 "workday:salesforce:/job/California---San-Francisco/Business-Planning---Operations-Lead--Agentforce-Operations_JR358867-1": {
