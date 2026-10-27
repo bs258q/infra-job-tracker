@@ -359,6 +359,10 @@
 "first_seen": "2026-10-27T05:53:37Z",
 "last_seen": "2026-10-27"
 },
+"amazon:10589798": {
+"first_seen": "2026-10-27T19:19:54Z",
+"last_seen": "2026-10-27"
+},
 "amazon:3119465": {
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-10-27"
@@ -1609,6 +1613,10 @@
 },
 "ashby:mercor:415d2ee3-44b9-40e5-ab4b-04340faa3872": {
 "first_seen": "2026-10-11T22:20:38Z",
+"last_seen": "2026-10-27"
+},
+"ashby:mercor:799ecfcc-4258-4075-8b11-12fc64fb2868": {
+"first_seen": "2026-10-27T19:19:54Z",
 "last_seen": "2026-10-27"
 },
 "ashby:mercor:9617d47a-9e6f-404f-b1fe-2fa4b7ff8471": {
@@ -4613,7 +4621,7 @@
 },
 "himalayas:https://himalayas.app/companies/affirm/jobs/senior-software-engineer-backend-batch-infrastructure-1972596124": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-24"
+"last_seen": "2026-10-27"
 },
 "himalayas:https://himalayas.app/companies/affirm/jobs/senior-software-engineer-backend-reliability-platform": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -4625,7 +4633,7 @@
 },
 "himalayas:https://himalayas.app/companies/agileengine-llc/jobs/devops-engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-24"
+"last_seen": "2026-10-27"
 },
 "himalayas:https://himalayas.app/companies/ais-applied-information-sciences/jobs/ai-foundry-platform-engineer": {
 "first_seen": "2026-10-17T05:15:14Z",
@@ -5151,6 +5159,10 @@
 "first_seen": "2026-10-23T05:39:16Z",
 "last_seen": "2026-10-26"
 },
+"himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/cloud-infrastructure-network-engineer-3701262534": {
+"first_seen": "2026-10-27T19:19:54Z",
+"last_seen": "2026-10-27"
+},
 "himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/cloud-infrastructure-network-engineer-6525933230": {
 "first_seen": "2026-10-14T18:25:44Z",
 "last_seen": "2026-10-20"
@@ -5170,6 +5182,10 @@
 "himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/data-infrastructure-architect-6185008336": {
 "first_seen": "2026-10-24T17:18:23Z",
 "last_seen": "2026-10-26"
+},
+"himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/data-infrastructure-architect-8952521138": {
+"first_seen": "2026-10-27T19:19:54Z",
+"last_seen": "2026-10-27"
 },
 "himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/data-platform-engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -5237,6 +5253,10 @@
 },
 "himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/infrastructure-reliability-engineer-9618897895": {
 "first_seen": "2026-10-23T18:13:38Z",
+"last_seen": "2026-10-27"
+},
+"himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/intelligent-infrastructure-engineer-3981679724": {
+"first_seen": "2026-10-27T19:19:54Z",
 "last_seen": "2026-10-27"
 },
 "himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/intelligent-infrastructure-engineer-4871915333": {
@@ -5407,6 +5427,10 @@
 "first_seen": "2026-10-24T17:18:23Z",
 "last_seen": "2026-10-26"
 },
+"himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/reliability-monitoring-engineer-4150724142": {
+"first_seen": "2026-10-27T19:19:54Z",
+"last_seen": "2026-10-27"
+},
 "himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/secure-ai-systems-engineer-5575505386": {
 "first_seen": "2026-10-18T05:21:21Z",
 "last_seen": "2026-10-22"
@@ -5533,7 +5557,7 @@
 },
 "himalayas:https://himalayas.app/companies/campspot/jobs/principal-devops-engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-24"
+"last_seen": "2026-10-27"
 },
 "himalayas:https://himalayas.app/companies/canonical/jobs/distributed-systems-testing-software-engineer-python-go": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -5573,7 +5597,7 @@
 },
 "himalayas:https://himalayas.app/companies/canonical/jobs/software-engineer-data-infrastructure": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-24"
+"last_seen": "2026-10-27"
 },
 "himalayas:https://himalayas.app/companies/canonical/jobs/software-engineer-data-infrastructure-kafka": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -6461,7 +6485,7 @@
 },
 "himalayas:https://himalayas.app/companies/guidehouse/jobs/training-solution-consultant": {
 "first_seen": "2026-10-14T05:41:11Z",
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-27"
 },
 "himalayas:https://himalayas.app/companies/hadrian-io/jobs/infrastructure-engineer-latam": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -7399,6 +7423,10 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-27"
 },
+"himalayas:https://himalayas.app/companies/nortal/jobs/1601-senior-data-platform-and-automation-engineer": {
+"first_seen": "2026-10-27T19:19:54Z",
+"last_seen": "2026-10-27"
+},
 "himalayas:https://himalayas.app/companies/novacard/jobs/devops": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-27"
@@ -8053,7 +8081,7 @@
 },
 "himalayas:https://himalayas.app/companies/scaleops/jobs/infra-engineer-us": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-24"
+"last_seen": "2026-10-27"
 },
 "himalayas:https://himalayas.app/companies/schoolgrid/jobs/senior-systems-fleet-infrastructure-lead-remote-uk": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -8677,6 +8705,10 @@
 },
 "himalayas:https://himalayas.app/companies/veeva-systems/jobs/associate-devops-engineer": {
 "first_seen": "2026-10-15T18:07:32Z",
+"last_seen": "2026-10-27"
+},
+"himalayas:https://himalayas.app/companies/veltris/jobs/ai-platform-engineer-gen-ai": {
+"first_seen": "2026-10-27T19:19:54Z",
 "last_seen": "2026-10-27"
 },
 "himalayas:https://himalayas.app/companies/veltris/jobs/infra-engineer": {
@@ -9705,7 +9737,7 @@
 },
 "oracle:eeho.fa.us2.oraclecloud.com:345396": {
 "first_seen": "2026-10-13T20:11:39Z",
-"last_seen": "2026-10-26"
+"last_seen": "2026-10-27"
 },
 "oracle:eeho.fa.us2.oraclecloud.com:345542": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -9773,7 +9805,7 @@
 },
 "oracle:eeho.fa.us2.oraclecloud.com:346887": {
 "first_seen": "2026-10-13T20:11:39Z",
-"last_seen": "2026-10-26"
+"last_seen": "2026-10-27"
 },
 "oracle:eeho.fa.us2.oraclecloud.com:346955": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -10113,7 +10145,7 @@
 },
 "role:affirm|senior software engineer backend batch infrastructure": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-24"
+"last_seen": "2026-10-27"
 },
 "role:affirm|senior software engineer backend reliability platform": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -10125,7 +10157,7 @@
 },
 "role:agileengine|devops engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-24"
+"last_seen": "2026-10-27"
 },
 "role:airbnb|senior software engineer streaming infrastructure": {
 "first_seen": "2026-10-20T05:36:42Z",
@@ -10401,6 +10433,10 @@
 },
 "role:amazonaws|senior delivery consultant devops worldwide public sector professional services fedfin": {
 "first_seen": "2026-10-11T22:20:38Z",
+"last_seen": "2026-10-27"
+},
+"role:amazonaws|senior design technologist aws search security observability governance": {
+"first_seen": "2026-10-27T19:19:54Z",
 "last_seen": "2026-10-27"
 },
 "role:amazonaws|senior esde bsplinux hw compute group": {
@@ -11245,7 +11281,7 @@
 },
 "role:brightvision|cloud infrastructure network engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-26"
+"last_seen": "2026-10-27"
 },
 "role:brightvision|container platform engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -11253,7 +11289,7 @@
 },
 "role:brightvision|data infrastructure architect": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-26"
+"last_seen": "2026-10-27"
 },
 "role:brightvision|data platform engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -11285,7 +11321,7 @@
 },
 "role:brightvision|intelligent infrastructure engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-26"
+"last_seen": "2026-10-27"
 },
 "role:brightvision|iot platform engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -11345,7 +11381,7 @@
 },
 "role:brightvision|reliability monitoring engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-26"
+"last_seen": "2026-10-27"
 },
 "role:brightvision|secure ai systems engineer": {
 "first_seen": "2026-10-18T05:21:21Z",
@@ -11437,7 +11473,7 @@
 },
 "role:campspot|principal devops engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-24"
+"last_seen": "2026-10-27"
 },
 "role:canonical|distributed systems engineer": {
 "first_seen": "2026-10-25T17:31:08Z",
@@ -11489,7 +11525,7 @@
 },
 "role:canonical|software engineer data infrastructure": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-24"
+"last_seen": "2026-10-27"
 },
 "role:canonical|software engineer data infrastructure kafka": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -13805,7 +13841,7 @@
 },
 "role:guidehouse|training solution consultant": {
 "first_seen": "2026-10-14T05:41:11Z",
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-27"
 },
 "role:hadrian|infrastructure engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -14975,6 +15011,10 @@
 "first_seen": "2026-10-18T05:21:21Z",
 "last_seen": "2026-10-27"
 },
+"role:mercor|ai infrastructure engineer": {
+"first_seen": "2026-10-27T19:19:54Z",
+"last_seen": "2026-10-27"
+},
 "role:mercor|cloud platform engineer": {
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-10-27"
@@ -15502,6 +15542,10 @@
 "role:nix|senior site reliability engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-17"
+},
+"role:nortal|senior data platform and automation engineer": {
+"first_seen": "2026-10-27T19:19:54Z",
+"last_seen": "2026-10-27"
 },
 "role:notion|software engineer ai connections developer platform": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -16189,6 +16233,10 @@
 },
 "role:nvidia|senior research engineer foundation model training infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
+"last_seen": "2026-10-27"
+},
+"role:nvidia|senior site reliability engineer": {
+"first_seen": "2026-10-27T19:19:54Z",
 "last_seen": "2026-10-27"
 },
 "role:nvidia|senior site reliability engineer aiops": {
@@ -18549,7 +18597,7 @@
 },
 "role:scaleops|infrastructure engineer us": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-24"
+"last_seen": "2026-10-27"
 },
 "role:scale|infrastructure software engineer enterprise genai": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -18677,6 +18725,10 @@
 },
 "role:servicenow|senior site reliability engineer federal": {
 "first_seen": "2026-10-22T18:25:58Z",
+"last_seen": "2026-10-27"
+},
+"role:servicenow|senior software engineer data platform": {
+"first_seen": "2026-10-27T19:19:54Z",
 "last_seen": "2026-10-27"
 },
 "role:servicenow|senior software engineer devops moveworks": {
@@ -19783,6 +19835,10 @@
 "first_seen": "2026-10-15T18:07:32Z",
 "last_seen": "2026-10-27"
 },
+"role:veltris|ai platform engineer gen ai": {
+"first_seen": "2026-10-27T19:19:54Z",
+"last_seen": "2026-10-27"
+},
 "role:veltris|infrastructure engineer": {
 "first_seen": "2026-10-27T05:53:37Z",
 "last_seen": "2026-10-27"
@@ -20611,6 +20667,10 @@
 "first_seen": "2026-10-22T18:25:58Z",
 "last_seen": "2026-10-27"
 },
+"smartrecruiters:servicenow:744000158012895": {
+"first_seen": "2026-10-27T19:19:54Z",
+"last_seen": "2026-10-27"
+},
 "weworkremotely:blackstone-eit-microsoft-dynamics-365-crm-program-arabic-language-training": {
 "first_seen": "2026-10-20T18:29:04Z",
 "last_seen": "2026-10-26"
@@ -20889,6 +20949,10 @@
 },
 "workday:nvidia:/job/US-CA-Remote/Senior-Linux-Systems-Engineer---EDA-Infrastructure_JR2025019": {
 "first_seen": "2026-10-11T22:20:38Z",
+"last_seen": "2026-10-27"
+},
+"workday:nvidia:/job/US-CA-Remote/Senior-Site-Reliability-Engineer_JR2028236": {
+"first_seen": "2026-10-27T19:19:54Z",
 "last_seen": "2026-10-27"
 },
 "workday:nvidia:/job/US-CA-Remote/Senior-Software-Engineer---Accelerated-Quantum-Chemistry-and-cuEST_JR2019563": {
