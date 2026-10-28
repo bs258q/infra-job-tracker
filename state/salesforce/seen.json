@@ -919,6 +919,10 @@
 "first_seen": "2026-10-15T05:30:47Z",
 "last_seen": "2026-10-28"
 },
+"himalayas:https://himalayas.app/companies/icf/jobs/salesforce-developer-remote-usa": {
+"first_seen": "2026-10-28T19:29:36Z",
+"last_seen": "2026-10-28"
+},
 "himalayas:https://himalayas.app/companies/icf/jobs/salesforce-developer-remote-usa-6546301208": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-24"
@@ -1179,6 +1183,10 @@
 "first_seen": "2026-10-18T17:11:59Z",
 "last_seen": "2026-10-28"
 },
+"himalayas:https://himalayas.app/companies/momsmeals/jobs/manager-software-engineering-salesforce-engineering": {
+"first_seen": "2026-10-28T19:29:36Z",
+"last_seen": "2026-10-28"
+},
 "himalayas:https://himalayas.app/companies/motorola-solutions/jobs/software-engineer-salesforce-us-remote": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-16"
@@ -1355,9 +1363,17 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-28"
 },
+"himalayas:https://himalayas.app/companies/purdue-university/jobs/salesforce-marketing-cloud-administrator-remote-in-us": {
+"first_seen": "2026-10-28T19:29:36Z",
+"last_seen": "2026-10-28"
+},
 "himalayas:https://himalayas.app/companies/quest-software/jobs/salesforce-developer": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-12"
+},
+"himalayas:https://himalayas.app/companies/ra/jobs/salesforce-developer-remote": {
+"first_seen": "2026-10-28T19:29:36Z",
+"last_seen": "2026-10-28"
 },
 "himalayas:https://himalayas.app/companies/rapinno-tech/jobs/salesforce-developer": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -1501,6 +1517,10 @@
 },
 "himalayas:https://himalayas.app/companies/tms-llc/jobs/w2-hiring-salesforce-platform-developer-remote-lansing-mi": {
 "first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-10-28"
+},
+"himalayas:https://himalayas.app/companies/trader-interactive/jobs/salesforce-administrator": {
+"first_seen": "2026-10-28T19:29:36Z",
 "last_seen": "2026-10-28"
 },
 "himalayas:https://himalayas.app/companies/trbitix/jobs/salesforce-b2b-commerce-architect": {
@@ -3019,6 +3039,10 @@
 "first_seen": "2026-10-18T17:11:59Z",
 "last_seen": "2026-10-28"
 },
+"role:momsmeals|manager software engineering salesforce engineering": {
+"first_seen": "2026-10-28T19:29:36Z",
+"last_seen": "2026-10-28"
+},
 "role:mongodb|salesforce engineer 3 fedramp": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-28"
@@ -3243,6 +3267,10 @@
 "first_seen": "2026-10-19T19:50:07Z",
 "last_seen": "2026-10-21"
 },
+"role:purdueuniversity|salesforce marketing cloud administrator": {
+"first_seen": "2026-10-28T19:29:36Z",
+"last_seen": "2026-10-28"
+},
 "role:purestorage|salesforce developer": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-13"
@@ -3285,6 +3313,10 @@
 },
 "role:rapinnotech|senior salesforce developer": {
 "first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-10-28"
+},
+"role:ra|salesforce developer remote": {
+"first_seen": "2026-10-28T19:29:36Z",
 "last_seen": "2026-10-28"
 },
 "role:realreal|staff salesforce engineer": {
@@ -3562,6 +3594,10 @@
 "role:toptal|salesforce platform lead for global industrial company": {
 "first_seen": "2026-10-11T23:45:59Z",
 "last_seen": "2026-10-24"
+},
+"role:traderinteractive|salesforce administrator": {
+"first_seen": "2026-10-28T19:29:36Z",
+"last_seen": "2026-10-28"
 },
 "role:trbitix|salesforce b2b commerce architect": {
 "first_seen": "2026-10-14T05:43:06Z",
