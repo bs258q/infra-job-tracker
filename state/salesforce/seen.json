@@ -2587,6 +2587,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-29"
 },
+"role:experian|salesforce data cloud and marketing cloud next developer": {
+"first_seen": "2026-10-29T19:31:54Z",
+"last_seen": "2026-10-29"
+},
 "role:extrahop|salesforce developer 3": {
 "first_seen": "2026-10-12T06:51:41Z",
 "last_seen": "2026-10-18"
@@ -3439,6 +3443,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-29"
 },
+"role:salesforce|mulesoft integration senior architect secret clearance": {
+"first_seen": "2026-10-29T19:31:54Z",
+"last_seen": "2026-10-29"
+},
 "role:salesforce|mulesoft technical architect public sector": {
 "first_seen": "2026-10-11T23:45:59Z",
 "last_seen": "2026-10-29"
@@ -3811,6 +3819,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-29"
 },
+"smartrecruiters:experian:744000158592724": {
+"first_seen": "2026-10-29T19:31:54Z",
+"last_seen": "2026-10-29"
+},
 "weworkremotely:proxify-ab-senior-salesforce-crm-developer-1": {
 "first_seen": "2026-10-19T19:50:07Z",
 "last_seen": "2026-10-21"
@@ -4049,6 +4061,10 @@
 },
 "workday:salesforce:/job/Virginia---Washington-DC-Metro---Remote/Mulesoft-Integration-Senior-Architect--Missionforce_JR362490": {
 "first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-10-29"
+},
+"workday:salesforce:/job/Virginia---Washington-DC-Metro---Remote/Mulesoft-Integration-Senior-Architect--Secret-clearance-_JR352362": {
+"first_seen": "2026-10-29T19:31:54Z",
 "last_seen": "2026-10-29"
 },
 "workday:workday:/job/USA-CA-Pleasanton/Principal-Software-Development-Engineer_JR-0111151-1": {

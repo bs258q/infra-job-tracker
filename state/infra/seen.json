@@ -839,6 +839,10 @@
 "first_seen": "2026-10-29T06:43:08Z",
 "last_seen": "2026-10-29"
 },
+"ashby:crusoe:214c1bf9-761a-4a81-b690-1a89e940f56b": {
+"first_seen": "2026-10-29T19:29:47Z",
+"last_seen": "2026-10-29"
+},
 "ashby:crusoe:22877385-f9ac-4a5e-bce9-f3352476d8df": {
 "first_seen": "2026-10-19T19:46:42Z",
 "last_seen": "2026-10-29"
@@ -3797,7 +3801,7 @@
 },
 "greenhouse:okta:8319274": {
 "first_seen": "2026-10-24T05:15:35Z",
-"last_seen": "2026-10-27"
+"last_seen": "2026-10-29"
 },
 "greenhouse:okta:8319285": {
 "first_seen": "2026-10-24T05:15:35Z",
@@ -3817,6 +3821,10 @@
 },
 "greenhouse:pinterest:7683981": {
 "first_seen": "2026-10-11T22:20:38Z",
+"last_seen": "2026-10-29"
+},
+"greenhouse:pinterest:7685466": {
+"first_seen": "2026-10-29T19:29:47Z",
 "last_seen": "2026-10-29"
 },
 "greenhouse:pinterest:7782550": {
@@ -3941,6 +3949,10 @@
 },
 "greenhouse:robinhood:8189867": {
 "first_seen": "2026-10-11T22:20:38Z",
+"last_seen": "2026-10-29"
+},
+"greenhouse:robinhood:8265786": {
+"first_seen": "2026-10-29T19:29:47Z",
 "last_seen": "2026-10-29"
 },
 "greenhouse:roblox:7332473": {
@@ -4206,6 +4218,10 @@
 "greenhouse:scaleai:4714727005": {
 "first_seen": "2026-10-21T05:37:26Z",
 "last_seen": "2026-10-21"
+},
+"greenhouse:scaleai:4737102005": {
+"first_seen": "2026-10-29T19:29:47Z",
+"last_seen": "2026-10-29"
 },
 "greenhouse:scaleai:4739920005": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -5223,6 +5239,10 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-19"
 },
+"himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/ai-systems-engineer-6188104190": {
+"first_seen": "2026-10-29T19:29:47Z",
+"last_seen": "2026-10-29"
+},
 "himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/ai-systems-engineer-8821407684": {
 "first_seen": "2026-10-22T05:40:45Z",
 "last_seen": "2026-10-27"
@@ -5506,6 +5526,10 @@
 "himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/openshift-platform-engineer-3236981442": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-13"
+},
+"himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/openshift-platform-engineer-5156269492": {
+"first_seen": "2026-10-29T19:29:47Z",
+"last_seen": "2026-10-29"
 },
 "himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/openshift-platform-engineer-6410823812": {
 "first_seen": "2026-10-22T05:40:45Z",
@@ -7877,7 +7901,7 @@
 },
 "himalayas:https://himalayas.app/companies/pilot/jobs/sr-software-engineer-infrastructure": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-28"
+"last_seen": "2026-10-29"
 },
 "himalayas:https://himalayas.app/companies/pingwind/jobs/integrated-master-scheduler-i": {
 "first_seen": "2026-10-21T05:37:26Z",
@@ -9355,6 +9379,22 @@
 "first_seen": "2026-10-26T19:52:07Z",
 "last_seen": "2026-10-29"
 },
+"jobicy:157850": {
+"first_seen": "2026-10-29T19:29:47Z",
+"last_seen": "2026-10-29"
+},
+"jobicy:157855": {
+"first_seen": "2026-10-29T19:29:47Z",
+"last_seen": "2026-10-29"
+},
+"jobicy:157865": {
+"first_seen": "2026-10-29T19:29:47Z",
+"last_seen": "2026-10-29"
+},
+"jobicy:157868": {
+"first_seen": "2026-10-29T19:29:47Z",
+"last_seen": "2026-10-29"
+},
 "lever:zoox:18b6dfa0-d581-4d29-ac79-5d6e666aa9c3": {
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-10-21"
@@ -9953,6 +9993,10 @@
 },
 "oracle:eeho.fa.us2.oraclecloud.com:345562": {
 "first_seen": "2026-10-11T23:44:47Z",
+"last_seen": "2026-10-29"
+},
+"oracle:eeho.fa.us2.oraclecloud.com:345633": {
+"first_seen": "2026-10-29T19:29:47Z",
 "last_seen": "2026-10-29"
 },
 "oracle:eeho.fa.us2.oraclecloud.com:345693": {
@@ -11139,6 +11183,10 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-29"
 },
+"role:ashby|staff platform engineer": {
+"first_seen": "2026-10-29T19:29:47Z",
+"last_seen": "2026-10-29"
+},
 "role:associatedbank|infrastructure engineer network automation focused": {
 "first_seen": "2026-10-15T18:07:32Z",
 "last_seen": "2026-10-21"
@@ -11501,7 +11549,7 @@
 },
 "role:brightvision|ai systems engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-27"
+"last_seen": "2026-10-29"
 },
 "role:brightvision|azure infrastructure engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -11601,7 +11649,7 @@
 },
 "role:brightvision|openshift platform engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-28"
+"last_seen": "2026-10-29"
 },
 "role:brightvision|oracle cloud infrastructure engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -12983,6 +13031,18 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-29"
 },
+"role:deepgram|backend engineer inference services": {
+"first_seen": "2026-10-29T19:29:47Z",
+"last_seen": "2026-10-29"
+},
+"role:deepgram|machine learning ops infrastructure engineer": {
+"first_seen": "2026-10-29T19:29:47Z",
+"last_seen": "2026-10-29"
+},
+"role:deepgram|research engineer machine learning systems": {
+"first_seen": "2026-10-29T19:29:47Z",
+"last_seen": "2026-10-29"
+},
 "role:deepinfra|senior infrastructure engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-29"
@@ -13373,6 +13433,10 @@
 },
 "role:equinix|principal software engineer ai infrastructure": {
 "first_seen": "2026-10-17T05:15:14Z",
+"last_seen": "2026-10-29"
+},
+"role:equinix|staff software engineer ai infrastructure": {
+"first_seen": "2026-10-29T19:29:47Z",
 "last_seen": "2026-10-29"
 },
 "role:erpsuites|data center infrastructure architect": {
@@ -14179,6 +14243,10 @@
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-10-29"
 },
+"role:harvey|staff frontend platform engineer": {
+"first_seen": "2026-10-11T22:20:38Z",
+"last_seen": "2026-10-29"
+},
 "role:harvey|staff infrastructure security engineer": {
 "first_seen": "2026-10-24T05:15:35Z",
 "last_seen": "2026-10-29"
@@ -14278,6 +14346,10 @@
 "role:hpe|hpe labs senior qec researcher integrated hpc and quantum solutions": {
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-10-15"
+},
+"role:hpe|l and d training support": {
+"first_seen": "2026-10-29T19:29:47Z",
+"last_seen": "2026-10-29"
 },
 "role:hpe|slingshot platform engineer": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -16579,6 +16651,10 @@
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-10-29"
 },
+"role:nvidia|senior software architect ai systems and networking": {
+"first_seen": "2026-10-29T19:29:47Z",
+"last_seen": "2026-10-29"
+},
 "role:nvidia|senior software architect gpu networking": {
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-10-29"
@@ -16873,7 +16949,7 @@
 },
 "role:okta|senior software engineer ai platform and infrastructure": {
 "first_seen": "2026-10-24T05:15:35Z",
-"last_seen": "2026-10-27"
+"last_seen": "2026-10-29"
 },
 "role:okta|senior software engineer core infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -17861,7 +17937,7 @@
 },
 "role:pilot|senior software engineer infrastructure": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-28"
+"last_seen": "2026-10-29"
 },
 "role:pinecone|senior staff software engineer search and retrieval infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -17890,6 +17966,10 @@
 "role:pinterest|principal engineer shopping and delivery infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-10-26"
+},
+"role:pinterest|principal software engineer machine learning and media infrastructure": {
+"first_seen": "2026-10-29T19:29:47Z",
+"last_seen": "2026-10-29"
 },
 "role:pinterest|senior site reliability engineer tvscientific": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -18507,6 +18587,10 @@
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-10-29"
 },
+"role:robinhood|senior software engineer observability": {
+"first_seen": "2026-10-29T19:29:47Z",
+"last_seen": "2026-10-29"
+},
 "role:robinhood|senior staff software engineer developer infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-10-29"
@@ -19033,6 +19117,10 @@
 },
 "role:scale|security engineer infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
+"last_seen": "2026-10-29"
+},
+"role:scale|senior cloud infrastructure engineer": {
+"first_seen": "2026-10-29T19:29:47Z",
 "last_seen": "2026-10-29"
 },
 "role:scale|senior infrastructure software engineer enterprise ai": {
@@ -21367,6 +21455,10 @@
 "first_seen": "2026-10-17T05:15:14Z",
 "last_seen": "2026-10-29"
 },
+"workday:equinix:/job/Redwood-City/Staff-Software-Engineer--AI-Infrastructure_JR-164105": {
+"first_seen": "2026-10-29T19:29:47Z",
+"last_seen": "2026-10-29"
+},
 "workday:expedia:/job/USA---California---San-Jose/Principal-Software-Development-Engineer_R-102791-1": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-15"
@@ -21389,6 +21481,10 @@
 },
 "workday:hpe:/job/San-Jose-California-United-States-of-America/DevOps-Engineer_1207704": {
 "first_seen": "2026-10-11T22:20:38Z",
+"last_seen": "2026-10-29"
+},
+"workday:hpe:/job/San-Jose-California-United-States-of-America/L-D-Training-Support_1218034": {
+"first_seen": "2026-10-29T19:29:47Z",
 "last_seen": "2026-10-29"
 },
 "workday:hpe:/job/Sunnyvale-California-United-States-of-America/DevOps-Engineer--Sunnyvale--CA-_1213659-2": {
@@ -22005,6 +22101,10 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Site-Reliability-Engineer---Storage_JR2024491-1": {
 "first_seen": "2026-10-11T22:20:38Z",
+"last_seen": "2026-10-29"
+},
+"workday:nvidia:/job/US-CA-Santa-Clara/Senior-Software-Architect--AI-Networking_JR2008501": {
+"first_seen": "2026-10-29T19:29:47Z",
 "last_seen": "2026-10-29"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Software-Architect--GPU-Networking_JR1998985": {
