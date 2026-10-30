@@ -359,6 +359,10 @@
 "first_seen": "2026-10-16T17:55:54Z",
 "last_seen": "2026-10-19"
 },
+"himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/lead-salesforce-architect-8530182935": {
+"first_seen": "2026-10-30T19:10:09Z",
+"last_seen": "2026-10-30"
+},
 "himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/lead-salesforce-architect-9588264461": {
 "first_seen": "2026-10-24T17:20:37Z",
 "last_seen": "2026-10-26"
@@ -489,6 +493,10 @@
 },
 "himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/salesforce-solutions-developer-4877421971": {
 "first_seen": "2026-10-30T06:46:39Z",
+"last_seen": "2026-10-30"
+},
+"himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/salesforce-technical-architect": {
+"first_seen": "2026-10-30T19:10:09Z",
 "last_seen": "2026-10-30"
 },
 "himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/salesforce-technical-architect-4992427869": {
@@ -775,6 +783,10 @@
 "first_seen": "2026-10-24T17:20:37Z",
 "last_seen": "2026-10-30"
 },
+"himalayas:https://himalayas.app/companies/elyon-international/jobs/salesforce-architect": {
+"first_seen": "2026-10-30T19:10:09Z",
+"last_seen": "2026-10-30"
+},
 "himalayas:https://himalayas.app/companies/elyon-international/jobs/salesforce-developer": {
 "first_seen": "2026-10-17T16:58:44Z",
 "last_seen": "2026-10-24"
@@ -782,6 +794,10 @@
 "himalayas:https://himalayas.app/companies/elyon-international/jobs/salesforce-solutions-architect": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-16"
+},
+"himalayas:https://himalayas.app/companies/elyon-international/jobs/salesforce-solutions-architect-8852520056": {
+"first_seen": "2026-10-30T19:10:09Z",
+"last_seen": "2026-10-30"
 },
 "himalayas:https://himalayas.app/companies/elyon-international/jobs/senior-salesforce-developer-lead": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -974,6 +990,10 @@
 "himalayas:https://himalayas.app/companies/icf/jobs/salesforce-developer-remote-usa-6546301208": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-24"
+},
+"himalayas:https://himalayas.app/companies/icf/jobs/salesforce-developer-remote-usa-9712951295": {
+"first_seen": "2026-10-30T19:10:09Z",
+"last_seen": "2026-10-30"
 },
 "himalayas:https://himalayas.app/companies/icf/jobs/salesforce-technical-consultant-and-project-manager-salesforce-digital-transfor": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -1819,6 +1839,10 @@
 "first_seen": "2026-10-11T23:45:59Z",
 "last_seen": "2026-10-30"
 },
+"oracle:jpmc.fa.oraclecloud.com:210803879": {
+"first_seen": "2026-10-30T19:10:09Z",
+"last_seen": "2026-10-30"
+},
 "phenom:careers.teksystems.com:JP-006287728": {
 "first_seen": "2026-10-12T00:38:49Z",
 "last_seen": "2026-10-15"
@@ -2241,7 +2265,7 @@
 },
 "role:brightvision|lead salesforce architect": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-28"
+"last_seen": "2026-10-30"
 },
 "role:brightvision|salesforce api architect": {
 "first_seen": "2026-10-14T18:28:14Z",
@@ -2289,7 +2313,7 @@
 },
 "role:brightvision|salesforce technical architect": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-28"
+"last_seen": "2026-10-30"
 },
 "role:brightvision|salesforce technical consultant": {
 "first_seen": "2026-10-18T05:23:54Z",
@@ -2619,13 +2643,17 @@
 "first_seen": "2026-10-24T17:20:37Z",
 "last_seen": "2026-10-30"
 },
+"role:elyoninternational|salesforce architect": {
+"first_seen": "2026-10-30T19:10:09Z",
+"last_seen": "2026-10-30"
+},
 "role:elyoninternational|salesforce developer": {
 "first_seen": "2026-10-17T16:58:44Z",
 "last_seen": "2026-10-24"
 },
 "role:elyoninternational|salesforce solutions architect": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-16"
+"last_seen": "2026-10-30"
 },
 "role:elyoninternational|senior salesforce developer lead": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -2897,6 +2925,10 @@
 },
 "role:jpmorganchase|salesforce crma tableau senior lead software engineer": {
 "first_seen": "2026-10-11T23:45:59Z",
+"last_seen": "2026-10-30"
+},
+"role:jpmorganchase|software engineer 3 salesforce business banking": {
+"first_seen": "2026-10-30T19:10:09Z",
 "last_seen": "2026-10-30"
 },
 "role:judgegroup|salesforce administrator": {
