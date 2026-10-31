@@ -263,6 +263,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-15"
 },
+"himalayas:https://himalayas.app/companies/astound-digital/jobs/salesforce-solution-architect": {
+"first_seen": "2026-10-31T18:23:10Z",
+"last_seen": "2026-10-31"
+},
 "himalayas:https://himalayas.app/companies/ats-partners/jobs/salesforce-administrator-contract-public-sector-division": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-31"
@@ -387,6 +391,10 @@
 "first_seen": "2026-10-26T05:43:37Z",
 "last_seen": "2026-10-30"
 },
+"himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/salesforce-application-engineer-5373126895": {
+"first_seen": "2026-10-31T18:23:10Z",
+"last_seen": "2026-10-31"
+},
 "himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/salesforce-crm-developer": {
 "first_seen": "2026-10-15T05:30:47Z",
 "last_seen": "2026-10-20"
@@ -451,6 +459,10 @@
 "first_seen": "2026-10-18T05:23:54Z",
 "last_seen": "2026-10-24"
 },
+"himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/salesforce-platform-developer-6179682502": {
+"first_seen": "2026-10-31T18:23:10Z",
+"last_seen": "2026-10-31"
+},
 "himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/salesforce-platform-developer-8597183749": {
 "first_seen": "2026-10-23T18:16:48Z",
 "last_seen": "2026-10-29"
@@ -510,6 +522,10 @@
 "himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/salesforce-technical-architect-7167510546": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-14"
+},
+"himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/salesforce-technical-consultant-3514918135": {
+"first_seen": "2026-10-31T18:23:10Z",
+"last_seen": "2026-10-31"
 },
 "himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/salesforce-technical-consultant-473323942": {
 "first_seen": "2026-10-24T05:17:21Z",
@@ -701,7 +717,7 @@
 },
 "himalayas:https://himalayas.app/companies/datacor/jobs/senior-manager-salesforce-architecture": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "himalayas:https://himalayas.app/companies/datasys-consulting-software-inc/jobs/salesforce-servicemax-developer": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -1359,6 +1375,18 @@
 "first_seen": "2026-10-14T18:28:14Z",
 "last_seen": "2026-10-31"
 },
+"himalayas:https://himalayas.app/companies/nscg-llc/jobs/mulesoft-integration-architect": {
+"first_seen": "2026-10-31T18:23:10Z",
+"last_seen": "2026-10-31"
+},
+"himalayas:https://himalayas.app/companies/nscg-llc/jobs/salesforce-architect": {
+"first_seen": "2026-10-31T18:23:10Z",
+"last_seen": "2026-10-31"
+},
+"himalayas:https://himalayas.app/companies/nscg-llc/jobs/sr-salesforce-developer": {
+"first_seen": "2026-10-31T18:23:10Z",
+"last_seen": "2026-10-31"
+},
 "himalayas:https://himalayas.app/companies/nttdata/jobs/principal-ai-salesforce-architect-remote-in-us-remote-tx-us": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-31"
@@ -1933,7 +1961,7 @@
 },
 "randstad:6ad927abeccfd922c9ba03a6": {
 "first_seen": "2026-10-22T05:44:01Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "roberthalf:00320-0013530480-usen": {
 "first_seen": "2026-10-22T18:28:24Z",
@@ -2187,6 +2215,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-15"
 },
+"role:astounddigital|salesforce solution architect": {
+"first_seen": "2026-10-31T18:23:10Z",
+"last_seen": "2026-10-31"
+},
 "role:atspartners|salesforce administrator contract public sector division": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-12"
@@ -2269,11 +2301,11 @@
 },
 "role:boozallen|salesforce platform engineer mid": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:boozallen|salesforce solution architect": {
 "first_seen": "2026-10-13T20:13:59Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:bounteous|salesforce sales and service cloud administrator": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -2293,7 +2325,7 @@
 },
 "role:brightvision|salesforce application engineer": {
 "first_seen": "2026-10-12T06:51:41Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:brightvision|salesforce crm developer": {
 "first_seen": "2026-10-15T05:30:47Z",
@@ -2321,7 +2353,7 @@
 },
 "role:brightvision|salesforce platform developer": {
 "first_seen": "2026-10-23T18:16:48Z",
-"last_seen": "2026-10-29"
+"last_seen": "2026-10-31"
 },
 "role:brightvision|salesforce solutions architect": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -2337,7 +2369,7 @@
 },
 "role:brightvision|salesforce technical consultant": {
 "first_seen": "2026-10-18T05:23:54Z",
-"last_seen": "2026-10-29"
+"last_seen": "2026-10-31"
 },
 "role:brightvision|senior mulesoft developer": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -2433,7 +2465,7 @@
 },
 "role:citi|salesforce technical lead": {
 "first_seen": "2026-10-15T18:10:10Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:cloudmasonry|salesforce senior developer": {
 "first_seen": "2026-10-24T17:20:37Z",
@@ -2557,11 +2589,11 @@
 },
 "role:cvshealth|senior manager salesforce business intelligence developer commercial": {
 "first_seen": "2026-10-13T07:20:31Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:cvshealth|senior salesforce software development engineer": {
 "first_seen": "2026-10-13T20:13:59Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:dariohealth|software developer salesforce support": {
 "first_seen": "2026-10-24T17:20:37Z",
@@ -2569,7 +2601,7 @@
 },
 "role:datacor|senior manager salesforce architecture": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:datasysconsultingandsoftware|salesforce servicemax developer": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -2809,15 +2841,15 @@
 },
 "role:guidehouse|ai and data cloud architect": {
 "first_seen": "2026-10-11T23:45:59Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:guidehouse|salesforce developer": {
 "first_seen": "2026-10-27T19:22:50Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:guidehouse|senior salesforce technical architect": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:hike2|salesforce omnistudio solution architect": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -3355,13 +3387,25 @@
 "first_seen": "2026-10-14T18:28:14Z",
 "last_seen": "2026-10-31"
 },
+"role:northsouthconsultinggroup|mulesoft integration architect": {
+"first_seen": "2026-10-31T18:23:10Z",
+"last_seen": "2026-10-31"
+},
+"role:northsouthconsultinggroup|salesforce architect": {
+"first_seen": "2026-10-31T18:23:10Z",
+"last_seen": "2026-10-31"
+},
+"role:northsouthconsultinggroup|senior salesforce developer": {
+"first_seen": "2026-10-31T18:23:10Z",
+"last_seen": "2026-10-31"
+},
 "role:nttdata|principal ai and salesforce architect": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-31"
 },
 "role:nvidia|senior salesforce ai developer": {
 "first_seen": "2026-10-26T19:54:53Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:offprem|salesforce solution architect marketing cloud engagement and marketing cloud next": {
 "first_seen": "2026-10-31T06:34:33Z",
@@ -3481,7 +3525,7 @@
 },
 "role:randstad|salesforce developer": {
 "first_seen": "2026-10-12T00:38:49Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:randstad|senior salesforce functional architect": {
 "first_seen": "2026-10-12T00:38:49Z",
@@ -3933,7 +3977,7 @@
 },
 "role:workday|principal software development engineer data cloud": {
 "first_seen": "2026-10-27T19:22:50Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:workday|product solution architect quote to cash salesforce cpq and clm": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -4129,39 +4173,39 @@
 },
 "workday:bah:/job/McLean-VA/Salesforce-Platform-Engineer--Mid_R0250615": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:bah:/job/McLean-VA/Salesforce-Platform-Engineer--Mid_R0250616": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:bah:/job/Melbourne-FL/Salesforce-Solution-Architect_R0251543": {
 "first_seen": "2026-10-13T20:13:59Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:citi:/job/Irving-Texas-United-States/Salesforce-Technical-Lead_261000164": {
 "first_seen": "2026-10-15T18:10:10Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:cvshealth:/job/PA---Work-from-home/Senior-Manager--Salesforce-Business-Intelligence-Developer-Commercial_R1051842": {
 "first_seen": "2026-10-13T07:20:31Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:cvshealth:/job/Work-At-Home-Texas/Senior-Salesforce-Software-Development-Engineer_R1062906": {
 "first_seen": "2026-10-13T20:13:59Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:guidehouse:/job/US---DC-Washington/Senior-Salesforce-Technical-Architect_42560": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:guidehouse:/job/US---Remote-Any-location/Salesforce-Developer_45213": {
 "first_seen": "2026-10-27T19:22:50Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:guidehouse:/job/US---VA-McLean/AI---Data-Cloud-Architect_44829": {
 "first_seen": "2026-10-11T23:45:59Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:humana:/job/Dallas-TX/Senior-Salesforce-Engineer_R-426521": {
 "first_seen": "2026-10-14T18:28:14Z",
@@ -4173,7 +4217,7 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Salesforce-AI-Developer_JR2028706": {
 "first_seen": "2026-10-26T19:54:53Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:salesforce:/job/California---San-Francisco-Metro---Remote/Principal-Software-Engineer--Site-Reliability--Agentforce-Ops-_JR365759": {
 "first_seen": "2026-10-30T06:46:39Z",
@@ -4261,7 +4305,7 @@
 },
 "workday:workday:/job/USA-CA-Pleasanton/Principal-Software-Development-Engineer_JR-0111151-1": {
 "first_seen": "2026-10-27T19:22:50Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:workday:/job/USA-CA-Pleasanton/Senior-Software-Development-Engineer_JR-0111155": {
 "first_seen": "2026-10-27T19:22:50Z",

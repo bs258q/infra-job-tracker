@@ -2587,6 +2587,10 @@
 "first_seen": "2026-10-15T18:07:32Z",
 "last_seen": "2026-10-31"
 },
+"ashby:supabase:fb0b563a-e541-43fd-8555-9eb6473aaa11": {
+"first_seen": "2026-10-31T18:20:53Z",
+"last_seen": "2026-10-31"
+},
 "ashby:temporal:109d72d0-e739-406c-87ae-b0f1f5ae7ade": {
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-10-28"
@@ -4811,6 +4815,10 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-31"
 },
+"himalayas:https://himalayas.app/companies/affirm/jobs/senior-staff-software-engineer-backend-compute-platform-4106812596": {
+"first_seen": "2026-10-31T18:20:53Z",
+"last_seen": "2026-10-31"
+},
 "himalayas:https://himalayas.app/companies/affirm/jobs/software-engineer-ii-backend-decisions-orchestration": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-31"
@@ -5599,6 +5607,10 @@
 "first_seen": "2026-10-24T17:18:23Z",
 "last_seen": "2026-10-29"
 },
+"himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/kubernetes-service-engineer-91408735": {
+"first_seen": "2026-10-31T18:20:53Z",
+"last_seen": "2026-10-31"
+},
 "himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/machine-learning-infrastructure-engineer": {
 "first_seen": "2026-10-16T17:53:54Z",
 "last_seen": "2026-10-21"
@@ -5710,6 +5722,10 @@
 "himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/platform-infrastructure-engineer-9130250490": {
 "first_seen": "2026-10-22T05:40:45Z",
 "last_seen": "2026-10-24"
+},
+"himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/platform-reliability-engineer-396153398": {
+"first_seen": "2026-10-31T18:20:53Z",
+"last_seen": "2026-10-31"
 },
 "himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/platform-reliability-engineer-9573709162": {
 "first_seen": "2026-10-24T17:18:23Z",
@@ -6523,6 +6539,10 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-31"
 },
+"himalayas:https://himalayas.app/companies/ethos/jobs/staff-site-reliability-engineer": {
+"first_seen": "2026-10-31T18:20:53Z",
+"last_seen": "2026-10-31"
+},
 "himalayas:https://himalayas.app/companies/evercommerce/jobs/evercommerce-senior-site-reliability-engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-29"
@@ -6617,6 +6637,10 @@
 },
 "himalayas:https://himalayas.app/companies/fairarena/jobs/founding-software-engineer-backend-cloud-infrastructure": {
 "first_seen": "2026-10-25T17:31:08Z",
+"last_seen": "2026-10-31"
+},
+"himalayas:https://himalayas.app/companies/feanix/jobs/senior-software-engineer-infrastructure-release": {
+"first_seen": "2026-10-31T18:20:53Z",
 "last_seen": "2026-10-31"
 },
 "himalayas:https://himalayas.app/companies/featherless-ai/jobs/ai-researcher-inference-optimization": {
@@ -6995,6 +7019,10 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-27"
 },
+"himalayas:https://himalayas.app/companies/ibility/jobs/training-solution-consultant": {
+"first_seen": "2026-10-31T18:20:53Z",
+"last_seen": "2026-10-31"
+},
 "himalayas:https://himalayas.app/companies/icf/jobs/homeless-services-coordinated-entry-system-training-and-instructional-design-sp": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-14"
@@ -7169,11 +7197,11 @@
 },
 "himalayas:https://himalayas.app/companies/joinroot/jobs/senior-data-engineer-data-platform": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-12"
+"last_seen": "2026-10-31"
 },
 "himalayas:https://himalayas.app/companies/joinroot/jobs/staff-software-engineer-ai-platform": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-20"
+"last_seen": "2026-10-31"
 },
 "himalayas:https://himalayas.app/companies/jpm-unternehmensgruppe/jobs/remote-access-lead-infrastructure-engineer": {
 "first_seen": "2026-10-14T18:25:44Z",
@@ -7613,6 +7641,10 @@
 },
 "himalayas:https://himalayas.app/companies/mfax-io/jobs/senior-devops-engineer": {
 "first_seen": "2026-10-16T05:20:42Z",
+"last_seen": "2026-10-31"
+},
+"himalayas:https://himalayas.app/companies/michael-baker-international/jobs/infrastructure-subject-matter-expert": {
+"first_seen": "2026-10-31T18:20:53Z",
 "last_seen": "2026-10-31"
 },
 "himalayas:https://himalayas.app/companies/micro1/jobs/member-of-technical-staff-infrastructure": {
@@ -8109,7 +8141,7 @@
 },
 "himalayas:https://himalayas.app/companies/peraton/jobs/senior-devsecops-platform-engineer": {
 "first_seen": "2026-10-19T05:35:01Z",
-"last_seen": "2026-10-26"
+"last_seen": "2026-10-31"
 },
 "himalayas:https://himalayas.app/companies/peraton/jobs/senior-kubernetes-engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -8285,7 +8317,7 @@
 },
 "himalayas:https://himalayas.app/companies/pvcase/jobs/platform-devops-engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "himalayas:https://himalayas.app/companies/pyramid-global-technologies/jobs/integration-devops-engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -8409,7 +8441,7 @@
 },
 "himalayas:https://himalayas.app/companies/red-sky/jobs/reliability-scale-engineer-devops-cloud": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-29"
+"last_seen": "2026-10-31"
 },
 "himalayas:https://himalayas.app/companies/redox-com/jobs/staff-platform-engineer": {
 "first_seen": "2026-10-31T06:32:23Z",
@@ -8663,6 +8695,10 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-31"
 },
+"himalayas:https://himalayas.app/companies/sofi/jobs/principal-software-engineer-data-platform-data-trust-ai-context": {
+"first_seen": "2026-10-31T18:20:53Z",
+"last_seen": "2026-10-31"
+},
 "himalayas:https://himalayas.app/companies/solventum/jobs/site-reliability-engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-30"
@@ -8765,7 +8801,7 @@
 },
 "himalayas:https://himalayas.app/companies/summit-racing-equipment/jobs/devops-engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "himalayas:https://himalayas.app/companies/suncore-digital/jobs/senior-site-reliability-engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -8853,7 +8889,7 @@
 },
 "himalayas:https://himalayas.app/companies/teaching-strategies-llc/jobs/senior-infrastructure-platform-engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "himalayas:https://himalayas.app/companies/team-rubicon/jobs/senior-associate-mission-support-advanced-skills-training": {
 "first_seen": "2026-10-17T05:15:14Z",
@@ -9105,11 +9141,11 @@
 },
 "himalayas:https://himalayas.app/companies/unifonic/jobs/senior-infrastructure-engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-29"
+"last_seen": "2026-10-31"
 },
 "himalayas:https://himalayas.app/companies/unifonic/jobs/senior-site-reliability-engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-29"
+"last_seen": "2026-10-31"
 },
 "himalayas:https://himalayas.app/companies/unisys/jobs/data-center-infrastructure-solution-leader": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -9273,7 +9309,7 @@
 },
 "himalayas:https://himalayas.app/companies/volga-partners/jobs/fixed-income-investment-research-expert-ai-training-evaluation-7141231817": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "himalayas:https://himalayas.app/companies/volga-partners/jobs/fp-a-subject-matter-expert-sme-ai-training-evaluation-u-s-based-3943035348": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -9857,7 +9893,7 @@
 },
 "oracle:eeho.fa.us2.oraclecloud.com:337840": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "oracle:eeho.fa.us2.oraclecloud.com:338542": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -10705,7 +10741,7 @@
 },
 "role:adobe|principal architect distributed systems and agentic ai security governance": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:adobe|senior ai devops engineer": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -10713,11 +10749,11 @@
 },
 "role:adobe|senior ai systems engineer c++ applied ai": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:adobe|senior backend engineer cloud platform": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:aerospike|staff software engineer cloud platform": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -10737,6 +10773,10 @@
 },
 "role:affirm|senior software engineer backend reliability platform": {
 "first_seen": "2026-10-11T23:44:47Z",
+"last_seen": "2026-10-31"
+},
+"role:affirm|senior staff software engineer backend compute platform": {
+"first_seen": "2026-10-31T18:20:53Z",
 "last_seen": "2026-10-31"
 },
 "role:affirm|software engineer 2 backend decisions orchestration": {
@@ -11993,7 +12033,7 @@
 },
 "role:brightvision|kubernetes service engineer": {
 "first_seen": "2026-10-18T05:21:21Z",
-"last_seen": "2026-10-29"
+"last_seen": "2026-10-31"
 },
 "role:brightvision|machine learning infrastructure engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -12029,7 +12069,7 @@
 },
 "role:brightvision|platform reliability engineer": {
 "first_seen": "2026-10-24T17:18:23Z",
-"last_seen": "2026-10-29"
+"last_seen": "2026-10-31"
 },
 "role:brightvision|reliability engineer": {
 "first_seen": "2026-10-14T18:25:44Z",
@@ -12509,23 +12549,23 @@
 },
 "role:cisco|ai infrastructure technical systems engineer": {
 "first_seen": "2026-10-23T05:39:16Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:cisco|ai llmops engineering technical leader": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:cisco|ai observability engineering technical leader": {
 "first_seen": "2026-10-28T06:32:39Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:cisco|cleared devops lead engineer hybrid": {
 "first_seen": "2026-10-14T18:25:44Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:cisco|lead site reliability engineer fedramp thousandeyes": {
 "first_seen": "2026-10-18T17:09:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:cisco|platform software engineer ai machine learning and gpu infrastructure": {
 "first_seen": "2026-10-22T18:25:58Z",
@@ -12533,11 +12573,15 @@
 },
 "role:cisco|senior platform software engineer ai machine learning and gpu infrastructure": {
 "first_seen": "2026-10-22T18:25:58Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
+},
+"role:cisco|senior site reliability engineer": {
+"first_seen": "2026-10-31T18:20:53Z",
+"last_seen": "2026-10-31"
 },
 "role:cisco|senior site reliability engineer observability": {
 "first_seen": "2026-10-12T22:02:31Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:cisco|senior site reliability engineer production engineer thousandeyes": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -12557,7 +12601,7 @@
 },
 "role:cisco|senior software engineer routing platform and infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:cisco|senior staff site reliability engineer": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -12581,11 +12625,11 @@
 },
 "role:cisco|software engineering technical leader site reliability engineer": {
 "first_seen": "2026-10-28T06:32:39Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:cisco|staff site reliability engineer": {
 "first_seen": "2026-10-26T19:52:07Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:cisco|staff site reliability engineer site reliability engineer": {
 "first_seen": "2026-10-16T05:20:42Z",
@@ -12601,19 +12645,19 @@
 },
 "role:cisco|technical leader isovalent secure workload observability": {
 "first_seen": "2026-10-16T05:20:42Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:cisco|technical leader site reliability engineer": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:cisco|technical leader site reliability engineer go development": {
 "first_seen": "2026-10-16T05:20:42Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:cisco|technical leader software engineering agentic ai platform identity and security": {
 "first_seen": "2026-10-22T05:40:45Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:civicplus|principal platform engineer": {
 "first_seen": "2026-10-25T17:31:08Z",
@@ -13841,11 +13885,11 @@
 },
 "role:equinix|principal software engineer ai infrastructure": {
 "first_seen": "2026-10-17T05:15:14Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:equinix|staff software engineer ai infrastructure": {
 "first_seen": "2026-10-29T19:29:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:erpsuites|data center infrastructure architect": {
 "first_seen": "2026-10-13T20:11:39Z",
@@ -13930,6 +13974,10 @@
 "role:etched|test infrastructure engineer": {
 "first_seen": "2026-10-28T06:32:39Z",
 "last_seen": "2026-10-28"
+},
+"role:ethos|staff site reliability engineer": {
+"first_seen": "2026-10-31T18:20:53Z",
+"last_seen": "2026-10-31"
 },
 "role:evercommerce|evercommerce senior site reliability engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -14050,6 +14098,10 @@
 "role:fal|staff security engineer infrastructure": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-26"
+},
+"role:feanix|senior software engineer infrastructure and release": {
+"first_seen": "2026-10-31T18:20:53Z",
+"last_seen": "2026-10-31"
 },
 "role:featherless|ai researcher inference optimization": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -14773,11 +14825,11 @@
 },
 "role:hpe|devops engineer hpe networking": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:hpe|devops engineer sunnyvale ca": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:hpe|hpe labs senior qec researcher integrated hpc and quantum solutions": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -14785,15 +14837,15 @@
 },
 "role:hpe|l and d training support": {
 "first_seen": "2026-10-29T19:29:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:hpe|slingshot platform engineer": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:hpe|technical cloud architect virtualization and cloud infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:hudsonmanpower|senior infrastructure pm": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -14846,6 +14898,10 @@
 "role:hypori|senior engineer cloud platforms": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-27"
+},
+"role:ibility|training solution consultant": {
+"first_seen": "2026-10-31T18:20:53Z",
+"last_seen": "2026-10-31"
 },
 "role:icf|homeless services coordinated entry system training and instructional design sp": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -14977,31 +15033,35 @@
 },
 "role:intel|compiler engineer for ai dsls": {
 "first_seen": "2026-10-28T19:26:30Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
+},
+"role:intel|compiler engineer for tile based ai dsls": {
+"first_seen": "2026-10-31T18:20:53Z",
+"last_seen": "2026-10-31"
 },
 "role:intel|gpu logic design engineer": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:intel|gpu validation engineer": {
 "first_seen": "2026-10-17T05:15:14Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:intel|hpc system architecture": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:intel|senior ai runtime architect neuromorphic computing": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:intel|senior ai systems architect researcher": {
 "first_seen": "2026-10-22T05:40:45Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:intel|senior infrastructure and devops systems engineer": {
 "first_seen": "2026-10-27T05:53:37Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:intermediaintelligentcommunications|senior devops engineer gcp": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -15891,6 +15951,10 @@
 "first_seen": "2026-10-16T05:20:42Z",
 "last_seen": "2026-10-31"
 },
+"role:michaelbakerinternational|infrastructure subject matter expert": {
+"first_seen": "2026-10-31T18:20:53Z",
+"last_seen": "2026-10-31"
+},
 "role:micro1|member of technical staff infrastructure": {
 "first_seen": "2026-10-25T17:31:08Z",
 "last_seen": "2026-10-31"
@@ -16573,7 +16637,7 @@
 },
 "role:nvidia|ai compute engineer nvis": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|ai gpu power architect new college grad 2026": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -16589,11 +16653,11 @@
 },
 "role:nvidia|deep learning compiler engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|distinguished engineer end to end scaling performance architecture": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|distinguished engineer production engineering data center automation": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -16605,7 +16669,7 @@
 },
 "role:nvidia|emulation front end infrastructure engineer": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|evaluation and machine learning systems engineer ai safety and security engineering": {
 "first_seen": "2026-10-12T22:02:31Z",
@@ -16617,23 +16681,23 @@
 },
 "role:nvidia|gpu pcie and boot architect new college grad 2027": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|gpu performance profiling engineer": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|gpu sw security engineer": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|gpu sw security psirt lead": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|gpu system performance architect": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|growth engineer developer platform": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -16649,15 +16713,15 @@
 },
 "role:nvidia|hpc middleware developer": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|hpc operations engineer eda infrastructure": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|hpc performance engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|implementation methodology engineer gpu": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -16665,15 +16729,15 @@
 },
 "role:nvidia|lead principal engineer enterprise agentic ai platform": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|machine learning ops dsx senior engineer": {
 "first_seen": "2026-10-29T06:43:08Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|performance engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|performance engineer deep learning": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -16685,11 +16749,11 @@
 },
 "role:nvidia|principal ai and machine learning infrastructure software engineer gpu clusters": {
 "first_seen": "2026-10-15T05:28:23Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|principal architect accelerated computing": {
 "first_seen": "2026-10-21T05:37:26Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|principal engineer cloud site reliability engineering": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -16697,11 +16761,11 @@
 },
 "role:nvidia|principal engineer cuda umd gpu kernel scheduling": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|principal engineer enterprise content and ai data platform": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|principal engineer system software gpu server": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -16709,11 +16773,11 @@
 },
 "role:nvidia|principal gpu memory architect": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|principal high performance llm training engineer": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|principal linux kernel engineer nvidia cpu server platforms": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -16721,11 +16785,11 @@
 },
 "role:nvidia|principal site reliability engineer": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|principal software engineer at scale reliability and fleet intelligence csp engagements": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|principal software engineer compute infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -16733,11 +16797,11 @@
 },
 "role:nvidia|principal software engineer developer compute platform": {
 "first_seen": "2026-10-19T19:46:42Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|principal software engineer dgx cloud production engineering": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|principal software engineer infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -16745,7 +16809,7 @@
 },
 "role:nvidia|principal software engineer rack scale systems infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|product engineer developer platform": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -16757,23 +16821,23 @@
 },
 "role:nvidia|research scientist machine learning systems phd new college grad 2026": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|security engineer gpu kernel driver": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior accelerated computing architect": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior ai and hpc observability engineer": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior ai compiler engineer algorithms and code generation": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior ai compiler engineer mlir": {
 "first_seen": "2026-10-11T22:44:12Z",
@@ -16781,31 +16845,35 @@
 },
 "role:nvidia|senior ai compute engineer nvis": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior ai infrastructure engineer eda infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior ai systems engineer chip design": {
 "first_seen": "2026-10-11T22:44:12Z",
 "last_seen": "2026-10-12"
 },
+"role:nvidia|senior ai tools engineer site reliability engineer operations geforce now": {
+"first_seen": "2026-10-31T18:20:53Z",
+"last_seen": "2026-10-31"
+},
 "role:nvidia|senior ai training performance architect": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior application engineer hpc and ai for physics": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior applied power architect gpu": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior architect model performance and post training": {
 "first_seen": "2026-10-14T05:41:11Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior c++ software engineer infrastructure tools": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -16813,11 +16881,11 @@
 },
 "role:nvidia|senior code generator compiler engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior compiler engineer": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior compiler engineer agentic compiler systems": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -16825,39 +16893,39 @@
 },
 "role:nvidia|senior compiler engineer ai": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior compiler engineer ai inference platforms": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior compiler engineer backend gpu": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior compiler engineer gpu compute": {
 "first_seen": "2026-10-21T05:37:26Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior compiler engineer infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior compiler engineer rust gpu": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior compiler optimization engineer mlir": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior compute platform engineer lsf eda infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior compute system software engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior cpu compiler engineer hpc": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -16869,11 +16937,11 @@
 },
 "role:nvidia|senior data engineer eda datacenter analytics and observability": {
 "first_seen": "2026-10-24T05:15:35Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior deep learning compiler engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior deep learning compiler engineer hw sw codesign": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -16881,15 +16949,15 @@
 },
 "role:nvidia|senior deep learning software engineer inference": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior deep learning software engineer inference and model optimization": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior deep learning software infrastructure engineer": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior devops engineer": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -16901,27 +16969,27 @@
 },
 "role:nvidia|senior devtech compute engineer compression and data processing": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior dgx cloud ai infrastructure software engineer": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior dl compiler engineer cuda tile": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior dl compiler engineer cuda tile lpu": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior field application engineer ai compute systems": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior field applications engineer ai infrastructure build execution": {
 "first_seen": "2026-10-14T18:25:44Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior fortran compiler engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -16929,19 +16997,19 @@
 },
 "role:nvidia|senior gpu architect": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior gpu architect deep learning": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior gpu architect performance and yield optimization": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior gpu architect simulation systemc tlm": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior gpu compiler development engineer": {
 "first_seen": "2026-10-11T22:44:12Z",
@@ -16949,15 +17017,15 @@
 },
 "role:nvidia|senior gpu compiler engineer": {
 "first_seen": "2026-10-16T05:20:42Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior gpu functional modeling architect": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior gpu memory architect": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior gpu memory system architect": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -16965,31 +17033,31 @@
 },
 "role:nvidia|senior gpu pcie and boot architect": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior gpu supercomputer scheduler engineer": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior gpu system architect": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior gpu system software engineer": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior gpu validation engineer": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior high performance llm training engineer": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior hpc ai cluster engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior hpc and lsf operations developer eda infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -17005,7 +17073,7 @@
 },
 "role:nvidia|senior hpc architect automation and at scale deployment": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior hpc performance engineer": {
 "first_seen": "2026-10-14T18:25:44Z",
@@ -17013,31 +17081,31 @@
 },
 "role:nvidia|senior hpc storage engineer eda infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior inference engineer gpu kernel optimization": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior infrastructure automation engineer compute platform eda infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior infrastructure engineer ai automation observability and monitoring": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior infrastructure engineer connectivity": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior infrastructure engineer infrastructure security and core services": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior infrastructure security engineer eda clusters": {
 "first_seen": "2026-10-21T05:37:26Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior linux kernel systems software engineer csp engagements": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -17045,43 +17113,43 @@
 },
 "role:nvidia|senior linux systems engineer eda infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior llvm compiler engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior machine learning applications and compiler engineer lpx": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior machine learning engineer accelerated apache spark": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior math libraries engineer ai and hpc": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior mep engineer datacenter lab infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior mlops engineer dsx enablement": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior network reliability engineer dgx cloud": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior performance compiler engineer triton": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior performance engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior performance engineer deep learning": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -17089,7 +17157,7 @@
 },
 "role:nvidia|senior performance engineer dgx cloud": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior platform engineer enterprise products": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -17097,31 +17165,35 @@
 },
 "role:nvidia|senior power and performance engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior product architect kubernetes based ai infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior production engineer dgx cloud": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior production engineer object store dgx cloud": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
+},
+"role:nvidia|senior release infrastructure architect": {
+"first_seen": "2026-10-31T18:20:53Z",
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior reliability engineer": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior research engineer foundation model training infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior site reliability engineer": {
 "first_seen": "2026-10-27T19:19:54Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior site reliability engineer aiops": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -17133,15 +17205,15 @@
 },
 "role:nvidia|senior site reliability engineer kubernetes platform": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior site reliability engineer storage": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior software architect ai systems and networking": {
 "first_seen": "2026-10-29T19:29:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior software architect gpu networking": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -17149,11 +17221,11 @@
 },
 "role:nvidia|senior software development engineer neural graph infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior software engineer accelerated quantum chemistry and cuest": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior software engineer ai agent compute": {
 "first_seen": "2026-10-11T22:44:12Z",
@@ -17161,15 +17233,15 @@
 },
 "role:nvidia|senior software engineer ai inference performance": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior software engineer ai infrastructure solutions": {
 "first_seen": "2026-10-23T05:39:16Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior software engineer aiops and observability": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior software engineer application security av and software infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -17177,35 +17249,39 @@
 },
 "role:nvidia|senior software engineer at scale compute analysis": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior software engineer bare metal infrastructure dgx cloud": {
 "first_seen": "2026-10-28T19:26:30Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior software engineer cloud infrastructure": {
 "first_seen": "2026-10-14T05:41:11Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
+},
+"role:nvidia|senior software engineer cloud platform": {
+"first_seen": "2026-10-31T18:20:53Z",
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior software engineer cluster networking": {
 "first_seen": "2026-10-14T18:25:44Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior software engineer core infrastructure services dgx cloud": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior software engineer cuda umd gpu kernel scheduling": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior software engineer cuda umd graphs and gpu sharing": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior software engineer dgx cloud ai infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior software engineer dgx cloud production engineering": {
 "first_seen": "2026-10-14T05:41:11Z",
@@ -17213,11 +17289,11 @@
 },
 "role:nvidia|senior software engineer distributed systems engineer eda infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior software engineer distributed systems engineering dgx cloud": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior software engineer fleet intelligence backend": {
 "first_seen": "2026-10-23T05:39:16Z",
@@ -17225,11 +17301,11 @@
 },
 "role:nvidia|senior software engineer gpu": {
 "first_seen": "2026-10-12T22:02:31Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior software engineer gpu code generation for machine learning inference": {
 "first_seen": "2026-10-21T18:31:58Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior software engineer gpu local ai platforms": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -17241,11 +17317,11 @@
 },
 "role:nvidia|senior software engineer nemo helix core platform": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior software engineer nvidia kubernetes": {
 "first_seen": "2026-10-30T19:06:55Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior software engineer platform engineering": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -17257,7 +17333,7 @@
 },
 "role:nvidia|senior software engineer site reliability engineer and production engineering dgx cloud": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior software engineer system validation eda infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -17265,11 +17341,11 @@
 },
 "role:nvidia|senior software engineer virtualization and linux kernel": {
 "first_seen": "2026-10-23T05:39:16Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior software performance engineer autonomous vehicles": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior staff client platform engineer": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -17281,19 +17357,19 @@
 },
 "role:nvidia|senior storage infrastructure software engineer eda infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior storage platform engineer": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior storage production engineer dgx cloud": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior system and scheduling architect gpu": {
 "first_seen": "2026-10-24T05:15:35Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior system reliability engineer": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -17301,47 +17377,47 @@
 },
 "role:nvidia|senior system software engineer agentic inference dynamo": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior system software engineer agentic kernel development": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior system software engineer dynamo triton inference server": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior system software engineer gpu performance": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior system software engineer gpu server": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior system software engineer gpu sw": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior systems performance engineer": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior systems software engineer accelerated kubernetes performance and scale dgx cloud": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior systems software engineer accelerated spark applications": {
 "first_seen": "2026-10-19T19:46:42Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior systems software engineer compute stack acceleration": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior systems software engineer containers and kubernetes": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior systems software engineer containers kubernetes and confidential computing": {
 "first_seen": "2026-10-11T22:44:12Z",
@@ -17349,11 +17425,11 @@
 },
 "role:nvidia|senior systems software engineer eda infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior systems software engineer gpu diagnostics": {
 "first_seen": "2026-10-13T20:11:39Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior systems software engineer gpu fleet telemetry": {
 "first_seen": "2026-10-20T05:36:42Z",
@@ -17361,15 +17437,15 @@
 },
 "role:nvidia|senior systems software engineer gpu performance at scale": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior systems software engineer gpu software": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior systems software engineer infrastructure": {
 "first_seen": "2026-10-16T05:20:42Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior systems software engineer kubernetes node lifecycle dgx cloud": {
 "first_seen": "2026-10-11T22:44:12Z",
@@ -17377,15 +17453,15 @@
 },
 "role:nvidia|senior systems software engineer observability and telemetry platform": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|senior technical support lead ethernet and ai infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|software devops engineer networking": {
 "first_seen": "2026-10-27T05:53:37Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|software engineer dgx cloud ai infrastructure": {
 "first_seen": "2026-10-16T05:20:42Z",
@@ -17397,11 +17473,11 @@
 },
 "role:nvidia|software engineer site reliability engineer and production engineering dgx cloud": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|software engineer technical lead performance data platform": {
 "first_seen": "2026-10-30T06:43:54Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvidia|staff site reliability engineer ai platform runtime": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -17417,7 +17493,7 @@
 },
 "role:nvidia|systems software engineer infrastructure": {
 "first_seen": "2026-10-22T18:25:58Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:nvsconsulting|senior infrastructure cloud engineer": {
 "first_seen": "2026-10-31T06:32:23Z",
@@ -18253,15 +18329,15 @@
 },
 "role:paypal|senior software engineer cloud infrastructure and devops": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:paypal|software engineer cloud infrastructure and devops": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:paypal|staff software engineer cloud infrastructure and devops": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:paypal|staff software engineer platform and infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -18309,7 +18385,7 @@
 },
 "role:peraton|senior devsecops platform engineer": {
 "first_seen": "2026-10-19T05:35:01Z",
-"last_seen": "2026-10-26"
+"last_seen": "2026-10-31"
 },
 "role:peraton|senior kubernetes engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -18729,7 +18805,7 @@
 },
 "role:pvcase|platform devops engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:pyramidglobal|integration devops engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -18953,7 +19029,7 @@
 },
 "role:redsky|reliability and scale engineer devops cloud": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-29"
+"last_seen": "2026-10-31"
 },
 "role:reflection|forward deployed engineer lead llm post training": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -19297,11 +19373,11 @@
 },
 "role:root|senior data engineer data platform": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-12"
+"last_seen": "2026-10-31"
 },
 "role:root|staff software engineer ai platform": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-20"
+"last_seen": "2026-10-31"
 },
 "role:rrdonnelley|senior linux and infrastructure automation engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -19977,11 +20053,11 @@
 },
 "role:snap|machine learning engineer causal inference level 5": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:snap|software engineer machine learning infrastructure core inference level 4": {
 "first_seen": "2026-10-15T18:07:32Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:snap|software engineer machine learning infrastructure level 5": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -19989,11 +20065,11 @@
 },
 "role:snap|software engineer machine learning infrastructure machine learning data level 5": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:snap|software engineer machine learning infrastructure machine learning platform level 5": {
 "first_seen": "2026-10-15T18:07:32Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:snap|staff machine learning engineer diffusion generative modeling and inference": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -20037,6 +20113,10 @@
 },
 "role:snowflake|staff software engineer cortex ai search infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
+"last_seen": "2026-10-31"
+},
+"role:sofi|principal software engineer data platform data trust and ai context": {
+"first_seen": "2026-10-31T18:20:53Z",
 "last_seen": "2026-10-31"
 },
 "role:solace|senior platform engineer": {
@@ -20161,7 +20241,7 @@
 },
 "role:summitracingequipment|devops engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:suncoredigital|senior site reliability engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -20205,6 +20285,10 @@
 },
 "role:supabase|site reliability engineer": {
 "first_seen": "2026-10-15T18:07:32Z",
+"last_seen": "2026-10-31"
+},
+"role:supabase|software engineer ai tooling infrastructure": {
+"first_seen": "2026-10-31T18:20:53Z",
 "last_seen": "2026-10-31"
 },
 "role:supabase|software engineer functions compute": {
@@ -20301,7 +20385,7 @@
 },
 "role:teachingstrategies|senior infrastructure platform engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:teamrubicon|senior associate mission support advanced skills training": {
 "first_seen": "2026-10-17T05:15:14Z",
@@ -20829,11 +20913,11 @@
 },
 "role:unifonic|senior infrastructure engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-29"
+"last_seen": "2026-10-31"
 },
 "role:unifonic|senior site reliability engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-29"
+"last_seen": "2026-10-31"
 },
 "role:unisys|data center and infrastructure solution leader": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -21021,7 +21105,7 @@
 },
 "role:volgapartners|fixed income and investment research expert ai training and evaluation": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:volgapartners|fp and a subject matter expert sme ai training and evaluation u s based": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -21253,15 +21337,15 @@
 },
 "role:workday|principal dataops engineer devops for data": {
 "first_seen": "2026-10-30T19:06:55Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:workday|principal distributed systems engineer": {
 "first_seen": "2026-10-23T05:39:16Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:workday|principal distributed systems engineer observability": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:workday|senior devops engineer": {
 "first_seen": "2026-10-26T19:52:07Z",
@@ -21273,7 +21357,7 @@
 },
 "role:workday|senior principal architect observability": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:workday|senior responsible ai systems engineer": {
 "first_seen": "2026-10-12T22:02:31Z",
@@ -21281,19 +21365,19 @@
 },
 "role:workday|senior software development engineer core platform integration": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:workday|senior software engineer distributed systems": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:workday|software development engineer distributed systems": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:workday|software engineer senior software engineer ai platform agent cell": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:worldrelief|training officer program of initial resettlement": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -21545,7 +21629,7 @@
 },
 "role:zillow|senior applied scientist post training": {
 "first_seen": "2026-10-21T05:37:26Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "role:zingtree|senior devops platform reliability engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -21895,6 +21979,10 @@
 "first_seen": "2026-10-19T19:46:42Z",
 "last_seen": "2026-10-21"
 },
+"weworkremotely:ritual-distributed-systems-engineer": {
+"first_seen": "2026-10-31T18:20:53Z",
+"last_seen": "2026-10-31"
+},
 "weworkremotely:smartsheet-devops-engineer-edge-and-developer-experience-remote-eligible-in-bulgaria": {
 "first_seen": "2026-10-30T19:06:55Z",
 "last_seen": "2026-10-31"
@@ -21937,15 +22025,15 @@
 },
 "workday:adobe:/job/San-Jose/Principal-AI-Systems-Engineer---C-----Applied-AI_R170076": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:adobe:/job/San-Jose/Principal-Architect---Security--Privacy-and-Governance-in-Large-scale-Enterprise-Agentic-AI-Solutions_R171198": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:adobe:/job/San-Jose/Senior-Backend-Engineer---Cloud-Platform_R168509": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:autodesk:/job/Boston-MA-USA/Customer-Advocate--Design---Manufacturing--Customer-Reliability_26WD100930": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -21965,7 +22053,7 @@
 },
 "workday:cisco:/job/Chicago-Illinois-US/Software-Engineering-Technical-Leader---SRE_2023565": {
 "first_seen": "2026-10-28T06:32:39Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:cisco:/job/Irvine-California-US/Site-Reliability-Engineering-Technical-Leader_2022910-1": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -21973,7 +22061,7 @@
 },
 "workday:cisco:/job/Milpitas-California-US/AI-Observability-Engineering-Technical-Leader_2029203": {
 "first_seen": "2026-10-28T06:32:39Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:cisco:/job/Milpitas-California-US/Senior-Software-Engineer---AI-Cluster-Networking-Performance-Engineer_2025213": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -21985,7 +22073,7 @@
 },
 "workday:cisco:/job/Milpitas-California-US/Software-Engineering-Technical-Leader---Isovalent--Remote-_2012409": {
 "first_seen": "2026-10-16T05:20:42Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:cisco:/job/Milpitas-California-US/Software-Engineering-Technical-Leader_2025503-1": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -21993,11 +22081,11 @@
 },
 "workday:cisco:/job/Milpitas-California-US/Sr-Software-Engineer--Routing-Platform---Infrastructure_2022971-1": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:cisco:/job/RTP-North-Carolina-US/AI-Infrastructure-Technical-Systems-Engineer_2026031": {
 "first_seen": "2026-10-23T05:39:16Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:cisco:/job/RTP-North-Carolina-US/Site-Reliability-Engineer-I--Full-Time----United-States_2028788": {
 "first_seen": "2026-10-15T05:28:23Z",
@@ -22005,15 +22093,19 @@
 },
 "workday:cisco:/job/Reston-Virginia-US/Cleared-DevOps-Lead-Engineer-Hybrid_2015159": {
 "first_seen": "2026-10-14T18:25:44Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:cisco:/job/San-Francisco-California-US/Lead-Site-Reliability-Engineer--FedRAMP---ThousandEyes-Hybrid-_2026074": {
 "first_seen": "2026-10-18T17:09:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:cisco:/job/San-Francisco-California-US/Senior-Site-Reliability-Engineer---Observability_2028160": {
 "first_seen": "2026-10-12T22:02:31Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
+},
+"workday:cisco:/job/San-Francisco-California-US/Senior-Site-Reliability-Engineer--Hybrid-_2028475": {
+"first_seen": "2026-10-31T18:20:53Z",
+"last_seen": "2026-10-31"
 },
 "workday:cisco:/job/San-Francisco-California-US/Senior-Site-Reliability-Engineer--Production-Engineer---ThousandEyes_2019204": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -22025,7 +22117,7 @@
 },
 "workday:cisco:/job/San-Francisco-California-US/Site-Reliability-Engineering-Technical-Leader_2025037-1": {
 "first_seen": "2026-10-16T05:20:42Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:cisco:/job/San-Francisco-California-US/Staff-Site-Reliability-Engineer--SRE---Hybrid-_2020208-1": {
 "first_seen": "2026-10-16T05:20:42Z",
@@ -22033,19 +22125,19 @@
 },
 "workday:cisco:/job/San-Francisco-California-US/Staff-Site-Reliability-Engineer_2028657": {
 "first_seen": "2026-10-26T19:52:07Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:cisco:/job/San-Francisco-California-US/Technical-Leader--SIte-Reliability-Engineer_2025012-1": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:cisco:/job/San-Jose-California-US/AI-LLMOps-Engineering-Technical-Leader_2021611": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:cisco:/job/San-Jose-California-US/Machine-Learning-Engineering-Technical-Leader_2026440": {
 "first_seen": "2026-10-22T05:40:45Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:cisco:/job/San-Jose-California-US/Platform-Software-Engineer---AI-ML---GPU-Infrastructure_2028119": {
 "first_seen": "2026-10-22T18:25:58Z",
@@ -22053,7 +22145,7 @@
 },
 "workday:cisco:/job/San-Jose-California-US/Senior-Platform-Software-Engineer---AI-ML---GPU-Infrastructure_2028133": {
 "first_seen": "2026-10-22T18:25:58Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:cisco:/job/San-Jose-California-US/Senior-Software-Engineer---Application-Reliability--Kubernetes--GCP--SQL---Hybrid_2024899": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -22077,11 +22169,11 @@
 },
 "workday:equinix:/job/Redwood-City/Principal-Software-Engineer--AI-Infrastructure_JR-164103": {
 "first_seen": "2026-10-17T05:15:14Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:equinix:/job/Redwood-City/Staff-Software-Engineer--AI-Infrastructure_JR-164105": {
 "first_seen": "2026-10-29T19:29:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:expedia:/job/USA---California---San-Jose/Principal-Software-Development-Engineer_R-102791-1": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -22093,11 +22185,11 @@
 },
 "workday:hpe:/job/Bloomington-Minnesota-United-States-of-America/Slingshot-Platform-Engineer_1214304-2": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:hpe:/job/Ft-Collins-Colorado-United-States-of-America/Principal-Cloud-Developer_1201564-2": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:hpe:/job/Milpitas-California-United-States-of-America/HPE-Labs---Senior-Software-Engineer---Integrated-HPC---Quantum-Solutions_1207366-1": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -22105,23 +22197,23 @@
 },
 "workday:hpe:/job/San-Jose-California-United-States-of-America/DevOps-Engineer_1207704": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:hpe:/job/San-Jose-California-United-States-of-America/L-D-Training-Support_1218034": {
 "first_seen": "2026-10-29T19:29:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:hpe:/job/Sunnyvale-California-United-States-of-America/DevOps-Engineer--Sunnyvale--CA-_1213659-2": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:intel:/job/US-California-Folsom/GPU-Logic-Design-Engineer_JR0288429": {
 "first_seen": "2026-10-30T06:43:54Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:intel:/job/US-California-Folsom/GPU-Validation-Engineer_JR0288212": {
 "first_seen": "2026-10-17T05:15:14Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:intel:/job/US-California-Santa-Clara/AI-Infrastructure-Engineer_JR0286233": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -22129,43 +22221,51 @@
 },
 "workday:intel:/job/US-California-Santa-Clara/Compiler-Engineer-for-AI-DSLs_JR0288433": {
 "first_seen": "2026-10-28T19:26:30Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
+},
+"workday:intel:/job/US-California-Santa-Clara/Compiler-Engineer-for-Tile-based-AI-DSLs_JR0288442": {
+"first_seen": "2026-10-31T18:20:53Z",
+"last_seen": "2026-10-31"
 },
 "workday:intel:/job/US-California-Santa-Clara/GPU-Logic-Design-Engineer_JR0287451": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:intel:/job/US-California-Santa-Clara/HPC-System-Architecture_JR0287450": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:intel:/job/US-Oregon-Hillsboro/Senior-AI-Systems-Architect-Researcher_JR0288178": {
 "first_seen": "2026-10-22T05:40:45Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:intel:/job/US-Oregon-Hillsboro/Senior-Infrastructure-and-DevOps-Systems-Engineer_JR0288427": {
 "first_seen": "2026-10-27T05:53:37Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:intel:/job/US-Oregon-Hillsboro/Sr-AI-Runtime-Architect---Neuromorphic-Computing_JR0287615": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Remote/Principal-Software-Engineer--Developer-Compute-Platform_JR2028182": {
 "first_seen": "2026-10-19T19:46:42Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
+},
+"workday:nvidia:/job/US-CA-Remote/Senior-AI-Tools-Engineer--SRE-Operations---GeForce-NOW_JR2018080": {
+"first_seen": "2026-10-31T18:20:53Z",
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Remote/Senior-AI-infrastructure-engineer---Hardware-Infrastructure-Engineering_JR2024816": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Remote/Senior-Application-Engineer--HPC-and-AI-for-Physics_JR2023469": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Remote/Senior-Compute-Platform-Engineer--LSF-_JR2023960": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Remote/Senior-Data-and-Platform-Engineer_JR2026954": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -22185,27 +22285,31 @@
 },
 "workday:nvidia:/job/US-CA-Remote/Senior-Deep-Learning-Sofware-Infrastructure-Engineer_JR2022034": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Remote/Senior-Infrastructure-Security-Engineer---EDA-Clusters_JR2028279": {
 "first_seen": "2026-10-21T05:37:26Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Remote/Senior-Linux-Systems-Engineer---EDA-Infrastructure_JR2025019": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Remote/Senior-Site-Reliability-Engineer_JR2028236": {
 "first_seen": "2026-10-27T19:19:54Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Remote/Senior-Software-Engineer---Accelerated-Quantum-Chemistry-and-cuEST_JR2019563": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Remote/Senior-Software-Engineer--AI-Agent-Compute_JR2021516-1": {
 "first_seen": "2026-10-11T22:44:12Z",
 "last_seen": "2026-10-20"
+},
+"workday:nvidia:/job/US-CA-Remote/Senior-Software-Engineer--Cloud-Platform_JR2027453": {
+"first_seen": "2026-10-31T18:20:53Z",
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Remote/Senior-Systems-Software-Engineer--Containers--Kubernetes--and-Confidential-Computing_JR2026957": {
 "first_seen": "2026-10-11T22:44:12Z",
@@ -22213,11 +22317,11 @@
 },
 "workday:nvidia:/job/US-CA-Remote/Senior-Systems-Software-Engineer--EDA-Infrastructure_JR2024972-1": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/AI-Compute-Engineer---NVIS_JR2025216": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/C---Software-Engineer--Infrastructure-Tools---New-College-Grad-2027_JR2027431": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -22229,11 +22333,11 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Deep-Learning-Compiler-Engineer_JR2020416": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Distinguished-Engineer--End-to-End-Scaling-Performance-Architecture_JR2021847": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Distinguished-Engineer--Production-Engineering--Data-Center-Automation_JR2024978": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -22245,7 +22349,7 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Emulation-Front-End-Infrastructure-Engineer_JR2023066": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Evaluation-and-ML-Systems-Engineer--AI-Safety-and-Security-Engineering_JR2021888": {
 "first_seen": "2026-10-12T22:02:31Z",
@@ -22253,7 +22357,7 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/GPU-PCIe-and-Boot-Architect---New-College-Grad-2027_JR2026276": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/GPU-Power-Architect---New-College-Grad-2026_JR2017169": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -22261,15 +22365,15 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/GPU-SW-Security-Engineer_JR2026536": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/GPU-SW-Security-PSIRT-Lead_JR2026531": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/GPU-System-Performance-Architect_JR2025475": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Growth-Engineer--Developer-Platform_JR2026245-1": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -22277,11 +22381,11 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/HPC-Middleware-Developer_JR2020918": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/HPC-Operations-Engineer_JR2014178": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Harness-and-Platform-Engineer--AI-Safety-and-Security-Engineering_JR2021886": {
 "first_seen": "2026-10-21T05:37:26Z",
@@ -22297,11 +22401,11 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Lead-Principal-Engineer--Enterprise-Agentic-AI-Platform_JR2013809": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/ML-Ops-DSX-Senior-Engineer_JR2029008": {
 "first_seen": "2026-10-29T06:43:08Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Performance-Engineer---Deep-Learning_JR2026547": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -22313,19 +22417,19 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Performance-Engineer_JR2025748": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Principal-AI-and-ML-Infra-Software-Engineer--GPU-Clusters_JR2017185": {
 "first_seen": "2026-10-15T05:28:23Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Principal-Architect--Accelerated-Computing_JR2028139": {
 "first_seen": "2026-10-21T05:37:26Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Principal-Engineer---Enterprise-Content-and-AI-Data-Platform_JR2021526": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Principal-Engineer---System-Software-GPU-Server_JR2018082": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -22333,7 +22437,7 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Principal-Engineer--CUDA-UMD---Kernel-Scheduling_JR2014055": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Principal-Engineer--Cloud-Site-Reliability-Engineering_JR2022907-1": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -22341,11 +22445,11 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Principal-GPU-Memory-Architect_JR2014031": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Principal-High-Performance-LLM-Training-Engineer_JR2017016": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Principal-Linux-Kernel-Engineer---NVIDIA-CPU-Server-Platforms_JR2022535": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -22353,7 +22457,7 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Principal-Site-Reliability-Engineer_JR2023973": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Principal-Software-Engineer---Compute-Infrastructure_JR2024369": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -22365,11 +22469,11 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Principal-Software-Engineer---Rack-Scale-Systems-Infrastructure_JR2017966": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Principal-Software-Engineer--At-Scale-Reliability-and-Fleet-Intelligence---CSP-Engagements_JR2020320": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Principal-Software-Engineer--DGX-Cloud-Production-Engineering_JR2018233": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -22377,7 +22481,7 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Principal-Software-Engineer--DGX-Cloud-Production-Engineering_JR2022554": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Product-Engineer--Developer-Platform_JR2026158": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -22393,15 +22497,15 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Research-Scientist--ML-Systems---New-College-Grad-2026_JR2010161": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Security-Engineer--GPU-Kernel-Driver_JR2026525": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-AI-Compiler-Engineer--Algorithms-and-Code-Generation_JR2021350": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-AI-Compiler-Engineer--MLIR_JR2022727": {
 "first_seen": "2026-10-11T22:44:12Z",
@@ -22409,35 +22513,35 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-AI-Compute-Engineer---NVIS_JR2027081": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-AI-Training-Performance-Architect_JR2021938": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-AI-and-HPC-Observability-Engineer_JR2013994": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Accelerated-Computing-Architect_JR2016279": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Accelerated-Computing-Architect_JR2017722": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Applied-Power-Architect---GPU_JR1997556": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Architect--Model-Performance-and-Post-Training_JR2027887": {
 "first_seen": "2026-10-14T05:41:11Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Architect--Simulation-Kernel-Modelling_JR2017737": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-C---Software-Engineer---Infrastructure-Tools_JR2018693": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -22445,23 +22549,23 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-CAD-Infrastructure-Development-Engineer_JR2010334": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Compiler-Engineer---Backend-GPU_JR2014033-1": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Compiler-Engineer---GPU-Compute_JR2023068": {
 "first_seen": "2026-10-21T05:37:26Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Compiler-Engineer---Rust-GPU_JR2021852": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Compiler-Engineer--AI-Inference-Platforms_JR2013800": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Compiler-Engineer--Agentic-Compiler-Systems_JR2026138-1": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -22473,27 +22577,27 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Compiler-Engineer-Infrastructure_JR2021595": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Compiler-Engineer_JR2025008-1": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Compute-System-Software-Engineer_JR2022574": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-DGX-Cloud-AI-Infrastructure-Software-Engineer_JR2012361": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-DL-Compiler-Engineer---CUDA-Tile-LPU_JR2020008": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-DL-Compiler-Engineer--CUDA-Tile_JR2020007-1": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-DL-Compiler-Engineer--CUDA-Tile_JR2023315": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -22501,7 +22605,7 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Data-Engineer---EDA-Datacenter-Analytics-and-Observability_JR2013973": {
 "first_seen": "2026-10-24T05:15:35Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Deep-Learning-Compiler-Engineer---XLA_JR2019844": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -22509,15 +22613,15 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Deep-Learning-Compiler-Engineer_JR2016814": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Deep-Learning-Software-Engineer--Inference-and-Model-Optimization_JR2027397": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Deep-Learning-Software-Engineer--Inference_JR2002670": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-DevOps-Engineer--AIOPs_JR2012791": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -22537,15 +22641,15 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-DevTech-Compute-Engineer--Compression-and-Data-Processing_JR2023439": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-GPU-Architect---Performance-and-Yield-Optimization_JR2025778": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-GPU-Architect--Deep-Learning_JR2009168": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-GPU-Architect--Performance-and-Scalability_JR2016562": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -22553,7 +22657,7 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-GPU-Architect_JR2015492": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-GPU-Compiler-Development-Engineer_JR2017242": {
 "first_seen": "2026-10-11T22:44:12Z",
@@ -22561,15 +22665,15 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-GPU-Functional-Modeling-Architect_JR2013736-1": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-GPU-Memory-Architect_JR2014030": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-GPU-Memory-Architect_JR2018641": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-GPU-Memory-System-Architect_JR2014156": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -22577,39 +22681,39 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-GPU-PCIe-and-Boot-Architect_JR2008450": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-GPU-Supercomputer-Scheduler-Engineer_JR2013609": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-GPU-System-Architect_JR2017254": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-GPU-System-Software-Engineer_JR2022837": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-GPU-Validation-Engineer_JR2028848": {
 "first_seen": "2026-10-27T05:53:37Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-HPC-AI-Cluster-Engineer_JR2023577": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-HPC-Architect_JR1999579": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-HPC-Performance-Engineer_JR1997214": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-HPC-Storage-Engineer_JR2014997": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-HPC-and-LSF-Operations-Engineer_JR2014127": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -22617,27 +22721,27 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-High-Performance-LLM-Training-Engineer_JR2015813": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Inference-Engineer--GPU-Kernel-Optimization_JR2021962": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Infrastructure-Engineer---AI--Automation--Observability-and-Monitoring_JR2025003": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Infrastructure-Engineer---Connectivity_JR2025006": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Infrastructure-Engineer---Infrastructure-Security-and-Core-Services_JR2025013": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-LLVM-Compiler-Engineer_JR2017389-1": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Linux-Kernel-Systems-Software-Engineer---CSP-Engagements_JR2015287": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -22645,31 +22749,31 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-MEP-Engineer---Datacenter-Lab-Infrastructure_JR2016959": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-MLOps-Engineer---DSX-Enablement_JR2023055": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Machine-Learning-Applications-and-Compiler-Engineer_JR2012559": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Machine-Learning-Engineer--Accelerated-Apache-Spark_JR2024455": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Math-Libraries-Engineer---AI-and-HPC_JR1998721": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Network-Reliability-Engineer---DGX-Cloud_JR2018113": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Performance-Engineer---DGX-Cloud_JR2022185": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Performance-Engineer---Deep-Learning_JR2014047": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -22677,11 +22781,11 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Performance-Engineer_JR1996987": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Performance-Engineer_JR2025059": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Platform-Engineer--Enterprise-Products_JR2026916": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -22689,15 +22793,19 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Power-and-Performance-Engineer_JR2019066": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Product-Architect--K8s-Based-AI-Infrastructure_JR2023964": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Production-Engineer---DGX-Cloud_JR2027078": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
+},
+"workday:nvidia:/job/US-CA-Santa-Clara/Senior-Release-Infrastructure-Architect_JR2028878": {
+"first_seen": "2026-10-31T18:20:53Z",
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Reliability-Engineer_JR2019406": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -22705,11 +22813,11 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Reliability-Engineer_JR2021101": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Research-Engineer--Foundation-Model-Training-Infrastructure_JR1992361": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Silicon-Power-and-Thermal-Controllers-Engineer_JR2019686": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -22721,7 +22829,7 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Site-Reliability-Engineer---HPC_JR2013271": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Site-Reliability-Engineer---Storage_JR2022324": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -22729,11 +22837,11 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Site-Reliability-Engineer---Storage_JR2024491-1": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Software-Architect--AI-Networking_JR2008501": {
 "first_seen": "2026-10-29T19:29:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Software-Architect--GPU-Networking_JR1998985": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -22741,11 +22849,11 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Software-Engineer---AI-Inference-Performance_JR2024262": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Software-Engineer---Cluster-Networking_JR2025464": {
 "first_seen": "2026-10-14T18:25:44Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Software-Engineer---GPU-Local-AI-Platforms_JR2021851": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -22753,15 +22861,15 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Software-Engineer---GPU_JR2027781": {
 "first_seen": "2026-10-12T22:02:31Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Software-Engineer--AI-Infrastructure-Solutions_JR2028372": {
 "first_seen": "2026-10-23T05:39:16Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Software-Engineer--AIOps-and-Observability_JR2022104": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Software-Engineer--Application-Security---AV-and-Software-Infrastructure_JR2027158-1": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -22769,19 +22877,19 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Software-Engineer--Bare-Metal-Infrastructure---DGX-Cloud_JR2028557": {
 "first_seen": "2026-10-28T19:26:30Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Software-Engineer--CUDA-UMD---Graphs-and-GPU-Sharing_JR2014056": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Software-Engineer--Cloud-Infrastructure_JR2027101-1": {
 "first_seen": "2026-10-14T05:41:11Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGX-Cloud-AI-Infrastructure_JR2019246": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGX-Cloud-Production-Engineering_JR2018817": {
 "first_seen": "2026-10-14T05:41:11Z",
@@ -22789,7 +22897,7 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Software-Engineer--Distributed-Systems-Engineer---DGX-Cloud_JR2026619": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Software-Engineer--Distributed-Systems-Engineering---DGX-Cloud_JR2027126": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -22805,7 +22913,7 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Software-Engineer--GPU-Code-Generation-for-Machine-Learning-Inference_JR2028415": {
 "first_seen": "2026-10-21T18:31:58Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Software-Engineer--Infrastructure-and-Tooling---DriveOS_JR2026731": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -22813,11 +22921,11 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Software-Engineer--NVIDIA-Kubernetes_JR2028745-1": {
 "first_seen": "2026-10-30T19:06:55Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Software-Engineer--NeMo-Core-Platform_JR2024160": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Software-Engineer--Next-Generation-Architecture---EDA-Infrastructure_JR2014880": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -22833,11 +22941,11 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Software-Engineer--SRE-and-Production-Engineering---DGX-Cloud_JR2026593": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Software-Engineer--SRE-and-Production-Engineering---DGX-Cloud_JR2027658": {
 "first_seen": "2026-10-12T22:02:31Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Software-Engineer--VLSI-AI-Agent_JR2012538": {
 "first_seen": "2026-10-11T22:44:12Z",
@@ -22845,15 +22953,15 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Software-Engineer--Virtualization-and-Linux-Kernel_JR2028528": {
 "first_seen": "2026-10-23T05:39:16Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Software-Engineer-CUDA-UMD---GPU-Kernel-Scheduling_JR2024920": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Software-Performance-Engineer---AV-Platform_JR2016777": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Staff-Client-Platform-Engineer_JR2021034": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -22865,19 +22973,19 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Storage-Infrastructure-Software-Engineer_JR2026658": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Storage-Platform-Engineer_JR2024601-1": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Storage-Production-Engineer---DGX-Cloud_JR2019643": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Storage-Production-Engineer---DGX-Cloud_JR2021335": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-System-Reliability-Engineer_JR2018308": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -22885,7 +22993,7 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-System-Software-Engineer---Dynamo-Triton-Inference-Server_JR2013405": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-System-Software-Engineer---Dynamo-Triton-Inference-Server_JR2025165": {
 "first_seen": "2026-10-11T22:44:12Z",
@@ -22893,27 +23001,27 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-System-Software-Engineer---GPU-SW_JR2026393-1": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-System-Software-Engineer---GPU-Server_JR2001533": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-System-Software-Engineer--Agentic-Inference---Dynamo_JR2021665-1": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-System-Software-Engineer--Agentic-Kernel-Development_JR2025621": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-System-Software-Engineer--GPU-Server_JR2026838": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-System-and-Scheduling-Architect---GPU_JR2028422": {
 "first_seen": "2026-10-24T05:15:35Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Systems-Performance-Engineer-_JR2015731": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -22921,19 +23029,19 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Systems-Performance-Engineer_JR2029006": {
 "first_seen": "2026-10-29T06:43:08Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer---GPU-Diagnostics_JR2012287": {
 "first_seen": "2026-10-13T20:11:39Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer---GPU-Software_JR2020271": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer---Infrastructure_JR2022763": {
 "first_seen": "2026-10-22T18:25:58Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer---Infrastructure_JR2024492": {
 "first_seen": "2026-10-16T05:20:42Z",
@@ -22941,15 +23049,15 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Accelerated-Kubernetes-Performance-and-Scale---DGX-Cloud_JR2020019": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Compute-Stack-Acceleration_JR2021549": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Containers-and-Kubernetes_JR2024616-1": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Kubernetes-Node-Lifecycle---DGX-Cloud_JR2019395": {
 "first_seen": "2026-10-11T22:44:12Z",
@@ -22957,15 +23065,15 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Observability-and-Telemetry-Platform_JR2024747": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Technical-Support-Lead---Ethernet-and-AI-Infrastructure_JR2027017-1": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Software-DevOps-Engineer--Networking_JR2025882": {
 "first_seen": "2026-10-27T05:53:37Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Software-Engineer--DGX-Cloud-AI-Infrastructure_JR2019248": {
 "first_seen": "2026-10-16T05:20:42Z",
@@ -22977,11 +23085,11 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Software-Engineer--SRE-and-Production-Engineering---DGX-Cloud_JR2026802": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Software-Engineer--Technical-Lead---Performance-Data-Platform_JR2029009": {
 "first_seen": "2026-10-30T06:43:54Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Staff-Site-Reliability-Engineer---AI-Platform-Runtime_JR2023969": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -22997,15 +23105,15 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Systems-Data-Engineer_JR1999730": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Systems-Software-Engineer---Infrastructure_JR2022783": {
 "first_seen": "2026-10-22T18:25:58Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-IL-Champaign/Senior-Systems-Software-Engineer---Accelerated-Spark-Applications_JR2028114": {
 "first_seen": "2026-10-19T19:46:42Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-MA-Westford/Senior-HPC-and-Quantum-Systems-Engineer_JR2023428": {
 "first_seen": "2026-10-11T22:44:12Z",
@@ -23013,7 +23121,7 @@
 },
 "workday:nvidia:/job/US-NC-Remote/Senior-Infrastructure-Automation-Engineer--Compute-Platform_JR2023962": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-OR-Hillsboro/Senior-CPU-Compiler-Engineer---HPC_JR2020843": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -23025,7 +23133,7 @@
 },
 "workday:nvidia:/job/US-OR-Remote/HPC-Performance-Engineer_JR2021671": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-OR-Remote/Senior-HPC-Performance-Engineer_JR2016206": {
 "first_seen": "2026-10-14T18:25:44Z",
@@ -23033,7 +23141,7 @@
 },
 "workday:nvidia:/job/US-Remote/Senior-Software-Engineer--Core-Infrastructure-Services---DGX-Cloud_JR2022552": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-TX-Austin/GPU-Backend-Compiler-Engineer_JR2017493": {
 "first_seen": "2026-10-11T22:44:12Z",
@@ -23041,43 +23149,43 @@
 },
 "workday:nvidia:/job/US-TX-Austin/GPU-Performance-Profiling-Engineer_JR2001798-1": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-TX-Austin/Senior-Compiler-Engineer---AI_JR2018275": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-TX-Austin/Senior-Compiler-Engineer---Backend_JR2017210": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-TX-Austin/Senior-GPU-Compiler-Engineer_JR2027978": {
 "first_seen": "2026-10-16T05:20:42Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-TX-Remote/Senior-Field-Applications-Engineer--AI-Infrastructure-Build---Execution_JR2027591": {
 "first_seen": "2026-10-14T18:25:44Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-WA-Redmond/Senior-Compiler-Optimization-Engineer---MLIR_JR2021622": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-WA-Redmond/Senior-Performance-Compiler-Engineer---Triton_JR2017806-1": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-WA-Remote/Senior-Software-Engineer---Distributed-Systems-Engineer--EDA-Infrastructure_JR2024825-1": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:nvidia:/job/US-WI-Remote/Senior-Field-Application-Engineer---AI-Compute-Systems_JR2021006-1": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:paypal:/job/Austin-Texas-United-States-of-America/Sr-Software-Engineer_R0136054-1": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:paypal:/job/San-Jose-California-United-States-of-America/Principal-Engineer--Data-Platforms-Venmo_R0136817-1": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -23089,7 +23197,7 @@
 },
 "workday:paypal:/job/San-Jose-California-United-States-of-America/Software-Engineer--Cloud-Infrastructure-and-DevOps_R0136963-1": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:paypal:/job/San-Jose-California-United-States-of-America/Sr-Software-Engineer---Cloud-Infrastructure-and-Devops_R0136961": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -23097,15 +23205,15 @@
 },
 "workday:paypal:/job/San-Jose-California-United-States-of-America/Sr-Software-Engineer---Cloud-Infrastructure-and-Devops_R0136962": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:paypal:/job/San-Jose-California-United-States-of-America/Sr-Software-Engineer--Cloud-Infrastructure-and-DevOps_R0136770-1": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:paypal:/job/San-Jose-California-United-States-of-America/Sr-Software-Engineer--Cloud-Infrastructure-and-DevOps_R0136773-1": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:paypal:/job/San-Jose-California-United-States-of-America/Staff-Software-Engineer---Platform---Infrastructure_R0137742": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -23113,7 +23221,7 @@
 },
 "workday:paypal:/job/San-Jose-California-United-States-of-America/Staff-Software-Engineer_R0134048-1": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:salesforce:/job/California---Remote/Senior---Lead---Principal-Software-Engineer---Foundations-Team--Infrastructure-Platform-_JR343618": {
 "first_seen": "2026-10-11T22:44:12Z",
@@ -23265,11 +23373,11 @@
 },
 "workday:snapchat:/job/Los-Angeles-California/Machine-Learning-Engineer--Causal-Inference--Level-5_R0046616-2": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:snapchat:/job/Los-Angeles-California/Software-Engineer--ML-Infrastructure--ML-Platform-Level-5_R0047200-1": {
 "first_seen": "2026-10-15T18:07:32Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:snapchat:/job/Los-Angeles-California/Staff-Machine-Learning-Engineer--Generative-AI-Modeling-and-Inference_R0046467": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -23277,27 +23385,27 @@
 },
 "workday:snapchat:/job/Palo-Alto---395-Page-Mill-Rd/Software-Engineer--ML-infrastructure--Core-Inference--Level-4_R0047198": {
 "first_seen": "2026-10-20T18:29:04Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:snapchat:/job/Palo-Alto-California/Software-Engineer--ML-Infrastructure--Core-Inference--Level-4_R0047199-1": {
 "first_seen": "2026-10-19T19:46:42Z",
-"last_seen": "2026-10-28"
+"last_seen": "2026-10-31"
 },
 "workday:snapchat:/job/Palo-Alto-California/Software-Engineer--ML-Infrastructure--Level-5_R0046870-2": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:workday:/job/USA-CA-Pleasanton/Principal-DataOps-Engineer--DevOps-for-Data-_JR-0111033": {
 "first_seen": "2026-10-30T19:06:55Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:workday:/job/USA-CA-Pleasanton/Principal-Distributed-Systems-Engineer---Observability_JR-0109636": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:workday:/job/USA-CA-Pleasanton/Principal-Distributed-Systems-Engineer_JR-0110621": {
 "first_seen": "2026-10-23T05:39:16Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:workday:/job/USA-CA-Pleasanton/Senior-Principal-Architect--AI-Platform_JR-0110530": {
 "first_seen": "2026-10-27T05:53:37Z",
@@ -23309,15 +23417,15 @@
 },
 "workday:workday:/job/USA-CA-Pleasanton/Senior-Software-Engineer-Distributed-Systems-_JR-0109643": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:workday:/job/USA-CA-Pleasanton/Senior-Software-Engineer-Distributed-Systems-_JR-0110618": {
 "first_seen": "2026-10-25T05:35:02Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:workday:/job/USA-CA-Pleasanton/Software-Development-Engineer-Distributed-Systems-_JR-0109641": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:workday:/job/USA-CA-Pleasanton/Software-Development-Engineer-Distributed-Systems-_JR-0109646-1": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -23329,22 +23437,22 @@
 },
 "workday:workday:/job/USA-CA-Pleasanton/Sr-Principal-Architect---Observability_JR-0110234": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:workday:/job/USA-CA-Pleasanton/Sr-Software-Development-Engineer---Core-Platform-Integration_JR-0108019": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:workday:/job/USA-CA-Santa-Clara/Sr-Software-Engineer---Distributed-Systems_JR-0110113": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:workday:/job/USA-CO-Boulder/Software-Engineer-Senior-Software-Engineer---AI-Platform--Agent-Runtime-_JR-0109507": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 },
 "workday:zillow:/job/Remote-USA/Senior-Applied-Scientist_P751331": {
 "first_seen": "2026-10-21T05:37:26Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-10-31"
 }
 }
