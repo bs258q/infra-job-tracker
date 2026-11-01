@@ -261,7 +261,7 @@
 },
 "himalayas:https://himalayas.app/companies/aspca/jobs/salesforce-technical-lead-7184819487": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-15"
+"last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/astound-digital/jobs/b2b-commerce-architect-salesforce": {
 "first_seen": "2026-11-01T07:07:24Z",
@@ -375,6 +375,14 @@
 "first_seen": "2026-10-24T17:20:37Z",
 "last_seen": "2026-10-26"
 },
+"himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/mulesoft-developer-2962347292": {
+"first_seen": "2026-11-01T18:53:50Z",
+"last_seen": "2026-11-01"
+},
+"himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/mulesoft-integration-engineer-1054155981": {
+"first_seen": "2026-11-01T18:53:50Z",
+"last_seen": "2026-11-01"
+},
 "himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/salesforce-api-architect": {
 "first_seen": "2026-10-14T18:28:14Z",
 "last_seen": "2026-10-20"
@@ -467,6 +475,10 @@
 "first_seen": "2026-10-26T19:54:53Z",
 "last_seen": "2026-10-30"
 },
+"himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/salesforce-platform-architect-7364674891": {
+"first_seen": "2026-11-01T18:53:50Z",
+"last_seen": "2026-11-01"
+},
 "himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/salesforce-platform-architect-9864022431": {
 "first_seen": "2026-10-18T05:23:54Z",
 "last_seen": "2026-10-24"
@@ -550,6 +562,10 @@
 "himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/senior-mulesoft-developer-2021633310": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-16"
+},
+"himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/senior-mulesoft-developer-3516389424": {
+"first_seen": "2026-11-01T18:53:50Z",
+"last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/senior-mulesoft-developer-7355527334": {
 "first_seen": "2026-10-18T05:23:54Z",
@@ -1059,6 +1075,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-11-01"
 },
+"himalayas:https://himalayas.app/companies/inclusion-cloud/jobs/senior-salesforce-administrator-usa-remote-wor": {
+"first_seen": "2026-11-01T18:53:50Z",
+"last_seen": "2026-11-01"
+},
 "himalayas:https://himalayas.app/companies/intalentglobal/jobs/senior-salesforce-developers": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-11-01"
@@ -1173,7 +1193,7 @@
 },
 "himalayas:https://himalayas.app/companies/leidos/jobs/senior-salesforce-developer-solution-architect": {
 "first_seen": "2026-10-27T05:56:22Z",
-"last_seen": "2026-10-27"
+"last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/liberty-hardware-mfg-corp/jobs/salesforce-solution-architect": {
 "first_seen": "2026-10-19T05:37:49Z",
@@ -1551,6 +1571,10 @@
 "first_seen": "2026-10-18T05:23:54Z",
 "last_seen": "2026-10-24"
 },
+"himalayas:https://himalayas.app/companies/safeguard-global/jobs/salesforce-service-cloud-administrator": {
+"first_seen": "2026-11-01T18:53:50Z",
+"last_seen": "2026-11-01"
+},
 "himalayas:https://himalayas.app/companies/salesforce/jobs/mulesoft-integration-senior-architect-missionforce": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-11"
@@ -1659,6 +1683,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-11-01"
 },
+"himalayas:https://himalayas.app/companies/the-ward-law-group/jobs/senior-salesforce-developer": {
+"first_seen": "2026-11-01T18:53:50Z",
+"last_seen": "2026-11-01"
+},
 "himalayas:https://himalayas.app/companies/tms-llc/jobs/w2-hiring-salesforce-platform-developer-remote-lansing-mi": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-28"
@@ -1739,6 +1767,10 @@
 "first_seen": "2026-10-15T18:10:10Z",
 "last_seen": "2026-11-01"
 },
+"himalayas:https://himalayas.app/companies/versapay/jobs/salesforce-developer-9460969751": {
+"first_seen": "2026-11-01T18:53:50Z",
+"last_seen": "2026-11-01"
+},
 "himalayas:https://himalayas.app/companies/viateq-corporation/jobs/lead-salesforce-technical-architect": {
 "first_seen": "2026-10-25T17:34:23Z",
 "last_seen": "2026-11-01"
@@ -1806,6 +1838,10 @@
 "himalayas:https://himalayas.app/companies/yoga-alliance/jobs/salesforce-engineer": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-19"
+},
+"himalayas:https://himalayas.app/companies/zaelab/jobs/digital-consulting-architect-cpq": {
+"first_seen": "2026-11-01T18:53:50Z",
+"last_seen": "2026-11-01"
 },
 "jobicy:152666": {
 "first_seen": "2026-10-11T23:45:59Z",
@@ -2233,7 +2269,7 @@
 },
 "role:aspca|salesforce technical lead": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-15"
+"last_seen": "2026-11-01"
 },
 "role:astounddigital|b2b commerce architect salesforce": {
 "first_seen": "2026-11-01T07:07:24Z",
@@ -2343,6 +2379,14 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-11-01"
 },
+"role:brightvision|mulesoft developer": {
+"first_seen": "2026-11-01T18:53:50Z",
+"last_seen": "2026-11-01"
+},
+"role:brightvision|mulesoft integration engineer": {
+"first_seen": "2026-11-01T18:53:50Z",
+"last_seen": "2026-11-01"
+},
 "role:brightvision|salesforce api architect": {
 "first_seen": "2026-10-14T18:28:14Z",
 "last_seen": "2026-11-01"
@@ -2373,7 +2417,7 @@
 },
 "role:brightvision|salesforce platform architect": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-11-01"
 },
 "role:brightvision|salesforce platform developer": {
 "first_seen": "2026-10-23T18:16:48Z",
@@ -2397,7 +2441,7 @@
 },
 "role:brightvision|senior mulesoft developer": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-10-24"
+"last_seen": "2026-11-01"
 },
 "role:cabin|salesforce technical architect": {
 "first_seen": "2026-10-13T01:55:13Z",
@@ -2967,6 +3011,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-11-01"
 },
+"role:inclusioncloud|senior salesforce administrator": {
+"first_seen": "2026-11-01T18:53:50Z",
+"last_seen": "2026-11-01"
+},
 "role:intalentasia|senior salesforce developers": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-11-01"
@@ -3153,7 +3201,7 @@
 },
 "role:leidos|senior salesforce developer solution architect": {
 "first_seen": "2026-10-27T05:56:22Z",
-"last_seen": "2026-10-27"
+"last_seen": "2026-11-01"
 },
 "role:libertyhardwaremfg|salesforce solution architect": {
 "first_seen": "2026-10-19T05:37:49Z",
@@ -3643,6 +3691,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-11-01"
 },
+"role:safeguardglobal|salesforce service cloud administrator": {
+"first_seen": "2026-11-01T18:53:50Z",
+"last_seen": "2026-11-01"
+},
 "role:salesforce|business planning and operations lead agentforce operations": {
 "first_seen": "2026-10-11T23:45:59Z",
 "last_seen": "2026-10-23"
@@ -3995,6 +4047,10 @@
 "first_seen": "2026-10-14T05:43:06Z",
 "last_seen": "2026-10-29"
 },
+"role:wardlawgroup|senior salesforce developer": {
+"first_seen": "2026-11-01T18:53:50Z",
+"last_seen": "2026-11-01"
+},
 "role:wettermarkkeith|senior salesforce administrator": {
 "first_seen": "2026-10-12T06:51:41Z",
 "last_seen": "2026-10-15"
@@ -4046,6 +4102,10 @@
 "role:yogaalliance|salesforce engineer": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-19"
+},
+"role:zaelab|digital consulting architect cpq": {
+"first_seen": "2026-11-01T18:53:50Z",
+"last_seen": "2026-11-01"
 },
 "role:zscaler|salesforce developer": {
 "first_seen": "2026-10-11T22:45:08Z",

@@ -4773,7 +4773,7 @@
 },
 "himalayas:https://himalayas.app/companies/accelerant/jobs/ai-platform-engineer-global": {
 "first_seen": "2026-10-21T05:37:26Z",
-"last_seen": "2026-10-24"
+"last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/accelerant/jobs/senior-sre": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -4781,6 +4781,10 @@
 },
 "himalayas:https://himalayas.app/companies/accelint/jobs/reliability-engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
+"last_seen": "2026-11-01"
+},
+"himalayas:https://himalayas.app/companies/accelint/jobs/windchill-infrastructure-system-administrator": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/accuknox/jobs/devops-trainee": {
@@ -4835,9 +4839,13 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
 },
+"himalayas:https://himalayas.app/companies/ai-fund/jobs/software-engineer-ai-systems-united-states": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "himalayas:https://himalayas.app/companies/ais-applied-information-sciences/jobs/ai-foundry-platform-engineer": {
 "first_seen": "2026-10-17T05:15:14Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/akamai-technologies/jobs/principal-security-engineer-akamai-inference-cloud": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -4903,9 +4911,13 @@
 "first_seen": "2026-10-22T05:40:45Z",
 "last_seen": "2026-10-22"
 },
+"himalayas:https://himalayas.app/companies/aledade/jobs/staff-software-engineer-ai-platform": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "himalayas:https://himalayas.app/companies/alkami-technology-inc/jobs/sr-platform-engineer": {
 "first_seen": "2026-10-17T05:15:14Z",
-"last_seen": "2026-10-31"
+"last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/alkami-technology-inc/jobs/staff-platform-engineer-mantl": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -4999,6 +5011,10 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
 },
+"himalayas:https://himalayas.app/companies/anavation/jobs/senior-cloud-platform-engineer-remote": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "himalayas:https://himalayas.app/companies/ancestry-com/jobs/site-reliability-engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
@@ -5083,8 +5099,20 @@
 "first_seen": "2026-10-28T19:26:30Z",
 "last_seen": "2026-11-01"
 },
+"himalayas:https://himalayas.app/companies/astreya/jobs/ai-infrastructure-dc-design-engineer-iii": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
+"himalayas:https://himalayas.app/companies/astreya/jobs/ai-infrastructure-dc-design-engineer-iv-9531743539": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "himalayas:https://himalayas.app/companies/astreya/jobs/it-infrastructure-installation-services-ii-1653693006": {
 "first_seen": "2026-10-14T18:25:44Z",
+"last_seen": "2026-11-01"
+},
+"himalayas:https://himalayas.app/companies/astreya/jobs/senior-sre-engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/astreya/jobs/site-reliability-engineer-vulnerability": {
@@ -5097,6 +5125,10 @@
 },
 "himalayas:https://himalayas.app/companies/ata-international-resources-inc/jobs/senior-infrastructure-network-engineer-l3": {
 "first_seen": "2026-10-14T18:25:44Z",
+"last_seen": "2026-11-01"
+},
+"himalayas:https://himalayas.app/companies/atria-physician-practice-new-york-pc/jobs/software-engineer-devops-3368134910": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/atyeti/jobs/senior-devops-engineer": {
@@ -5117,7 +5149,7 @@
 },
 "himalayas:https://himalayas.app/companies/avaya/jobs/platform-engineer-virtual-us": {
 "first_seen": "2026-10-17T05:15:14Z",
-"last_seen": "2026-10-22"
+"last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/avery-dennison/jobs/principal-enterprise-data-platform-architect": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -5137,6 +5169,10 @@
 },
 "himalayas:https://himalayas.app/companies/axiom-recruit/jobs/agile-training-coach-scrum-or-kanban-for-international-fintech-uk-europe": {
 "first_seen": "2026-10-17T16:56:14Z",
+"last_seen": "2026-11-01"
+},
+"himalayas:https://himalayas.app/companies/babyli/jobs/staff-engineer-site-reliability": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/backblaze/jobs/cluster-systems-capacity-engineer": {
@@ -5161,10 +5197,14 @@
 },
 "himalayas:https://himalayas.app/companies/bam-technologies/jobs/senior-platform-engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-24"
+"last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/bamko-bamko-llc/jobs/devops-lead-cloud-infrastructure": {
 "first_seen": "2026-10-11T23:44:47Z",
+"last_seen": "2026-11-01"
+},
+"himalayas:https://himalayas.app/companies/banco-plata-s-a-institucion-de-banca-multiple/jobs/platform-engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/barkleyokrp/jobs/senior-infrastructure-engineer": {
@@ -5201,6 +5241,10 @@
 },
 "himalayas:https://himalayas.app/companies/beyondtrust/jobs/sr-site-reliability-engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
+"last_seen": "2026-11-01"
+},
+"himalayas:https://himalayas.app/companies/beyondtrust/jobs/staff-site-reliability-engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/bigcommerce-inc/jobs/lead-infrastructure-engineer": {
@@ -5451,6 +5495,10 @@
 "first_seen": "2026-10-24T17:18:23Z",
 "last_seen": "2026-10-26"
 },
+"himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/data-infrastructure-architect-8279028393": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/data-infrastructure-architect-8952521138": {
 "first_seen": "2026-10-27T19:19:54Z",
 "last_seen": "2026-10-28"
@@ -5462,6 +5510,10 @@
 "himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/data-platform-engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-14"
+},
+"himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/data-platform-engineer-4751601103": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/data-platform-engineer-5486524792": {
 "first_seen": "2026-10-15T05:28:23Z",
@@ -6023,6 +6075,10 @@
 "first_seen": "2026-10-20T05:36:42Z",
 "last_seen": "2026-11-01"
 },
+"himalayas:https://himalayas.app/companies/caris-mpi-inc/jobs/senior-staff-devops-engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "himalayas:https://himalayas.app/companies/cartography-biosciences/jobs/devops-engineer-cloud-infrastructure-scientific-computing-remote-americas": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
@@ -6129,7 +6185,7 @@
 },
 "himalayas:https://himalayas.app/companies/clearlyagile/jobs/devops-engineer": {
 "first_seen": "2026-10-22T18:25:58Z",
-"last_seen": "2026-10-31"
+"last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/clearlyagile/jobs/technical-product-owner-cloud-infrastructure": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -6247,6 +6303,14 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
 },
+"himalayas:https://himalayas.app/companies/coreintels/jobs/devops-engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
+"himalayas:https://himalayas.app/companies/corva/jobs/senior-devops-engineer-with-go-python-development-experience": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "himalayas:https://himalayas.app/companies/cotiviti/jobs/senior-operations-engineer-edi-developer-kubernetes": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
@@ -6269,6 +6333,10 @@
 },
 "himalayas:https://himalayas.app/companies/credit-acceptance/jobs/staff-machine-learning-engineer-platform-mlops": {
 "first_seen": "2026-10-11T23:44:47Z",
+"last_seen": "2026-11-01"
+},
+"himalayas:https://himalayas.app/companies/cresta/jobs/infrastructure-engineer-sre-canada-us": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/cresta/jobs/senior-infrastructure-engineer-sre": {
@@ -6361,7 +6429,7 @@
 },
 "himalayas:https://himalayas.app/companies/dariohealth/jobs/platform-engineer": {
 "first_seen": "2026-10-23T18:13:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/databento/jobs/site-reliability-engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -6377,7 +6445,7 @@
 },
 "himalayas:https://himalayas.app/companies/decisionpoint-corporation/jobs/cloud-platform-engineer": {
 "first_seen": "2026-10-21T05:37:26Z",
-"last_seen": "2026-10-24"
+"last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/decisionpoint-corporation/jobs/enterprise-service-reliability-and-insights-lead": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -6402,6 +6470,10 @@
 "himalayas:https://himalayas.app/companies/defense-unicorns/jobs/platform-engineer-714372347": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-24"
+},
+"himalayas:https://himalayas.app/companies/defense-unicorns/jobs/platform-engineer-fedd180-fedd181": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/defense-unicorns/jobs/platform-engineer-fedd200-fedd201-fedd202": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -6473,7 +6545,7 @@
 },
 "himalayas:https://himalayas.app/companies/draftkings-inc/jobs/senior-platform-engineer": {
 "first_seen": "2026-10-17T05:15:14Z",
-"last_seen": "2026-10-31"
+"last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/drivenets/jobs/principal-technologist-ai-compute": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -6493,7 +6565,7 @@
 },
 "himalayas:https://himalayas.app/companies/duluth-trading-company/jobs/principal-data-platform-engineer": {
 "first_seen": "2026-10-18T05:21:21Z",
-"last_seen": "2026-10-22"
+"last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/dxc-technology/jobs/servicenow-platform-engineer-insurance-smart-apps": {
 "first_seen": "2026-10-12T22:02:31Z",
@@ -6558,6 +6630,10 @@
 "himalayas:https://himalayas.app/companies/empower-com/jobs/senior-engineer-site-reliability-data-operations": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-12"
+},
+"himalayas:https://himalayas.app/companies/encharge-ai/jobs/ai-compiler-engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/endear/jobs/senior-site-reliability-engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -6683,6 +6759,10 @@
 "first_seen": "2026-10-13T20:11:39Z",
 "last_seen": "2026-10-27"
 },
+"himalayas:https://himalayas.app/companies/excyl-inc/jobs/sr-devops-engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "himalayas:https://himalayas.app/companies/exemplar-companies/jobs/ai-platform-developer": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-21"
@@ -6801,7 +6881,7 @@
 },
 "himalayas:https://himalayas.app/companies/fullstack-academy/jobs/instuctor-cloud-computing-devops-ccdo": {
 "first_seen": "2026-10-17T05:15:14Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/fullthrottle-ai/jobs/ai-platform-engineer": {
 "first_seen": "2026-10-12T22:02:31Z",
@@ -6833,6 +6913,14 @@
 },
 "himalayas:https://himalayas.app/companies/g2i/jobs/javascript-of-senior-software-engineer-ai-training": {
 "first_seen": "2026-10-16T05:20:42Z",
+"last_seen": "2026-11-01"
+},
+"himalayas:https://himalayas.app/companies/g2i/jobs/remote-python-senior-software-engineer-ai-training": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
+"himalayas:https://himalayas.app/companies/g2i/jobs/senior-software-engineer-ai-training": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/g2i/jobs/senior-software-engineer-ai-training-united-states": {
@@ -6905,6 +6993,10 @@
 },
 "himalayas:https://himalayas.app/companies/glint-tech-solutions-llc/jobs/ai-platform-sre-lead": {
 "first_seen": "2026-10-11T23:44:47Z",
+"last_seen": "2026-11-01"
+},
+"himalayas:https://himalayas.app/companies/global-channel-management-inc/jobs/aws-devops-engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/global-channel-management-inc/jobs/cloud-platform-engineer": {
@@ -6983,6 +7075,10 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
 },
+"himalayas:https://himalayas.app/companies/harris/jobs/clinical-training-enablement-lead-responsable-formation-et-solutions-cliniq": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "himalayas:https://himalayas.app/companies/harris/jobs/expert-site-reliability-engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-28"
@@ -7007,6 +7103,10 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-15"
 },
+"himalayas:https://himalayas.app/companies/hercules/jobs/staff-software-engineer-infrastructure": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "himalayas:https://himalayas.app/companies/hewlett-packard-enterprise/jobs/ai-data-platform-field-architect": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
@@ -7023,8 +7123,16 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
 },
+"himalayas:https://himalayas.app/companies/home-depot-u-s-a-inc/jobs/senior-software-engineer-cloud-platform-developer-relations": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "himalayas:https://himalayas.app/companies/home-depot-u-s-a-inc/jobs/software-engineer-backend-distributed-systems": {
 "first_seen": "2026-10-28T06:32:39Z",
+"last_seen": "2026-11-01"
+},
+"himalayas:https://himalayas.app/companies/home-depot-u-s-a-inc/jobs/software-engineer-senior-principal-reliability-engineering": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/home-depot-u-s-a-inc/jobs/staff-software-engineer-cloud-platform-products-agentic-workloads": {
@@ -7235,6 +7343,10 @@
 "first_seen": "2026-10-23T18:13:38Z",
 "last_seen": "2026-11-01"
 },
+"himalayas:https://himalayas.app/companies/itmates/jobs/site-reliability-engineer-fintech": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "himalayas:https://himalayas.app/companies/ivanti/jobs/senior-site-reliability-engineer-sat-wed-night-shift": {
 "first_seen": "2026-10-26T05:40:51Z",
 "last_seen": "2026-11-01"
@@ -7269,7 +7381,7 @@
 },
 "himalayas:https://himalayas.app/companies/jfrog/jobs/senior-professional-services-devops-engineer-7294036318": {
 "first_seen": "2026-10-30T06:43:54Z",
-"last_seen": "2026-10-31"
+"last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/joinroot/jobs/lead-software-engineer-ai-platform": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -7451,6 +7563,10 @@
 "first_seen": "2026-10-12T00:37:01Z",
 "last_seen": "2026-11-01"
 },
+"himalayas:https://himalayas.app/companies/lavendo/jobs/search-engineer-ai-infrastructure-sf": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "himalayas:https://himalayas.app/companies/leantaas/jobs/cloud-infrastructure-engineer-associate-engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-13"
@@ -7495,6 +7611,10 @@
 "first_seen": "2026-10-12T06:49:27Z",
 "last_seen": "2026-10-13"
 },
+"himalayas:https://himalayas.app/companies/lifelancer/jobs/associate-devops-engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "himalayas:https://himalayas.app/companies/lifelancer/jobs/cloud-devops-infrastructure-engineer-roche-cloud-platform-azure-9550355069": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
@@ -7523,12 +7643,20 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
 },
+"himalayas:https://himalayas.app/companies/lifted-an-upwork-company/jobs/132210-ai-platform-technical-lead": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "himalayas:https://himalayas.app/companies/lifted-an-upwork-company/jobs/cfd-aerodynamic-engineer-ai-training-evaluation": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/lightspeed-dms/jobs/field-customer-tech-training-instructor-5763663708": {
 "first_seen": "2026-10-11T23:44:47Z",
+"last_seen": "2026-11-01"
+},
+"himalayas:https://himalayas.app/companies/lockheed-martin-corporation/jobs/a-ai-systems-engineer-sr-e3": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/lockheed-martin-corporation/jobs/ai-site-reliability-engineer": {
@@ -7569,6 +7697,10 @@
 },
 "himalayas:https://himalayas.app/companies/loopreturns/jobs/senior-platform-engineer": {
 "first_seen": "2026-10-31T06:32:23Z",
+"last_seen": "2026-11-01"
+},
+"himalayas:https://himalayas.app/companies/loti-ai-inc/jobs/staff-platform-engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/loti-ai-inc/jobs/web3-infrastructure-devops-engineer": {
@@ -7651,8 +7783,16 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-22"
 },
+"himalayas:https://himalayas.app/companies/mainspring-energy/jobs/fleet-operations-analytics-engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "himalayas:https://himalayas.app/companies/makerble/jobs/devops-volunteer": {
 "first_seen": "2026-10-17T05:15:14Z",
+"last_seen": "2026-11-01"
+},
+"himalayas:https://himalayas.app/companies/manbau/jobs/41-infrastructure-automation-engineer-ansible-platform-modernization": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/manifest/jobs/senior-infrastructure-engineer": {
@@ -7673,6 +7813,10 @@
 },
 "himalayas:https://himalayas.app/companies/matter-health/jobs/principal-ai-platform-engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
+"last_seen": "2026-11-01"
+},
+"himalayas:https://himalayas.app/companies/mcnees-wallace-nurick-llc/jobs/cloud-infrastructure-services-engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/mdotm/jobs/devops-engineer": {
@@ -7719,12 +7863,24 @@
 "first_seen": "2026-10-30T19:06:55Z",
 "last_seen": "2026-11-01"
 },
+"himalayas:https://himalayas.app/companies/mercury/jobs/senior-software-engineer-sre": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
+"himalayas:https://himalayas.app/companies/mercury/jobs/software-engineer-infrastructure": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "himalayas:https://himalayas.app/companies/metabase/jobs/senior-sre-devops-engineer-7426308436": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/mfax-io/jobs/senior-devops-engineer": {
 "first_seen": "2026-10-16T05:20:42Z",
+"last_seen": "2026-11-01"
+},
+"himalayas:https://himalayas.app/companies/mhymatch/jobs/devops-engineer-2496218799": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/michael-baker-international/jobs/infrastructure-subject-matter-expert": {
@@ -7811,6 +7967,10 @@
 "first_seen": "2026-10-18T05:21:21Z",
 "last_seen": "2026-11-01"
 },
+"himalayas:https://himalayas.app/companies/mlabs/jobs/site-reliability-engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "himalayas:https://himalayas.app/companies/modernizing-medicine-inc/jobs/senior-infrastructure-as-code-engineer": {
 "first_seen": "2026-10-22T05:40:45Z",
 "last_seen": "2026-11-01"
@@ -7835,6 +7995,10 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
 },
+"himalayas:https://himalayas.app/companies/motional/jobs/principal-engineer-data-ml-infrastructure": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "himalayas:https://himalayas.app/companies/motorola-solutions/jobs/devops-engineer-us-remote": {
 "first_seen": "2026-10-30T06:43:54Z",
 "last_seen": "2026-10-31"
@@ -7853,6 +8017,10 @@
 },
 "himalayas:https://himalayas.app/companies/my-it-crew/jobs/senior-infrastructure-project-engineer-8909917230": {
 "first_seen": "2026-10-25T05:35:02Z",
+"last_seen": "2026-11-01"
+},
+"himalayas:https://himalayas.app/companies/my-recruiter-inc/jobs/platform-engineer-remote-initially": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/myfitnesspal/jobs/site-reliability-engineer-3157436292": {
@@ -7965,6 +8133,10 @@
 },
 "himalayas:https://himalayas.app/companies/nikohealth/jobs/senior-data-platform-engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
+"last_seen": "2026-11-01"
+},
+"himalayas:https://himalayas.app/companies/nikohealth/jobs/senior-platform-engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/niricson/jobs/strategic-advisor-airport-airfield-pavement-infrastructure": {
@@ -8163,6 +8335,14 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
 },
+"himalayas:https://himalayas.app/companies/pavago/jobs/devops-engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
+"himalayas:https://himalayas.app/companies/pavago/jobs/devops-engineer-1875749863": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "himalayas:https://himalayas.app/companies/pavago/jobs/qa-training-supervisor-6887612335": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
@@ -8281,7 +8461,7 @@
 },
 "himalayas:https://himalayas.app/companies/pingwind/jobs/integrated-master-scheduler-i": {
 "first_seen": "2026-10-21T05:37:26Z",
-"last_seen": "2026-10-24"
+"last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/pipe-recruit/jobs/remote-aws-architect-infrastructure-domain": {
 "first_seen": "2026-10-12T22:02:31Z",
@@ -8301,6 +8481,10 @@
 },
 "himalayas:https://himalayas.app/companies/planet/jobs/senior-software-engineer-storage-infrastructure": {
 "first_seen": "2026-10-11T23:44:47Z",
+"last_seen": "2026-11-01"
+},
+"himalayas:https://himalayas.app/companies/planet/jobs/senior-software-engineer-storage-infrastructure-3212066925": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/planned-systems-international/jobs/athletic-training-sourcer": {
@@ -8419,6 +8603,10 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-21"
 },
+"himalayas:https://himalayas.app/companies/qoria-com/jobs/site-reliability-engineer-sre": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "himalayas:https://himalayas.app/companies/quant-network/jobs/senior-site-reliability-engineer": {
 "first_seen": "2026-10-12T06:49:27Z",
 "last_seen": "2026-10-31"
@@ -8441,6 +8629,10 @@
 },
 "himalayas:https://himalayas.app/companies/quantiphi-com/jobs/senior-platform-engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
+"last_seen": "2026-11-01"
+},
+"himalayas:https://himalayas.app/companies/quantiphi-com/jobs/senior-platform-engineer-8224962027": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/quartermaster/jobs/fleet-reliability-engineer": {
@@ -8705,7 +8897,7 @@
 },
 "himalayas:https://himalayas.app/companies/sedgwick/jobs/ai-platform-administrator": {
 "first_seen": "2026-10-22T05:40:45Z",
-"last_seen": "2026-10-31"
+"last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/seeq/jobs/senior-frontend-infrastructure-engineer-7736775245": {
 "first_seen": "2026-10-24T17:18:23Z",
@@ -8739,6 +8931,10 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
 },
+"himalayas:https://himalayas.app/companies/sequoia-connect/jobs/aws-devops": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "himalayas:https://himalayas.app/companies/sequra/jobs/senior-platform-engineer": {
 "first_seen": "2026-10-29T06:43:08Z",
 "last_seen": "2026-10-29"
@@ -8747,6 +8943,14 @@
 "first_seen": "2026-10-13T20:11:39Z",
 "last_seen": "2026-10-14"
 },
+"himalayas:https://himalayas.app/companies/sezzle/jobs/principal-infrastructure-engineer-5627286785": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
+"himalayas:https://himalayas.app/companies/sezzle/jobs/senior-database-reliability-engineer-808580393": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "himalayas:https://himalayas.app/companies/shield-ai/jobs/sr-staff-platform-data-reliability-engineer-databricks-r5537": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
@@ -8754,6 +8958,10 @@
 "himalayas:https://himalayas.app/companies/shield-ai/jobs/staff-engineer-ai-platform-architecture-r5449": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-24"
+},
+"himalayas:https://himalayas.app/companies/shift-paradigm/jobs/strategic-data-analytics-engineer-cloud-data-agentic-infrastructure": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/signifyd/jobs/senior-software-engineer-cloud-platform": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -8807,6 +9015,18 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
 },
+"himalayas:https://himalayas.app/companies/spear-ai/jobs/meridian-forward-deployed-infrastructure-engineer-mid-level-suitland-md-h": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
+"himalayas:https://himalayas.app/companies/spear-ai/jobs/meridian-forward-deployed-infrastructure-engineer-senior-suitland-md-hybr": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
+"himalayas:https://himalayas.app/companies/spear-ai/jobs/meridian-forward-deployed-infrastructure-engineer-senior-washington-d-c": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "himalayas:https://himalayas.app/companies/spear-ai/jobs/modernization-infrastructure-engineer-mid-level": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
@@ -8817,6 +9037,10 @@
 },
 "himalayas:https://himalayas.app/companies/sphinx-defense/jobs/devops-engineer": {
 "first_seen": "2026-10-14T18:25:44Z",
+"last_seen": "2026-11-01"
+},
+"himalayas:https://himalayas.app/companies/spin-master/jobs/backend-platform-engineer-hapiko": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/spread-group/jobs/platform-engineer-f-m-d": {
@@ -8891,6 +9115,10 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
 },
+"himalayas:https://himalayas.app/companies/sureify/jobs/senior-devops-engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "himalayas:https://himalayas.app/companies/syllo/jobs/litigation-ai-training-lead": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
@@ -8921,7 +9149,7 @@
 },
 "himalayas:https://himalayas.app/companies/sysdig/jobs/ai-platform-engineer": {
 "first_seen": "2026-10-18T05:21:21Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/taco-comfort-solutions/jobs/sr-systems-engineer-commercial-training": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -9159,8 +9387,24 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-17"
 },
+"himalayas:https://himalayas.app/companies/tripleten/jobs/ai-systems-engineering-expert-2405129793": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
+"himalayas:https://himalayas.app/companies/tripleten/jobs/ai-systems-engineering-expert-5334247867": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "himalayas:https://himalayas.app/companies/tripleten/jobs/ai-systems-ml-engineering-industry-expert": {
 "first_seen": "2026-10-11T23:44:47Z",
+"last_seen": "2026-11-01"
+},
+"himalayas:https://himalayas.app/companies/tripleten/jobs/ai-systems-ml-engineering-industry-expert-6553473110": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
+"himalayas:https://himalayas.app/companies/tripleten/jobs/ai-systems-ml-engineering-industry-expert-718116962": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/true-zero-technologies/jobs/google-cloud-platform-gcp-architect-r-00239": {
@@ -9173,7 +9417,7 @@
 },
 "himalayas:https://himalayas.app/companies/trupanion/jobs/senior-platform-engineer-microsoft": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-24"
+"last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/turbineone/jobs/senior-staff-software-engineer-devops": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -9443,6 +9687,10 @@
 "first_seen": "2026-10-30T06:43:54Z",
 "last_seen": "2026-11-01"
 },
+"himalayas:https://himalayas.app/companies/warner-music-group/jobs/senior-software-engineer-backend-ai-platform-sureel-ai": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "himalayas:https://himalayas.app/companies/we-are-tims/jobs/devops-engineer-middle-senior": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
@@ -9465,6 +9713,10 @@
 },
 "himalayas:https://himalayas.app/companies/wix/jobs/site-reliability-engineer-deviantart": {
 "first_seen": "2026-10-12T06:49:27Z",
+"last_seen": "2026-11-01"
+},
+"himalayas:https://himalayas.app/companies/wolters-kluwer/jobs/principal-full-stack-engineer-ai-platform-agents": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "himalayas:https://himalayas.app/companies/world-relief/jobs/training-officer-program-of-initial-resettlement-2025868": {
@@ -10105,7 +10357,7 @@
 },
 "oracle:eeho.fa.us2.oraclecloud.com:342775": {
 "first_seen": "2026-10-14T18:25:44Z",
-"last_seen": "2026-10-31"
+"last_seen": "2026-11-01"
 },
 "oracle:eeho.fa.us2.oraclecloud.com:342776": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -10121,7 +10373,7 @@
 },
 "oracle:eeho.fa.us2.oraclecloud.com:342782": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-31"
+"last_seen": "2026-11-01"
 },
 "oracle:eeho.fa.us2.oraclecloud.com:342783": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -10797,7 +11049,7 @@
 },
 "role:accelerant|ai platform engineer global": {
 "first_seen": "2026-10-21T05:37:26Z",
-"last_seen": "2026-10-24"
+"last_seen": "2026-11-01"
 },
 "role:accelerant|senior site reliability engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -10805,6 +11057,10 @@
 },
 "role:accelint|reliability engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
+"last_seen": "2026-11-01"
+},
+"role:accelint|windchill infrastructure and system administrator": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "role:accuknox|devops trainee": {
@@ -10901,7 +11157,7 @@
 },
 "role:ais|ai foundry platform engineer": {
 "first_seen": "2026-10-17T05:15:14Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-11-01"
 },
 "role:akamai|principal security engineer akamai inference cloud": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -10967,9 +11223,13 @@
 "first_seen": "2026-10-22T05:40:45Z",
 "last_seen": "2026-10-22"
 },
+"role:aledade|staff software engineer ai platform": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "role:alkami|senior platform engineer": {
 "first_seen": "2026-10-17T05:15:14Z",
-"last_seen": "2026-10-31"
+"last_seen": "2026-11-01"
 },
 "role:alkami|staff platform engineer mantl": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -11371,6 +11631,10 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
 },
+"role:anavation|senior cloud platform engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "role:ancestry|site reliability engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
@@ -11675,8 +11939,20 @@
 "first_seen": "2026-10-28T19:26:30Z",
 "last_seen": "2026-11-01"
 },
+"role:astreya|ai infrastructure dc design engineer 3": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
+"role:astreya|ai infrastructure dc design engineer 4": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "role:astreya|it infrastructure installation services 2": {
 "first_seen": "2026-10-14T18:25:44Z",
+"last_seen": "2026-11-01"
+},
+"role:astreya|senior site reliability engineer engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "role:astreya|site reliability engineer vulnerability": {
@@ -11689,6 +11965,10 @@
 },
 "role:atainternationalresources|senior infrastructure and network engineer l3": {
 "first_seen": "2026-10-14T18:25:44Z",
+"last_seen": "2026-11-01"
+},
+"role:atriaphysicianpracticenewyorkpc|software engineer devops": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "role:atyeti|senior devops engineer": {
@@ -11721,7 +12001,7 @@
 },
 "role:avaya|platform engineer": {
 "first_seen": "2026-10-17T05:15:14Z",
-"last_seen": "2026-10-22"
+"last_seen": "2026-11-01"
 },
 "role:averydennison|principal enterprise data platform architect": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -11741,6 +12021,10 @@
 },
 "role:axiomrecruit|agile training coach": {
 "first_seen": "2026-10-17T16:56:14Z",
+"last_seen": "2026-11-01"
+},
+"role:babylist|staff engineer site reliability": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "role:backblaze|cluster and systems capacity engineer": {
@@ -11769,7 +12053,11 @@
 },
 "role:bam|senior platform engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-24"
+"last_seen": "2026-11-01"
+},
+"role:bancoplatasainstituciondebancamultiple|platform engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
 },
 "role:barkleyokrp|senior infrastructure engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -11901,6 +12189,10 @@
 },
 "role:beyondtrust|site reliability engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
+"last_seen": "2026-11-01"
+},
+"role:beyondtrust|staff site reliability engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "role:bigcommerce|lead infrastructure engineer": {
@@ -12065,7 +12357,7 @@
 },
 "role:brightvision|data infrastructure architect": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-28"
+"last_seen": "2026-11-01"
 },
 "role:brightvision|data platform architect": {
 "first_seen": "2026-10-30T06:43:54Z",
@@ -12073,7 +12365,7 @@
 },
 "role:brightvision|data platform engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-29"
+"last_seen": "2026-11-01"
 },
 "role:brightvision|distributed systems architect": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -12349,6 +12641,10 @@
 },
 "role:carecentrix|platform software engineer devops": {
 "first_seen": "2026-10-20T05:36:42Z",
+"last_seen": "2026-11-01"
+},
+"role:carismpi|senior staff devops engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "role:cartesia|inference engineer": {
@@ -12797,7 +13093,7 @@
 },
 "role:clearlyagile|devops engineer": {
 "first_seen": "2026-10-22T18:25:58Z",
-"last_seen": "2026-10-31"
+"last_seen": "2026-11-01"
 },
 "role:clearlyagile|technical product owner cloud infrastructure": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -13099,6 +13395,10 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
 },
+"role:coreintels|devops engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "role:coreweave|it systems engineer cloud infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-11-01"
@@ -13211,6 +13511,10 @@
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-11-01"
 },
+"role:corva|senior devops engineer with go python development experience": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "role:cotiviti|senior operations engineer edi developer kubernetes": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
@@ -13233,6 +13537,10 @@
 },
 "role:creditacceptance|staff machine learning engineer platform mlops": {
 "first_seen": "2026-10-11T23:44:47Z",
+"last_seen": "2026-11-01"
+},
+"role:cresta|infrastructure engineer site reliability engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "role:cresta|senior infrastructure engineer site reliability engineer": {
@@ -13461,7 +13769,7 @@
 },
 "role:dariohealth|platform engineer": {
 "first_seen": "2026-10-23T18:13:38Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-11-01"
 },
 "role:databento|site reliability engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -13569,7 +13877,7 @@
 },
 "role:decisionpoint|cloud platform engineer": {
 "first_seen": "2026-10-21T05:37:26Z",
-"last_seen": "2026-10-24"
+"last_seen": "2026-11-01"
 },
 "role:decisionpoint|enterprise service reliability and insights lead": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -13605,6 +13913,10 @@
 },
 "role:defenseunicorns|platform engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
+"last_seen": "2026-11-01"
+},
+"role:defenseunicorns|platform engineer fedd180 fedd181": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "role:defenseunicorns|platform engineer fedd200 fedd201 fedd202": {
@@ -13813,7 +14125,7 @@
 },
 "role:draftkings|senior platform engineer": {
 "first_seen": "2026-10-17T05:15:14Z",
-"last_seen": "2026-10-31"
+"last_seen": "2026-11-01"
 },
 "role:drivenets|principal technologist ai compute": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -13841,7 +14153,7 @@
 },
 "role:duluthtrading|principal data platform engineer": {
 "first_seen": "2026-10-18T05:21:21Z",
-"last_seen": "2026-10-22"
+"last_seen": "2026-11-01"
 },
 "role:dxc|servicenow platform engineer insurance smart apps": {
 "first_seen": "2026-10-12T22:02:31Z",
@@ -13950,6 +14262,10 @@
 "role:empower|senior engineer site reliability data operations": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-12"
+},
+"role:encharge|ai compiler engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
 },
 "role:endear|senior site reliability engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -14130,6 +14446,10 @@
 "role:exceptionly|azure devops engineer and #x28 3 month contract and #x2f and #x24 2400 monthly and #x29 re": {
 "first_seen": "2026-10-13T20:11:39Z",
 "last_seen": "2026-10-27"
+},
+"role:excyl|senior devops engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
 },
 "role:exemplarcompanies|ai platform developer": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -14529,7 +14849,7 @@
 },
 "role:fullstackacademy|instuctor cloud computing and devops ccdo": {
 "first_seen": "2026-10-17T05:15:14Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-11-01"
 },
 "role:fullthrottle|ai platform engineer": {
 "first_seen": "2026-10-12T22:02:31Z",
@@ -14537,6 +14857,10 @@
 },
 "role:fundrise|ai infrastructure deployment engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
+"last_seen": "2026-11-01"
+},
+"role:fund|software engineer ai systems": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "role:fuseenergy|ai inference engineer": {
@@ -14561,6 +14885,10 @@
 },
 "role:g2i|javascript of senior software engineer ai training": {
 "first_seen": "2026-10-16T05:20:42Z",
+"last_seen": "2026-11-01"
+},
+"role:g2i|remote python senior software engineer ai training": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "role:g2i|senior software engineer ai training": {
@@ -14711,6 +15039,10 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
 },
+"role:globalchannelmanagement|aws devops engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "role:globalchannelmanagement|cloud platform engineer": {
 "first_seen": "2026-10-15T18:07:32Z",
 "last_seen": "2026-11-01"
@@ -14789,6 +15121,10 @@
 },
 "role:hadrian|infrastructure engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
+"last_seen": "2026-11-01"
+},
+"role:harris|clinical training and enablement lead responsable formation et solutions cliniq": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "role:harris|expert site reliability engineer": {
@@ -14903,6 +15239,10 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-15"
 },
+"role:hercules|staff software engineer infrastructure": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "role:hewlettpackardenterprise|ai data platform field architect": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
@@ -14923,8 +15263,16 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-16"
 },
+"role:homedepotusa|senior software engineer cloud platform developer relations": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "role:homedepotusa|software engineer backend and distributed systems": {
 "first_seen": "2026-10-28T06:32:39Z",
+"last_seen": "2026-11-01"
+},
+"role:homedepotusa|software engineer senior principal reliability engineering": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "role:homedepotusa|staff software engineer cloud platform products agentic workloads": {
@@ -15227,6 +15575,10 @@
 "first_seen": "2026-10-23T18:13:38Z",
 "last_seen": "2026-11-01"
 },
+"role:itmates|site reliability engineer fintech": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "role:ivanti|senior site reliability engineer sat wed night shift": {
 "first_seen": "2026-10-26T05:40:51Z",
 "last_seen": "2026-11-01"
@@ -15261,7 +15613,7 @@
 },
 "role:jfrog|senior professional services devops engineer": {
 "first_seen": "2026-10-30T06:43:54Z",
-"last_seen": "2026-10-31"
+"last_seen": "2026-11-01"
 },
 "role:jpmorganchaseand|remote access lead infrastructure engineer": {
 "first_seen": "2026-10-14T05:41:11Z",
@@ -15639,6 +15991,10 @@
 "first_seen": "2026-10-12T00:37:01Z",
 "last_seen": "2026-11-01"
 },
+"role:lavendo|search engineer ai infrastructure": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "role:leantaas|cloud infrastructure engineer associate engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-13"
@@ -15687,6 +16043,10 @@
 "first_seen": "2026-10-12T06:49:27Z",
 "last_seen": "2026-10-13"
 },
+"role:lifelancer|associate devops engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "role:lifelancer|cloud devops infrastructure engineer roche cloud platform azure": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
@@ -15713,6 +16073,10 @@
 },
 "role:lifelancer|senior platform engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
+"last_seen": "2026-11-01"
+},
+"role:lifted|#132210 ai platform technical lead": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "role:lifted|cfd and aerodynamic engineer ai training and evaluation": {
@@ -15803,6 +16167,10 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
 },
+"role:lockheedmartin|a ai systems engineer senior e3": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "role:lockheedmartin|ai site reliability engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
@@ -15837,6 +16205,10 @@
 },
 "role:loop|senior platform engineer": {
 "first_seen": "2026-10-31T06:32:23Z",
+"last_seen": "2026-11-01"
+},
+"role:loti|staff platform engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "role:loti|web3 infrastructure devops engineer": {
@@ -15951,8 +16323,16 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-22"
 },
+"role:mainspringenergy|fleet operations and analytics engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "role:makerble|devops volunteer": {
 "first_seen": "2026-10-17T05:15:14Z",
+"last_seen": "2026-11-01"
+},
+"role:manbau|#41 infrastructure automation engineer ansible and platform modernization": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "role:mandtbank|openshift platform engineer": {
@@ -15993,6 +16373,10 @@
 },
 "role:matterintelligence|data machine learning infrastructure engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
+"last_seen": "2026-11-01"
+},
+"role:mcneeswallaceandnurick|cloud and infrastructure services engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "role:mdotm|devops engineer": {
@@ -16059,12 +16443,24 @@
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-10-27"
 },
+"role:mercury|senior software engineer site reliability engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
+"role:mercury|software engineer infrastructure": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "role:metabase|senior site reliability engineer devops engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
 },
 "role:mfaxio|senior devops engineer": {
 "first_seen": "2026-10-16T05:20:42Z",
+"last_seen": "2026-11-01"
+},
+"role:mhymatch|devops engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "role:michaelbakerinternational|infrastructure subject matter expert": {
@@ -16179,6 +16575,10 @@
 "first_seen": "2026-10-18T05:21:21Z",
 "last_seen": "2026-11-01"
 },
+"role:mlabs|site reliability engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "role:modal|gtm engineer data platform": {
 "first_seen": "2026-10-14T05:41:11Z",
 "last_seen": "2026-11-01"
@@ -16267,6 +16667,10 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
 },
+"role:motional|principal engineer data and machine learning infrastructure": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "role:motorolasolutions|devops engineer": {
 "first_seen": "2026-10-30T06:43:54Z",
 "last_seen": "2026-10-31"
@@ -16293,6 +16697,10 @@
 },
 "role:myoperator|lead devops engineer": {
 "first_seen": "2026-10-17T05:15:14Z",
+"last_seen": "2026-11-01"
+},
+"role:myrecruiter|platform engineer remote initially": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "role:myriad360|solution development architect presales ai gpu infrastructure": {
@@ -16577,6 +16985,10 @@
 },
 "role:nikohealth|senior data platform engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
+"last_seen": "2026-11-01"
+},
+"role:nikohealth|senior platform engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "role:niricson|strategic advisor airport and airfield pavement infrastructure": {
@@ -18427,6 +18839,10 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
 },
+"role:pavago|devops engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "role:pavago|qa and training supervisor": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
@@ -18649,7 +19065,7 @@
 },
 "role:pingwind|integrated master scheduler i": {
 "first_seen": "2026-10-21T05:37:26Z",
-"last_seen": "2026-10-24"
+"last_seen": "2026-11-01"
 },
 "role:pinterest|data scientist 2 infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -18938,6 +19354,10 @@
 "role:qompyl|cloud infrastructure engineer part time equity only": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-21"
+},
+"role:qoria|site reliability engineer site reliability engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
 },
 "role:qtech|platform engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -19893,7 +20313,7 @@
 },
 "role:sedgwick|ai platform administrator": {
 "first_seen": "2026-10-22T05:40:45Z",
-"last_seen": "2026-10-31"
+"last_seen": "2026-11-01"
 },
 "role:seeq|senior frontend infrastructure engineer": {
 "first_seen": "2026-10-24T17:18:23Z",
@@ -19925,6 +20345,10 @@
 },
 "role:sentinelone|staff site reliability engineer government": {
 "first_seen": "2026-10-11T23:44:47Z",
+"last_seen": "2026-11-01"
+},
+"role:sequoiaconnect|aws devops": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "role:sequra|senior platform engineer": {
@@ -20103,6 +20527,14 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
 },
+"role:sezzle|principal infrastructure engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
+"role:sezzle|senior database reliability engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "role:sfcompute|hpc gpu cluster architect": {
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-11-01"
@@ -20114,6 +20546,10 @@
 "role:shield|staff engineer ai platform and architecture r5449": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-24"
+},
+"role:shiftparadigm|strategic data and analytics engineer cloud data and agentic infrastructure": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
 },
 "role:sierra|deployed infrastructure engineer": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -20271,6 +20707,18 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
 },
+"role:spear|meridian forward deployed infrastructure engineer mid level suitland md h": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
+"role:spear|meridian forward deployed infrastructure engineer senior": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
+"role:spear|meridian forward deployed infrastructure engineer senior suitland md hybr": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "role:spear|modernization infrastructure engineer mid level": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
@@ -20281,6 +20729,10 @@
 },
 "role:sphinxdefense|devops engineer": {
 "first_seen": "2026-10-14T18:25:44Z",
+"last_seen": "2026-11-01"
+},
+"role:spinmaster|backend platform engineer hapiko": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "role:spreadgroup|platform engineer f m d": {
@@ -20419,6 +20871,10 @@
 "first_seen": "2026-10-11T22:44:12Z",
 "last_seen": "2026-11-01"
 },
+"role:sureify|senior devops engineer": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "role:syllo|litigation ai training lead": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
@@ -20449,7 +20905,7 @@
 },
 "role:sysdig|ai platform engineer": {
 "first_seen": "2026-10-18T05:21:21Z",
-"last_seen": "2026-10-30"
+"last_seen": "2026-11-01"
 },
 "role:tacocomfortsolutions|senior systems engineer commercial training": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -20945,7 +21401,7 @@
 },
 "role:tripleten|ai systems engineering expert": {
 "first_seen": "2026-10-21T18:31:58Z",
-"last_seen": "2026-10-27"
+"last_seen": "2026-11-01"
 },
 "role:trm|staff infrastructure engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -20965,7 +21421,7 @@
 },
 "role:trupanion|senior platform engineer microsoft": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-24"
+"last_seen": "2026-11-01"
 },
 "role:turbineone|senior staff software engineer devops": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -21279,6 +21735,10 @@
 "first_seen": "2026-10-30T06:43:54Z",
 "last_seen": "2026-11-01"
 },
+"role:warnermusicgroup|senior software engineer backend and ai platform sureel ai": {
+"first_seen": "2026-11-01T18:50:49Z",
+"last_seen": "2026-11-01"
+},
 "role:waymo|av compliance lead fleet and operator compliance": {
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-11-01"
@@ -21457,6 +21917,10 @@
 },
 "role:wiz|security engineer product and production infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
+"last_seen": "2026-11-01"
+},
+"role:wolterskluwer|principal full stack engineer ai platform and agents": {
+"first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-01"
 },
 "role:workday|principal dataops engineer devops for data": {
