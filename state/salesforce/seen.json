@@ -27,6 +27,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-12"
 },
+"greenhouse:coreweave:4725561006": {
+"first_seen": "2026-11-02T22:44:32Z",
+"last_seen": "2026-11-02"
+},
 "greenhouse:elastic:8138060": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-16"
@@ -618,6 +622,10 @@
 "himalayas:https://himalayas.app/companies/cardinal-health/jobs/senior-salesforce-engineer": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-21"
+},
+"himalayas:https://himalayas.app/companies/cardinal-health/jobs/sr-engineer-salesforce-technical-lead": {
+"first_seen": "2026-11-02T22:44:32Z",
+"last_seen": "2026-11-02"
 },
 "himalayas:https://himalayas.app/companies/catalyst-mobility/jobs/contract-salesforce-developer-admin": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -2023,6 +2031,14 @@
 "first_seen": "2026-10-22T05:44:01Z",
 "last_seen": "2026-11-02"
 },
+"randstad:6ae8c431e4a047245ec3240b": {
+"first_seen": "2026-11-02T22:44:32Z",
+"last_seen": "2026-11-02"
+},
+"randstad:6ae8cdca31e56257feb38524": {
+"first_seen": "2026-11-02T22:44:32Z",
+"last_seen": "2026-11-02"
+},
 "roberthalf:00320-0013530480-usen": {
 "first_seen": "2026-10-22T18:28:24Z",
 "last_seen": "2026-11-02"
@@ -2491,6 +2507,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-24"
 },
+"role:cardinalhealth|senior engineer salesforce technical lead": {
+"first_seen": "2026-11-02T22:44:32Z",
+"last_seen": "2026-11-02"
+},
 "role:cardinalhealth|senior salesforce engineer": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-21"
@@ -2553,7 +2573,7 @@
 },
 "role:cognizant|adobe experience cloud technical consulting solution architect": {
 "first_seen": "2026-10-12T00:38:49Z",
-"last_seen": "2026-11-01"
+"last_seen": "2026-11-02"
 },
 "role:cognizant|mulesoft developer": {
 "first_seen": "2026-10-12T00:38:49Z",
@@ -2617,6 +2637,10 @@
 },
 "role:continuum|mulesoft developer": {
 "first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-11-02"
+},
+"role:coreweave|salesforce administrator": {
+"first_seen": "2026-11-02T22:44:32Z",
 "last_seen": "2026-11-02"
 },
 "role:coreweave|senior salesforce administrator gtm systems": {
@@ -3603,6 +3627,10 @@
 "first_seen": "2026-10-21T18:35:34Z",
 "last_seen": "2026-10-22"
 },
+"role:randstad|salesforce cloud solutions architect": {
+"first_seen": "2026-11-02T22:44:32Z",
+"last_seen": "2026-11-02"
+},
 "role:randstad|salesforce developer": {
 "first_seen": "2026-10-12T00:38:49Z",
 "last_seen": "2026-11-02"
@@ -3610,6 +3638,10 @@
 "role:randstad|senior salesforce functional architect": {
 "first_seen": "2026-10-12T00:38:49Z",
 "last_seen": "2026-10-20"
+},
+"role:randstad|technical lead and architect salesforce order management oms": {
+"first_seen": "2026-11-02T22:44:32Z",
+"last_seen": "2026-11-02"
 },
 "role:randstad|veeva crm specialist salesforce administrator": {
 "first_seen": "2026-10-12T00:38:49Z",
@@ -4135,6 +4167,10 @@
 "first_seen": "2026-10-19T19:50:07Z",
 "last_seen": "2026-10-21"
 },
+"weworkremotely:salesloft-salesforce-business-systems-administrator": {
+"first_seen": "2026-11-02T22:44:32Z",
+"last_seen": "2026-11-02"
+},
 "weworkremotely:storyblok-salesforce-lead-usa": {
 "first_seen": "2026-10-23T18:16:48Z",
 "last_seen": "2026-11-02"
@@ -4441,7 +4477,7 @@
 },
 "xmlfeed:careers.cognizant.com:00070802221": {
 "first_seen": "2026-10-12T00:38:49Z",
-"last_seen": "2026-11-01"
+"last_seen": "2026-11-02"
 },
 "xmlfeed:careers.cognizant.com:00070802222": {
 "first_seen": "2026-10-12T00:38:49Z",
