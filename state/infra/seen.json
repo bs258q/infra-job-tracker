@@ -381,7 +381,7 @@
 },
 "amazon:3119465": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-31"
+"last_seen": "2026-11-04"
 },
 "amazon:3162426": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -437,6 +437,10 @@
 },
 "ashby:anyscale:23733eb9-f839-4209-b191-36cb0ff5b973": {
 "first_seen": "2026-10-11T22:20:38Z",
+"last_seen": "2026-11-04"
+},
+"ashby:anyscale:503a08c2-80b1-4968-8dcf-06380453bcdb": {
+"first_seen": "2026-11-04T20:44:14Z",
 "last_seen": "2026-11-04"
 },
 "ashby:anyscale:8691daef-bfe5-4d01-871f-cf2226ba0c82": {
@@ -1065,6 +1069,10 @@
 },
 "ashby:etched:0f9c0162-97c6-4be6-9cb7-d9afdcf0fa7c": {
 "first_seen": "2026-10-11T22:20:38Z",
+"last_seen": "2026-11-04"
+},
+"ashby:etched:15fa07f2-b1e9-43dd-8e9f-47854633c626": {
+"first_seen": "2026-11-04T20:44:14Z",
 "last_seen": "2026-11-04"
 },
 "ashby:etched:18759ff9-7435-4d44-8c50-844fda60803a": {
@@ -2637,7 +2645,7 @@
 },
 "ashby:temporal:cfc85072-6669-4671-afd4-e860f7072668": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-14"
+"last_seen": "2026-11-04"
 },
 "ashby:temporal:ddbc1916-39a0-47ff-b868-c9e8b90569f1": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -3199,6 +3207,10 @@
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-10-29"
 },
+"greenhouse:coreweave:4670172006": {
+"first_seen": "2026-11-04T20:44:14Z",
+"last_seen": "2026-11-04"
+},
 "greenhouse:coreweave:4670593006": {
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-11-04"
@@ -3487,8 +3499,16 @@
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-11-02"
 },
+"greenhouse:elastic:8126357": {
+"first_seen": "2026-11-04T20:44:14Z",
+"last_seen": "2026-11-04"
+},
 "greenhouse:elastic:8207939": {
 "first_seen": "2026-10-11T22:20:38Z",
+"last_seen": "2026-11-04"
+},
+"greenhouse:elastic:8227060": {
+"first_seen": "2026-11-04T20:44:14Z",
 "last_seen": "2026-11-04"
 },
 "greenhouse:elastic:8240105": {
@@ -3497,6 +3517,10 @@
 },
 "greenhouse:elastic:8303806": {
 "first_seen": "2026-10-21T05:37:26Z",
+"last_seen": "2026-11-04"
+},
+"greenhouse:elastic:8352180": {
+"first_seen": "2026-11-04T20:44:14Z",
 "last_seen": "2026-11-04"
 },
 "greenhouse:figma:5551686004": {
@@ -3965,6 +3989,10 @@
 },
 "greenhouse:pinterest:8162539": {
 "first_seen": "2026-10-19T19:46:42Z",
+"last_seen": "2026-11-04"
+},
+"greenhouse:pinterest:8328868": {
+"first_seen": "2026-11-04T20:44:14Z",
 "last_seen": "2026-11-04"
 },
 "greenhouse:purestorage:6676814": {
@@ -4777,6 +4805,10 @@
 },
 "greenhouse:xai:5281818007": {
 "first_seen": "2026-11-02T22:42:24Z",
+"last_seen": "2026-11-04"
+},
+"greenhouse:xai:5285164007": {
+"first_seen": "2026-11-04T20:44:14Z",
 "last_seen": "2026-11-04"
 },
 "hackernews:49925904:0": {
@@ -10331,6 +10363,10 @@
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-11-04"
 },
+"lever:zoox:6f987774-9331-46fa-991a-0e01e0c69282": {
+"first_seen": "2026-11-04T20:44:14Z",
+"last_seen": "2026-11-04"
+},
 "lever:zoox:8ed069c6-78b3-403f-9bb7-6fc9237b2973": {
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-11-04"
@@ -10585,7 +10621,7 @@
 },
 "oracle:eeho.fa.us2.oraclecloud.com:342776": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-16"
+"last_seen": "2026-11-04"
 },
 "oracle:eeho.fa.us2.oraclecloud.com:342777": {
 "first_seen": "2026-10-20T18:29:04Z",
@@ -10837,7 +10873,7 @@
 },
 "oracle:eeho.fa.us2.oraclecloud.com:344980": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-23"
+"last_seen": "2026-11-04"
 },
 "oracle:eeho.fa.us2.oraclecloud.com:345215": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -10893,7 +10929,7 @@
 },
 "oracle:eeho.fa.us2.oraclecloud.com:345562": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-11-03"
+"last_seen": "2026-11-04"
 },
 "oracle:eeho.fa.us2.oraclecloud.com:345633": {
 "first_seen": "2026-10-29T19:29:47Z",
@@ -11133,6 +11169,10 @@
 },
 "oracle:eeho.fa.us2.oraclecloud.com:349460": {
 "first_seen": "2026-11-03T07:29:23Z",
+"last_seen": "2026-11-04"
+},
+"oracle:eeho.fa.us2.oraclecloud.com:349564": {
+"first_seen": "2026-11-04T20:44:14Z",
 "last_seen": "2026-11-04"
 },
 "oracle:jpmc.fa.oraclecloud.com:210700972": {
@@ -12129,6 +12169,10 @@
 },
 "role:anyscale|distributed llm inference engineer": {
 "first_seen": "2026-10-11T22:20:38Z",
+"last_seen": "2026-11-04"
+},
+"role:anyscale|forward deployed engineer ai machine learning platforms": {
+"first_seen": "2026-11-04T20:44:14Z",
 "last_seen": "2026-11-04"
 },
 "role:anyscale|site reliability engineer platform infrastructure foundations": {
@@ -13259,6 +13303,10 @@
 "first_seen": "2026-10-28T06:32:39Z",
 "last_seen": "2026-11-04"
 },
+"role:cisco|ai researcher infrastructure 3 united states engineer cpo aiswp etr": {
+"first_seen": "2026-11-04T20:44:14Z",
+"last_seen": "2026-11-04"
+},
 "role:cisco|cleared devops lead engineer hybrid": {
 "first_seen": "2026-10-14T18:25:44Z",
 "last_seen": "2026-11-03"
@@ -13742,6 +13790,10 @@
 "role:coreweave|senior platform engineer 2 compute services": {
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-10-14"
+},
+"role:coreweave|senior production engineer": {
+"first_seen": "2026-11-04T20:44:14Z",
+"last_seen": "2026-11-04"
 },
 "role:coreweave|senior software engineer 2 applied training": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -14535,12 +14587,20 @@
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-11-04"
 },
+"role:elastic|senior go kubernetes engineer core infrastructure elasticsearch": {
+"first_seen": "2026-11-04T20:44:14Z",
+"last_seen": "2026-11-04"
+},
 "role:elastic|senior java engineer core infrastructure elasticsearch": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-11-02"
+"last_seen": "2026-11-04"
 },
 "role:elastic|senior java engineer distributed systems serverless elasticsearch": {
 "first_seen": "2026-10-11T22:20:38Z",
+"last_seen": "2026-11-04"
+},
+"role:elastic|senior platform productivity engineer core infrastructure elasticsearch": {
+"first_seen": "2026-11-04T20:44:14Z",
 "last_seen": "2026-11-04"
 },
 "role:elastic|senior salesforce devops engineer": {
@@ -14721,6 +14781,10 @@
 },
 "role:etched|platform product reliability": {
 "first_seen": "2026-10-11T22:20:38Z",
+"last_seen": "2026-11-04"
+},
+"role:etched|site reliability engineer fleet command and control": {
+"first_seen": "2026-11-04T20:44:14Z",
 "last_seen": "2026-11-04"
 },
 "role:etched|supercomputing engineer": {
@@ -15759,6 +15823,10 @@
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-11-04"
 },
+"role:inferact|member of technical staff amd gpu kernel engineering": {
+"first_seen": "2026-10-11T22:20:38Z",
+"last_seen": "2026-11-04"
+},
 "role:inferact|member of technical staff amd gpu performance engineering": {
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-11-04"
@@ -15784,6 +15852,10 @@
 "last_seen": "2026-11-04"
 },
 "role:inferact|member of technical staff supercomputing infrastructure": {
+"first_seen": "2026-10-11T22:20:38Z",
+"last_seen": "2026-11-04"
+},
+"role:inferact|member of technical staff tpu kernel engineering": {
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-11-04"
 },
@@ -16473,6 +16545,10 @@
 },
 "role:lifted|cfd and aerodynamic engineer ai training and evaluation": {
 "first_seen": "2026-10-11T23:44:47Z",
+"last_seen": "2026-11-04"
+},
+"role:lightmatter|machine learning infrastructure researcher": {
+"first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-11-04"
 },
 "role:lightmatter|principal machine learning infrastructure researcher": {
@@ -18377,7 +18453,7 @@
 },
 "role:nvidia|senior systems software engineer containers kubernetes and confidential computing": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-13"
+"last_seen": "2026-11-04"
 },
 "role:nvidia|senior systems software engineer eda infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -18953,7 +19029,7 @@
 },
 "role:oracle|enterprise architect data infrastructure etl hl7": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-23"
+"last_seen": "2026-11-04"
 },
 "role:oracle|gpu cpu systems engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -19549,6 +19625,10 @@
 },
 "role:pinterest|senior staff software engineer product machine learning infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
+"last_seen": "2026-11-04"
+},
+"role:pinterest|staff software engineer ads agent infrastructure": {
+"first_seen": "2026-11-04T20:44:14Z",
 "last_seen": "2026-11-04"
 },
 "role:pinterest|staff software engineer ads and core serving platform": {
@@ -20567,6 +20647,10 @@
 "first_seen": "2026-10-21T18:31:58Z",
 "last_seen": "2026-11-04"
 },
+"role:salesforce|software engineering ai systems pmts": {
+"first_seen": "2026-11-04T20:44:14Z",
+"last_seen": "2026-11-04"
+},
 "role:salesforce|software engineering ai systems smts": {
 "first_seen": "2026-10-21T05:37:26Z",
 "last_seen": "2026-11-04"
@@ -20922,6 +21006,10 @@
 "role:servicenow|senior staff software engineer ai agents observability": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-12"
+},
+"role:servicenow|senior staff software engineer ai machine learning inference engineering": {
+"first_seen": "2026-11-04T20:44:14Z",
+"last_seen": "2026-11-04"
 },
 "role:servicenow|senior staff software engineer compute engineering": {
 "first_seen": "2026-10-29T06:43:08Z",
@@ -21533,7 +21621,7 @@
 },
 "role:temporal|staff software engineer compute temporal cloud": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-14"
+"last_seen": "2026-11-04"
 },
 "role:temporal|staff software engineer infrastructure foundations": {
 "first_seen": "2026-11-03T20:32:37Z",
@@ -22619,6 +22707,10 @@
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-11-04"
 },
+"role:xai|senior software engineer linux kernel": {
+"first_seen": "2026-11-04T20:44:14Z",
+"last_seen": "2026-11-04"
+},
 "role:xai|senior software engineer search infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-11-04"
@@ -22911,6 +23003,10 @@
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-10-28"
 },
+"role:zoox|staff software engineer gpu system software onboard execution": {
+"first_seen": "2026-11-04T20:44:14Z",
+"last_seen": "2026-11-04"
+},
 "role:zoox|staff software engineer hpc": {
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-11-03"
@@ -23115,6 +23211,10 @@
 "first_seen": "2026-11-03T20:32:37Z",
 "last_seen": "2026-11-04"
 },
+"smartrecruiters:servicenow:744000159704082": {
+"first_seen": "2026-11-04T20:44:14Z",
+"last_seen": "2026-11-04"
+},
 "weworkremotely:bitovi-backend-platform-developer-consultant-temporal-kubernetes": {
 "first_seen": "2026-10-30T06:43:54Z",
 "last_seen": "2026-11-04"
@@ -23262,6 +23362,10 @@
 "workday:cisco:/job/Reston-Virginia-US/Cleared-DevOps-Lead-Engineer-Hybrid_2015159": {
 "first_seen": "2026-10-14T18:25:44Z",
 "last_seen": "2026-11-03"
+},
+"workday:cisco:/job/San-Francisco-California-US/AI-Researcher--Infrastructure--III--Full-Time---United-States-ENG-CPO-AISWP-ETR_2030417": {
+"first_seen": "2026-11-04T20:44:14Z",
+"last_seen": "2026-11-04"
 },
 "workday:cisco:/job/San-Francisco-California-US/Lead-Site-Reliability-Engineer--FedRAMP---ThousandEyes-Hybrid-_2026074": {
 "first_seen": "2026-10-18T17:09:47Z",
@@ -23489,7 +23593,7 @@
 },
 "workday:nvidia:/job/US-CA-Remote/Senior-Systems-Software-Engineer--Containers--Kubernetes--and-Confidential-Computing_JR2026957": {
 "first_seen": "2026-10-11T22:44:12Z",
-"last_seen": "2026-10-13"
+"last_seen": "2026-11-04"
 },
 "workday:nvidia:/job/US-CA-Remote/Senior-Systems-Software-Engineer--EDA-Infrastructure_JR2024972-1": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -24493,6 +24597,10 @@
 },
 "workday:salesforce:/job/California---San-Francisco/Software-Engineer--Infrastructure-Service-Mesh_JR358458": {
 "first_seen": "2026-10-11T22:20:38Z",
+"last_seen": "2026-11-04"
+},
+"workday:salesforce:/job/California---San-Francisco/Software-Engineering--AI-Systems--PMTS-_JR367231-1": {
+"first_seen": "2026-11-04T20:44:14Z",
 "last_seen": "2026-11-04"
 },
 "workday:salesforce:/job/California---San-Francisco/Software-Engineering-LMTS_JR365053": {

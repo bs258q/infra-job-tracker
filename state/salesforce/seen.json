@@ -2639,6 +2639,10 @@
 "first_seen": "2026-10-13T20:13:59Z",
 "last_seen": "2026-11-04"
 },
+"role:cognizant|senior mulesoft developer": {
+"first_seen": "2026-11-04T20:46:03Z",
+"last_seen": "2026-11-04"
+},
 "role:cognizant|senior salesforce fsc developer": {
 "first_seen": "2026-11-03T07:33:20Z",
 "last_seen": "2026-11-04"
@@ -2981,7 +2985,7 @@
 },
 "role:guidehouse|ai and data cloud architect": {
 "first_seen": "2026-10-11T23:45:59Z",
-"last_seen": "2026-11-02"
+"last_seen": "2026-11-04"
 },
 "role:guidehouse|salesforce developer": {
 "first_seen": "2026-10-27T19:22:50Z",
@@ -4409,7 +4413,7 @@
 },
 "workday:guidehouse:/job/US---VA-McLean/AI---Data-Cloud-Architect_44829": {
 "first_seen": "2026-10-11T23:45:59Z",
-"last_seen": "2026-11-02"
+"last_seen": "2026-11-04"
 },
 "workday:humana:/job/Dallas-TX/Senior-Salesforce-Engineer_R-426521": {
 "first_seen": "2026-10-14T18:28:14Z",
@@ -4569,6 +4573,10 @@
 },
 "xmlfeed:careers.cognizant.com:00071069461": {
 "first_seen": "2026-11-03T07:33:20Z",
+"last_seen": "2026-11-04"
+},
+"xmlfeed:careers.cognizant.com:00071223691": {
+"first_seen": "2026-11-04T20:46:03Z",
 "last_seen": "2026-11-04"
 }
 }
