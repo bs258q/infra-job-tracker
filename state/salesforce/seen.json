@@ -351,6 +351,10 @@
 "first_seen": "2026-10-23T05:41:51Z",
 "last_seen": "2026-11-05"
 },
+"himalayas:https://himalayas.app/companies/blue-cross-blue-shield-of-rhode-island/jobs/lead-salesforce-software-engineer": {
+"first_seen": "2026-11-05T21:07:10Z",
+"last_seen": "2026-11-05"
+},
 "himalayas:https://himalayas.app/companies/bolt-data/jobs/solution-architect-salesforce": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-11-05"
@@ -1347,6 +1351,10 @@
 "first_seen": "2026-10-28T19:29:36Z",
 "last_seen": "2026-11-05"
 },
+"himalayas:https://himalayas.app/companies/monogram-health-inc/jobs/senior-salesforce-developer": {
+"first_seen": "2026-11-05T21:07:10Z",
+"last_seen": "2026-11-05"
+},
 "himalayas:https://himalayas.app/companies/motorola-solutions/jobs/software-engineer-salesforce-us-remote": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-16"
@@ -1474,6 +1482,10 @@
 "himalayas:https://himalayas.app/companies/orion-global-solutions/jobs/salesforce-data-architect": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-29"
+},
+"himalayas:https://himalayas.app/companies/orion-global-solutions/jobs/salesforce-sr-solution-architect": {
+"first_seen": "2026-11-05T21:07:10Z",
+"last_seen": "2026-11-05"
 },
 "himalayas:https://himalayas.app/companies/osf-digital/jobs/solution-architect-salesforce-core-agentforce-usa": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -1871,6 +1883,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-11-05"
 },
+"himalayas:https://himalayas.app/companies/yoga-alliance/jobs/salesforce-developer": {
+"first_seen": "2026-11-05T21:07:10Z",
+"last_seen": "2026-11-05"
+},
 "himalayas:https://himalayas.app/companies/yoga-alliance/jobs/salesforce-engineer": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-19"
@@ -2067,8 +2083,16 @@
 "first_seen": "2026-11-02T22:44:32Z",
 "last_seen": "2026-11-05"
 },
+"randstad:6aec92fce4a047245ec333a0": {
+"first_seen": "2026-11-05T21:07:10Z",
+"last_seen": "2026-11-05"
+},
 "roberthalf:00320-0013530480-usen": {
 "first_seen": "2026-10-22T18:28:24Z",
+"last_seen": "2026-11-05"
+},
+"roberthalf:00350-9504423503-usen": {
+"first_seen": "2026-11-05T21:07:10Z",
 "last_seen": "2026-11-05"
 },
 "roberthalf:00400-0013537441-usen": {
@@ -2213,6 +2237,10 @@
 },
 "role:accenture|salesforce developer cpq": {
 "first_seen": "2026-10-11T23:45:59Z",
+"last_seen": "2026-11-05"
+},
+"role:accenture|salesforce forward deployed engineer lead agentforce": {
+"first_seen": "2026-11-05T21:07:10Z",
 "last_seen": "2026-11-05"
 },
 "role:accenture|salesforce functional architect manager insurance": {
@@ -2405,6 +2433,10 @@
 },
 "role:blueacornici|business architect salesforce marketing cloud specialization remote": {
 "first_seen": "2026-10-23T05:41:51Z",
+"last_seen": "2026-11-05"
+},
+"role:bluecrossandblueshieldofrhodeisland|lead salesforce software engineer": {
+"first_seen": "2026-11-05T21:07:10Z",
 "last_seen": "2026-11-05"
 },
 "role:boltdata|solution architect salesforce": {
@@ -3431,6 +3463,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-11-05"
 },
+"role:monogramhealth|senior salesforce developer": {
+"first_seen": "2026-11-05T21:07:10Z",
+"last_seen": "2026-11-05"
+},
 "role:motionrecruitment|senior salesforce administrator developer apex omni": {
 "first_seen": "2026-10-12T00:38:49Z",
 "last_seen": "2026-10-31"
@@ -3599,6 +3635,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-29"
 },
+"role:orionglobalsolutions|salesforce senior solution architect": {
+"first_seen": "2026-11-05T21:07:10Z",
+"last_seen": "2026-11-05"
+},
 "role:osfdigital|solution architect": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-11-05"
@@ -3686,6 +3726,10 @@
 "role:questsoftware|salesforce developer": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-12"
+},
+"role:randstad|lead salesforce engineer": {
+"first_seen": "2026-11-05T21:07:10Z",
+"last_seen": "2026-11-05"
 },
 "role:randstad|oracle field service cloud architect ofsc": {
 "first_seen": "2026-10-12T00:38:49Z",
@@ -3787,6 +3831,10 @@
 "first_seen": "2026-10-16T17:55:54Z",
 "last_seen": "2026-11-05"
 },
+"role:roberthalf|senior salesforce developer": {
+"first_seen": "2026-11-05T21:07:10Z",
+"last_seen": "2026-11-05"
+},
 "role:roberthalf|senior salesforce engineer direct fte": {
 "first_seen": "2026-10-29T06:46:01Z",
 "last_seen": "2026-11-05"
@@ -3837,6 +3885,10 @@
 },
 "role:salesforce|principal software engineer site reliability agentforce ops": {
 "first_seen": "2026-10-30T06:46:39Z",
+"last_seen": "2026-11-05"
+},
+"role:salesforce|salesforce implementation architect": {
+"first_seen": "2026-11-05T21:07:10Z",
 "last_seen": "2026-11-05"
 },
 "role:salesforce|senior ai engineer agentforce operations": {
@@ -3894,6 +3946,10 @@
 "role:salesforce|success architect sales cloud u s citizen": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-16"
+},
+"role:salesforce|systems engineer marketing cloud engagement": {
+"first_seen": "2026-11-05T21:07:10Z",
+"last_seen": "2026-11-05"
 },
 "role:salesloft|salesforce business systems administrator": {
 "first_seen": "2026-10-18T05:23:54Z",
@@ -4219,6 +4275,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-12"
 },
+"role:yogaalliance|salesforce developer": {
+"first_seen": "2026-11-05T21:07:10Z",
+"last_seen": "2026-11-05"
+},
 "role:yogaalliance|salesforce engineer": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-19"
@@ -4351,6 +4411,10 @@
 "first_seen": "2026-10-22T18:28:24Z",
 "last_seen": "2026-11-05"
 },
+"workday:accenture:/job/New-York-One-Manhattan-West-Corp/Salesforce-Forward-Deployed-Engineer-Lead--Agentforce-_R00369412": {
+"first_seen": "2026-11-05T21:07:10Z",
+"last_seen": "2026-11-05"
+},
 "workday:accenture:/job/New-York-One-Manhattan-West-Corp/Salesforce-Functional-Architect-Manager---Insurance_R00366694": {
 "first_seen": "2026-10-27T19:22:50Z",
 "last_seen": "2026-11-05"
@@ -4459,6 +4523,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-11-05"
 },
+"workday:salesforce:/job/California---San-Francisco/Salesforce-Implementation-Architect_JR364948-1": {
+"first_seen": "2026-11-05T21:07:10Z",
+"last_seen": "2026-11-05"
+},
 "workday:salesforce:/job/California---San-Francisco/Senior-AI-Engineer--Agentforce-Operations_JR360144": {
 "first_seen": "2026-10-11T23:45:59Z",
 "last_seen": "2026-11-05"
@@ -4505,6 +4573,10 @@
 },
 "workday:salesforce:/job/Illinois---Chicago/Sr-Enterprise-Architect---Agentforce-for-Operations_JR365437": {
 "first_seen": "2026-10-23T05:41:51Z",
+"last_seen": "2026-11-05"
+},
+"workday:salesforce:/job/Illinois---Chicago/Systems-Engineer--Marketing-Cloud-Engagement_JR362608": {
+"first_seen": "2026-11-05T21:07:10Z",
 "last_seen": "2026-11-05"
 },
 "workday:salesforce:/job/Indiana---Indianapolis/MuleSoft-Success-Architect_JR329338": {
