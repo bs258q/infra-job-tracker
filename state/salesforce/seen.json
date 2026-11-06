@@ -759,6 +759,10 @@
 "first_seen": "2026-10-12T22:04:41Z",
 "last_seen": "2026-11-01"
 },
+"himalayas:https://himalayas.app/companies/custom-ink/jobs/salesforce-ai-service-solutions-lead": {
+"first_seen": "2026-11-06T20:27:13Z",
+"last_seen": "2026-11-06"
+},
 "himalayas:https://himalayas.app/companies/dariohealth/jobs/software-developer-salesforce-support": {
 "first_seen": "2026-10-24T17:20:37Z",
 "last_seen": "2026-11-06"
@@ -769,6 +773,10 @@
 },
 "himalayas:https://himalayas.app/companies/datasys-consulting-software-inc/jobs/salesforce-servicemax-developer": {
 "first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-11-06"
+},
+"himalayas:https://himalayas.app/companies/dealer-tire/jobs/salesforce-administrator": {
+"first_seen": "2026-11-06T20:27:13Z",
 "last_seen": "2026-11-06"
 },
 "himalayas:https://himalayas.app/companies/deegit-inc/jobs/salesforce-developer": {
@@ -1503,6 +1511,10 @@
 "first_seen": "2026-10-14T05:43:06Z",
 "last_seen": "2026-11-01"
 },
+"himalayas:https://himalayas.app/companies/penn-state-university/jobs/salesforce-solution-architect": {
+"first_seen": "2026-11-06T20:27:13Z",
+"last_seen": "2026-11-06"
+},
 "himalayas:https://himalayas.app/companies/peraton/jobs/salesforce-architect-tech-development-lead": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-11-06"
@@ -1765,6 +1777,10 @@
 },
 "himalayas:https://himalayas.app/companies/trilogy-federal/jobs/senior-salesforce-developer": {
 "first_seen": "2026-10-23T18:16:48Z",
+"last_seen": "2026-11-06"
+},
+"himalayas:https://himalayas.app/companies/trinzic/jobs/junior-salesforce-developer": {
+"first_seen": "2026-11-06T20:27:13Z",
 "last_seen": "2026-11-06"
 },
 "himalayas:https://himalayas.app/companies/tripoint-solutions-llc/jobs/salesforce-security-technical-architect": {
@@ -2113,6 +2129,10 @@
 },
 "roberthalf:00920-0013519713-usen": {
 "first_seen": "2026-11-03T20:36:17Z",
+"last_seen": "2026-11-06"
+},
+"roberthalf:00920-9504424008-usen": {
+"first_seen": "2026-11-06T20:27:13Z",
 "last_seen": "2026-11-06"
 },
 "roberthalf:01500-0013534204-usen": {
@@ -2667,6 +2687,10 @@
 "first_seen": "2026-10-12T00:38:49Z",
 "last_seen": "2026-10-29"
 },
+"role:cognizant|salesforce devops release engineer": {
+"first_seen": "2026-11-06T20:27:13Z",
+"last_seen": "2026-11-06"
+},
 "role:cognizant|salesforce fsc and integration solution architect": {
 "first_seen": "2026-10-12T00:38:49Z",
 "last_seen": "2026-10-12"
@@ -2775,6 +2799,10 @@
 "first_seen": "2026-10-12T22:04:41Z",
 "last_seen": "2026-11-01"
 },
+"role:customink|salesforce ai and service solutions lead": {
+"first_seen": "2026-11-06T20:27:13Z",
+"last_seen": "2026-11-06"
+},
 "role:cvshealth|senior manager salesforce business intelligence developer commercial": {
 "first_seen": "2026-10-13T07:20:31Z",
 "last_seen": "2026-11-02"
@@ -2797,6 +2825,10 @@
 },
 "role:datasysconsultingandsoftware|salesforce servicemax developer": {
 "first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-11-06"
+},
+"role:dealertire|salesforce administrator": {
+"first_seen": "2026-11-06T20:27:13Z",
 "last_seen": "2026-11-06"
 },
 "role:decagon|solutions architect salesforce": {
@@ -3663,6 +3695,10 @@
 "first_seen": "2026-10-14T05:43:06Z",
 "last_seen": "2026-11-01"
 },
+"role:pennstateuniversity|salesforce solution architect": {
+"first_seen": "2026-11-06T20:27:13Z",
+"last_seen": "2026-11-06"
+},
 "role:peraton|salesforce architect and tech development lead": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-11-06"
@@ -3817,6 +3853,10 @@
 },
 "role:roberthalf|salesforce architect": {
 "first_seen": "2026-10-22T05:44:01Z",
+"last_seen": "2026-11-06"
+},
+"role:roberthalf|salesforce data admin": {
+"first_seen": "2026-11-06T20:27:13Z",
 "last_seen": "2026-11-06"
 },
 "role:roberthalf|salesforce developer": {
@@ -4145,6 +4185,10 @@
 },
 "role:trilogyfederal|senior salesforce developer": {
 "first_seen": "2026-10-23T18:16:48Z",
+"last_seen": "2026-11-06"
+},
+"role:trinzic|junior salesforce developer": {
+"first_seen": "2026-11-06T20:27:13Z",
 "last_seen": "2026-11-06"
 },
 "role:tripointsolutions|salesforce security and technical architect": {
@@ -4685,6 +4729,10 @@
 },
 "xmlfeed:careers.cognizant.com:00071223691": {
 "first_seen": "2026-11-04T20:46:03Z",
+"last_seen": "2026-11-06"
+},
+"xmlfeed:careers.cognizant.com:00071275771": {
+"first_seen": "2026-11-06T20:27:13Z",
 "last_seen": "2026-11-06"
 }
 }
