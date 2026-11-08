@@ -683,6 +683,10 @@
 "first_seen": "2026-10-20T18:32:13Z",
 "last_seen": "2026-11-07"
 },
+"himalayas:https://himalayas.app/companies/cherokeefederal/jobs/salesforce-solution-architect-9653862149": {
+"first_seen": "2026-11-08T18:47:50Z",
+"last_seen": "2026-11-08"
+},
 "himalayas:https://himalayas.app/companies/cloudmasonry/jobs/salesforce-senior-developer": {
 "first_seen": "2026-10-24T17:20:37Z",
 "last_seen": "2026-11-08"
@@ -1783,6 +1787,10 @@
 "first_seen": "2026-11-01T18:53:50Z",
 "last_seen": "2026-11-08"
 },
+"himalayas:https://himalayas.app/companies/tierpoint/jobs/salesforce-platform-lead": {
+"first_seen": "2026-11-08T18:47:50Z",
+"last_seen": "2026-11-08"
+},
 "himalayas:https://himalayas.app/companies/tms-llc/jobs/w2-hiring-salesforce-platform-developer-remote-lansing-mi": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-28"
@@ -2705,7 +2713,7 @@
 },
 "role:cherokeefederal|salesforce solution architect": {
 "first_seen": "2026-10-20T18:32:13Z",
-"last_seen": "2026-11-07"
+"last_seen": "2026-11-08"
 },
 "role:christianreformedchurchinnorthamerica|salesforce administrator": {
 "first_seen": "2026-10-17T16:58:44Z",
@@ -4222,6 +4230,10 @@
 "role:tenable|salesforce developer": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-15"
+},
+"role:tierpoint|salesforce platform lead": {
+"first_seen": "2026-11-08T18:47:50Z",
+"last_seen": "2026-11-08"
 },
 "role:tms|w2 hiring salesforce platform developer remote lansing mi": {
 "first_seen": "2026-10-11T22:45:08Z",
