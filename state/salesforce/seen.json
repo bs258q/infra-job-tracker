@@ -991,6 +991,10 @@
 "first_seen": "2026-10-30T06:46:39Z",
 "last_seen": "2026-11-09"
 },
+"himalayas:https://himalayas.app/companies/formfactor-inc/jobs/staff-business-systems-analyst-salesforce-developer": {
+"first_seen": "2026-11-09T23:25:39Z",
+"last_seen": "2026-11-09"
+},
 "himalayas:https://himalayas.app/companies/fullbay/jobs/salesforce-developer": {
 "first_seen": "2026-10-25T05:37:43Z",
 "last_seen": "2026-10-27"
@@ -2171,6 +2175,10 @@
 "first_seen": "2026-11-05T21:07:10Z",
 "last_seen": "2026-11-09"
 },
+"randstad:6af1e460e2918d5bf16b3f03": {
+"first_seen": "2026-11-09T23:25:39Z",
+"last_seen": "2026-11-09"
+},
 "roberthalf:00290-9504424628-usen": {
 "first_seen": "2026-11-07T06:48:06Z",
 "last_seen": "2026-11-09"
@@ -2205,6 +2213,10 @@
 },
 "roberthalf:02000-0013507363-usen": {
 "first_seen": "2026-10-12T00:38:49Z",
+"last_seen": "2026-11-09"
+},
+"roberthalf:02100-0013540065-usen": {
+"first_seen": "2026-11-09T23:25:39Z",
 "last_seen": "2026-11-09"
 },
 "roberthalf:02210-0013436419-usen": {
@@ -2321,6 +2333,10 @@
 },
 "role:accenture|salesforce data cloud technical consultant": {
 "first_seen": "2026-10-11T23:45:59Z",
+"last_seen": "2026-11-09"
+},
+"role:accenture|salesforce delivery lead": {
+"first_seen": "2026-11-09T23:25:39Z",
 "last_seen": "2026-11-09"
 },
 "role:accenture|salesforce delivery lead financial services": {
@@ -2759,6 +2775,10 @@
 "first_seen": "2026-10-12T00:38:49Z",
 "last_seen": "2026-10-29"
 },
+"role:cognizant|salesforce developer": {
+"first_seen": "2026-11-09T23:25:39Z",
+"last_seen": "2026-11-09"
+},
 "role:cognizant|salesforce devops release engineer": {
 "first_seen": "2026-11-06T20:27:13Z",
 "last_seen": "2026-11-09"
@@ -3107,6 +3127,10 @@
 "first_seen": "2026-10-30T06:46:39Z",
 "last_seen": "2026-11-09"
 },
+"role:formfactor|staff business systems analyst salesforce developer": {
+"first_seen": "2026-11-09T23:25:39Z",
+"last_seen": "2026-11-09"
+},
 "role:fullbay|salesforce developer": {
 "first_seen": "2026-10-25T05:37:43Z",
 "last_seen": "2026-10-27"
@@ -3206,6 +3230,10 @@
 "role:humana|senior salesforce engineer": {
 "first_seen": "2026-10-14T18:28:14Z",
 "last_seen": "2026-10-29"
+},
+"role:humana|software engineer salesforce sales health cloud": {
+"first_seen": "2026-11-09T23:25:39Z",
+"last_seen": "2026-11-09"
 },
 "role:hysteryalematerialshandling|salesforce technical architect": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -3903,6 +3931,10 @@
 "first_seen": "2026-10-12T00:38:49Z",
 "last_seen": "2026-11-09"
 },
+"role:randstad|salesforce marketing cloud technical consultant": {
+"first_seen": "2026-11-09T23:25:39Z",
+"last_seen": "2026-11-09"
+},
 "role:randstad|senior salesforce functional architect": {
 "first_seen": "2026-10-12T00:38:49Z",
 "last_seen": "2026-10-20"
@@ -4065,6 +4097,10 @@
 },
 "role:salesforce|senior lead software engineer site reliability agentforce operations": {
 "first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-11-09"
+},
+"role:salesforce|senior software engineer human agent interfaces agentforce": {
+"first_seen": "2026-11-09T23:25:39Z",
 "last_seen": "2026-11-09"
 },
 "role:salesforce|senior software engineer site reliability agentforce ops": {
@@ -4591,6 +4627,10 @@
 "first_seen": "2026-10-22T18:28:24Z",
 "last_seen": "2026-11-09"
 },
+"workday:accenture:/job/New-York-One-Manhattan-West-Corp/Salesforce-Delivery-Lead_R00369923-1": {
+"first_seen": "2026-11-09T23:25:39Z",
+"last_seen": "2026-11-09"
+},
 "workday:accenture:/job/New-York-One-Manhattan-West-Corp/Salesforce-Forward-Deployed-Engineer-Lead--Agentforce-_R00369412": {
 "first_seen": "2026-11-05T21:07:10Z",
 "last_seen": "2026-11-09"
@@ -4687,6 +4727,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-27"
 },
+"workday:humana:/job/Louisville-KY/Software-Engineer---Salesforce-Sales-Health-Cloud_R-427429": {
+"first_seen": "2026-11-09T23:25:39Z",
+"last_seen": "2026-11-09"
+},
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Salesforce-AI-Developer_JR2028706": {
 "first_seen": "2026-10-26T19:54:53Z",
 "last_seen": "2026-11-09"
@@ -4713,6 +4757,10 @@
 },
 "workday:salesforce:/job/California---San-Francisco/Senior-Lead-Principal-Software-Engineer--Agentforce-for-Supply-Chain_JR340462": {
 "first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-11-09"
+},
+"workday:salesforce:/job/California---San-Francisco/Senior-Software-Engineer--Human-Agent-Interfaces--Agentforce-_JR367261": {
+"first_seen": "2026-11-09T23:25:39Z",
 "last_seen": "2026-11-09"
 },
 "workday:salesforce:/job/California---San-Francisco/Senior-Software-Engineer--Site-Reliability--Agentforce-Ops-_JR365370": {
@@ -4853,6 +4901,10 @@
 },
 "xmlfeed:careers.cognizant.com:00071275771": {
 "first_seen": "2026-11-06T20:27:13Z",
+"last_seen": "2026-11-09"
+},
+"xmlfeed:careers.cognizant.com:00071326541": {
+"first_seen": "2026-11-09T23:25:39Z",
 "last_seen": "2026-11-09"
 }
 }
