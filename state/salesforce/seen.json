@@ -801,7 +801,7 @@
 },
 "himalayas:https://himalayas.app/companies/delta-faucet-company/jobs/salesforce-solution-architect": {
 "first_seen": "2026-10-18T17:11:59Z",
-"last_seen": "2026-10-21"
+"last_seen": "2026-11-10"
 },
 "himalayas:https://himalayas.app/companies/demand-chain/jobs/salesforce-solution-architect": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -2683,6 +2683,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-11-10"
 },
+"role:capitalone|salesforce integration engineer 4": {
+"first_seen": "2026-11-10T20:51:14Z",
+"last_seen": "2026-11-10"
+},
 "role:cardiff|it and salesforce systems administrator": {
 "first_seen": "2026-10-30T06:46:39Z",
 "last_seen": "2026-11-10"
@@ -2774,6 +2778,10 @@
 "role:cognizant|salesforce admin": {
 "first_seen": "2026-10-12T00:38:49Z",
 "last_seen": "2026-10-29"
+},
+"role:cognizant|salesforce agentforce developer": {
+"first_seen": "2026-11-10T20:51:14Z",
+"last_seen": "2026-11-10"
 },
 "role:cognizant|salesforce developer": {
 "first_seen": "2026-11-09T23:25:39Z",
@@ -2937,7 +2945,7 @@
 },
 "role:deltafaucet|salesforce solution architect": {
 "first_seen": "2026-10-18T17:11:59Z",
-"last_seen": "2026-10-21"
+"last_seen": "2026-11-10"
 },
 "role:demandchain|salesforce solution architect": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -4113,7 +4121,7 @@
 },
 "role:salesforce|senior solution architect agentforce contact center": {
 "first_seen": "2026-10-11T23:45:59Z",
-"last_seen": "2026-11-03"
+"last_seen": "2026-11-10"
 },
 "role:salesforce|senior solution architect marketing cloud": {
 "first_seen": "2026-10-11T23:45:59Z",
@@ -4691,6 +4699,10 @@
 "first_seen": "2026-10-13T20:13:59Z",
 "last_seen": "2026-11-10"
 },
+"workday:capitalone:/job/Richmond-VA/Integration-Engineer-4_R1004224-1": {
+"first_seen": "2026-11-10T20:51:14Z",
+"last_seen": "2026-11-10"
+},
 "workday:citi:/job/Irving-Texas-United-States/Salesforce-Technical-Lead_261000164": {
 "first_seen": "2026-10-15T18:10:10Z",
 "last_seen": "2026-11-10"
@@ -4793,6 +4805,10 @@
 },
 "workday:salesforce:/job/Georgia---Atlanta/Forward-Deployed-Engineer--FDE----Agentforce-Orchestration_JR357427": {
 "first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-11-10"
+},
+"workday:salesforce:/job/Georgia---Remote/Senior-Solution-Architect---Agentforce-Contact-Center_JR361888": {
+"first_seen": "2026-11-10T20:51:14Z",
 "last_seen": "2026-11-10"
 },
 "workday:salesforce:/job/Illinois---Chicago/Agentforce-Success-Architect_JR336652": {
@@ -4913,6 +4929,14 @@
 },
 "xmlfeed:careers.cognizant.com:00071326541": {
 "first_seen": "2026-11-09T23:25:39Z",
+"last_seen": "2026-11-10"
+},
+"xmlfeed:careers.cognizant.com:00071333831": {
+"first_seen": "2026-11-10T20:51:14Z",
+"last_seen": "2026-11-10"
+},
+"xmlfeed:careers.cognizant.com:00071333832": {
+"first_seen": "2026-11-10T20:51:14Z",
 "last_seen": "2026-11-10"
 }
 }
