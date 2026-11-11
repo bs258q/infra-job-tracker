@@ -743,6 +743,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-11-11"
 },
+"himalayas:https://himalayas.app/companies/council-advisors/jobs/council-advisors-senior-salesforce-developer-administrator": {
+"first_seen": "2026-11-11T21:19:20Z",
+"last_seen": "2026-11-11"
+},
 "himalayas:https://himalayas.app/companies/crosscountry-consulting/jobs/salesforce-developer": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-11-11"
@@ -907,6 +911,10 @@
 "first_seen": "2026-10-31T06:34:33Z",
 "last_seen": "2026-11-11"
 },
+"himalayas:https://himalayas.app/companies/ensisinfo-inc/jobs/salesforce-technical-lead-architect-omni-studio-multi-cloud-remote": {
+"first_seen": "2026-11-11T21:19:20Z",
+"last_seen": "2026-11-11"
+},
 "himalayas:https://himalayas.app/companies/ep-wealth-advisors/jobs/agentforce-salesforce-administrator-remote-united-states": {
 "first_seen": "2026-10-23T18:16:48Z",
 "last_seen": "2026-11-11"
@@ -917,6 +925,10 @@
 },
 "himalayas:https://himalayas.app/companies/ethos/jobs/salesforce-developer": {
 "first_seen": "2026-10-15T05:30:47Z",
+"last_seen": "2026-11-11"
+},
+"himalayas:https://himalayas.app/companies/evercommerce/jobs/everhealth-sr-salesforce-administrator-architect-remote-us": {
+"first_seen": "2026-11-11T21:19:20Z",
 "last_seen": "2026-11-11"
 },
 "himalayas:https://himalayas.app/companies/everpeak/jobs/salesforce-hubspot-admin": {
@@ -1277,7 +1289,7 @@
 },
 "himalayas:https://himalayas.app/companies/liberty-hardware-mfg-corp/jobs/salesforce-solution-architect": {
 "first_seen": "2026-10-19T05:37:49Z",
-"last_seen": "2026-10-21"
+"last_seen": "2026-11-11"
 },
 "himalayas:https://himalayas.app/companies/lifeway-christian-resources/jobs/senior-marketing-platform-administrator-salesforce": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -2063,6 +2075,10 @@
 "first_seen": "2026-10-28T06:35:32Z",
 "last_seen": "2026-11-11"
 },
+"judge:1162110": {
+"first_seen": "2026-11-11T21:19:20Z",
+"last_seen": "2026-11-11"
+},
 "motion:884294": {
 "first_seen": "2026-10-12T00:38:49Z",
 "last_seen": "2026-10-23"
@@ -2345,7 +2361,7 @@
 },
 "role:accenture|salesforce delivery lead": {
 "first_seen": "2026-11-09T23:25:39Z",
-"last_seen": "2026-11-10"
+"last_seen": "2026-11-11"
 },
 "role:accenture|salesforce delivery lead financial services": {
 "first_seen": "2026-10-22T18:28:24Z",
@@ -2879,6 +2895,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-11-11"
 },
+"role:counciladvisors|council advisors senior salesforce developer administrator": {
+"first_seen": "2026-11-11T21:19:20Z",
+"last_seen": "2026-11-11"
+},
 "role:crosscountryconsulting|salesforce developer": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-11-11"
@@ -3055,6 +3075,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-11-11"
 },
+"role:ensisinfo|salesforce technical lead architect omni studio multi cloud remote": {
+"first_seen": "2026-11-11T21:19:20Z",
+"last_seen": "2026-11-11"
+},
 "role:epwealthadvisors|agentforce salesforce administrator": {
 "first_seen": "2026-10-23T18:16:48Z",
 "last_seen": "2026-11-11"
@@ -3065,6 +3089,10 @@
 },
 "role:ethos|salesforce developer": {
 "first_seen": "2026-10-15T05:30:47Z",
+"last_seen": "2026-11-11"
+},
+"role:evercommerce|everhealth senior salesforce administrator architect": {
+"first_seen": "2026-11-11T21:19:20Z",
 "last_seen": "2026-11-11"
 },
 "role:everpeak|salesforce hubspot admin": {
@@ -3517,7 +3545,7 @@
 },
 "role:libertyhardwaremfg|salesforce solution architect": {
 "first_seen": "2026-10-19T05:37:49Z",
-"last_seen": "2026-10-21"
+"last_seen": "2026-11-11"
 },
 "role:lifewaychristianresources|senior marketing platform administrator salesforce": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -4657,7 +4685,7 @@
 },
 "workday:accenture:/job/New-York-One-Manhattan-West-Corp/Salesforce-Delivery-Lead_R00369923-1": {
 "first_seen": "2026-11-09T23:25:39Z",
-"last_seen": "2026-11-10"
+"last_seen": "2026-11-11"
 },
 "workday:accenture:/job/New-York-One-Manhattan-West-Corp/Salesforce-Forward-Deployed-Engineer-Lead--Agentforce-_R00369412": {
 "first_seen": "2026-11-05T21:07:10Z",
