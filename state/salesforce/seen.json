@@ -1743,6 +1743,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-11-13"
 },
+"himalayas:https://himalayas.app/companies/silotech-group/jobs/salesforce-marketing-cloud-administrator": {
+"first_seen": "2026-11-13T21:03:02Z",
+"last_seen": "2026-11-13"
+},
 "himalayas:https://himalayas.app/companies/slate-auto/jobs/salesforce-development-engineer": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-11-13"
@@ -2237,6 +2241,10 @@
 },
 "roberthalf:00920-9504424008-usen": {
 "first_seen": "2026-11-06T20:27:13Z",
+"last_seen": "2026-11-13"
+},
+"roberthalf:00920-9504427411-usen": {
+"first_seen": "2026-11-13T21:03:02Z",
 "last_seen": "2026-11-13"
 },
 "roberthalf:01500-0013534204-usen": {
@@ -4241,6 +4249,10 @@
 },
 "role:servicetitan|lead salesforce developer": {
 "first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-11-13"
+},
+"role:silotechgroup|salesforce marketing cloud administrator": {
+"first_seen": "2026-11-13T21:03:02Z",
 "last_seen": "2026-11-13"
 },
 "role:slate|salesforce development engineer": {
