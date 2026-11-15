@@ -659,6 +659,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-11-15"
 },
+"himalayas:https://himalayas.app/companies/cerity-partners-management-llc/jobs/senior-salesforce-developer": {
+"first_seen": "2026-11-15T19:47:19Z",
+"last_seen": "2026-11-15"
+},
 "himalayas:https://himalayas.app/companies/cgidigital/jobs/senior-salesforce-developer": {
 "first_seen": "2026-10-16T05:22:34Z",
 "last_seen": "2026-10-17"
@@ -2785,6 +2789,10 @@
 },
 "role:centurylink|principal software development engineer mulesoft": {
 "first_seen": "2026-10-11T22:45:08Z",
+"last_seen": "2026-11-15"
+},
+"role:ceritypartnersmanagement|senior salesforce developer": {
+"first_seen": "2026-11-15T19:47:19Z",
 "last_seen": "2026-11-15"
 },
 "role:cgidigital|senior salesforce developer": {
