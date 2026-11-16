@@ -2383,6 +2383,10 @@
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-11-16"
 },
+"ashby:physicalintelligence:e81c8b57-4a6c-4d24-a166-e2c881718fdc": {
+"first_seen": "2026-11-16T23:19:52Z",
+"last_seen": "2026-11-16"
+},
 "ashby:pika:d3993c91-4dd5-4868-8108-4e9b78133e7b": {
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-11-16"
@@ -2859,6 +2863,10 @@
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-11-16"
 },
+"ashby:thinkingmachines:5b2ee0dc-0fe5-4c5d-806d-e171187e460e": {
+"first_seen": "2026-11-16T23:19:52Z",
+"last_seen": "2026-11-16"
+},
 "ashby:thinkingmachines:602f2a99-34eb-4fde-9eec-b4945ee4aab6": {
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-11-16"
@@ -2898,6 +2906,10 @@
 "ashby:thinkingmachines:e4dbe2d6-6d7e-47cf-a654-57de5fafe8a1": {
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-10-19"
+},
+"ashby:thinkingmachines:ec5f88b6-e221-499c-bc8f-a27b66213b87": {
+"first_seen": "2026-11-16T23:19:52Z",
+"last_seen": "2026-11-16"
 },
 "ashby:thinkingmachines:f9c03f58-c968-492c-b40c-fbc46a38ce05": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -3317,6 +3329,14 @@
 },
 "greenhouse:coinbase:8233500": {
 "first_seen": "2026-10-20T18:29:04Z",
+"last_seen": "2026-11-16"
+},
+"greenhouse:coinbase:8237493": {
+"first_seen": "2026-11-16T23:19:52Z",
+"last_seen": "2026-11-16"
+},
+"greenhouse:coinbase:8286487": {
+"first_seen": "2026-11-16T23:19:52Z",
 "last_seen": "2026-11-16"
 },
 "greenhouse:coreweave:4553828006": {
@@ -4227,6 +4247,10 @@
 "first_seen": "2026-11-04T20:44:14Z",
 "last_seen": "2026-11-16"
 },
+"greenhouse:pinterest:8336944": {
+"first_seen": "2026-11-16T23:19:52Z",
+"last_seen": "2026-11-16"
+},
 "greenhouse:purestorage:6676814": {
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-11-16"
@@ -4357,6 +4381,10 @@
 },
 "greenhouse:robinhood:8265786": {
 "first_seen": "2026-10-29T19:29:47Z",
+"last_seen": "2026-11-16"
+},
+"greenhouse:robinhood:8354333": {
+"first_seen": "2026-11-16T23:19:52Z",
 "last_seen": "2026-11-16"
 },
 "greenhouse:roblox:7332473": {
@@ -4511,6 +4539,10 @@
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-10-19"
 },
+"greenhouse:roblox:8268776": {
+"first_seen": "2026-11-16T23:19:52Z",
+"last_seen": "2026-11-16"
+},
 "greenhouse:roblox:8282837": {
 "first_seen": "2026-11-04T07:12:43Z",
 "last_seen": "2026-11-16"
@@ -4529,6 +4561,10 @@
 },
 "greenhouse:roblox:8287855": {
 "first_seen": "2026-10-24T05:15:35Z",
+"last_seen": "2026-11-16"
+},
+"greenhouse:roblox:8292678": {
+"first_seen": "2026-11-16T23:19:52Z",
 "last_seen": "2026-11-16"
 },
 "greenhouse:roblox:8346849": {
@@ -11431,6 +11467,14 @@
 "first_seen": "2026-11-15T19:44:47Z",
 "last_seen": "2026-11-16"
 },
+"jobicy:162517": {
+"first_seen": "2026-11-16T23:19:52Z",
+"last_seen": "2026-11-16"
+},
+"jobicy:162553": {
+"first_seen": "2026-11-16T23:19:52Z",
+"last_seen": "2026-11-16"
+},
 "lever:zoox:1825c7df-ea96-4a2d-b57b-609a61300382": {
 "first_seen": "2026-11-14T07:20:42Z",
 "last_seen": "2026-11-16"
@@ -11693,7 +11737,7 @@
 },
 "oracle:eeho.fa.us2.oraclecloud.com:340396": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-31"
+"last_seen": "2026-11-16"
 },
 "oracle:eeho.fa.us2.oraclecloud.com:340421": {
 "first_seen": "2026-10-26T19:52:07Z",
@@ -11781,7 +11825,7 @@
 },
 "oracle:eeho.fa.us2.oraclecloud.com:342815": {
 "first_seen": "2026-10-22T18:25:58Z",
-"last_seen": "2026-10-29"
+"last_seen": "2026-11-16"
 },
 "oracle:eeho.fa.us2.oraclecloud.com:342816": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -11981,7 +12025,7 @@
 },
 "oracle:eeho.fa.us2.oraclecloud.com:344604": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-11-15"
+"last_seen": "2026-11-16"
 },
 "oracle:eeho.fa.us2.oraclecloud.com:344625": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -12085,7 +12129,7 @@
 },
 "oracle:eeho.fa.us2.oraclecloud.com:346463": {
 "first_seen": "2026-10-19T05:35:01Z",
-"last_seen": "2026-10-29"
+"last_seen": "2026-11-16"
 },
 "oracle:eeho.fa.us2.oraclecloud.com:346497": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -12105,7 +12149,7 @@
 },
 "oracle:eeho.fa.us2.oraclecloud.com:346876": {
 "first_seen": "2026-10-19T05:35:01Z",
-"last_seen": "2026-10-29"
+"last_seen": "2026-11-16"
 },
 "oracle:eeho.fa.us2.oraclecloud.com:346887": {
 "first_seen": "2026-10-13T20:11:39Z",
@@ -12206,6 +12250,10 @@
 "oracle:eeho.fa.us2.oraclecloud.com:347953": {
 "first_seen": "2026-10-20T05:36:42Z",
 "last_seen": "2026-11-02"
+},
+"oracle:eeho.fa.us2.oraclecloud.com:348011": {
+"first_seen": "2026-11-16T23:19:52Z",
+"last_seen": "2026-11-16"
 },
 "oracle:eeho.fa.us2.oraclecloud.com:348118": {
 "first_seen": "2026-10-21T18:31:58Z",
@@ -13975,6 +14023,10 @@
 "first_seen": "2026-10-20T18:29:04Z",
 "last_seen": "2026-10-26"
 },
+"role:bloomreach|staff devops engineer": {
+"first_seen": "2026-11-16T23:19:52Z",
+"last_seen": "2026-11-16"
+},
 "role:blueally|senior cloud infrastructure engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-16"
@@ -14647,6 +14699,10 @@
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-11-16"
 },
+"role:cerebras|staff aws platform engineer": {
+"first_seen": "2026-10-11T22:20:38Z",
+"last_seen": "2026-11-16"
+},
 "role:cerebras|staff cloud infrastructure engineer": {
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-11-13"
@@ -15177,6 +15233,10 @@
 },
 "role:coinbase|staff software engineer developer infrastructure test infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
+"last_seen": "2026-11-16"
+},
+"role:coinbase|staff software engineer infrastructure datastores": {
+"first_seen": "2026-11-16T23:19:52Z",
 "last_seen": "2026-11-16"
 },
 "role:coinbase|threat intelligence platform engineer": {
@@ -16319,6 +16379,14 @@
 "first_seen": "2026-10-19T19:46:42Z",
 "last_seen": "2026-11-01"
 },
+"role:epamsystems|senior devops engineer": {
+"first_seen": "2026-11-16T23:19:52Z",
+"last_seen": "2026-11-16"
+},
+"role:epamsystems|senior devops engineer dhdp": {
+"first_seen": "2026-11-16T23:19:52Z",
+"last_seen": "2026-11-16"
+},
 "role:epistemix|infrastructure architect": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-16"
@@ -17177,6 +17245,10 @@
 },
 "role:goldbelt|infrastructure application and database subject matter expert sql": {
 "first_seen": "2026-11-13T07:37:55Z",
+"last_seen": "2026-11-16"
+},
+"role:gomining|senior devops platform engineer gcp": {
+"first_seen": "2026-11-16T23:19:52Z",
 "last_seen": "2026-11-16"
 },
 "role:googlefiber|senior platform engineer": {
@@ -19815,6 +19887,10 @@
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-10-13"
 },
+"role:nvidia|senior cloud platform engineer ai education systems": {
+"first_seen": "2026-11-16T23:19:52Z",
+"last_seen": "2026-11-16"
+},
 "role:nvidia|senior code generator compiler engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-03"
@@ -21015,6 +21091,10 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-12"
 },
+"role:oracle|lead principal data center project scheduler": {
+"first_seen": "2026-11-16T23:19:52Z",
+"last_seen": "2026-11-16"
+},
 "role:oracle|lead principal platform software engineer ai acceleration developer tools": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-27"
@@ -21029,7 +21109,7 @@
 },
 "role:oracle|lead principal site reliability engineer work in vienna va location": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-10-31"
+"last_seen": "2026-11-16"
 },
 "role:oracle|lead principal software engineer core infrastructure": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -21073,7 +21153,7 @@
 },
 "role:oracle|principal core infrastructure engineer network capacity": {
 "first_seen": "2026-10-19T05:35:01Z",
-"last_seen": "2026-10-29"
+"last_seen": "2026-11-16"
 },
 "role:oracle|principal core infrastructure engineer software systems": {
 "first_seen": "2026-10-20T05:36:42Z",
@@ -21149,7 +21229,7 @@
 },
 "role:oracle|senior core infrastructure engineer nashville tn": {
 "first_seen": "2026-10-22T18:25:58Z",
-"last_seen": "2026-10-29"
+"last_seen": "2026-11-16"
 },
 "role:oracle|senior core infrastructure engineer virtual networking": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -21399,6 +21479,10 @@
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-11-16"
 },
+"role:paypal|senior software engineer database and caching infrastructure": {
+"first_seen": "2026-11-16T23:19:52Z",
+"last_seen": "2026-11-16"
+},
 "role:paypal|software engineer cloud infrastructure and devops": {
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-11-16"
@@ -21578,6 +21662,10 @@
 "role:phoenixteam|senior devsecops and platform engineering lead": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-04"
+},
+"role:physicalintelligence|machine learning infrastructure engineer compute": {
+"first_seen": "2026-11-16T23:19:52Z",
+"last_seen": "2026-11-16"
 },
 "role:physicalintelligence|machine learning infrastructure engineer data systems": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -21999,6 +22087,10 @@
 "first_seen": "2026-10-17T16:56:14Z",
 "last_seen": "2026-10-23"
 },
+"role:quilter|senior staff platform engineer enterprise deployments": {
+"first_seen": "2026-11-16T23:19:52Z",
+"last_seen": "2026-11-16"
+},
 "role:quilter|senior staff platform engineer infrastructure and security": {
 "first_seen": "2026-11-15T19:44:47Z",
 "last_seen": "2026-11-16"
@@ -22399,6 +22491,10 @@
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-11-06"
 },
+"role:robinhood|senior client platform engineer": {
+"first_seen": "2026-11-16T23:19:52Z",
+"last_seen": "2026-11-16"
+},
 "role:robinhood|senior software engineer ai infrastructure": {
 "first_seen": "2026-10-30T19:06:55Z",
 "last_seen": "2026-11-16"
@@ -22483,6 +22579,10 @@
 "first_seen": "2026-11-05T21:03:30Z",
 "last_seen": "2026-11-16"
 },
+"role:roblox|principal software engineer observability": {
+"first_seen": "2026-11-16T23:19:52Z",
+"last_seen": "2026-11-16"
+},
 "role:roblox|principal software engineer orchestration": {
 "first_seen": "2026-10-20T05:36:42Z",
 "last_seen": "2026-11-16"
@@ -22554,6 +22654,10 @@
 "role:roblox|senior software engineer machine learning infrastructure asset safety": {
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-10-20"
+},
+"role:roblox|senior software engineer machine learning platform": {
+"first_seen": "2026-11-16T23:19:52Z",
+"last_seen": "2026-11-16"
 },
 "role:roblox|senior software engineer privacy infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -22771,6 +22875,10 @@
 "first_seen": "2026-10-30T06:43:54Z",
 "last_seen": "2026-11-16"
 },
+"role:salesforce|principal software engineer site reliability ai": {
+"first_seen": "2026-11-16T23:19:52Z",
+"last_seen": "2026-11-16"
+},
 "role:salesforce|product security lead core platform security": {
 "first_seen": "2026-10-28T06:32:39Z",
 "last_seen": "2026-11-16"
@@ -22824,6 +22932,10 @@
 "last_seen": "2026-11-04"
 },
 "role:salesforce|senior software engineer site reliability agentforce ops": {
+"first_seen": "2026-10-30T06:43:54Z",
+"last_seen": "2026-11-16"
+},
+"role:salesforce|senior software engineer site reliability ai": {
 "first_seen": "2026-10-30T06:43:54Z",
 "last_seen": "2026-11-16"
 },
@@ -23433,6 +23545,10 @@
 },
 "role:smartsheet|devops engineer edge and developer experience remote eligible in bulgaria": {
 "first_seen": "2026-10-30T19:06:55Z",
+"last_seen": "2026-11-16"
+},
+"role:smartsheet|principal software engineer observability and telemetry data": {
+"first_seen": "2026-11-16T23:19:52Z",
 "last_seen": "2026-11-16"
 },
 "role:smarttechcontracting|system integrator 2 critical infrastructure": {
@@ -24135,6 +24251,10 @@
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-11-16"
 },
+"role:thinkingmachines|software engineer data infrastructure": {
+"first_seen": "2026-11-16T23:19:52Z",
+"last_seen": "2026-11-16"
+},
 "role:thinkingmachines|software engineer evaluation platform infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-11-16"
@@ -24153,6 +24273,10 @@
 },
 "role:thinkingmachines|software engineer supercomputing": {
 "first_seen": "2026-10-11T22:20:38Z",
+"last_seen": "2026-11-16"
+},
+"role:thinkingmachines|software engineer training infrastructure": {
+"first_seen": "2026-11-16T23:19:52Z",
 "last_seen": "2026-11-16"
 },
 "role:thisway|distributed systems engineer": {
@@ -24989,7 +25113,7 @@
 },
 "role:workday|software engineer senior software engineer ai platform agent cell": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-11-12"
+"last_seen": "2026-11-16"
 },
 "role:worldrelief|training officer program of initial resettlement": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -25767,6 +25891,10 @@
 "first_seen": "2026-10-20T18:29:04Z",
 "last_seen": "2026-10-26"
 },
+"weworkremotely:bloomreach-staff-devops-engineer": {
+"first_seen": "2026-11-16T23:19:52Z",
+"last_seen": "2026-11-16"
+},
 "weworkremotely:bluegeko-it-infrastructure-engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-10-19"
@@ -25777,6 +25905,18 @@
 },
 "weworkremotely:edgewater-federal-solutions-inc-full-stack-platform-engineer": {
 "first_seen": "2026-11-09T07:32:44Z",
+"last_seen": "2026-11-16"
+},
+"weworkremotely:epam-systems-senior-devops-engineer": {
+"first_seen": "2026-11-16T23:19:52Z",
+"last_seen": "2026-11-16"
+},
+"weworkremotely:epam-systems-senior-devops-engineer-dhdp": {
+"first_seen": "2026-11-16T23:19:52Z",
+"last_seen": "2026-11-16"
+},
+"weworkremotely:gomining-senior-devops-platform-engineer-gcp": {
+"first_seen": "2026-11-16T23:19:52Z",
 "last_seen": "2026-11-16"
 },
 "weworkremotely:lattice-senior-software-engineer-infrastructure-platform": {
@@ -26455,6 +26595,10 @@
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-11-16"
 },
+"workday:nvidia:/job/US-CA-Santa-Clara/Senior-Cloud-Platform-Engineer---AI-Education-Systems_JR2029849": {
+"first_seen": "2026-11-16T23:19:52Z",
+"last_seen": "2026-11-16"
+},
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Compiler-Engineer---AI_JR2029239-1": {
 "first_seen": "2026-11-03T07:29:23Z",
 "last_seen": "2026-11-16"
@@ -26685,6 +26829,10 @@
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Math-Libraries-Engineer---AI-and-HPC_JR1998721": {
 "first_seen": "2026-10-11T23:44:47Z",
+"last_seen": "2026-11-16"
+},
+"workday:nvidia:/job/US-CA-Santa-Clara/Senior-Math-Libraries-Engineer---AI-and-HPC_JR2030024": {
+"first_seen": "2026-11-16T23:19:52Z",
 "last_seen": "2026-11-16"
 },
 "workday:nvidia:/job/US-CA-Santa-Clara/Senior-Network-Reliability-Engineer---DGX-Cloud_JR2018113": {
@@ -27147,6 +27295,10 @@
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-10-28"
 },
+"workday:paypal:/job/San-Jose-California-United-States-of-America/Senior-Software-Engineer--Database---Caching-Infra_R0138308": {
+"first_seen": "2026-11-16T23:19:52Z",
+"last_seen": "2026-11-16"
+},
 "workday:paypal:/job/San-Jose-California-United-States-of-America/Software-Engineer--Cloud-Infrastructure-and-DevOps_R0136963-1": {
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-11-16"
@@ -27213,6 +27365,10 @@
 },
 "workday:salesforce:/job/California---San-Francisco/Principal-Member-of-Technical-Staff--PMTS----Staff-Software-Engineer---AI-Platform--Agentic-Systems-_JR366779": {
 "first_seen": "2026-11-05T21:03:30Z",
+"last_seen": "2026-11-16"
+},
+"workday:salesforce:/job/California---San-Francisco/Principal-Software-Engineer--Site-Reliability--Agentforce-Ops-_JR365759": {
+"first_seen": "2026-11-16T23:19:52Z",
 "last_seen": "2026-11-16"
 },
 "workday:salesforce:/job/California---San-Francisco/Senior-Lead-Principal-Software-Engineer--Agentforce-for-Supply-Chain_JR340462": {
@@ -27441,7 +27597,7 @@
 },
 "workday:workday:/job/USA-CO-Boulder/Software-Engineer-Senior-Software-Engineer---AI-Platform--Agent-Runtime-_JR-0109507": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-11-12"
+"last_seen": "2026-11-16"
 },
 "workday:zillow:/job/Remote-USA/Senior-Applied-Scientist_P751331": {
 "first_seen": "2026-10-21T05:37:26Z",

@@ -687,6 +687,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-28"
 },
+"himalayas:https://himalayas.app/companies/cherokeefederal/jobs/salesforce-developer": {
+"first_seen": "2026-11-16T23:23:15Z",
+"last_seen": "2026-11-16"
+},
 "himalayas:https://himalayas.app/companies/cherokeefederal/jobs/salesforce-solution-architect": {
 "first_seen": "2026-10-20T18:32:13Z",
 "last_seen": "2026-11-07"
@@ -1105,7 +1109,7 @@
 },
 "himalayas:https://himalayas.app/companies/icf/jobs/mulesoft-integration-engineer": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-11-15"
+"last_seen": "2026-11-16"
 },
 "himalayas:https://himalayas.app/companies/icf/jobs/salesforce-administrator": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -1653,7 +1657,7 @@
 },
 "himalayas:https://himalayas.app/companies/proarch/jobs/salesforce-administrator": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-11-15"
+"last_seen": "2026-11-16"
 },
 "himalayas:https://himalayas.app/companies/productiv-team/jobs/fonteva-salesforce-solution-lead": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -2999,6 +3003,10 @@
 "first_seen": "2026-11-06T20:27:13Z",
 "last_seen": "2026-11-10"
 },
+"role:cvshealth|salesforce sales administrator aetna commercial": {
+"first_seen": "2026-11-16T23:23:15Z",
+"last_seen": "2026-11-16"
+},
 "role:cvshealth|senior manager salesforce business intelligence developer commercial": {
 "first_seen": "2026-10-13T07:20:31Z",
 "last_seen": "2026-11-02"
@@ -3357,7 +3365,7 @@
 },
 "role:icf|mulesoft integration engineer": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-11-15"
+"last_seen": "2026-11-16"
 },
 "role:icf|salesforce administrator": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -4009,7 +4017,7 @@
 },
 "role:proarch|salesforce administrator": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-11-15"
+"last_seen": "2026-11-16"
 },
 "role:productivteam|fonteva salesforce solution lead": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -4857,6 +4865,10 @@
 },
 "workday:citi:/job/Irving-Texas-United-States/Salesforce-Technical-Lead_261000164": {
 "first_seen": "2026-10-15T18:10:10Z",
+"last_seen": "2026-11-16"
+},
+"workday:cvshealth:/job/Hartford-Farmington-Ave-Rogers/Salesforce-Sales-Administrator-Aetna-Commercial_R1092121": {
+"first_seen": "2026-11-16T23:23:15Z",
 "last_seen": "2026-11-16"
 },
 "workday:cvshealth:/job/PA---Work-from-home/Senior-Manager--Salesforce-Business-Intelligence-Developer-Commercial_R1051842": {
