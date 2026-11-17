@@ -243,6 +243,10 @@
 "first_seen": "2026-10-13T01:55:13Z",
 "last_seen": "2026-11-17"
 },
+"himalayas:https://himalayas.app/companies/american-cancer-society/jobs/sr-salesforce-architect-remote": {
+"first_seen": "2026-11-17T22:17:17Z",
+"last_seen": "2026-11-17"
+},
 "himalayas:https://himalayas.app/companies/american-express-company/jobs/sr-software-engineer-ii-cybersecurity-and-salesforce": {
 "first_seen": "2026-10-30T06:46:39Z",
 "last_seen": "2026-11-07"
@@ -1661,7 +1665,7 @@
 },
 "himalayas:https://himalayas.app/companies/productiv-team/jobs/fonteva-salesforce-solution-lead": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-11-16"
+"last_seen": "2026-11-17"
 },
 "himalayas:https://himalayas.app/companies/properexpression/jobs/senior-revops-solutions-architect-hubspot-salesforce": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -2119,6 +2123,10 @@
 "first_seen": "2026-11-11T21:19:20Z",
 "last_seen": "2026-11-17"
 },
+"judge:1163092": {
+"first_seen": "2026-11-17T22:17:17Z",
+"last_seen": "2026-11-17"
+},
 "motion:884294": {
 "first_seen": "2026-10-12T00:38:49Z",
 "last_seen": "2026-10-23"
@@ -2201,6 +2209,10 @@
 },
 "phenom:careers.teksystems.com:JP-006394899": {
 "first_seen": "2026-11-03T20:36:17Z",
+"last_seen": "2026-11-17"
+},
+"phenom:careers.teksystems.com:JP-006427848": {
+"first_seen": "2026-11-17T22:17:17Z",
 "last_seen": "2026-11-17"
 },
 "randstad:6aac37a9c5ba3d0c8a301cb7": {
@@ -2321,7 +2333,7 @@
 },
 "roberthalf:04692-0013515557-usen": {
 "first_seen": "2026-10-12T00:38:49Z",
-"last_seen": "2026-10-29"
+"last_seen": "2026-11-17"
 },
 "roberthalf:04820-0013529887-usen": {
 "first_seen": "2026-10-22T05:44:01Z",
@@ -2509,6 +2521,10 @@
 },
 "role:altusdigital|salesforce marketing cloud sfmc developer": {
 "first_seen": "2026-10-13T01:55:13Z",
+"last_seen": "2026-11-17"
+},
+"role:americancancersociety|senior salesforce architect": {
+"first_seen": "2026-11-17T22:17:17Z",
 "last_seen": "2026-11-17"
 },
 "role:americanexpress|senior software engineer 2 cybersecurity and salesforce": {
@@ -2895,6 +2911,14 @@
 "first_seen": "2026-10-21T18:35:34Z",
 "last_seen": "2026-11-17"
 },
+"role:cognizant|salesforce fsc developer": {
+"first_seen": "2026-11-17T22:17:17Z",
+"last_seen": "2026-11-17"
+},
+"role:cognizant|salesforce fsc lead": {
+"first_seen": "2026-11-17T22:17:17Z",
+"last_seen": "2026-11-17"
+},
 "role:cognizant|salesforce lwc developer": {
 "first_seen": "2026-11-14T07:24:14Z",
 "last_seen": "2026-11-17"
@@ -2913,7 +2937,7 @@
 },
 "role:cognizant|salesforce technical lead": {
 "first_seen": "2026-10-13T20:13:59Z",
-"last_seen": "2026-11-13"
+"last_seen": "2026-11-17"
 },
 "role:cognizant|senior mulesoft developer": {
 "first_seen": "2026-11-04T20:46:03Z",
@@ -4025,7 +4049,7 @@
 },
 "role:productivteam|fonteva salesforce solution lead": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-11-16"
+"last_seen": "2026-11-17"
 },
 "role:properexpression|senior revops solutions architect hubspot + salesforce": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -4177,7 +4201,7 @@
 },
 "role:roberthalf|salesforce technical architect software engineer 4": {
 "first_seen": "2026-10-12T00:38:49Z",
-"last_seen": "2026-10-29"
+"last_seen": "2026-11-17"
 },
 "role:roberthalf|senior salesforce administrator": {
 "first_seen": "2026-10-16T17:55:54Z",
@@ -4222,6 +4246,10 @@
 "role:salesforce|lead software engineer ai workflow generation agentforce operations": {
 "first_seen": "2026-11-10T08:04:14Z",
 "last_seen": "2026-11-16"
+},
+"role:salesforce|mulesoft compliance engineer": {
+"first_seen": "2026-11-17T22:17:17Z",
+"last_seen": "2026-11-17"
 },
 "role:salesforce|mulesoft integration senior architect missionforce": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -4445,6 +4473,10 @@
 },
 "role:teksystems|salesforce enterprise technical architect": {
 "first_seen": "2026-10-21T05:41:21Z",
+"last_seen": "2026-11-17"
+},
+"role:teksystems|salesforce field services engineer": {
+"first_seen": "2026-11-17T22:17:17Z",
 "last_seen": "2026-11-17"
 },
 "role:teksystems|salesforce marketing cloud developer": {
@@ -5023,6 +5055,10 @@
 "first_seen": "2026-10-29T19:31:54Z",
 "last_seen": "2026-10-30"
 },
+"workday:salesforce:/job/Washington---Bellevue/MuleSoft-Compliance-Engineer_JR368538-1": {
+"first_seen": "2026-11-17T22:17:17Z",
+"last_seen": "2026-11-17"
+},
 "workday:workday:/job/USA-CA-Pleasanton/Principal-Software-Development-Engineer_JR-0111151-1": {
 "first_seen": "2026-10-27T19:22:50Z",
 "last_seen": "2026-11-17"
@@ -5073,7 +5109,7 @@
 },
 "xmlfeed:careers.cognizant.com:00070948151": {
 "first_seen": "2026-10-13T20:13:59Z",
-"last_seen": "2026-11-13"
+"last_seen": "2026-11-17"
 },
 "xmlfeed:careers.cognizant.com:00070962901": {
 "first_seen": "2026-10-12T22:04:41Z",
@@ -5117,6 +5153,14 @@
 },
 "xmlfeed:careers.cognizant.com:00071371701": {
 "first_seen": "2026-11-17T08:54:14Z",
+"last_seen": "2026-11-17"
+},
+"xmlfeed:careers.cognizant.com:00071396841": {
+"first_seen": "2026-11-17T22:17:17Z",
+"last_seen": "2026-11-17"
+},
+"xmlfeed:careers.cognizant.com:00071397061": {
+"first_seen": "2026-11-17T22:17:17Z",
 "last_seen": "2026-11-17"
 }
 }

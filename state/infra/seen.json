@@ -1165,7 +1165,7 @@
 },
 "ashby:elevenlabs:ce3d5a59-fb8c-482b-bc3f-60e44576c5e0": {
 "first_seen": "2026-10-14T18:25:44Z",
-"last_seen": "2026-11-15"
+"last_seen": "2026-11-17"
 },
 "ashby:etched:0f9c0162-97c6-4be6-9cb7-d9afdcf0fa7c": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -2807,6 +2807,10 @@
 "first_seen": "2026-11-03T20:32:37Z",
 "last_seen": "2026-11-17"
 },
+"ashby:temporal:af8d1e25-14b1-476d-a079-0d72cc5fdcd8": {
+"first_seen": "2026-11-17T22:13:03Z",
+"last_seen": "2026-11-17"
+},
 "ashby:temporal:ba01bd3a-2b66-4fbb-b33c-8e0ac684df9a": {
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-10-14"
@@ -3855,6 +3859,10 @@
 "first_seen": "2026-10-15T05:28:23Z",
 "last_seen": "2026-11-17"
 },
+"greenhouse:gitlab:8932489002": {
+"first_seen": "2026-11-17T22:13:03Z",
+"last_seen": "2026-11-17"
+},
 "greenhouse:gleanwork:4501783005": {
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-11-17"
@@ -4017,7 +4025,7 @@
 },
 "greenhouse:nebius:4769272101": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-15"
+"last_seen": "2026-11-17"
 },
 "greenhouse:nebius:4841418101": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -4053,6 +4061,10 @@
 },
 "greenhouse:nebius:5006506101": {
 "first_seen": "2026-11-02T22:42:24Z",
+"last_seen": "2026-11-17"
+},
+"greenhouse:nebius:5040676101": {
+"first_seen": "2026-11-17T22:13:03Z",
 "last_seen": "2026-11-17"
 },
 "greenhouse:nuro:6909931": {
@@ -8089,7 +8101,7 @@
 },
 "himalayas:https://himalayas.app/companies/humana/jobs/lead-kubernetes-architect-aks-and-gke": {
 "first_seen": "2026-11-02T07:11:27Z",
-"last_seen": "2026-11-07"
+"last_seen": "2026-11-17"
 },
 "himalayas:https://himalayas.app/companies/humana/jobs/lead-site-reliability-engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -8835,6 +8847,10 @@
 "first_seen": "2026-11-09T07:32:44Z",
 "last_seen": "2026-11-15"
 },
+"himalayas:https://himalayas.app/companies/mca-connect/jobs/power-platform-engineer-managed-services": {
+"first_seen": "2026-11-17T22:13:03Z",
+"last_seen": "2026-11-17"
+},
 "himalayas:https://himalayas.app/companies/mcnees-wallace-nurick-llc/jobs/cloud-infrastructure-services-engineer": {
 "first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-17"
@@ -9197,7 +9213,7 @@
 },
 "himalayas:https://himalayas.app/companies/nikohealth/jobs/senior-data-platform-engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-11-16"
+"last_seen": "2026-11-17"
 },
 "himalayas:https://himalayas.app/companies/nikohealth/jobs/senior-platform-engineer": {
 "first_seen": "2026-11-01T18:50:49Z",
@@ -9238,6 +9254,10 @@
 "himalayas:https://himalayas.app/companies/novacard/jobs/site-reliability-engineer-sre": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-01"
+},
+"himalayas:https://himalayas.app/companies/nvision-infotech/jobs/devops-consultant": {
+"first_seen": "2026-11-17T22:13:03Z",
+"last_seen": "2026-11-17"
 },
 "himalayas:https://himalayas.app/companies/nvs-consulting/jobs/sr-infrastructure-cloud-engineer": {
 "first_seen": "2026-10-31T06:32:23Z",
@@ -9713,7 +9733,7 @@
 },
 "himalayas:https://himalayas.app/companies/prosidian-consulting-llc/jobs/personality-training-assessment-facilitator-492501463": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-11-16"
+"last_seen": "2026-11-17"
 },
 "himalayas:https://himalayas.app/companies/prove-com/jobs/site-reliability-engineer-7045800240": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -11093,7 +11113,7 @@
 },
 "himalayas:https://himalayas.app/companies/worthai/jobs/senior-devops-engineer-infrastructure-reliability-2888969450": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-11-07"
+"last_seen": "2026-11-17"
 },
 "himalayas:https://himalayas.app/companies/wurl-llc/jobs/staff-platform-engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -11505,6 +11525,10 @@
 },
 "jobicy:162553": {
 "first_seen": "2026-11-16T23:19:52Z",
+"last_seen": "2026-11-17"
+},
+"jobicy:162995": {
+"first_seen": "2026-11-17T22:13:03Z",
 "last_seen": "2026-11-17"
 },
 "lever:zoox:1825c7df-ea96-4a2d-b57b-609a61300382": {
@@ -12438,6 +12462,10 @@
 "oracle:eeho.fa.us2.oraclecloud.com:349956": {
 "first_seen": "2026-11-11T07:32:01Z",
 "last_seen": "2026-11-14"
+},
+"oracle:eeho.fa.us2.oraclecloud.com:350034": {
+"first_seen": "2026-11-17T22:13:03Z",
+"last_seen": "2026-11-17"
 },
 "oracle:eeho.fa.us2.oraclecloud.com:350055": {
 "first_seen": "2026-11-10T20:48:18Z",
@@ -16313,7 +16341,7 @@
 },
 "role:elevenlabs|full stack engineer backend leaning platform engineering": {
 "first_seen": "2026-10-14T18:25:44Z",
-"last_seen": "2026-11-15"
+"last_seen": "2026-11-17"
 },
 "role:elevenlabs|hpc infrastructure engineer gpu clusters": {
 "first_seen": "2026-10-20T05:36:42Z",
@@ -17187,6 +17215,10 @@
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-10-14"
 },
+"role:gitlab|senior staff site reliability engineer architecture engineering hosted runners": {
+"first_seen": "2026-11-17T22:13:03Z",
+"last_seen": "2026-11-17"
+},
 "role:gitlab|site reliability engineer infrastructure platforms amer intermediate to senior staff": {
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-11-17"
@@ -17577,7 +17609,7 @@
 },
 "role:humana|lead kubernetes architect aks and gke": {
 "first_seen": "2026-11-02T07:11:27Z",
-"last_seen": "2026-11-07"
+"last_seen": "2026-11-17"
 },
 "role:humana|lead site reliability engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -18775,6 +18807,10 @@
 "first_seen": "2026-11-06T20:23:22Z",
 "last_seen": "2026-11-17"
 },
+"role:mcaconnect|power platform engineer managed services": {
+"first_seen": "2026-11-17T22:13:03Z",
+"last_seen": "2026-11-17"
+},
 "role:mcneeswallaceandnurick|cloud and infrastructure services engineer": {
 "first_seen": "2026-11-01T18:50:49Z",
 "last_seen": "2026-11-17"
@@ -19217,7 +19253,7 @@
 },
 "role:nebius|field cto media and entertainment ai infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
-"last_seen": "2026-10-15"
+"last_seen": "2026-11-17"
 },
 "role:nebius|forward deployed engineer physical ai infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -19253,6 +19289,10 @@
 },
 "role:nebius|senior machine learning engineer model training and reinforcement learning": {
 "first_seen": "2026-10-11T22:20:38Z",
+"last_seen": "2026-11-17"
+},
+"role:nebius|senior site reliability engineer ytsaurus": {
+"first_seen": "2026-11-17T22:13:03Z",
 "last_seen": "2026-11-17"
 },
 "role:nebius|senior software engineer observability": {
@@ -19457,7 +19497,7 @@
 },
 "role:nikohealth|senior data platform engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-11-16"
+"last_seen": "2026-11-17"
 },
 "role:nikohealth|senior platform engineer": {
 "first_seen": "2026-11-01T18:50:49Z",
@@ -20577,6 +20617,10 @@
 },
 "role:nvidia|systems software engineer infrastructure": {
 "first_seen": "2026-10-22T18:25:58Z",
+"last_seen": "2026-11-17"
+},
+"role:nvisioninfotech|devops consultant": {
+"first_seen": "2026-11-17T22:13:03Z",
 "last_seen": "2026-11-17"
 },
 "role:nvsconsulting|senior infrastructure cloud engineer": {
@@ -22025,7 +22069,7 @@
 },
 "role:prosidianconsulting|personality training assessment facilitator": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-11-16"
+"last_seen": "2026-11-17"
 },
 "role:prove|site reliability engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -22997,7 +23041,7 @@
 },
 "role:salesforce|software engineering ai systems pmts": {
 "first_seen": "2026-11-04T20:44:14Z",
-"last_seen": "2026-11-12"
+"last_seen": "2026-11-17"
 },
 "role:salesforce|software engineering ai systems smts": {
 "first_seen": "2026-10-21T05:37:26Z",
@@ -24066,6 +24110,10 @@
 "role:temporal|senior software engineer observability": {
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-10-28"
+},
+"role:temporal|senior software engineer reliability": {
+"first_seen": "2026-11-17T22:13:03Z",
+"last_seen": "2026-11-17"
 },
 "role:temporal|staff software engineer compute": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -25181,7 +25229,7 @@
 },
 "role:worth|senior devops engineer infrastructure and reliability": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-11-07"
+"last_seen": "2026-11-17"
 },
 "role:writer|infrastructure engineer": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -25411,6 +25459,10 @@
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-11-05"
 },
+"role:xebia|principal consultant devops": {
+"first_seen": "2026-11-17T22:13:03Z",
+"last_seen": "2026-11-17"
+},
 "role:xperteez|devops engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-17"
@@ -25529,6 +25581,10 @@
 },
 "role:zillow|senior enterprise ai platform administrator": {
 "first_seen": "2026-11-16T07:37:50Z",
+"last_seen": "2026-11-17"
+},
+"role:zillow|senior software development engineer platform engineering": {
+"first_seen": "2026-11-17T22:13:03Z",
 "last_seen": "2026-11-17"
 },
 "role:zingtree|senior devops platform reliability engineer": {
@@ -27451,6 +27507,10 @@
 "first_seen": "2026-10-16T05:20:42Z",
 "last_seen": "2026-11-17"
 },
+"workday:salesforce:/job/California---San-Francisco/Senior-Performance-Engineer_JR367916": {
+"first_seen": "2026-11-17T22:13:03Z",
+"last_seen": "2026-11-17"
+},
 "workday:salesforce:/job/California---San-Francisco/Senior-Site-Reliability-Engineer_JR350310-1": {
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-10-26"
@@ -27478,6 +27538,10 @@
 "workday:salesforce:/job/California---San-Francisco/Software-Engineering--AI-Systems--PMTS-_JR367231-1": {
 "first_seen": "2026-11-04T20:44:14Z",
 "last_seen": "2026-11-12"
+},
+"workday:salesforce:/job/California---San-Francisco/Software-Engineering--AI-Systems-PMTS_JR368561": {
+"first_seen": "2026-11-17T22:13:03Z",
+"last_seen": "2026-11-17"
 },
 "workday:salesforce:/job/California---San-Francisco/Software-Engineering-LMTS_JR365053": {
 "first_seen": "2026-10-22T18:25:58Z",
@@ -27673,6 +27737,10 @@
 },
 "workday:zillow:/job/Remote-USA/Senior-Enterprise-AI-Platform-Administrator_P751850-1": {
 "first_seen": "2026-11-16T07:37:50Z",
+"last_seen": "2026-11-17"
+},
+"workday:zillow:/job/Remote-USA/Senior-Software-Development-Engineer--Backend_P751857-1": {
+"first_seen": "2026-11-17T22:13:03Z",
 "last_seen": "2026-11-17"
 }
 }
