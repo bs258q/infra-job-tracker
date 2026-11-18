@@ -2139,6 +2139,10 @@
 "first_seen": "2026-11-17T22:17:17Z",
 "last_seen": "2026-11-18"
 },
+"judge:1163167": {
+"first_seen": "2026-11-18T21:57:13Z",
+"last_seen": "2026-11-18"
+},
 "motion:884294": {
 "first_seen": "2026-10-12T00:38:49Z",
 "last_seen": "2026-10-23"
@@ -2285,6 +2289,10 @@
 },
 "roberthalf:00320-0013530480-usen": {
 "first_seen": "2026-10-22T18:28:24Z",
+"last_seen": "2026-11-18"
+},
+"roberthalf:00320-0013545191-usen": {
+"first_seen": "2026-11-18T21:57:13Z",
 "last_seen": "2026-11-18"
 },
 "roberthalf:00350-9504423503-usen": {
@@ -3515,6 +3523,10 @@
 "first_seen": "2026-10-30T19:10:09Z",
 "last_seen": "2026-11-18"
 },
+"role:judgegroup|lead salesforce developer": {
+"first_seen": "2026-11-18T21:57:13Z",
+"last_seen": "2026-11-18"
+},
 "role:judgegroup|salesforce administrator": {
 "first_seen": "2026-10-12T00:38:49Z",
 "last_seen": "2026-11-16"
@@ -4189,6 +4201,10 @@
 },
 "role:roberthalf|change management lead salesforce 311 modernization": {
 "first_seen": "2026-10-12T00:38:49Z",
+"last_seen": "2026-11-18"
+},
+"role:roberthalf|salesforce admin": {
+"first_seen": "2026-11-18T21:57:13Z",
 "last_seen": "2026-11-18"
 },
 "role:roberthalf|salesforce administrator": {
