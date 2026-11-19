@@ -1033,7 +1033,7 @@
 },
 "himalayas:https://himalayas.app/companies/fullbay/jobs/salesforce-developer": {
 "first_seen": "2026-10-25T05:37:43Z",
-"last_seen": "2026-10-27"
+"last_seen": "2026-11-19"
 },
 "himalayas:https://himalayas.app/companies/fundingo/jobs/salesforce-technical-lead": {
 "first_seen": "2026-10-24T17:20:37Z",
@@ -2287,6 +2287,10 @@
 "first_seen": "2026-11-15T07:35:16Z",
 "last_seen": "2026-11-19"
 },
+"randstad:6aff0b43324a5d06239d694d": {
+"first_seen": "2026-11-19T22:12:19Z",
+"last_seen": "2026-11-19"
+},
 "roberthalf:00290-9504424628-usen": {
 "first_seen": "2026-11-07T06:48:06Z",
 "last_seen": "2026-11-19"
@@ -3313,7 +3317,7 @@
 },
 "role:fullbay|salesforce developer": {
 "first_seen": "2026-10-25T05:37:43Z",
-"last_seen": "2026-10-27"
+"last_seen": "2026-11-19"
 },
 "role:fundingo|salesforce technical lead": {
 "first_seen": "2026-10-24T17:20:37Z",
@@ -4153,6 +4157,10 @@
 },
 "role:randstad|salesforce marketing cloud technical consultant": {
 "first_seen": "2026-11-09T23:25:39Z",
+"last_seen": "2026-11-19"
+},
+"role:randstad|salesforce user management administrator": {
+"first_seen": "2026-11-19T22:12:19Z",
 "last_seen": "2026-11-19"
 },
 "role:randstad|senior salesforce and marketing cloud developer": {
