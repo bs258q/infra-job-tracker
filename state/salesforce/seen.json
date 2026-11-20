@@ -689,7 +689,7 @@
 },
 "himalayas:https://himalayas.app/companies/cherokee-federal/jobs/salesforce-developer": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-11-18"
+"last_seen": "2026-11-20"
 },
 "himalayas:https://himalayas.app/companies/cherokee-federal/jobs/salesforce-developer-devops": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -705,6 +705,10 @@
 },
 "himalayas:https://himalayas.app/companies/cherokeefederal/jobs/salesforce-solution-architect-9653862149": {
 "first_seen": "2026-11-08T18:47:50Z",
+"last_seen": "2026-11-20"
+},
+"himalayas:https://himalayas.app/companies/cloudmasonry/jobs/salesforce-developer-ii": {
+"first_seen": "2026-11-20T21:55:12Z",
 "last_seen": "2026-11-20"
 },
 "himalayas:https://himalayas.app/companies/cloudmasonry/jobs/salesforce-senior-developer": {
@@ -1275,6 +1279,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-11-07"
 },
+"himalayas:https://himalayas.app/companies/koniag-government-services/jobs/senior-salesforce-marketing-cloud-architect": {
+"first_seen": "2026-11-20T21:55:12Z",
+"last_seen": "2026-11-20"
+},
 "himalayas:https://himalayas.app/companies/koniag-government-services/jobs/senior-salesforce-platform-engineer": {
 "first_seen": "2026-10-21T18:35:34Z",
 "last_seen": "2026-11-18"
@@ -1843,6 +1851,10 @@
 "first_seen": "2026-11-05T07:46:34Z",
 "last_seen": "2026-11-20"
 },
+"himalayas:https://himalayas.app/companies/steampunk/jobs/senior-salesforce-application-developer": {
+"first_seen": "2026-11-20T21:55:12Z",
+"last_seen": "2026-11-20"
+},
 "himalayas:https://himalayas.app/companies/steampunk/jobs/senior-salesforce-marketing-cloud-developer": {
 "first_seen": "2026-11-02T07:16:35Z",
 "last_seen": "2026-11-20"
@@ -1918,6 +1930,26 @@
 "himalayas:https://himalayas.app/companies/tripoint-solutions-llc/jobs/salesforce-application-developer": {
 "first_seen": "2026-11-07T18:34:14Z",
 "last_seen": "2026-11-17"
+},
+"himalayas:https://himalayas.app/companies/tripoint-solutions-llc/jobs/salesforce-application-developer-1872440376": {
+"first_seen": "2026-11-20T21:55:12Z",
+"last_seen": "2026-11-20"
+},
+"himalayas:https://himalayas.app/companies/tripoint-solutions-llc/jobs/salesforce-data-architect": {
+"first_seen": "2026-11-20T21:55:12Z",
+"last_seen": "2026-11-20"
+},
+"himalayas:https://himalayas.app/companies/tripoint-solutions-llc/jobs/salesforce-education-cloud-software-developer-ii": {
+"first_seen": "2026-11-20T21:55:12Z",
+"last_seen": "2026-11-20"
+},
+"himalayas:https://himalayas.app/companies/tripoint-solutions-llc/jobs/salesforce-education-cloud-solutions-architect": {
+"first_seen": "2026-11-20T21:55:12Z",
+"last_seen": "2026-11-20"
+},
+"himalayas:https://himalayas.app/companies/tripoint-solutions-llc/jobs/salesforce-experience-cloud-web-developer": {
+"first_seen": "2026-11-20T21:55:12Z",
+"last_seen": "2026-11-20"
 },
 "himalayas:https://himalayas.app/companies/tripoint-solutions-llc/jobs/salesforce-security-technical-architect": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -2001,7 +2033,7 @@
 },
 "himalayas:https://himalayas.app/companies/vivsoft-technologies/jobs/salesforce-developer": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-20"
 },
 "himalayas:https://himalayas.app/companies/voltus/jobs/senior-salesforce-administrator": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -2185,6 +2217,10 @@
 },
 "oracle:jpmc.fa.oraclecloud.com:210806005": {
 "first_seen": "2026-11-20T07:58:41Z",
+"last_seen": "2026-11-20"
+},
+"oracle:jpmc.fa.oraclecloud.com:210810857": {
+"first_seen": "2026-11-20T21:55:12Z",
 "last_seen": "2026-11-20"
 },
 "phenom:careers.teksystems.com:JP-006287728": {
@@ -2895,6 +2931,10 @@
 "first_seen": "2026-10-15T18:10:10Z",
 "last_seen": "2026-11-20"
 },
+"role:cloudmasonry|salesforce developer 2": {
+"first_seen": "2026-11-20T21:55:12Z",
+"last_seen": "2026-11-20"
+},
 "role:cloudmasonry|salesforce senior developer": {
 "first_seen": "2026-10-24T17:20:37Z",
 "last_seen": "2026-11-18"
@@ -3523,6 +3563,10 @@
 "first_seen": "2026-11-14T07:24:14Z",
 "last_seen": "2026-11-20"
 },
+"role:jpmorganchase|salesforce administrator chase media solutions": {
+"first_seen": "2026-11-20T21:55:12Z",
+"last_seen": "2026-11-20"
+},
 "role:jpmorganchase|salesforce crm software engineer 3": {
 "first_seen": "2026-10-11T23:45:59Z",
 "last_seen": "2026-11-20"
@@ -3666,6 +3710,10 @@
 "role:koniaggovernmentservices|senior salesforce developer": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-11-07"
+},
+"role:koniaggovernmentservices|senior salesforce marketing cloud architect": {
+"first_seen": "2026-11-20T21:55:12Z",
+"last_seen": "2026-11-20"
 },
 "role:koniaggovernmentservices|senior salesforce platform engineer": {
 "first_seen": "2026-10-21T18:35:34Z",
@@ -4427,6 +4475,14 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-13"
 },
+"role:servicenow|demo engineer cpq": {
+"first_seen": "2026-11-20T21:55:12Z",
+"last_seen": "2026-11-20"
+},
+"role:servicenow|senior manager demo engineering cpq team": {
+"first_seen": "2026-11-20T21:55:12Z",
+"last_seen": "2026-11-20"
+},
 "role:servicetitan|lead salesforce developer": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-11-20"
@@ -4485,6 +4541,10 @@
 },
 "role:steampunk|senior mulesoft developer": {
 "first_seen": "2026-11-05T07:46:34Z",
+"last_seen": "2026-11-20"
+},
+"role:steampunk|senior salesforce application developer": {
+"first_seen": "2026-11-20T21:55:12Z",
 "last_seen": "2026-11-20"
 },
 "role:steampunk|senior salesforce marketing cloud developer": {
@@ -4609,7 +4669,23 @@
 },
 "role:tripointsolutions|salesforce application developer": {
 "first_seen": "2026-11-07T18:34:14Z",
-"last_seen": "2026-11-17"
+"last_seen": "2026-11-20"
+},
+"role:tripointsolutions|salesforce data architect": {
+"first_seen": "2026-11-20T21:55:12Z",
+"last_seen": "2026-11-20"
+},
+"role:tripointsolutions|salesforce education cloud software developer 2": {
+"first_seen": "2026-11-20T21:55:12Z",
+"last_seen": "2026-11-20"
+},
+"role:tripointsolutions|salesforce education cloud solutions architect": {
+"first_seen": "2026-11-20T21:55:12Z",
+"last_seen": "2026-11-20"
+},
+"role:tripointsolutions|salesforce experience cloud web developer": {
+"first_seen": "2026-11-20T21:55:12Z",
+"last_seen": "2026-11-20"
 },
 "role:tripointsolutions|salesforce security and technical architect": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -4689,7 +4765,7 @@
 },
 "role:vivsoft|salesforce developer": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-20"
 },
 "role:voltus|senior salesforce administrator": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -4789,6 +4865,14 @@
 },
 "smartrecruiters:experian:744000158592724": {
 "first_seen": "2026-10-29T19:31:54Z",
+"last_seen": "2026-11-20"
+},
+"smartrecruiters:servicenow:744000162755410": {
+"first_seen": "2026-11-20T21:55:12Z",
+"last_seen": "2026-11-20"
+},
+"smartrecruiters:servicenow:744000162758623": {
+"first_seen": "2026-11-20T21:55:12Z",
 "last_seen": "2026-11-20"
 },
 "weworkremotely:omnidian-senior-salesforce-developer-field-service": {
