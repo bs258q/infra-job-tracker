@@ -239,6 +239,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-11-03"
 },
+"himalayas:https://himalayas.app/companies/all-star-healthcare-solutions/jobs/salesforce-engineer": {
+"first_seen": "2026-11-24T10:47:15Z",
+"last_seen": "2026-11-24"
+},
 "himalayas:https://himalayas.app/companies/altus-digital/jobs/salesforce-marketing-cloud-sfmc-developer": {
 "first_seen": "2026-10-13T01:55:13Z",
 "last_seen": "2026-11-24"
@@ -297,6 +301,10 @@
 },
 "himalayas:https://himalayas.app/companies/astound-digital/jobs/salesforce-solution-architect": {
 "first_seen": "2026-10-31T18:23:10Z",
+"last_seen": "2026-11-24"
+},
+"himalayas:https://himalayas.app/companies/athenahealth/jobs/salesforce-ai-engineer-agentforce": {
+"first_seen": "2026-11-24T10:47:15Z",
 "last_seen": "2026-11-24"
 },
 "himalayas:https://himalayas.app/companies/ats-partners/jobs/salesforce-administrator-contract-public-sector-division": {
@@ -438,6 +446,10 @@
 "himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/salesforce-application-engineer-5373126895": {
 "first_seen": "2026-10-31T18:23:10Z",
 "last_seen": "2026-11-03"
+},
+"himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/salesforce-cpq-billing-developer": {
+"first_seen": "2026-11-24T10:47:15Z",
+"last_seen": "2026-11-24"
 },
 "himalayas:https://himalayas.app/companies/bright-vision-technologies/jobs/salesforce-crm-developer": {
 "first_seen": "2026-10-15T05:30:47Z",
@@ -893,7 +905,7 @@
 },
 "himalayas:https://himalayas.app/companies/edgeq-technologies-private-limited/jobs/salesforce-developer": {
 "first_seen": "2026-11-01T07:07:24Z",
-"last_seen": "2026-11-10"
+"last_seen": "2026-11-24"
 },
 "himalayas:https://himalayas.app/companies/effvision/jobs/senior-salesforce-developer": {
 "first_seen": "2026-10-12T22:04:41Z",
@@ -1229,7 +1241,7 @@
 },
 "himalayas:https://himalayas.app/companies/jerseystem/jobs/tech007-salesforce-team-lead": {
 "first_seen": "2026-10-11T23:45:59Z",
-"last_seen": "2026-11-21"
+"last_seen": "2026-11-24"
 },
 "himalayas:https://himalayas.app/companies/jerseystem/jobs/tech711-salesforce-administrator-9744233148": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -2639,6 +2651,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-11-03"
 },
+"role:allstarhealthcaresolutions|salesforce engineer": {
+"first_seen": "2026-11-24T10:47:15Z",
+"last_seen": "2026-11-24"
+},
 "role:altusdigital|salesforce marketing cloud sfmc developer": {
 "first_seen": "2026-10-13T01:55:13Z",
 "last_seen": "2026-11-24"
@@ -2705,6 +2721,10 @@
 },
 "role:astounddigital|salesforce solution architect": {
 "first_seen": "2026-10-31T18:23:10Z",
+"last_seen": "2026-11-24"
+},
+"role:athenahealth|salesforce ai engineer agentforce": {
+"first_seen": "2026-11-24T10:47:15Z",
 "last_seen": "2026-11-24"
 },
 "role:atspartners|salesforce administrator contract public sector division": {
@@ -2826,6 +2846,10 @@
 "role:brightvision|salesforce application engineer": {
 "first_seen": "2026-10-12T06:51:41Z",
 "last_seen": "2026-11-03"
+},
+"role:brightvision|salesforce cpq and billing developer": {
+"first_seen": "2026-11-24T10:47:15Z",
+"last_seen": "2026-11-24"
 },
 "role:brightvision|salesforce crm developer": {
 "first_seen": "2026-10-15T05:30:47Z",
@@ -3265,7 +3289,7 @@
 },
 "role:edgeqprivate|salesforce developer": {
 "first_seen": "2026-11-01T07:07:24Z",
-"last_seen": "2026-11-10"
+"last_seen": "2026-11-24"
 },
 "role:effvision|senior salesforce developer": {
 "first_seen": "2026-10-12T22:04:41Z",
@@ -3621,7 +3645,7 @@
 },
 "role:jerseystem|tech007 salesforce team lead": {
 "first_seen": "2026-10-11T23:45:59Z",
-"last_seen": "2026-11-21"
+"last_seen": "2026-11-24"
 },
 "role:jerseystem|tech711 salesforce administrator": {
 "first_seen": "2026-10-11T22:45:08Z",

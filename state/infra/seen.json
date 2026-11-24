@@ -1899,6 +1899,10 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-24"
 },
+"ashby:mercor:0ff1a380-a976-411f-ab3d-9bf8cb2ef383": {
+"first_seen": "2026-11-24T10:43:10Z",
+"last_seen": "2026-11-24"
+},
 "ashby:mercor:1dcab154-b92d-4a5f-aed5-b1b8c049cdbc": {
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-11-24"
@@ -2766,6 +2770,10 @@
 "ashby:sesame:35793528-2b5c-47b3-9422-eaced2b69f63": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-10"
+},
+"ashby:sesame:7acfa545-7b2c-4fcc-9cc0-fd7a0c7c1419": {
+"first_seen": "2026-11-24T10:43:10Z",
+"last_seen": "2026-11-24"
 },
 "ashby:sesame:fa6a85fb-1f04-4f8e-b95f-e948ebef7fd7": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -7979,6 +7987,10 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-22"
 },
+"himalayas:https://himalayas.app/companies/featherless-ai/jobs/machine-learning-engineer-inference-optimization-1530595301": {
+"first_seen": "2026-11-24T10:43:10Z",
+"last_seen": "2026-11-24"
+},
 "himalayas:https://himalayas.app/companies/featherless-ai/jobs/machine-learning-engineer-training-optimization": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-22"
@@ -8057,7 +8069,7 @@
 },
 "himalayas:https://himalayas.app/companies/ford/jobs/data-security-platform-engineer": {
 "first_seen": "2026-11-18T21:52:59Z",
-"last_seen": "2026-11-23"
+"last_seen": "2026-11-24"
 },
 "himalayas:https://himalayas.app/companies/ford/jobs/site-reliability-engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -8921,6 +8933,10 @@
 },
 "himalayas:https://himalayas.app/companies/leidos/jobs/cloud-infrastructure-engineer-9386471021": {
 "first_seen": "2026-10-15T05:28:23Z",
+"last_seen": "2026-11-24"
+},
+"himalayas:https://himalayas.app/companies/leidos/jobs/cryptography-security-infrastructure-engineer-mid-level": {
+"first_seen": "2026-11-24T10:43:10Z",
 "last_seen": "2026-11-24"
 },
 "himalayas:https://himalayas.app/companies/leidos/jobs/devops-platform-engineer": {
@@ -9985,7 +10001,7 @@
 },
 "himalayas:https://himalayas.app/companies/pingwind/jobs/integrated-master-scheduler-i": {
 "first_seen": "2026-10-21T05:37:26Z",
-"last_seen": "2026-11-23"
+"last_seen": "2026-11-24"
 },
 "himalayas:https://himalayas.app/companies/pingwind/jobs/integrated-master-scheduler-ii": {
 "first_seen": "2026-11-03T20:32:37Z",
@@ -10341,6 +10357,10 @@
 },
 "himalayas:https://himalayas.app/companies/red-hat/jobs/site-reliability-engineer": {
 "first_seen": "2026-10-31T06:32:23Z",
+"last_seen": "2026-11-24"
+},
+"himalayas:https://himalayas.app/companies/red-hat/jobs/telco-infrastructure-architect-cloud-automation": {
+"first_seen": "2026-11-24T10:43:10Z",
 "last_seen": "2026-11-24"
 },
 "himalayas:https://himalayas.app/companies/red-sky/jobs/reliability-scale-engineer-devops-cloud": {
@@ -10919,6 +10939,10 @@
 "first_seen": "2026-11-08T06:53:11Z",
 "last_seen": "2026-11-24"
 },
+"himalayas:https://himalayas.app/companies/systems-planning-analysis/jobs/senior-data-platform-engineer": {
+"first_seen": "2026-11-24T10:43:10Z",
+"last_seen": "2026-11-24"
+},
 "himalayas:https://himalayas.app/companies/taco-comfort-solutions/jobs/sr-systems-engineer-commercial-training": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-24"
@@ -11433,7 +11457,7 @@
 },
 "himalayas:https://himalayas.app/companies/velocix-solutions-usa-inc/jobs/devops-engineer": {
 "first_seen": "2026-11-03T20:32:37Z",
-"last_seen": "2026-11-23"
+"last_seen": "2026-11-24"
 },
 "himalayas:https://himalayas.app/companies/veltris/jobs/ai-platform-engineer-gen-ai": {
 "first_seen": "2026-10-27T19:19:54Z",
@@ -13035,6 +13059,10 @@
 "first_seen": "2026-11-18T08:13:05Z",
 "last_seen": "2026-11-24"
 },
+"oracle:eeho.fa.us2.oraclecloud.com:350131": {
+"first_seen": "2026-11-24T10:43:10Z",
+"last_seen": "2026-11-24"
+},
 "oracle:eeho.fa.us2.oraclecloud.com:350161": {
 "first_seen": "2026-11-20T07:57:00Z",
 "last_seen": "2026-11-24"
@@ -13061,6 +13089,10 @@
 },
 "oracle:eeho.fa.us2.oraclecloud.com:350836": {
 "first_seen": "2026-11-19T22:08:10Z",
+"last_seen": "2026-11-24"
+},
+"oracle:eeho.fa.us2.oraclecloud.com:350843": {
+"first_seen": "2026-11-24T10:43:10Z",
 "last_seen": "2026-11-24"
 },
 "oracle:eeho.fa.us2.oraclecloud.com:350892": {
@@ -17557,7 +17589,7 @@
 },
 "role:featherless|machine learning engineer inference optimization": {
 "first_seen": "2026-10-11T23:44:47Z",
-"last_seen": "2026-11-22"
+"last_seen": "2026-11-24"
 },
 "role:featherless|machine learning engineer training optimization": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -17853,7 +17885,7 @@
 },
 "role:ford|data security platform engineer": {
 "first_seen": "2026-11-18T21:52:59Z",
-"last_seen": "2026-11-23"
+"last_seen": "2026-11-24"
 },
 "role:ford|site reliability engineer": {
 "first_seen": "2026-10-11T23:44:47Z",
@@ -17953,6 +17985,10 @@
 },
 "role:gemini|senior platform engineer": {
 "first_seen": "2026-11-21T20:32:58Z",
+"last_seen": "2026-11-24"
+},
+"role:gemini|staff platform engineer": {
+"first_seen": "2026-11-24T10:43:10Z",
 "last_seen": "2026-11-24"
 },
 "role:generaldynamicsinformation|cloud infrastructure engineer": {
@@ -19287,6 +19323,10 @@
 "first_seen": "2026-10-15T05:28:23Z",
 "last_seen": "2026-11-24"
 },
+"role:leidos|cryptography and security infrastructure engineer mid level": {
+"first_seen": "2026-11-24T10:43:10Z",
+"last_seen": "2026-11-24"
+},
 "role:leidos|devops platform engineer": {
 "first_seen": "2026-10-16T17:53:54Z",
 "last_seen": "2026-10-17"
@@ -19790,6 +19830,10 @@
 "role:mercor|infrastructure software engineer": {
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-11-18"
+},
+"role:mercor|production engineer infrastructure": {
+"first_seen": "2026-11-24T10:43:10Z",
+"last_seen": "2026-11-24"
 },
 "role:mercor|research engineer environments data and post training": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -21579,6 +21623,10 @@
 "first_seen": "2026-10-11T22:20:38Z",
 "last_seen": "2026-11-24"
 },
+"role:nvidia|senior technical trainer and content developer ai compute systems": {
+"first_seen": "2026-11-24T10:43:10Z",
+"last_seen": "2026-11-24"
+},
 "role:nvidia|senior technical training lead nci program": {
 "first_seen": "2026-11-21T20:32:58Z",
 "last_seen": "2026-11-24"
@@ -22309,7 +22357,7 @@
 },
 "role:oracle|principal site reliability engineer": {
 "first_seen": "2026-10-23T18:13:38Z",
-"last_seen": "2026-10-28"
+"last_seen": "2026-11-24"
 },
 "role:oracle|principal site reliability engineer oracle health": {
 "first_seen": "2026-11-06T20:23:22Z",
@@ -22849,7 +22897,7 @@
 },
 "role:pingwind|integrated master scheduler i": {
 "first_seen": "2026-10-21T05:37:26Z",
-"last_seen": "2026-11-23"
+"last_seen": "2026-11-24"
 },
 "role:pinterest|data scientist 2 infrastructure": {
 "first_seen": "2026-10-11T22:20:38Z",
@@ -23165,7 +23213,7 @@
 },
 "role:proxifyab|senior devops engineer azure": {
 "first_seen": "2026-10-19T19:46:42Z",
-"last_seen": "2026-10-20"
+"last_seen": "2026-11-24"
 },
 "role:proxifyab|senior platform engineer": {
 "first_seen": "2026-10-19T19:46:42Z",
@@ -23493,6 +23541,10 @@
 },
 "role:redhat|site reliability engineer": {
 "first_seen": "2026-10-31T06:32:23Z",
+"last_seen": "2026-11-24"
+},
+"role:redhat|telco infrastructure architect cloud automation": {
+"first_seen": "2026-11-24T10:43:10Z",
 "last_seen": "2026-11-24"
 },
 "role:redox|staff platform engineer": {
@@ -24671,6 +24723,10 @@
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-10"
 },
+"role:sesame|software engineer machine learning infrastructure": {
+"first_seen": "2026-11-24T10:43:10Z",
+"last_seen": "2026-11-24"
+},
 "role:sesame|staff software engineer backend infrastructure": {
 "first_seen": "2026-10-11T23:44:47Z",
 "last_seen": "2026-11-24"
@@ -25137,6 +25193,10 @@
 },
 "role:sysdig|staff customer reliability engineer": {
 "first_seen": "2026-11-08T06:53:11Z",
+"last_seen": "2026-11-24"
+},
+"role:systemsplanningandanalysis|senior data platform engineer": {
+"first_seen": "2026-11-24T10:43:10Z",
 "last_seen": "2026-11-24"
 },
 "role:tacocomfortsolutions|senior systems engineer commercial training": {
@@ -25969,7 +26029,7 @@
 },
 "role:velocixsolutionsusa|devops engineer": {
 "first_seen": "2026-11-03T20:32:37Z",
-"last_seen": "2026-11-23"
+"last_seen": "2026-11-24"
 },
 "role:veltris|ai platform engineer gen ai": {
 "first_seen": "2026-10-27T19:19:54Z",
@@ -27279,6 +27339,10 @@
 "first_seen": "2026-11-21T20:32:58Z",
 "last_seen": "2026-11-24"
 },
+"weworkremotely:gemini-staff-platform-engineer": {
+"first_seen": "2026-11-24T10:43:10Z",
+"last_seen": "2026-11-24"
+},
 "weworkremotely:gomining-senior-devops-platform-engineer-gcp": {
 "first_seen": "2026-11-16T23:19:52Z",
 "last_seen": "2026-11-18"
@@ -27305,6 +27369,10 @@
 },
 "weworkremotely:prove-site-reliability-engineer-sr-site-reliability-engineer": {
 "first_seen": "2026-11-19T22:08:10Z",
+"last_seen": "2026-11-24"
+},
+"weworkremotely:proxify-ab-senior-devops-engineer-azure-10": {
+"first_seen": "2026-11-24T10:43:10Z",
 "last_seen": "2026-11-24"
 },
 "weworkremotely:proxify-ab-senior-devops-engineer-azure-9": {
@@ -28709,6 +28777,10 @@
 },
 "workday:nvidia:/job/US-TX-Remote/Senior-Field-Applications-Engineer--AI-Infrastructure-Build---Execution_JR2027591": {
 "first_seen": "2026-10-14T18:25:44Z",
+"last_seen": "2026-11-24"
+},
+"workday:nvidia:/job/US-TX-Remote/Senior-Technical-Trainer-and-Content-Developer--AI-Compute-Systems_JR2030132": {
+"first_seen": "2026-11-24T10:43:10Z",
 "last_seen": "2026-11-24"
 },
 "workday:nvidia:/job/US-WA-Redmond/Senior-Compiler-Optimization-Engineer---MLIR_JR2021622": {
