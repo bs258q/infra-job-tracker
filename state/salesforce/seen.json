@@ -1611,6 +1611,10 @@
 "first_seen": "2026-11-21T20:37:12Z",
 "last_seen": "2026-11-24"
 },
+"himalayas:https://himalayas.app/companies/peraton/jobs/senior-salesforce-developer-7995234007": {
+"first_seen": "2026-11-26T23:04:10Z",
+"last_seen": "2026-11-26"
+},
 "himalayas:https://himalayas.app/companies/pierce-washington/jobs/salesforce-solution-architect": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-24"
@@ -1771,6 +1775,10 @@
 "first_seen": "2026-11-13T21:03:02Z",
 "last_seen": "2026-11-24"
 },
+"himalayas:https://himalayas.app/companies/simple-software-solutions-group/jobs/ai-mulesoft-developer-with-hands-on-integration-expertise-with-salesforce-engine": {
+"first_seen": "2026-11-26T23:04:10Z",
+"last_seen": "2026-11-26"
+},
 "himalayas:https://himalayas.app/companies/slate-auto/jobs/salesforce-development-engineer": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-11-26"
@@ -1798,6 +1806,10 @@
 "himalayas:https://himalayas.app/companies/solu/jobs/ssr-salesforce-developer-b2c": {
 "first_seen": "2026-10-18T17:11:59Z",
 "last_seen": "2026-11-01"
+},
+"himalayas:https://himalayas.app/companies/southern-new-hampshire-university/jobs/salesforce-administrator": {
+"first_seen": "2026-11-26T23:04:10Z",
+"last_seen": "2026-11-26"
 },
 "himalayas:https://himalayas.app/companies/staffvirtual/jobs/l1-l2-salesforce-administrator": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -2007,6 +2019,10 @@
 "first_seen": "2026-10-24T17:20:37Z",
 "last_seen": "2026-11-17"
 },
+"himalayas:https://himalayas.app/companies/vibrant-emotional-health/jobs/salesforce-architect": {
+"first_seen": "2026-11-26T23:04:10Z",
+"last_seen": "2026-11-26"
+},
 "himalayas:https://himalayas.app/companies/vibrant-emotional-health/jobs/senior-crm-administrator-salesforce": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-13"
@@ -2041,6 +2057,10 @@
 },
 "himalayas:https://himalayas.app/companies/whiteboard-risk-insurance-solutions/jobs/salesforce-ai-automation-lead": {
 "first_seen": "2026-10-12T00:38:49Z",
+"last_seen": "2026-11-26"
+},
+"himalayas:https://himalayas.app/companies/wildlife-conservation-network/jobs/senior-salesforce-administrator": {
+"first_seen": "2026-11-26T23:04:10Z",
 "last_seen": "2026-11-26"
 },
 "himalayas:https://himalayas.app/companies/wintrust-financial-corporation/jobs/senior-salesforce-engineer": {
@@ -4149,7 +4169,7 @@
 },
 "role:peraton|senior salesforce developer": {
 "first_seen": "2026-11-21T20:37:12Z",
-"last_seen": "2026-11-24"
+"last_seen": "2026-11-26"
 },
 "role:piercewashington|salesforce solution architect": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -4547,6 +4567,10 @@
 "first_seen": "2026-11-13T21:03:02Z",
 "last_seen": "2026-11-24"
 },
+"role:simplesoftwaresolutionsgroup|ai mulesoft developer with hands on integration expertise with salesforce engine": {
+"first_seen": "2026-11-26T23:04:10Z",
+"last_seen": "2026-11-26"
+},
 "role:slate|salesforce development engineer": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-11-26"
@@ -4574,6 +4598,10 @@
 "role:solu|ssr salesforce developer b2c": {
 "first_seen": "2026-10-18T17:11:59Z",
 "last_seen": "2026-11-01"
+},
+"role:southernnewhampshireuniversity|salesforce administrator": {
+"first_seen": "2026-11-26T23:04:10Z",
+"last_seen": "2026-11-26"
 },
 "role:spro|senior salesforce developer": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -4827,6 +4855,10 @@
 "first_seen": "2026-10-24T17:20:37Z",
 "last_seen": "2026-11-17"
 },
+"role:vibrantemotionalhealth|salesforce architect": {
+"first_seen": "2026-11-26T23:04:10Z",
+"last_seen": "2026-11-26"
+},
 "role:vibrantemotionalhealth|senior crm administrator salesforce": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-13"
@@ -4865,6 +4897,10 @@
 },
 "role:whiteboardriskandinsurancesolutions|salesforce and ai automation lead": {
 "first_seen": "2026-10-12T00:38:49Z",
+"last_seen": "2026-11-26"
+},
+"role:wildlifeconservationnetwork|senior salesforce administrator": {
+"first_seen": "2026-11-26T23:04:10Z",
 "last_seen": "2026-11-26"
 },
 "role:wintrustfinancial|senior salesforce engineer": {
