@@ -1043,6 +1043,10 @@
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-29"
 },
+"himalayas:https://himalayas.app/companies/gaggle-net-inc/jobs/senior-salesforce-administrator": {
+"first_seen": "2026-11-27T22:43:11Z",
+"last_seen": "2026-11-27"
+},
 "himalayas:https://himalayas.app/companies/gcstaffing-llc/jobs/salesforce-architect-developer": {
 "first_seen": "2026-10-20T05:40:41Z",
 "last_seen": "2026-11-01"
@@ -1453,7 +1457,7 @@
 },
 "himalayas:https://himalayas.app/companies/medical-guardian/jobs/salesforce-marketing-cloud-developer": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 "himalayas:https://himalayas.app/companies/melita-group/jobs/salesforce-administrator": {
 "first_seen": "2026-10-28T06:35:32Z",
@@ -1677,7 +1681,7 @@
 },
 "himalayas:https://himalayas.app/companies/purdue-university/jobs/salesforce-marketing-cloud-administrator-remote-in-us": {
 "first_seen": "2026-10-28T19:29:36Z",
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 "himalayas:https://himalayas.app/companies/quartzbenefits/jobs/application-architect-salesforce-ecosystem": {
 "first_seen": "2026-11-06T07:38:13Z",
@@ -2985,7 +2989,7 @@
 },
 "role:cognizant|salesforce fsc architect": {
 "first_seen": "2026-10-21T18:35:34Z",
-"last_seen": "2026-11-25"
+"last_seen": "2026-11-27"
 },
 "role:cognizant|salesforce fsc developer": {
 "first_seen": "2026-11-17T22:17:17Z",
@@ -3366,6 +3370,10 @@
 "role:fuzehealth|software engineer salesforce": {
 "first_seen": "2026-10-11T22:45:08Z",
 "last_seen": "2026-10-29"
+},
+"role:gagglenet|senior salesforce administrator": {
+"first_seen": "2026-11-27T22:43:11Z",
+"last_seen": "2026-11-27"
 },
 "role:gcstaffing|salesforce architect developer": {
 "first_seen": "2026-10-20T05:40:41Z",
@@ -3869,7 +3877,7 @@
 },
 "role:medicalguardian|salesforce marketing cloud developer": {
 "first_seen": "2026-10-11T22:45:08Z",
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 "role:melitagroup|salesforce administrator": {
 "first_seen": "2026-10-28T06:35:32Z",
@@ -4185,7 +4193,7 @@
 },
 "role:purdueuniversity|salesforce marketing cloud administrator": {
 "first_seen": "2026-10-28T19:29:36Z",
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 "role:purestorage|salesforce developer": {
 "first_seen": "2026-10-11T22:45:08Z",
@@ -5305,7 +5313,7 @@
 },
 "xmlfeed:careers.cognizant.com:00070993731": {
 "first_seen": "2026-10-21T18:35:34Z",
-"last_seen": "2026-11-25"
+"last_seen": "2026-11-27"
 },
 "xmlfeed:careers.cognizant.com:00071069461": {
 "first_seen": "2026-11-03T07:33:20Z",
